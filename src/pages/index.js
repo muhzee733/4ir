@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Custom 4IR - Home</title>
+      <title>Fourth Industrial Revolution Inc.</title>
       </Head>
       <Layout>
         <section>
