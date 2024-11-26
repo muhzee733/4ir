@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@/components/layout";
 import Head from "next/head";
-import { Button } from "reactstrap";
+import H1 from "@/components/typography/H1";
 
 const Index = () => {
   return (
@@ -11,7 +11,7 @@ const Index = () => {
       </Head>
       <Layout>
         <section>
-          <div className="container">hwllo</div>
+            <H1 title="Hello My Heading"/>
         </section>
       </Layout>
     </>
