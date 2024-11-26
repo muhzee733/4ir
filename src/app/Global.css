@@ -3,10 +3,45 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* Font Google  */
+
 
 :root {
   --primary: #4caf50;
-  --secondary: #ff9800;
+  --secondary: #00BDFF;
   --text: #efefef;
   --accent: #000000
+  /* global font-family */
+}
+.skyblue{
+  color: var(--secondary);
+}
+.btn{
+
+}
+.btn:hover{
+
+}
+
+/* Typo */
+
+h1{
+  font-family: ;
+  font-weight: ;
+  line-height: 1.6rem; 
+  font-size: ;
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+
+p{
+
 }

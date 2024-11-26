@@ -49,7 +49,7 @@ const Footer = () => {
             <div className="row">
               {/* Quick Links Section */}
               <div className="col-lg-6 col-md-6">
-                <div className="footer-title fs-4" onClick={() => setQuickLinksOpen(!isQuickLinksOpen)}>
+                <div className="footer-title skyblue fs-4" onClick={() => setQuickLinksOpen(!isQuickLinksOpen)}>
                   <Image src={Star} className="img-fluid me-3" alt="star" priority />
                   Quick Link
                 </div>
@@ -65,7 +65,7 @@ const Footer = () => {
 
               {/* Our Services Section */}
               <div className="col-lg-6 col-md-6 mb-3">
-                <div className="footer-title fs-4" onClick={() => setServicesOpen(!isServicesOpen)}>
+                <div className="footer-title skyblue fs-4" onClick={() => setServicesOpen(!isServicesOpen)}>
                   <Image src={Star} className="img-fluid me-3" alt="star" priority />
                   Our service
                 </div>
