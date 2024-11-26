@@ -1,0 +1,67 @@
+@import url('../app/Global.css');
+.footer-main {
+    color: var(--text);
+    border-color: var(--secondary) ;
+}
+.footer-title{
+    font-weight:500;
+    font-family: var(--font-secondary);
+}
+.footerul{
+    color: var(--text);
+    font-weight:500;
+    text-decoration: none !important;
+}
+.footer-social-icon{
+    max-width: 10%;
+}
+.footer-input {
+    background-color: var(--backgorund);
+    color: var(--text);
+    border: 0.5px solid var(--text);
+    border-radius: 5px ;
+    width: 415px ;
+    height:50px;
+    outline: none;
+    box-shadow: none;
+    padding-left:10px;
+}
+.footer-input:focus,
+.footer-input:active {
+    outline: none;
+    box-shadow: none;
+}
+.input-group{
+    position:relative;
+}
+.box2{
+    position:absolute;
+    right:135px;
+    top:3px;
+    font-size:18px;
+    text-decoration:none;
+    background-color: var(--secondary);
+    color: var(--backgorund);
+    padding:8px 19px;
+    border-radius:5px;
+    border:1px solid var(--secondary);
+}
+.box2:hover{
+    background-color: var(--backgorund);
+    color: var(--secondary);
+    border:1px solid var(--secondary);
+    transition: 0.5s all;
+}
+@media (max-width: 575.98px) { 
+    .box2{
+        right:5px;
+    }
+    .footer-logo-div{
+        text-align: center !important;
+    }
+}
+@media (min-width: 576px ) and (max-width: 991.98px) { 
+    .box2{
+        right:287px;
+    }
+ }

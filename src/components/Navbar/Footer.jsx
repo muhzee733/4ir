@@ -6,13 +6,14 @@ import Facebook from "../../../public/assets/svg/social/fb.svg";
 import Youtube from "../../../public/assets/svg/youtube.svg";
 import Linkedin from "../../../public/assets/svg/social/linkedin.svg";
 import Star from "../../../public/assets/svg/star.svg";
-import './navbarStyle.css';
+// import './navbarStyle.css';
+import '.././widgets.css'
 
 const Footer = () => {
   const [isQuickLinksOpen, setQuickLinksOpen] = useState(false);
   const [isServicesOpen, setServicesOpen] = useState(false);
   return (
-    <footer className="footer-main border-top rounded py-5">
+    <footer className="footer-main border-top footer-background rounded py-5">
       <div className="container mt-4 mb-1">
         <div className="row">
           <div className="col-lg-6">
