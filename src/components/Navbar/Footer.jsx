@@ -20,9 +20,9 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-12 footer-logo-div">
                 {/* <div className=""> */}
-                  <Link href="/" className="footer-logo">
-                    <Image src={MainLogo} id="logo-img" className="img-fluid" alt="Logo" priority />
-                  </Link>
+                <Link href="/" className="footer-logo">
+                  <Image src={MainLogo} id="logo-img" className="img-fluid" alt="Logo" priority />
+                </Link>
                 {/* </div> */}
               </div>
               <div className="col-lg-12 fs-5 my-3">SUBSCRIBE TO OUR NEWSLETTER</div>
@@ -30,7 +30,7 @@ const Footer = () => {
                 <form>
                   <div className="input-group">
                     <input type="email" className=" footer-input" id="exampleFormControlInput1" placeholder="Enter your mail" />
-                    <div><Link href="" data-cursor="pointer" className="btn-basic box2">Subscribe</Link></div>
+                    <div><Link href="" data-cursor="pointer" className="btn-1 footerbtn2">Subscribe</Link></div>
                   </div>
                 </form>
               </div>

@@ -28,9 +28,24 @@
   background-color: var(--backgorund);
 }
 
-.btn-1 {}
+.btn-1 {
+  color: var(--backgorund);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+    text-decoration: none;
+    background-color: var(--secondary);
+    padding: 8px 19px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary);
+}
 
-.btn-1:hover {}
+.btn-1:hover {
+  background-color: var(--backgorund);
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  transition: 0.5s all;
+}
 
 /* Typo */
 
