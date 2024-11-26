@@ -16,10 +16,18 @@
     font-weight: 500;
     text-decoration: none !important;
     font-family: var(--font-outfit);
+    transition:  2s ease-in;
+}
+.footerul:hover{
+    transition:  2s ease-out;
+    
+}
+.footerul:hover::before {
+    margin-right:10px;
+    content:"-";
 }
 .footer-links{
     font-family: var(--font-outfit);
-
 }
 .footer-social-icon {
     max-width: 10%;
