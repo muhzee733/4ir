@@ -7,11 +7,12 @@ const Index = () => {
   return (
     <>
       <Head>
-      <title>Fourth Industrial Revolution Inc.</title>
+        <title>Fourth Industrial Revolution Inc.</title>
       </Head>
       <Layout>
         <section>
-            <H1 title="Hello My Heading"/>
+          <H1 title="Hello My Heading" />
+
         </section>
       </Layout>
     </>

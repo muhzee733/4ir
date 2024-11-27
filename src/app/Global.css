@@ -9,6 +9,7 @@
 
 :root {
   --primary: #4caf50;
+  --whitecolor: #FFFFFF;
   --secondary: #00bdff;
   --text: #9c9d9f;
   --accent: #000000;
@@ -21,6 +22,12 @@
 
 .skyblue {
   color: var(--secondary);
+}
+.textcolor {
+  color: var(--text);
+}
+.lgblock{
+  display:none;
 }
 
 .btn-1 {
