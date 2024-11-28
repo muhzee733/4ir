@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-dark">
-        <div className="container">
+        <div className="container ">
           <div className="row header-main-row">
             <div className="col-lg-2 col-md-6 col col-sm-4 d-flex justify-content-left align-items-center">
               <Link href="/">
@@ -31,16 +31,14 @@ const Header = () => {
                 <li>
                   <Link
                     href="/"
-                    className={`header-nav-li text-decoration-none ${
-                      isActive("/") ? "active-link" : ""
-                    }`}
+                    className={`header-nav-li text-decoration-none ${isActive("/") ? "active-link" : ""
+                      }`}
                   >
                     <span
-                      className={`header-nav-li text-decoration-none ${
-                        isActive("/")
+                      className={`header-nav-li text-decoration-none ${isActive("/")
                           ? "header-nav-li-span1"
                           : "header-nav-li-span"
-                      }`}
+                        }`}
                     >
                       <FaCircle size={7} />
                     </span>
@@ -50,16 +48,14 @@ const Header = () => {
                 <li>
                   <Link
                     href="/about-us"
-                    className={`header-nav-li text-decoration-none ${
-                      isActive("/about-us") ? "active-link" : ""
-                    }`}
+                    className={`header-nav-li text-decoration-none ${isActive("/about-us") ? "active-link" : ""
+                      }`}
                   >
                     <span
-                      className={`header-nav-li text-decoration-none ${
-                        isActive("/about-us")
+                      className={`header-nav-li text-decoration-none ${isActive("/about-us")
                           ? "header-nav-li-span1"
                           : "header-nav-li-span"
-                      }`}
+                        }`}
                     >
                       <FaCircle size={7} />
                     </span>
@@ -69,16 +65,14 @@ const Header = () => {
                 <li>
                   <Link
                     href="/services"
-                    className={`header-nav-li text-decoration-none ${
-                      isActive("/services") ? "active-link" : ""
-                    }`}
+                    className={`header-nav-li text-decoration-none ${isActive("/services") ? "active-link" : ""
+                      }`}
                   >
                     <span
-                      className={`header-nav-li text-decoration-none ${
-                        isActive("/services")
+                      className={`header-nav-li text-decoration-none ${isActive("/services")
                           ? "header-nav-li-span1"
                           : "header-nav-li-span"
-                      }`}
+                        }`}
                     >
                       <FaCircle size={7} />
                     </span>
@@ -88,16 +82,14 @@ const Header = () => {
                 <li>
                   <Link
                     href="/blog"
-                    className={`header-nav-li text-decoration-none ${
-                      isActive("/blog") ? "active-link" : ""
-                    }`}
+                    className={`header-nav-li text-decoration-none ${isActive("/blog") ? "active-link" : ""
+                      }`}
                   >
                     <span
-                      className={`header-nav-li text-decoration-none ${
-                        isActive("/blog")
+                      className={`header-nav-li text-decoration-none ${isActive("/blog")
                           ? "header-nav-li-span1"
                           : "header-nav-li-span"
-                      }`}
+                        }`}
                     >
                       <FaCircle size={7} />
                     </span>
@@ -107,16 +99,14 @@ const Header = () => {
                 <li>
                   <Link
                     href="/contact-us"
-                    className={`header-nav-li text-decoration-none ${
-                      isActive("/contact-us") ? "active-link" : ""
-                    }`}
+                    className={`header-nav-li text-decoration-none ${isActive("/contact-us") ? "active-link" : ""
+                      }`}
                   >
                     <span
-                      className={`header-nav-li text-decoration-none ${
-                        isActive("/contact-us")
+                      className={`header-nav-li text-decoration-none ${isActive("/contact-us")
                           ? "header-nav-li-span1"
                           : "header-nav-li-span"
-                      }`}
+                        }`}
                     >
                       <FaCircle size={7} />
                     </span>
@@ -126,13 +116,12 @@ const Header = () => {
               </ul>
             </div>
             <div className="col-lg-2 col-md-6 d-flex justify-content-end align-items-center custom-hide">
-              <button className="btn-1">Book a Demo</button>
+              <button className="btn-2">Book a Demo</button>
             </div>
             <div
-              className="col-md-6 custom-show col-sm-8 col d-flex align-items-center justify-content-end"
-              onClick={() => toggleSidebar()}
-            >
+              className="col-md-6 custom-show col-sm-8 col d-flex align-items-center justify-content-end">
               <FiAlignJustify
+                onClick={() => toggleSidebar()}
                 className="text-white"
                 style={{ fontSize: "30px" }}
               />
@@ -144,28 +133,72 @@ const Header = () => {
         ""
       ) : (
         <div className="d-flex header-sidebar-body">
-          <div
-            className={`text-white p-4 header-sidebar  ${
-              isCollapsed ? "sidebar-collapsed" : "sidebar-expanded"
-            }`}
-            style={{
-              width: isCollapsed ? "0px" : "280px",
-              transition: "width  0.3s ease",
-            }}
-          >
-            <div className="d-flex align-items-center justify-content-between mb-5">
-              <span onClick={()=> toggleSidebar()}>Back</span>
-              <h6>
-                <FiX onClick={()=> toggleSidebar()}/>
-              </h6>
-            </div>
-            <ul className="list-unstyled">
-              <li className="mb-3">
-                <Link href={"/"}>Home</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <div
+    className={`text-white p-4 header-sidebar ${
+      isCollapsed ? "sidebar-collapsed" : "sidebar-expanded"
+    }`}
+  >
+    <div className="d-flex align-items-center justify-content-between mb-4">
+      <span onClick={() => toggleSidebar()}>Back</span>
+      <h6>
+        <FiX onClick={() => toggleSidebar()} />
+      </h6>
+    </div>
+    <ul className="list-unstyled p-2 sidebar-ul">
+      <li className="mb-3">
+        <Link
+          href={"/"}
+          className={`header-nav-li text-decoration-none ${
+            isActive("/") ? "active-link" : ""
+          }`}
+        >
+          Home
+        </Link>
+      </li>
+      <li className="mb-3">
+        <Link
+          href={"/about-us"}
+          className={`header-nav-li text-decoration-none ${
+            isActive("/about-us") ? "active-link" : ""
+          }`}
+        >
+          About Us
+        </Link>
+      </li>
+      <li className="mb-3">
+        <Link
+          href={"/services"}
+          className={`header-nav-li text-decoration-none ${
+            isActive("/services") ? "active-link" : ""
+          }`}
+        >
+          Services
+        </Link>
+      </li>
+      <li className="mb-3">
+        <Link
+          href={"/blog"}
+          className={`header-nav-li text-decoration-none ${
+            isActive("/blog") ? "active-link" : ""
+          }`}
+        >
+          Blog
+        </Link>
+      </li>
+      <li className="mb-3">
+        <Link
+          href={"/contact-us"}
+          className={`header-nav-li text-decoration-none ${
+            isActive("/contact-us") ? "active-link" : ""
+          }`}
+        >
+          Contact Us
+        </Link>
+      </li>
+    </ul>
+  </div>
+</div>
+
       )}
     </>
   );

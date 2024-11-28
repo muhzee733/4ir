@@ -32,13 +32,11 @@
 
 .btn-1 {
   color: var(--backgorund);
-  padding: 10px 20px;
   border-radius: 5px;
   font-size: 18px;
   text-decoration: none;
   background-color: var(--secondary);
   padding: 8px 19px;
-  border-radius: 5px;
   border: 1px solid var(--secondary);
   font-family: var(--font-play);
   transition: 0.5s all;
@@ -51,40 +49,59 @@
   transition: 0.5s all;
 }
 
+.btn-2{
+  color: var(--secondary);;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 19px;
+  border:1px solid  var(--secondary);
+  border-radius: 5px ;
+  background-color: #09364D;
+  font-family: var(--font-play);
+  transition: 0.5s all;
+
+}
+.btn-2:hover{
+  box-shadow: -1px 0px 12px -1px rgba(0,189,255,0.72);
+  }
+  
 /* Typo */
 
-h1 {
-  font-family: var(--font-play);
-  line-height: 1.6rem;
-  font-size: 44px;
-  color: var(--secondary);
+.customh1 {
+  font-family: var(--font-play) ;
+  line-height: 2.6rem ;
+  font-size: 44px ;
+  font-weight:600 ;
+  color: var(--whitecolor) ;
 }
 
-h2 {
+.customh2 {
+  color: var(--secondary) ;
   font-family: var(--font-play);
   line-height: 1.6rem;
-  font-size: 40px;
+  font-weight:600 ;
+  font-size: 20px;
 }
 
-h3 {
+.customh3 {
   font-family: var(--font-outfit);
   font-size: 32px;
   line-height: 1.6rem;
 }
 
-h4 {
+.customh4 {
   font-family: var(--font-outfit);
-  font-size: 20px;
+  font-size: 26px;
   line-height: 1.6rem;
 }
 
-h5 {
+.customh5 {
   font-family: var(--font-outfit);
-  font-size: 12px;
+  font-size: 22px;
   line-height: 1.6rem;
 }
 
-h6 {
+.customh6 {
   font-family: var(--font-outfit);
   font-size: 10px;
   line-height: 1.6rem;

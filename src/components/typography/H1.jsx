@@ -1,8 +1,12 @@
 import React from 'react'
 
-const H1 = ({title}) => {
+const H1 = ({ title, spantitle, breakpoint,spanstyle }) => {
   return (
-    <h1>{title}</h1>
+    <h1 className="customh1">
+      {breakpoint && <span style={{color:'#FFCE00'}}>{spantitle}</span>}
+      {breakpoint && <br />}
+      {title}
+    </h1>
   )
 }
 
