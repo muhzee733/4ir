@@ -5,10 +5,12 @@
     border-top: 2px solid var(--secondary);
     background-color: var(--backgorund);
 }
+
 .footer-title {
     font-weight: 500;
     font-family: var(--font-secondary);
 }
+
 .footerul {
     color: var(--text);
     font-weight: 500;
@@ -17,12 +19,14 @@
     transition: 0.3s all ease-in;
     position: relative;
 }
+
 .footerul {
     position: relative;
     text-decoration: none;
     color: inherit;
     transition: 0.3s all ease-in;
 }
+
 .footerul::before {
     content: '';
     position: absolute;
@@ -89,38 +93,76 @@
 
 .border-secondary {
     font-family: var(--font-outfit);
-
 }
-.header-nav-li{
+
+.header-main-row {
+    height: 105px;
+}
+
+.header-nav-li {
     font-size: 20px;
     color: var(--whitecolor);
     font-family: var(--font-outfit);
     padding: 8px 8px 8px 18px;
-    transition: 0.2s all ease-in;
+    transition: 0.2s all ease;
 }
-.header-nav-li:hover{
+
+/* .active, */
+.active-link {
     color: var(--secondary);
-    transition: 0.3s all ease-in;
+    transition: 0.3s all ease;
+    size: 10px
 }
-.header-nav-li::before{
-    content: '.';
+
+.header-nav-li:hover {
     color: var(--secondary);
-    position: relative;
-    top: -6px;
-    left: -10px;
+    transition: 0.3s all ease;
+}
+
+.header-nav-li-span {
+    size: 10px;
+    color: var(--secondary);
+    transition: 0.2s all;
     opacity: 0;
-    font-size: 24px;
-    transition: opacity 0.3s ease, font-size 0.3s ease;
+    width: 6px;
+    position: relative;
+    left: -10px;
+    top: -2px;
 }
- .header-nav-li:hover::before{
+.header-nav-li-span1{
+    size: 10px;
+    color: var(--secondary);
+    transition: 0.2s all;
+    opacity:1 ;
+    width: 6px;
+    position: relative;
+    left: -10px;
+    top: -2px;
+}
+.header-nav-li:hover .header-nav-li-span {
     opacity: 1;
-    transition:  0.1s ease;
-    width: 300px;
-    height: 300px;
-    font-size: 24px;
 }
 
-
+.header-nav-li:active,
+.header-nav-li:focus {
+    color: var(--secondary);
+}
+.headersidebar-main{
+    position: relative;
+}
+.header-sidebar-body{
+    position: absolute;
+    top: 0px ;
+}
+.header-sidebar{
+    background-color: #212529;
+}
+.sidebar-expanded{
+    height: 670px;
+}
+.sidebar-collapsed{
+    height: 670px;
+}
 @media (max-width: 575px) {
     .footerbtn2 {
         right: 5px;
