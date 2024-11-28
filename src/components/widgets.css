@@ -163,6 +163,18 @@
 .sidebar-collapsed{
     height: 670px;
 }
+
+@media (max-width: 992px) {
+    .custom-hide{
+        display: none !important;
+    }
+}
+@media (min-width: 992px) {
+    .custom-show{
+        display: none !important;
+    }
+}
+
 @media (max-width: 575px) {
     .footerbtn2 {
         right: 5px;
@@ -218,11 +230,5 @@
 
     .footer-title {
         cursor: pointer;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 991.98px) {
-    .footerbtn2 {
-        right: 5px;
     }
 }
