@@ -1,5 +1,10 @@
 @import url('../app/Global.css');
 
+.custom-navbar{
+    margin-bottom: -104px;
+}
+
+
 .footer-main {
     color: var(--text);
     border-top: 2px solid var(--secondary);
