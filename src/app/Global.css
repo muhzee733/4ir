@@ -14,7 +14,7 @@
   --text: #9c9d9f;
   --accent: #000000;
   --backgorund: #0a0e17;
-  --border:#3C3E46;
+  --border: #3C3E46;
   /* global font-family */
   --font-roboto: "Roboto", sans-serif;
   --font-play: "Play", sans-serif;
@@ -24,11 +24,17 @@
 .skyblue {
   color: var(--secondary);
 }
+
+.font-outfit{
+  font-family: var(--font-outfit);
+}
+
 .textcolor {
   color: var(--text);
 }
-.lgblock{
-  display:none;
+
+.lgblock {
+  display: none;
 }
 
 .btn-1 {
@@ -49,6 +55,7 @@
   border: 1px solid var(--secondary);
   transition: 0.5s all;
 }
+
 .btn-3 {
   color: var(--backgorund);
   border-radius: 5px;
@@ -59,7 +66,7 @@
   border: 1px solid var(--secondary);
   font-family: var(--font-play);
   transition: 0.5s all;
-  font-weight:600;
+  font-weight: 600;
 }
 
 .btn-3:hover {
@@ -67,46 +74,63 @@
   color: var(--whitecolor);
   border: 1px solid var(--secondary);
   transition: 0.5s all;
-  font-weight:600;
+  font-weight: 600;
 }
 
-.btn-2{
-  color: var(--secondary);;
+.btn-2 {
+  color: var(--secondary);
+  ;
   font-size: 18px;
   text-decoration: none;
   padding: 8px 19px;
-  border:1px solid  var(--secondary);
-  border-radius: 5px ;
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
   background-color: #09364D;
   font-family: var(--font-play);
   transition: 0.5s all;
 
 }
-.btn-2:hover{
-  box-shadow: -1px 0px 12px -1px rgba(0,189,255,0.72);
-  }
+
+.btn-2:hover {
+  box-shadow: -1px 0px 12px -1px rgba(0, 189, 255, 0.72);
+}
+
+/* .card-1 {
+  background-color: #0a0e17;
+  border: 0.2px solid;
+  box-sizing: border-box;
+  border-radius: 5px;
   
+
+}
+
+.card-1:hover {
+  background: linear-gradient(137deg, rgba(17, 35, 51, 1) 14%, rgba(13, 26, 38, 1) 45%, rgba(11, 15, 25, 1) 93%);
+  border: 0.2px solid var(--secondary);
+  border-radius: 5px;
+} */
+
 /* Typo */
 
 .customh1 {
-  font-family: var(--font-play) ;
-  line-height: 3.3rem ;
+  font-family: var(--font-play);
+  line-height: 3.3rem;
   word-spacing: 3px;
-  font-size: 46px ;
-  font-weight:600 ;
-  color: var(--whitecolor) ;
+  font-size: 46px;
+  font-weight: 600;
+  color: var(--whitecolor);
 }
 
 .customh2 {
-  color: var(--whitecolor) ;
+  color: var(--whitecolor);
   font-family: var(--font-outfit);
   line-height: 3rem;
-  font-weight:400 ;
+  font-weight: 400;
   font-size: 34px;
 }
 
 .customh3 {
-  color: var(--secondary) ;
+  color: var(--secondary);
   font-family: var(--font-outfit);
   font-size: 20px;
   line-height: 1.6rem;

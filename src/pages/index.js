@@ -1,5 +1,5 @@
 import "./index.css";
-import React ,{useState , useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import Layout from "@/components/layout";
 import Head from "next/head";
@@ -17,8 +17,14 @@ import Text from "@/svg/service/text.svg"
 import Graph from "@/svg/service/graph.svg"
 import Image from "next/image";
 import Mic from "@/components/Mic/Mic"
-import useSound from 'use-sound';
-// import boopSfx from "../../public/assets/audio/heatheraudio.mp3";
+import Box1 from "@/components/Box/Box1/Box1";
+import ExpertGuidence from "@/images/servicesiconbold/ExpertGuidence.png";
+import ExpertGuidenceBold from "@/images/servicesiconbold/ExpertGuidenceBold.png"
+import CuttingEdge from "@/images/servicesiconbold/Cutting-EdgeTechnology.png"
+import CuttingEdgeBold from "@/images/servicesiconbold/Cutting-EdgeTechnologybold.png"
+import StreamLine from "@/images/servicesiconbold/Streamlined.png"
+import StreamLineBold from "@/images/servicesiconbold/StreamlinedBold.png"
+import ServiceTitle from "@/svg/service-title.svg"
 
 const Index = () => {
   const [isListening, setIsListening] = useState(false);
@@ -57,53 +63,53 @@ const Index = () => {
   //   });
   // };
 
-  // const ServiceBox = [
-  //   {
-  //     id: 1,
-  //     image1: ExpertGuide,
-  //     image2: ExpertGuideBold,
-  //     image3: ServiceTitle,
-  //     title: "Expert Guidance:",
-  //     para: "Unlock unparalleled insights and guidance for AI consulting and product solutions.",
-  //     columnclass: "col-sm-6",
-  //     firstChildClass: "service-box",
-  //     secondChildClass: "service-icon",
-  //     firstimageclass: "img-fluid outline-icon",
-  //     secondimageClass: "img-fluid bold-icon",
-  //     contentclass: "service-content",
-  //     layout: false,
-  //   },
-  //   {
-  //     id: 2,
-  //     image1: CuttingEdge,
-  //     image2: CuttingEdgeBold,
-  //     image3: ServiceTitle,
-  //     title: "Cutting-Edge Technology",
-  //     para: "Access tailored AI products for staying ahead in todays landscape.",
-  //     columnclass: "col-sm-6",
-  //     firstChildClass: "service-box",
-  //     secondChildClass: "service-icon",
-  //     firstimageclass: "img-fluid outline-icon",
-  //     secondimageClass: "img-fluid bold-icon",
-  //     contentclass: "service-content",
-  //     layout: false,
-  //   },
-  //   {
-  //     id: 3,
-  //     image1: StreamLine,
-  //     image2: StreamLineBold,
-  //     image3: ServiceTitle,
-  //     title: "Streamlined Training",
-  //     para: "Equip your team with AI expertise for confident navigation.",
-  //     columnclass: "col-sm-6",
-  //     firstChildClass: "service-box",
-  //     secondChildClass: "service-icon",
-  //     firstimageclass: "img-fluid outline-icon",
-  //     secondimageClass: "img-fluid bold-icon",
-  //     contentclass: "service-content",
-  //     layout: false,
-  //   },
-  // ];
+  const ServiceBox = [
+    {
+      id: 1,
+      image1: ExpertGuidence,
+      image2: ExpertGuidenceBold,
+      image3: ServiceTitle,
+      title: "Expert Guidance:",
+      para: "Unlock unparalleled insights and guidance for AI consulting and product solutions.",
+      columnclass: "col-sm-6",
+      firstChildClass: "service-box",
+      secondChildClass: "service-icon",
+      firstimageclass: "img-fluid outline-icon",
+      secondimageClass: "img-fluid bold-icon",
+      contentclass: "service-content",
+      layout: true,
+    },
+    {
+      id: 2,
+      image1: CuttingEdge,
+      image2: CuttingEdgeBold,
+      image3: ServiceTitle,
+      title: "Cutting-Edge Technology",
+      para: "Access tailored AI products for staying ahead in todays landscape.",
+      columnclass: "col-sm-6",
+      firstChildClass: "service-box",
+      secondChildClass: "service-icon",
+      firstimageclass: "img-fluid outline-icon",
+      secondimageClass: "img-fluid bold-icon",
+      contentclass: "service-content",
+      layout: true,
+    },
+    {
+      id: 3,
+      image1: StreamLine,
+      image2: StreamLineBold,
+      image3: ServiceTitle,
+      title: "Streamlined Training",
+      para: "Equip your team with AI expertise for confident navigation.",
+      columnclass: "col-sm-6",
+      firstChildClass: "service-box",
+      secondChildClass: "service-icon",
+      firstimageclass: "img-fluid outline-icon",
+      secondimageClass: "img-fluid bold-icon",
+      contentclass: "service-content",
+      layout: true,
+    },
+  ];
 
   return (
     <>
@@ -163,7 +169,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="secondsection">
+        <section className="secondsection ">
           <div className="container">
 
             <div className="row ">
@@ -172,24 +178,25 @@ const Index = () => {
                 <div className="row  ps-4 mt-3">
                   <span className="secondsection-H">
                     <H2 breakpoint={true}
-                    spantitle="Empowering Your Business"
-                    title=" In With AI Consulting And Product Solutions" />
-                  <H3 title='In the digital world, our AI Writer supports a variety of artists' />
-                  {/* </span> */}
-                  <Para paragraph="At Fourth Industrial Revolution Inc., we are dedicated to guiding businesses through the transformative power of artificial intelligence. With a team of seasoned experts at the helm, specializing in AI consulting and product solutions, we provide tailored AI solutions that propel your business into the future. Our mission is simple yet ambitious: to empower organizations to thrive in the dynamic landscape of the Fourth Industrial Revolution."/>
+                      spantitle="Empowering Your Business"
+                      title=" In With AI Consulting And Product Solutions" />
+                    <H3 title='In the digital world, our AI Writer supports a variety of artists' />
+                    <Para paragraph="At Fourth Industrial Revolution Inc., we are dedicated to guiding businesses through the transformative power of artificial intelligence. With a team of seasoned experts at the helm, specializing in AI consulting and product solutions, we provide tailored AI solutions that propel your business into the future. Our mission is simple yet ambitious: to empower organizations to thrive in the dynamic landscape of the Fourth Industrial Revolution." />
                   </span>
                 </div>
               </div>
               <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center border">
-              <Mic
-                isListening={isListening}
-                isLoading={isLoading}
+                <Mic
+                  isListening={isListening}
+                  isLoading={isLoading}
                 // handleMicClick={handleMicClick}
-              />
+                />
               </div>
             </div>
 
-            <div className="row"> for cards</div>
+            <div className="row d-flex mt-5">
+                <Box1 ServiceBox={ServiceBox}/>
+            </div>
 
           </div>
         </section>
