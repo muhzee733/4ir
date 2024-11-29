@@ -1,8 +1,8 @@
 import React from 'react'
 
-const H3 = ({title}) => {
+const H3 = ({ title }) => {
   return (
-    <h3>{title}</h3>
+    <h3 className='customh3'>{title}</h3>
   )
 }
 

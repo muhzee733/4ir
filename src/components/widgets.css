@@ -1,7 +1,7 @@
 @import url('../app/Global.css');
 
 .custom-navbar{
-    margin-bottom: -104px;
+    margin-bottom: -107px;
 }
 
 
@@ -63,7 +63,7 @@
 .footer-input {
     background-color: var(--backgorund);
     color: var(--text);
-    border: 0.5px solid var(--text);
+    border: 0.5px solid var(--border);
     border-radius: 5px;
     width: 415px;
     height: 51px;
@@ -254,3 +254,73 @@
         font-size:20px !important;
     }
 }
+/* Mic css */
+.micbutton{
+    width:  "20px" ;
+     height: "20px";
+}
+.mic-sec canvas{
+    height: 40%;
+    width: 140%;
+    left: 100%;
+}
+.mic-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.mic {
+    transition: transform 0.2s; /* Smooth transition */
+  }
+  
+  .mic.animating {
+    transform: scale(1.2); /* Scale the button up */
+  }
+  /* .visualizer {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+} */
+.mic_text {
+    font-size: 1rem;
+    color: #00BDFF;
+    border: 1px solid #272424;
+    background-color: #272424;
+    display: inline;
+    border-radius: 1rem;
+    padding: 3px 12px;
+    width: max-content;
+}
+
+
+
+#wave {
+    height: 70px;
+    width: 70px;
+    fill: #00BDFF;
+  }
+
+  .wave-listening path {
+    animation: pulse 1s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scaleY(1);
+      transform-origin: 50% 50%;
+    }
+
+    50% {
+      transform: scaleY(0.7);
+      transform-origin: 50% 50%;
+    }
+
+    100% {
+      transform: scaleY(1);
+      transform-origin: 50% 50%;
+    }
+  }

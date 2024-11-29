@@ -6,3 +6,119 @@
     width: 100%;
     height: 100%;
 }
+.landing-robot{
+    height: 523px;
+    width: 497px;
+    border: 2px dashed var(--secondary);
+    border-radius: 52% 51% 55% 52% / 52% 51% 49% 52% ;
+}
+.indexBannerImg{
+    border-bottom: 3px solid var(--secondary);
+}
+.indexbannerImg1{
+    top: 32px;
+    left: 90px ;
+}
+.indexbannerImg2{
+    top: 2px;
+    left: 7px ;
+}
+.index-ai-text1{
+    top: 34px;
+    left: -100px ;
+    font-family: var(--font-outfit);
+    border-left: 1px solid var(--border);
+    padding-left:10px;
+}
+.index-ai-img1{
+    top: 32px;
+    left: -160px ;
+}
+.index-ai-subimg1{
+    top: 34px;
+    left: -138px ;
+}
+.index-ai-text2{
+    top: 160px;
+    left: -205px ;
+    font-family: var(--font-outfit);
+    border-left: 1px solid var(--border);
+    padding-left:10px;
+}
+.index-ai-img2{
+    top: 158px;
+    left: -265px ;
+}
+.index-ai-subimg2{
+    top: 160px;
+    left: -242px ;
+}
+
+.index-ai-text3{
+    top: 268px;
+    left: -215px ;
+    font-family: var(--font-outfit);
+    border-left: 1px solid var(--border);
+    padding-left:10px;
+}
+.index-ai-img3{
+    top: 266px;
+    left: -275px ;
+}
+
+.index-ai-subimg3{
+    top: 268px;
+    left: -253px ;
+}
+.index-ai-text4{
+    top: 376px;
+    left: -205px ;
+    font-family: var(--font-outfit);
+    border-left: 1px solid var(--border);
+    padding-left:10px;
+}
+.index-ai-img4{
+    top: 374px;
+    left: -265px ;
+}
+.index-ai-subimg4{
+    top: 376px;
+    left: -242px ;
+}
+.index-ai-text5{
+    top: 460px;
+    left: -148px ;
+    font-family: var(--font-outfit);
+    border-left: 1px solid var(--border);
+    padding-left:10px;
+}
+.index-ai-img5{
+    top: 458px;
+    left: -208px ;
+}
+.index-ai-subimg5{
+    top: 460px;
+    left: -186px ;
+}
+@media (max-width: 1199px) { 
+    .custom-hideindex{
+        display: none !important;
+    }
+ }
+/* second section */
+.secondsection{
+    color: white;    
+    background: linear-gradient(90deg, rgba(33,52,55,1) 17%, rgba(32,42,50,1) 61%, rgba(33,44,61,1) 93%);
+}
+.section2about{
+    font-size:40px;
+    font-family: var(--font-outfit);
+}
+@media (min-width: 992px) { 
+    .secondsection{
+        padding-top :100px;
+    }
+    .secondsection-H{
+        padding-right:60px;
+    }
+ }
