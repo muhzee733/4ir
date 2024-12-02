@@ -283,8 +283,11 @@ const Index = () => {
           <Expertise />
         </section>
 
-        <section className=" Teammainrow">
-          <div className="team-wrapper eighty  TeamMemberrow">
+        <section 
+        // className=" Teammainrow"
+        >
+          <div className="team-wrapper eighty  ">
+          {/* TeamMemberrow */}
             <Team />
           </div>
         </section>

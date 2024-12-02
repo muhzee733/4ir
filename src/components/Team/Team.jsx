@@ -4,6 +4,10 @@ import Image from "next/image";
 import Para from "../typography/Para";
 import BarryKrevoy from "@/images/team/BarryKrevoy.png";
 import ShaneKrevoy from "@/images/team/ShaneKrevoy.png";
+import { FiArrowRight } from "react-icons/fi";
+import img1 from "@/images/feature.gif";
+import img2 from "@/images/feature-bg.png";
+
 
 const Team = () => {
   const Teamdata = [
@@ -16,10 +20,6 @@ const Team = () => {
       name: "Barry Krevoy",
       description:
         "CEO | 4IR Transformative Leadership Consultant/Advisor/Speaker | Executive Education Instructor",
-      columnclass: "col-xl-3 col-lg-4 col-sm-6",
-      firstChildClass: "team-box",
-      secondChildClass: "feature-top mt-4",
-      contentclass: "link-overflow",
       layout: true,
     },
     {
@@ -29,14 +29,17 @@ const Team = () => {
       image: ShaneKrevoy,
       name: "Shane Krevoy",
       description: "4IR Transformative Leadership Advisor/Consultant",
-      columnclass: "col-xl-3 col-lg-4 col-sm-6",
-      firstChildClass: "team-box",
-      secondChildClass: "feature-top mt-4",
-      contentclass: "link-overflow",
       layout: true,
     },
   ];
   return (
+    < div className="team-section section-b-space">
+    <div className="bg-effect">
+          <Image src={img1} className="img-fluid feature-left" alt="" priority />
+          <Image src={img1} className="img-fluid feature-right" alt="" priority />
+          <Image src={img2} className="img-fluid feature-bg" alt="" priority />
+          <span className="round-effect"></span>
+        </div>
     <div className="container">
       <div className="text-center leardermain mb-5">
         <div className="expertteam">
@@ -49,10 +52,10 @@ const Team = () => {
           return (
             <>
               <div
-                className="col-lg-6 col-md-12 col-sm-12 text-white d-flex justify-content-center"
+                className="col-lg-6 col-md-12 col-sm-12 text-white d-flex justify-content-center "
                 key={index}
               >
-                <div className="card team-card d-flex flex-column justify-content-between">
+                <div className="card team-card d-flex flex-column justify-content-between hoverSystaem">
                   <figure className="py-3">
                     <Image
                       src={item.image}
@@ -66,9 +69,9 @@ const Team = () => {
                     <h5 className="card-title text-white">{item.name}</h5>
                     <Para paragraph={item.description} />
                   </div>
-                  <div className="read-more">
+                  <div className="read-more ">
                   <a href="#">
-                     {`-->`}
+                  <FiArrowRight className="text-white ArrowRight"/>
                     </a>
                   </div>
                 </div>
@@ -77,6 +80,7 @@ const Team = () => {
           );
         })}
       </div>
+    </div>
     </div>
   );
 };
