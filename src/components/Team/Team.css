@@ -4,7 +4,55 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.TeamMemberrow{
+    background-image: url('../../../public/assets/images/feature-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: auto !important; */
+    background-color: var(--backgorund);
+}
 .expertteam{
     font-size : 34px ;
-    color: var(--whitecolor)
+    color: var(--whitecolor);
+    font-family: var(--font-outfit);
+    font-weight: 600;
+}
+.leadership1{
+    font-family: var(--font-outfit);
+    font-size : 34px ;
+    color: var(--secondary);
+    font-weight: 400;
+
+}
+.expertteam2{
+    font-family: var(--font-outfit);
+    font-size : 34px ;
+    color: var(--secondary);
+    font-weight: 400;
+}
+.leadership2{
+    font-family: var(--font-outfit);
+    font-size : 17px ;
+    color: var(--secondary);
+    font-weight: 400;
+}
+.leardermain{
+    margin: 40px 0px 150px 0px;
+}
+.card{
+    background-color: var(--backgorund);
+}
+@media screen and (min-width: 992px) {
+    .TeamMemberrow{
+        position : relative
+    }
+    .customPositions{
+        position: absolute;
+        left: 200px;
+        top: -150px;
+    }    
+    .card{
+        width: 350px !important;
+    }
 }
