@@ -194,8 +194,8 @@ const LatestNews = () => {
                         LatestNewsApi.map((item, index) => {
                             return (
                                 <>
-                                    <div className='col-lg-4 col-md-6 col-sm-12'>
-                                        <div className="blogmain">
+                                    <div className='col-lg-4 col-md-6 col-sm-12 '>
+                                        <div className="blogmain border">
                                             <figure className="blogimgcover"><img src={item.image} className="blogimg" /></figure>
                                             <div><H5 title={item.blogtitle}/></div>
                                             <div><Para paragraph={"- " + item.date + " | 5 min to read"}/></div>
