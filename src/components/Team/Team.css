@@ -1,58 +1,64 @@
-.Teammainrow{
-    background-image: url('../../../public/assets/images/feature.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.TeamMemberrow{
-    background-image: url('../../../public/assets/images/feature-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* height: auto !important; */
-    background-color: var(--backgorund);
-}
-.expertteam{
-    font-size : 34px ;
-    color: var(--whitecolor);
-    font-family: var(--font-outfit);
-    font-weight: 600;
-}
-.leadership1{
-    font-family: var(--font-outfit);
-    font-size : 34px ;
-    color: var(--secondary);
-    font-weight: 400;
+.Teammainrow {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.597), rgba(0, 0, 0, 0.911)),
+    url("../../../public/assets/images/feature.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: var(--backgorund);
 
 }
-.expertteam2{
-    font-family: var(--font-outfit);
-    font-size : 34px ;
-    color: var(--secondary);
-    font-weight: 400;
+.Teammainrow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.20);
+  z-index: 1;
+  pointer-events: none;
 }
-.leadership2{
-    font-family: var(--font-outfit);
-    font-size : 17px ;
-    color: var(--secondary);
-    font-weight: 400;
+.TeamMemberrow {
+  background-image: url("../../../public/assets/images/feature-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  /* height: auto !important;
+    /* background-color: var(--backgorund); */
 }
-.leardermain{
-    margin: 40px 0px 150px 0px;
+.expertteam {
+  font-size: 34px;
+  color: var(--whitecolor);
+  font-family: var(--font-outfit);
+  font-weight: 600;
 }
-.card{
-    background-color: var(--backgorund);
+.leadership1 {
+  font-family: var(--font-outfit);
+  font-size: 34px;
+  color: var(--secondary);
+  font-weight: 400;
 }
-@media screen and (min-width: 992px) {
-    .TeamMemberrow{
-        position : relative
-    }
-    .customPositions{
-        position: absolute;
-        left: 200px;
-        top: -150px;
-    }    
-    .card{
-        width: 350px !important;
-    }
+.expertteam2 {
+  font-family: var(--font-outfit);
+  font-size: 34px;
+  color: var(--secondary);
+  font-weight: 400;
+}
+.leadership2 {
+  font-family: var(--font-outfit);
+  font-size: 17px;
+  color: var(--secondary);
+  font-weight: 400;
+}
+.card {
+  background-color: var(--backgorund);
+}
+.team-card {
+  background-color: var(--backgorund);
+  padding: 34px;
+  border-radius: 4px;
+  position: relative;
+  height: 600px;
+  width: 400px;
+  border: 1px solid var(--secondary);
 }

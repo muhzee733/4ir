@@ -32,7 +32,6 @@ import Expertise from "@/components/Expertise/Expertise";
 import Team from "@/components/Team/Team";
 
 const Index = () => {
-  
   const ServiceBox = [
     {
       id: 1,
@@ -130,15 +129,22 @@ const Index = () => {
           <div className="main-wrapper">
             <div className="container-fluid">
               <div className="row " style={{ minHeight: "100vh" }}>
-
                 <div className=" col-lg-12 col-xl-5 col-md-12 col-sm-12 d-flex justify-content-center align-items-center flex-column">
-                  <div className="section1h3"><H3 title="FOURTH INDUSTRIAL REVOLUTION INC" /></div>
+                  <div className="section1h3">
+                    <H3 title="FOURTH INDUSTRIAL REVOLUTION INC" />
+                  </div>
                   <div className="text-center px-5 section1h1">
-                    <H1 breakpoint={true}
+                    <H1
+                      breakpoint={true}
                       spantitle="EMPOWER YOUR BUSINESS"
                       title="WITH AI-DRIVEN SUCCESS"
-                    /></div>
-                  <button className="btn-3 mt-5 d"><span className="d-flex align-items-center">Book a Demo <FiArrowRight className="ms-2" /></span></button>
+                    />
+                  </div>
+                  <button className="btn-3 mt-5 d">
+                    <span className="d-flex align-items-center">
+                      Book a Demo <FiArrowRight className="ms-2" />
+                    </span>
+                  </button>
                 </div>
 
                 <div className="col-xl-7 d-flex align-items-end justify-content-end custom-hideindex">
@@ -147,30 +153,89 @@ const Index = () => {
                       <Image src={RoundBlue} width={482} height={515} alt="" />
                     </figure>
                     <figure className="m-0 text-end position-absolute indexbannerImg1">
-                      <Image src={Robot} alt="robot" width={400} height={490} className="indexBannerImg" />
+                      <Image
+                        src={Robot}
+                        alt="robot"
+                        width={400}
+                        height={490}
+                        className="indexBannerImg"
+                      />
                     </figure>
 
+                    <div className="position-absolute text-white index-ai-text1">
+                      AI-Driven Solutions
+                    </div>
+                    <Image
+                      src={Effect}
+                      width={190}
+                      height={30}
+                      className="position-absolute index-ai-img1"
+                    />
+                    <Image
+                      src={DrivenSolution}
+                      width={28}
+                      className="position-absolute index-ai-subimg1"
+                    />
 
-                    <div className="position-absolute text-white index-ai-text1">AI-Driven Solutions</div>
-                    <Image src={Effect} width={190} height={30} className="position-absolute index-ai-img1" />
-                    <Image src={DrivenSolution} width={28} className="position-absolute index-ai-subimg1" />
+                    <div className="position-absolute text-white index-ai-text2">
+                      Business Growth Strategies
+                    </div>
+                    <Image
+                      src={Effect}
+                      width={240}
+                      height={30}
+                      className="position-absolute index-ai-img2"
+                    />
+                    <Image
+                      src={Graph}
+                      width={26}
+                      className="position-absolute index-ai-subimg2"
+                    />
 
-                    <div className="position-absolute text-white index-ai-text2">Business Growth Strategies</div>
-                    <Image src={Effect} width={240} height={30} className="position-absolute index-ai-img2" />
-                    <Image src={Graph} width={26} className="position-absolute index-ai-subimg2" />
+                    <div className="position-absolute text-white index-ai-text3">
+                      Innovative Tech Consulting
+                    </div>
+                    <Image
+                      src={Effect}
+                      width={230}
+                      height={30}
+                      className="position-absolute index-ai-img3"
+                    />
+                    <Image
+                      src={Innovative}
+                      width={24}
+                      className="position-absolute index-ai-subimg3"
+                    />
 
-                    <div className="position-absolute text-white index-ai-text3">Innovative Tech Consulting</div>
-                    <Image src={Effect} width={230} height={30} className="position-absolute index-ai-img3" />
-                    <Image src={Innovative} width={24} className="position-absolute index-ai-subimg3" />
+                    <div className="position-absolute text-white index-ai-text4">
+                      Advanced Training Programs
+                    </div>
+                    <Image
+                      src={Effect}
+                      width={260}
+                      height={30}
+                      className="position-absolute index-ai-img4"
+                    />
+                    <Image
+                      src={Text}
+                      width={26}
+                      className="position-absolute index-ai-subimg4"
+                    />
 
-                    <div className="position-absolute text-white index-ai-text4">Advanced Training Programs</div>
-                    <Image src={Effect} width={260} height={30} className="position-absolute index-ai-img4" />
-                    <Image src={Text} width={26} className="position-absolute index-ai-subimg4" />
-
-                    <div className="position-absolute text-white index-ai-text5">AI Appointment Marketing</div>
-                    <Image src={Effect} width={240} height={30} className="position-absolute index-ai-img5" />
-                    <Image src={AiAppointment} width={26} className="position-absolute index-ai-subimg5" />
-
+                    <div className="position-absolute text-white index-ai-text5">
+                      AI Appointment Marketing
+                    </div>
+                    <Image
+                      src={Effect}
+                      width={240}
+                      height={30}
+                      className="position-absolute index-ai-img5"
+                    />
+                    <Image
+                      src={AiAppointment}
+                      width={26}
+                      className="position-absolute index-ai-subimg5"
+                    />
                   </div>
                 </div>
               </div>
@@ -180,16 +245,17 @@ const Index = () => {
 
         <section className="secondsection ">
           <div className="container">
-
             <div className="row ">
               <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12">
                 <span className="section2about  ">About Us</span>
                 <div className="row  ps-4 mt-3">
                   <span className="secondsection-H">
-                    <H2 breakpoint={true}
+                    <H2
+                      breakpoint={true}
                       spantitle="Empowering Your Business"
-                      title=" In With AI Consulting And Product Solutions" />
-                    <H3 title='In the digital world, our AI Writer supports a variety of artists' />
+                      title=" In With AI Consulting And Product Solutions"
+                    />
+                    <H3 title="In the digital world, our AI Writer supports a variety of artists" />
                     <Para paragraph="At Fourth Industrial Revolution Inc., we are dedicated to guiding businesses through the transformative power of artificial intelligence. With a team of seasoned experts at the helm, specializing in AI consulting and product solutions, we provide tailored AI solutions that propel your business into the future. Our mission is simple yet ambitious: to empower organizations to thrive in the dynamic landscape of the Fourth Industrial Revolution." />
                   </span>
                 </div>
@@ -206,20 +272,21 @@ const Index = () => {
             <div className="row d-flex mt-5">
               <Box1 ServiceBox={ServiceBox} />
             </div>
-
           </div>
         </section>
 
         <section className="thirdsection py-3">
-          <Box2 Services={Services}/>
+          <Box2 Services={Services} />
         </section>
 
         <section className="forthsection">
-          <Expertise/>
+          <Expertise />
         </section>
 
-        <section>
-          <Team breakpoint={true}/>
+        <section className=" Teammainrow">
+          <div className="team-wrapper eighty  TeamMemberrow">
+            <Team />
+          </div>
         </section>
       </Layout>
     </>
