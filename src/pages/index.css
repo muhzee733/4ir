@@ -100,10 +100,23 @@
     top: 460px;
     left: -186px ;
 }
+.thirdsection{
+    background-color: #0C1520;
+}
+.forthsection{
+    background: linear-gradient(0deg, rgba(15,29,42,1) 2%, rgba(23,33,43,1) 48%, rgba(34,51,57,1) 97%);
+}
 @media (max-width: 1199px) { 
     .custom-hideindex{
         display: none !important;
     }
+}
+@media (max-width: 576px) { 
+   .section1h3{
+    text-align:center;
+    padding: 0px 40px !important;
+   }
+   
  }
 /* second section */
 .secondsection{

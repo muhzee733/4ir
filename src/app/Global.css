@@ -94,22 +94,6 @@
 .btn-2:hover {
   box-shadow: -1px 0px 12px -1px rgba(0, 189, 255, 0.72);
 }
-
-/* .card-1 {
-  background-color: #0a0e17;
-  border: 0.2px solid;
-  box-sizing: border-box;
-  border-radius: 5px;
-  
-
-}
-
-.card-1:hover {
-  background: linear-gradient(137deg, rgba(17, 35, 51, 1) 14%, rgba(13, 26, 38, 1) 45%, rgba(11, 15, 25, 1) 93%);
-  border: 0.2px solid var(--secondary);
-  border-radius: 5px;
-} */
-
 /* Typo */
 
 .customh1 {

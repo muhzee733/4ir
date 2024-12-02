@@ -1,0 +1,10 @@
+.Teammainrow{
+    background-image: url('../../../public/assets/images/feature.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.expertteam{
+    font-size : 34px ;
+    color: var(--whitecolor)
+}
