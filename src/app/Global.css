@@ -27,11 +27,16 @@ a{
   text-decoration: none !important;
 }
 
+body {
+  font-family: "Outfit", sans-serif;
+  background: linear-gradient(0deg, #0a0e17, #0a0e17), linear-gradient(179.9deg, #0a5b75 -47.93%, #02111a 98.07%);
+}
+
 .skyblue {
   color: var(--secondary);
 }
 
-.font-outfit{
+.font-outfit {
   font-family: var(--font-outfit);
 }
 
@@ -100,6 +105,7 @@ a{
 .btn-2:hover {
   box-shadow: -1px 0px 12px -1px rgba(0, 189, 255, 0.72);
 }
+
 /* Typo */
 
 .customh1 {
@@ -135,8 +141,11 @@ a{
 
 .customh5 {
   font-family: var(--font-outfit);
+  color: var(--whitecolor);
   font-size: 22px;
   line-height: 1.6rem;
+  word-spacing: 1px;
+  font-weight: 400;
 }
 
 .customh6 {
@@ -153,8 +162,6 @@ p {
   word-spacing: 1px;
 }
 
-.eighty{
+.eighty {
   padding: 80px 0px;
 }
-
-
