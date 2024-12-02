@@ -20,6 +20,12 @@
   --font-play: "Play", sans-serif;
   --font-outfit: "Outfit", sans-serif;
 }
+body{
+  background: linear-gradient(0deg, #0a0e17, #0a0e17), linear-gradient(179.9deg, #0a5b75 -47.93%, #02111a 98.07%);
+}
+a{
+  text-decoration: none !important;
+}
 
 body {
   font-family: "Outfit", sans-serif;
