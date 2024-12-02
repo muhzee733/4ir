@@ -1,8 +1,8 @@
 @import url('../app/Global.css');
 
 .custom-navbar{
-    background-color: var(--backgorund) !important;
-    /* margin-bottom: -107px; */
+    background-color: transparent !important;
+    margin-bottom: -105px;
 }
 
 

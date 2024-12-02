@@ -148,7 +148,7 @@ const Index = () => {
                 </div>
 
                 <div className="col-xl-7 d-flex align-items-end justify-content-end custom-hideindex">
-                  <div className="landing-robot me-5 position-relative">
+                  <div className="landing-robot position-relative">
                     <figure className="indexbannerImg2 position-absolute ">
                       <Image src={RoundBlue} width={482} height={515} alt="" />
                     </figure>
@@ -283,11 +283,11 @@ const Index = () => {
           <Expertise />
         </section>
 
-        <section 
+        <section
         // className=" Teammainrow"
         >
-          <div className="team-wrapper eighty  ">
-          {/* TeamMemberrow */}
+          <div className="team-wrapper">
+            {/* TeamMemberrow */}
             <Team />
           </div>
         </section>

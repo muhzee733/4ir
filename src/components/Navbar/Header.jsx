@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <header className="bg-transparent custom-navbar">
-        <div className="container ">
+        <div className="container-fluid">
           <div className="row header-main-row">
             <div className="col-lg-2 col-md-6 col col-sm-4 d-flex justify-content-left align-items-center">
               <Link href="/">
