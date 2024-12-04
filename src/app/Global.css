@@ -23,27 +23,33 @@
 }
 
 body {
-    background-color: var(--backgorund);
+    background-color: var(--backgorund) !important;
+    /* color: var(--whitecolor) !important; */
 }
 
 a {
     text-decoration: none !important;
 }
-
+.secondary{
+    color: var(--secondary);
+}
+.primary{
+    color: var(--primary);
+}
 /* Typo */
 
-.h1 {
+h1 {
     font-family: var(--font-instrument);
-    font-size: 128px;
+    font-size: 78px;
     font-weight: 700;
     /* line-height: 156.16px; rem*/
 }
 
-.h2 {
-    font-family: var(--font-instrument);
-    font-size: 96px;
-    font-weight: 600;
-    /* line-height: 117.12px; */
+h2 {
+    font-family: var(--font-instrument) ;
+    font-size: 3rem !important;
+    font-weight: 600 !important;
+    line-height: 3.7rem !important;
 }
 
 .h4 {
@@ -75,9 +81,9 @@ a {
 .h6 {}
 
 p {
+    font-family: var(--font-roboto);
     color: var(--text);
-    font-size: 26px;
-    font-family: var(--font-outfit);
+    font-size: 20px !important;
     line-height: 1.6rem;
 }
 

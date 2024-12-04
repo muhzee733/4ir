@@ -1,8 +1,13 @@
 import React from 'react'
 
-const H1 = ({title, className}) => {
+const H1 = ({title, className , spanTitle , breakpoint}) => {
   return (
-    <h1 className={`h1 ${className}`}>{title}</h1>
+    <div>
+      <h1 className={`h1 ${className}`}>
+        {title}
+        {breakpoint && <span >{spanTitle}</span>}
+        </h1>
+    </div>
   )
 }
 

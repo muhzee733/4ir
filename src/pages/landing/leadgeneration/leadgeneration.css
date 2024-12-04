@@ -1,3 +1,23 @@
-.main-wrapper{
-    background-color: aqua;
+.main-wrapper {
+    height: 100vh;
+    background-image: url("../../../../public/images/bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bannerSpan {
+    font-size: 18px;
+    color: var(--text);
+    font-family: var(--font-roboto);
+}
+.bannerImg1{
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width: 992px) {
+    .main-wrapper {
+        padding: 0px 50px;
+    }
 }
