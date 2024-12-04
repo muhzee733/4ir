@@ -36,12 +36,18 @@ a {
 .primary{
     color: var(--primary);
 }
+.primary{
+    color:var(--primary);
+}
+
 /* Typo */
 
 h1 {
     font-family: var(--font-instrument);
     font-size: 78px;
     font-weight: 700;
+    font-size: 10rem !important;
+    font-weight: 700 !important;
     /* line-height: 156.16px; rem*/
 }
 
@@ -50,9 +56,13 @@ h2 {
     font-size: 3rem !important;
     font-weight: 600 !important;
     line-height: 3.7rem !important;
+    font-family: var(--font-instrument);
+    font-size: 96px;
+    font-weight: 600;
+    /* line-height: 117.12px; */
 }
 
-.h4 {
+h4 {
     font-family: var(--font-instrument);
     line-height: 3.3rem;
     word-spacing: 3px;
@@ -61,7 +71,7 @@ h2 {
     color: var(--whitecolor);
 }
 
-.h3 {
+h3 {
     font-family: var(--font-instrument);
     line-height: 2.3rem;
     word-spacing: 2px;
@@ -70,15 +80,15 @@ h2 {
     color: var(--whitecolor);
 }
 
-.h5 {
+h5 {
     font-family: var(--font-instrument);
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 3rem !important;
+    font-weight: 600 !important;
     /* line-height: 43.92px; */
     text-align: center;
 }
 
-.h6 {}
+h6 {}
 
 p {
     font-family: var(--font-roboto);

@@ -21,3 +21,9 @@
         padding: 0px 50px;
     }
 }
+/* .main-wrapper{
+    background-color: aqua;
+} */
+.sec-three-wrapper{
+    min-height:100vh;
+}
