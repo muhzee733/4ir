@@ -1,0 +1,95 @@
+/* font-family: Instrument Sans; */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Play:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #00bdff;
+    --secondary: #bb46ff;
+    --whitecolor: #FFFFFF;
+    --text: #9c9d9f;
+    --accent: #000000;
+    --backgorund: #0A101C;
+    --border: #3C3E46;
+    /* global font  */
+    --font-play: "Play", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-instrument: "Instrument ", sans-serif;
+
+}
+
+body {
+    background-color: var(--backgorund);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* Typo */
+
+.h1 {
+    font-family: var(--font-instrument);
+    font-size: 128px;
+    font-weight: 700;
+    /* line-height: 156.16px; rem*/
+}
+
+.h2 {
+    font-family: var(--font-instrument);
+    font-size: 96px;
+    font-weight: 600;
+    /* line-height: 117.12px; */
+}
+
+.h4 {
+    font-family: var(--font-instrument);
+    line-height: 3.3rem;
+    word-spacing: 3px;
+    font-size: 72px;
+    font-weight: 500;
+    color: var(--whitecolor);
+}
+
+.h3 {
+    font-family: var(--font-instrument);
+    line-height: 2.3rem;
+    word-spacing: 2px;
+    font-size: 64px;
+    font-weight: 500;
+    color: var(--whitecolor);
+}
+
+.h5 {
+    font-family: var(--font-instrument);
+    font-size: 36px;
+    font-weight: 600;
+    /* line-height: 43.92px; */
+    text-align: center;
+}
+
+.h6 {}
+
+p {
+    color: var(--text);
+    font-size: 26px;
+    font-family: var(--font-outfit);
+    line-height: 1.6rem;
+}
+
+/* Button */
+.btn-1 {
+    color: var(--whitecolor);
+    padding: 13px;
+    border: 1px solid #8700FF;
+    border-radius: 15px;
+    background-color: #8700FF;
+}
+.btn-1:hover{
+    box-shadow: 0px 4px 73.2px 0px #042A94;
+
+}
