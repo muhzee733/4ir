@@ -1,11 +1,16 @@
 import Layout from '@/components/layout'
 import React from 'react'
+import "./leadgeneration.css"
 
 const Index = () => {
   return (
     <Layout>
         {/* shahbaz */}
-
+        <section>
+            <div className='main-wrapper'>
+                
+            </div>
+        </section>
 
 
         {/* Azan */}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Para = ({title , className}) => {
   return (
-    <div className={`p ${className}`}>{title}</div>
+    <p className={`p ${className}`}>{title}</p>
   )
 }
 

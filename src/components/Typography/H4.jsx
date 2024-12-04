@@ -2,7 +2,7 @@ import React from 'react'
 
 const H4 = ({title, className}) => {
   return (
-    <div className={`h4 ${className}`}>{title}</div>
+    <h4 className={`h4 ${className}`}>{title}</h4>
   )
 }
 
