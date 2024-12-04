@@ -139,7 +139,7 @@ const Index = () => {
                   className={"text-center text-white mt-5 "}
                 />
               </div>
-              <p class="text-center fs-1 mt-5">
+              <p className="text-center fs-1 mt-5">
                 Transform your sales process in just two days—no long wait
                 times, hassle
               </p>
