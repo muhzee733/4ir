@@ -3,7 +3,11 @@ import React from "react";
 import "./leadgeneration.css";
 import H4 from "@/components/Typography/H4";
 import SecondSecBox from "@/components/Second-Section Box/Second-sec-box";
-
+import H2 from "@/components/Typography/H2";
+import Para from "@/components/Typography/Para";
+import {FiCheck} from "react-icons/fi"
+import H1 from "@/components/Typography/H1";
+import H5 from "@/components/Typography/H5";
 const Index = () => {
   const SecondBox = [
     {
