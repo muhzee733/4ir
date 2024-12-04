@@ -1,3 +1,30 @@
 .main-wrapper{
     background-color: aqua;
 }
+.second-sec-wrapper{
+    min-height: 100vh;
+}
+.second-sec-box{
+    border: 1px solid #484848;
+    border-radius: 20px;
+}
+.second-sec-heading h4{
+    width: 100%;
+    font-weight: 500;
+    line-height: 60px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #5B151B;
+}
+.second-sec-box-content{
+    padding: 0px 20px;
+    min-height: 15vh;
+}
+.second-sec-box p{
+    padding-left: 20px !important;
+    color: #BEBEBE !important;
+    line-height: 40px;
+    font-size: 1.6rem !important;
+}
