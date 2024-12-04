@@ -45,7 +45,7 @@ h1 {
     font-family: var(--font-instrument);
     font-size: 78px;
     font-weight: 700;
-    font-size: 10rem !important;
+    font-size: 5rem !important;
     font-weight: 700 !important;
     /* line-height: 156.16px; rem*/
 }
@@ -97,10 +97,11 @@ h5 {
 
 h6 {
     font-family: var(--font-instrument);
-    font-size: 36px;
+    font-size: 2.1rem;
     font-weight: 600;
     /* line-height: 43.92px; */
     text-align: center;
+    margin: 0;
 }
 
 p {
@@ -119,7 +120,8 @@ p {
     padding: 13px;
     border: 1px solid #8700FF;
     border-radius: 15px;
-    background-color: #8700FF;
+    background: radial-gradient(50% 136.52% at 50% 50%, #8700FF 0%, #510099 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
 }
 
 .btn-1:hover {
