@@ -1,25 +1,30 @@
+import React from 'react'
 import Para from "../Typography/Para";
 import { FaCircle } from "react-icons/fa";
-export default function SecondSecBox({ SecondBox }) {
+import "../widgets.css"
+
+const SecondSecBox = ({ SecondBox, className }) => {
   return (
     <>
       {SecondBox?.map((items) => {
         return (
           <div
-            className="col-lg-6 col-md-12 mb-4 second-sec-col"
+            className={`col-lg-6 col-md-12 col-sm-12 SecondSecBoxCol`}
             key={items.id}
           >
-            <div className="second-sec-box">
-              <div className="second-sec-box-content d-flex align-items-center ">
+            <div className="SecondSecBox customborder">
+              <div className="SecondSecBox-content d-flex align-items-center ">
                 <div className="circle">
                   <FaCircle color="#5b151b" size={25} />
                 </div>
-                <Para title={items.title} className="text-white fs-5" />
+                <Para title={items.title} className="SecondSecBoxPara" />
               </div>
             </div>
           </div>
         );
       })}
     </>
-  );
+  )
 }
+
+export default SecondSecBox

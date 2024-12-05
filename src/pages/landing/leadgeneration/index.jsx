@@ -1,12 +1,11 @@
 import Layout from "@/components/layout";
 import React from "react";
 import "./leadgeneration.css";
-import H4 from "@/components/Typography/H4";
 import SecondSecBox from "@/components/Second-Section Box/Second-sec-box";
-import H2 from "@/components/Typography/H2";
 import Para from "@/components/Typography/Para";
 import { FiCheck } from "react-icons/fi";
 import H1 from "@/components/Typography/H1";
+import H3 from "@/components/Typography/H3";
 import H5 from "@/components/Typography/H5";
 import H6 from "@/components/Typography/H6";
 // import api from "../../../../public/video/api.mp4"
@@ -96,63 +95,56 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Azan */}
-
-      <section className="second-sec">
-        <div className="second-wrapper">
+      <section className="section2">
+        <div className="second2-wrapper">
           <div className="container">
-            <div className="section2content">
-              <div className="row">
-                <div className="section2heading d-flex justify-content-center">
-                  <H4
-                    title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
-                    className="text-white text-capitalize text-center" />
-                </div>
+            <div className="row">
+              <div className="section2heading d-flex justify-content-center">
+                <H5
+                  title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
+                  className="text-capitalize text-center" />
               </div>
+            </div>
 
-              <div className="row section2center">
-                <SecondSecBox SecondBox={SecondBox} />
-              </div>
-              
-              <div className="section2bottom">
-                <H6
-                  title="Are these common sales challenges holding your business back?"
-                  className="text-white"
-                />
-                <button className="btn-1">
-                  It’s time to make a change
-                </button>
-              </div>
+            <div className="row section2center">
+              <SecondSecBox SecondBox={SecondBox} />
+            </div>
+
+            <div className="section2bottom">
+              <H6
+                title="Are these common sales challenges holding your business back?"
+                className="section2h6"
+              />
+              <button className="btn-1 ">
+                It’s Time To Make A Change
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* anila */}
-      {/* <section>
-        <div className="sec-three-wrapper">
+      <section>
+        <div className="section3-wrapper">
           <div className="container">
-            <div className="sec-three-content align-items-center justify-content-center">
-              <H1
-                title="introducing"
-                breakpoint={true}
-                spanTitle=" ai talk assist"
-                className="text-uppercase text-white text-center "
-              />
-              <div>
-                <H5
-                  title="The Revolutionary Voice AI Platform "
-                  className={"text-center text-white mt-5 "}
-                />
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12">
+                <div className="section3-span1 text-white text-uppercase text-center">introducing</div>
+                <div className="section3-span1 primary text-uppercase text-center">AI Talk Assist</div>
+                <div className="section3-main">
+                  <H5
+                    title="The Revolutionary Voice AI Platform"
+                    className="text-center section3h5"
+                  />
+                </div>
+                <p className="text-center">
+                  Transform your sales process in just two days—no long wait
+                  times, hassle
+                </p>
               </div>
-              <p className="text-center fs-1 mt-5">
-                Transform your sales process in just two days—no long wait
-                times, hassle
-              </p>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </Layout>
   );
 };

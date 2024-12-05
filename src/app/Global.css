@@ -39,10 +39,6 @@ a {
     color: var(--primary);
 }
 
-.primary {
-    color: var(--primary);
-}
-
 /* Typo */
 
 h1 {
@@ -56,60 +52,48 @@ h1 {
 
 h2 {
     font-family: var(--font-instrument);
-    font-size: 4.5rem !important;
+    font-size: 3.7rem !important;
     font-weight: 400 !important;
     line-height: 4.9rem !important;
 }
 
-h4 {
+h3 {
     font-family: var(--font-instrument);
     line-height: 3.3rem;
     word-spacing: 3px;
     font-size: 72px;
     font-weight: 500;
-    color: var(--whitecolor);
-}
-
-h3 {
-    font-family: var(--font-instrument);
-    line-height: 2.3rem;
-    word-spacing: 2px;
-    font-size: 64px;
-    font-weight: 500;
-    color: var(--whitecolor);
+    color: var(--whitecolor) !important;
 }
 
 h4 {
     font-family: var(--font-instrument);
-    line-height: 3.3rem;
-    word-spacing: 3px;
-    font-size: 2.4rem !important;
+    font-size: 2.9rem !important;
+    line-height: 3.4rem !important;
+    word-spacing: 2px;
     font-weight: 500;
-    color: var(--whitecolor);
+    color: var(--whitecolor) !important;
 }
 
 h5 {
     font-family: var(--font-instrument);
-    font-size: 3rem !important;
-    font-weight: 600 !important;
-    /* line-height: 43.92px; */
-    text-align: center;
+    font-size: 2.5rem !important;
+    line-height: 3.4rem !important;
+    font-weight: 500;
+    color: var(--whitecolor) !important;
 }
 
 h6 {
     font-family: var(--font-instrument);
-    font-size: 2.1rem;
+    font-size: 2.1rem !important;
     font-weight: 600;
-    /* line-height: 43.92px; */
-    text-align: center;
-    margin: 0;
+    color: var(--whitecolor) !important;
 }
 
 p {
     font-size: 1.7rem;
-    font-family: var(--font-outfit);
     font-family: var(--font-roboto);
-    color: var(--text);
+    color: var(--text) !important;
     line-height: 2.5rem;
     margin: 0px !important;
 }
@@ -127,8 +111,12 @@ p {
     box-shadow: 0px 4px 73.2px 0px #042A94;
 }
 
-@media screen and (min-width: 1400px) {
+.customborder {
+    border: 1px solid #3C3E46;
+    border-radius: 25px;
+}
 
+@media screen and (min-width: 1400px) {
     .btn-1 {
         font-size: 26px !important;
         font-weight: 500;
@@ -139,6 +127,11 @@ p {
     h1 {
         font-size: 46px !important;
         line-height: 55px !important;
+    }
+
+    h5 {
+        font-size: 2.3rem !important;
+        line-height: 3.4rem !important;
     }
 
     p {
@@ -160,6 +153,16 @@ p {
         line-height: 48px !important;
     }
 
+    h5 {
+        font-size: 1.8rem !important;
+        line-height: 3.4rem !important;
+    }
+
+    h6 {
+        font-size: 1.6rem !important;
+        line-height: 2rem !important;
+    }
+
     p {
         font-size: 15px !important;
         line-height: 32px !important;
@@ -179,6 +182,16 @@ p {
         line-height: 44px !important;
     }
 
+    h5 {
+        font-size: 1.3rem !important;
+        line-height: 3.4rem !important;
+    }
+
+    h6 {
+        font-size: 1.3rem !important;
+        line-height: 2rem !important;
+    }
+
     p {
         font-size: 14px !important;
         line-height: 1.5rem !important;
@@ -196,6 +209,16 @@ p {
     h1 {
         font-size: 38px !important;
         line-height: 42px !important;
+    }
+
+    h5 {
+        font-size: 16px !important;
+        line-height: 3.4rem !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+        line-height: 48px !important;
     }
 
     p {
@@ -220,6 +243,16 @@ p {
     h1 {
         font-size: 24px !important;
         font-weight: 400 !important;
+    }
+
+    h5 {
+        font-size: 12px !important;
+        line-height: 2.1rem !important;
+    }
+
+    h6 {
+        font-size: 12px !important;
+        line-height: 18px !important;
     }
 
     p {

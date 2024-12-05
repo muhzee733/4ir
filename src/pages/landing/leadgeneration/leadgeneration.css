@@ -53,13 +53,64 @@
     font-size: 100px;
 }
 
-.sec-three-wrapper {
-    min-height: 100vh;
+.section2heading {
+    padding: 220px 0px 70px 0px !important;
 }
+
+.section2bottom {
+    text-align: center;
+}
+
+.section2h6 {
+    margin: 90px 0px;
+}
+
+.section3-span1 {
+    font-size: 128px;
+    line-height: 130px;
+    font-weight: 600;
+    font-family: var(--font-instrument);
+}
+
+.section3-main {
+    margin: 50px 0px 30px 0px;
+}
+
+.section3h5 {
+    position: relative;
+}
+
+.section3h5::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    width: 140px;
+    height: 3px;
+    background: white;
+}
+
+.section3h5::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    width: 140px;
+    height: 3px;
+    background: white;
+}
+
+/* .sec-three-wrapper {
+    min-height: 100vh;
+} */
 
 @media screen and (min-width: 1440px) {
     .main-wrapper {
         min-height: 100vh;
+    }
+
+    .section3-wrapper {
+        margin-top: 140px;
     }
 }
 
@@ -100,6 +151,10 @@
     .figure2 {
         width: 500px !important;
     }
+
+    .section2heading {
+        padding-top: 0px !important;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -119,6 +174,15 @@
     .figure2 {
         width: 420px !important;
     }
+
+    .section2heading {
+        padding-top: 0px !important;
+    }
+
+    .section2h6 {
+        margin: 50px 0px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -148,6 +212,14 @@
 
     .figure2 {
         width: 340px !important;
+    }
+
+    .section2heading {
+        padding-top: 0px !important;
+    }
+
+    .section2h6 {
+        margin: 30px 0px;
     }
 }
 
@@ -196,6 +268,14 @@
     .figure2 {
         width: 380px !important;
     }
+
+    .section2heading {
+        padding-top: 0px !important;
+    }
+
+    .section2h6 {
+        margin: 8px 0px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -243,5 +323,13 @@
 
     .figure2 {
         width: auto !important;
+    }
+
+    .section2heading {
+        padding: 0px 20px 20px 20px !important;
+    }
+
+    .section2h6 {
+        margin: 4px 0px;
     }
 }
