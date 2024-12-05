@@ -8,6 +8,7 @@ import H1 from "@/components/Typography/H1";
 import H3 from "@/components/Typography/H3";
 import H5 from "@/components/Typography/H5";
 import H6 from "@/components/Typography/H6";
+import Card1 from "@/components/cards/Card1";
 // import api from "../../../../public/video/api.mp4"
 
 const Index = () => {
@@ -40,6 +41,24 @@ const Index = () => {
       title: "Struggling to scale without skyrocketing costs.",
     },
   ];
+
+  const Aicontent = [
+    {
+      id: 1,
+      title: "Save Time, Boost Sales by 70%",
+      para: "With our 100% Done-For-You solution, we handle everything from setup to customization, so you can focus on growing your business."
+    },
+    {
+      id: 2,
+      title: "Always Evolving",
+      para: "Our self-learning AI adapts to new technologies, keeping your business ahead of the curve without the need for constant upgrades"
+    },
+    {
+      id: 1,
+      title: "Secure & Scalable",
+      para: "Bank-level encryption ensures your data stays safe, while our scalable platform grows with your business."
+    },
+  ]
   return (
     <Layout>
       {/* shahbaz */}
@@ -136,10 +155,34 @@ const Index = () => {
                     className="text-center section3h5"
                   />
                 </div>
-                <p className="text-center">
-                  Transform your sales process in just two days—no long wait
-                  times, hassle
-                </p>
+                <Para title="Transform your sales process in just two days—no long wait times, no hassle." className="text-center section3para" />
+
+                <div className="text-center section3btn">
+                  <button className="btn-1">
+                    Get Started with AI
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="row d-flex justify-content-center">
+              <Card1 content={Aicontent} layout={false} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="section4-wrapper">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12">
+                <div className="section4heading text-center">
+                  <H1
+                    title="Give It a Try"
+                    className="section4h1"
+                  />
+                </div>
               </div>
             </div>
           </div>

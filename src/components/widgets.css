@@ -6,7 +6,25 @@
 .SecondSecBoxCol {
     margin-bottom: 20px;
 }
-
+.card1{
+    border: 2px solid var(--border) !important;
+    border-radius: 15px;
+    width: 421px;
+    padding: 70px 35px;
+    margin: 5px 5px;
+    box-shadow: 0px 4px 76.7px 0px var(--card-shadowcolor);
+}
+.card1:hover {
+    border: 2px solid var(--primary) !important;
+    transition: color 0.3s ease-in-out;
+}
+.card1:hover .card1h5{
+    color: var(--primary) !important;
+    transition: color 0.3s ease-in-out;
+}
+.card1h5{
+    margin-bottom: 30px;
+}
 
 
 @media screen and (max-width: 1399px) {
@@ -16,6 +34,11 @@
     }
     .SecondSecBoxPara{
         font-size: 22px !important;
+    }
+    .card1{
+        width: 360px;
+        padding: 50px 25px;
+        margin: 5px 5px;
     }
 }
 
@@ -27,6 +50,11 @@
     .SecondSecBoxPara{
         font-size: 22px !important;
     }
+    .card1{
+        width: 300px;
+        padding: 50px 25px;
+        margin: 5px 5px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -37,6 +65,14 @@
     .SecondSecBoxPara{
         font-size: 20px !important;
     } 
+    .card1{
+        width: 220px;
+        padding: 30px 25px;
+        margin: 5px 5px;
+    }
+    .card1h5{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -50,6 +86,23 @@
     .SecondSecBoxPara{
         font-size: 14px !important;
     }
+    .card1{
+        width: 420px;
+        padding: 20px 15px;
+        margin: 5px 5px;
+    }
+    .card1h5{
+        margin-bottom: 10px;
+    }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .card1{
+        width: 320px;
+        padding: 20px 15px;
+        margin: 5px 5px;
+    }
+    .card1h5{
+        margin-bottom: 10px;
+    }
+}

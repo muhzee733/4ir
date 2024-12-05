@@ -15,6 +15,7 @@
     --accent: #000000;
     --backgorund: #0A101C;
     --border: #3C3E46;
+    --card-shadowcolor:#00BDFF40;
     /* global font  */
     --font-play: "Play", sans-serif;
     --font-roboto: "Roboto", sans-serif;
@@ -126,7 +127,7 @@ p {
 }
 
 .customborder {
-    border: 1px solid #3C3E46;
+    border: 1px solid var(--border);
     border-radius: 25px;
 }
 
