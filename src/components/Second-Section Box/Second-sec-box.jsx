@@ -9,7 +9,7 @@ export default function SecondSecBox({SecondBox}) {
             <div className="second-sec-box" >
               <div className="second-sec-box-content d-flex align-items-center ">
                 <div className="circle">
-              <FaCircle color="#5b151b" />
+              <FaCircle color="#5b151b" size={25} />
                 </div>
               <Para title={items.title} className="text-white fs-5" />
               </div>

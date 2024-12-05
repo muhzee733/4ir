@@ -80,7 +80,7 @@ font-size: 100px;
 @media screen and (max-width: 1440px) {
     .container {
         max-width: 880px;
-
+    }
     .bannerSpandiv {
         margin: 0px 0px !important;
     }
@@ -139,7 +139,7 @@ font-size: 100px;
         padding: 10px 23px !important;
     }
 }
-}
+
 
 @media screen and (max-width: 1200px) {
     .container {
