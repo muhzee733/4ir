@@ -4,7 +4,7 @@ const H1 = ({title, className , spanTitle, breakpoint}) => {
   return (
     <h1 className={`h1 ${className}`}>
       {title}
-      {breakpoint && <span className="primary">{spanTitle}</span>}
+      {breakpoint && <span className="secondary">{spanTitle}</span>}
       </h1>
   )
 }

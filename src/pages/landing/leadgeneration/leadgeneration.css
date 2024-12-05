@@ -1,9 +1,9 @@
 .main-wrapper {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-image: url("../../../../public/images/bg-img.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding: 0px 100px; */
+    padding: 0px 100px;
 }
 
 .row1 {
@@ -12,11 +12,11 @@
 
 .figure1 {
     width: 330px;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
 }
 
 .bannerpara {
-    margin: 40px 0px !important;
+    margin: 30px 0px !important;
 }
 
 .bannerImg1 {
@@ -45,21 +45,6 @@
     margin: 0px !important;
 }
 
-.second-sec-wrapper {
-    min-height: 100vh;
-}
-
-.second-sec-box {
-    border: 1px solid #484848;
-    border-radius: 20px;
-}
-
-.second-sec-heading h4 {
-    width: 100%;
-    font-weight: 500;
-    line-height: 60px;
-}
-
 .circle {
     width: 10%;
 }
@@ -68,68 +53,52 @@
     font-size: 100px;
 }
 
-.second-sec-box-content {
-    padding: 0px 20px;
-    min-height: 19vh;
-}
-
-.second-sec-box p {
-    /* padding-left: 20px !important; */
-    color: #bebebe !important;
-    line-height: 40px;
-    font-size: 1.6rem !important;
-}
-
 .sec-three-wrapper {
     min-height: 100vh;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
+    .main-wrapper {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .main-wrapper {
+        min-height: 100vh;
+    }
+
     .bannerSpandiv {
-        margin: 0px 0px !important;
+        margin: 30px 0px !important;
     }
 
     .main-wrapper {
         padding: 0px 100px !important;
     }
 
+    .row1 {
+        padding-top: 40px;
+    }
+
     .colum1 {
         padding: 20px 0px !important;
     }
 
-
-
+    .bannerpara {
+        margin: 20px 0px !important;
+    }
 
     .bannerSpan {
         font-size: 18px;
     }
 
-
     .figure1 {
         width: 200px !important;
+        margin-bottom: 20px !important;
     }
 
     .figure2 {
         width: 500px !important;
-    }
-
-    .second-sec-heading h4 {
-        font-size: 1.6rem !important;
-        line-height: 35px;
-    }
-
-    .second-sec-box p {
-        font-size: 1rem !important;
-        line-height: 20px !important;
-    }
-
-    .second-sec-des h6 {
-        font-size: 22px !important;
-    }
-
-    .second-sec-des button {
-        font-size: 22px !important;
-        padding: 10px 23px !important;
     }
 }
 
@@ -139,19 +108,9 @@
         padding: 30px 0px !important;
     }
 
-    h2 {
-        font-size: 36px !important;
-        font-weight: 400 !important;
-        line-height: 48px !important;
-    }
-
-
-
     .bannerSpan {
         font-size: 14px;
     }
-
-
 
     .figure1 {
         width: 160px !important;
@@ -168,31 +127,19 @@
     }
 
     .main-wrapper {
-        padding: 0px 30px !important;
+        padding: 0px 50px !important;
     }
 
-    .colum1 {
-        padding: 26px 0px !important;
+    .row1 {
+        padding: 20px 0px !important;
     }
-
-    h2 {
-        font-size: 38px !important;
-        font-weight: 400 !important;
-        line-height: 44px !important;
-    }
-
 
     .bannerSpan {
         font-size: 12px;
     }
 
-
-    .second-sec-heading h4 {
-        font-size: 1.5rem !important;
-    }
-
-    .second-sec-box p {
-        font-size: 1.2rem !important;
+    .banner-btn {
+        margin-top: 40px !important;
     }
 
     .figure1 {
@@ -208,32 +155,27 @@
 
 
     .colum1 {
-        padding: 36px 0px !important;
+        padding-top: 36px !important;
+        padding-bottom: 0px !important;
     }
 
-    h2 {
-        font-size: 38px !important;
-        font-weight: 400 !important;
+    h1 {
         line-height: 42px !important;
         text-align: center !important;
     }
 
-    p {
-        margin-top: 0px !important;
-        text-align: center !important;
-    }
-
     .bannerpara {
-        padding: 5px 0px !important;
-        font-size: 16px !important;
+        text-align: center !important;
+        font-size: 14px !important;
     }
 
     .bannerSpan {
         font-size: 12px;
-        padding: 5px 0px !important;
+        margin-bottom: 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-around !important;
     }
-
-
 
     .customScreen {
         justify-content: center !important;
@@ -246,61 +188,37 @@
     }
 
     .figure1 {
+        /* display: flex;
+        justify-content: center; */
         width: 140px !important;
     }
 
     .figure2 {
         width: 380px !important;
     }
-
-    .second-sec-col {
-        padding: 0px 20px !important;
-    }
-
-    .second-sec-box p {
-        font-size: 1.2rem !important;
-        line-height: 28px !important;
-    }
-
-    .second-sec-box-content {
-        min-height: 17vh !important;
-    }
-
-    .second-sec-des h6 {
-        font-size: 18px !important;
-    }
-
-    .second-sec-des button {
-        font-size: 18px !important;
-        padding: 10px 23px !important;
-    }
 }
 
 @media screen and (max-width: 576px) {
-
 
     .colum1 {
         padding: 0px 0px !important;
     }
 
-    h2 {
-        margin-top: 18px !important;
-        font-size: 24px !important;
-        font-weight: 400 !important;
-        line-height: 26px !important;
+    h1 {
         text-align: center;
+        line-height: 28px !important;
     }
 
     .bannerpara {
         text-align: center;
         padding: 0px 0px !important;
-        margin: 0px !important;
-        font-size: 10px !important;
-        line-height: 18px !important;
+        margin: 10px 0px !important;
+        font-size: 12px !important;
     }
 
     .banner-btn {
         text-align: center;
+        margin-top: -20px !important;
         padding: 0px !important;
     }
 
@@ -325,25 +243,5 @@
 
     .figure2 {
         width: auto !important;
-    }
-
-    .second-sec-heading h4 {
-        font-size: 1.2rem !important;
-        line-height: 30px;
-        padding: 0px 10px;
-    }
-
-    .second-sec-content .row {
-        margin-top: 0px !important;
-    }
-
-    .second-sec-box-content {
-        min-height: 17vh !important;
-    }
-
-    .second-sec-box-content p {
-        font-size: 15px !important;
-        padding: 0px 10px !important;
-        line-height: 20px !important;
     }
 }

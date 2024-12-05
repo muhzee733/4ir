@@ -23,9 +23,9 @@ const Index = () => {
     },
     {
       id: 3,
-      title: 
+      title:
         "Frustrated with outdated sales processes or limited AI tool"
-      
+
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const Index = () => {
     },
     {
       id: 5,
-      title: 
+      title:
         "Difficulty maintaining quality conversations across time zones."
     },
     {
@@ -45,21 +45,20 @@ const Index = () => {
     <Layout>
       {/* shahbaz */}
       <section>
-        <div className="main-wrapper text-white">
+        <div className="main-wrapper">
           <div className="container-fluid">
             <div className="row row1">
               <div className="col-lg-6 col-md-6 col-sm-12 colum1">
-                <div className="figure1">
+                <div className="figure1 d-flex customScreen">
                   <figure>
                     <img src="/images/4IR-logo-main.png" className="bannerImg1" />
                   </figure>
                 </div>
-                {/* <H1
-                  title="Supercharge your Sales Teams with "
+                <H1
+                  title="Supercharge Your Sales Teams With "
                   breakpoint={true}
                   spanTitle="AI-Driven Solutions."
-
-                /> */}
+                />
                 <Para
                   title="Say goodbye to the stress of sales teams and hello to human-like AI that works 24/7."
                   className="bannerpara"
@@ -75,16 +74,14 @@ const Index = () => {
                     <FiCheck className="primary" /> 24/7 Availability
                   </span>
                 </div>
-                <div className="banner-btn pt-3">
-                  <button href="#" className="btn-1 fs-2">
+                <div className="banner-btn">
+                  <button href="#" className="btn-1">
                     Book a free Demo
                   </button>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end align-items-center customScreen">
-                <div className="figure2 mt-4">
-                  {/* <iframe src={api} width={678} height={500}></iframe> */}
-
+                <div className="figure2 mt-5">
                   <figure>
                     <img
                       className='bannerImg2'
@@ -102,24 +99,27 @@ const Index = () => {
       {/* Azan */}
 
       <section className="second-sec">
-        <div className="second-sec-wrapper py-5">
+        <div className="second-wrapper">
           <div className="container">
-            <div className="second-sec-content">
-              <div className="second-sec-heading d-flex justify-content-center mb-4">
-                <H4
-                  title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
-                  className="text-white text-capitalize text-center"
-                />
+            <div className="section2content">
+              <div className="row">
+                <div className="section2heading d-flex justify-content-center">
+                  <H4
+                    title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
+                    className="text-white text-capitalize text-center" />
+                </div>
               </div>
-              <div className="row d-flex align-items-center justify-content-center  ">
+
+              <div className="row section2center">
                 <SecondSecBox SecondBox={SecondBox} />
               </div>
-              <div className="second-sec-des d-flex justify-content-center flex-column  align-items-center">
+              
+              <div className="section2bottom">
                 <H6
                   title="Are these common sales challenges holding your business back?"
-                  className="text-white fs-2 mb-4"
+                  className="text-white"
                 />
-                <button className="btn-1 fs-2  px-5 ">
+                <button className="btn-1">
                   It’s time to make a change
                 </button>
               </div>
