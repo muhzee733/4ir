@@ -58,6 +58,7 @@ const Index = () => {
                   title="Supercharge your Sales Teams with "
                   breakpoint={true}
                   spanTitle="AI-Driven Solutions."
+
                 />
                 <Para
                   title="Say goodbye to the stress of sales teams and hello to human-like AI that works 24/7."
