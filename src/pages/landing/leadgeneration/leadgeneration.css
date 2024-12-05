@@ -3,11 +3,11 @@
     background-image: url("../../../../public/images/bg-img.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0px 120px;
+    padding: 0px 100px;
 }
 
 .figure1 {
-    width: 350px;
+    width: 330px;
 }
 
 .bannerImg1 {
@@ -30,6 +30,10 @@
     font-size: 24px;
     color: var(--text);
     font-family: var(--font-roboto);
+}
+
+.banner-btn {
+    margin: 0px !important;
 }
 
 .second-sec-wrapper {
@@ -76,13 +80,20 @@ font-size: 100px;
 @media screen and (max-width: 1440px) {
     .container {
         max-width: 880px;
+
+    .bannerSpandiv {
+        margin: 0px 0px !important;
+    }
+
+    .main-wrapper {
+        padding: 0px 100px !important;
     }
     .colum1 {
         padding: 20px 0px !important;
     }
 
     h2 {
-        font-size: 3rem !important;
+        font-size: 46px !important;
         font-weight: 400 !important;
         line-height: 3.1rem !important;
     }
@@ -128,6 +139,7 @@ font-size: 100px;
         padding: 10px 23px !important;
     }
 }
+}
 
 @media screen and (max-width: 1200px) {
     .container {
@@ -138,7 +150,7 @@ font-size: 100px;
     }
 
     h2 {
-        font-size: 44px !important;
+        font-size: 36px !important;
         font-weight: 400 !important;
         line-height: 48px !important;
     }
@@ -173,6 +185,9 @@ font-size: 100px;
     }
     .second-sec-box-content {
         min-height: 15vh !important;
+    }
+    .main-wrapper {
+        padding: 0px 30px !important;
     }
     .colum1 {
         padding: 26px 0px !important;
@@ -223,10 +238,9 @@ font-size: 100px;
     }
 
     h2 {
-        margin-top: 38px !important;
-        font-size: 30px !important;
+        font-size: 38px !important; 
         font-weight: 400 !important;
-        line-height: 38px !important;
+        line-height: 42px !important;
         text-align: center !important;
     }
 
@@ -237,8 +251,13 @@ font-size: 100px;
         text-align: center !important;
     }
 
+    .bannerpara{
+        padding: 5px 0px !important;
+        font-size: 16px !important;
+    }
     .bannerSpan {
-        font-size: 10px;
+        font-size: 12px;
+        padding: 5px 0px !important;
     }
 
     .btn-1 {
@@ -252,6 +271,8 @@ font-size: 100px;
 
     .banner-btn {
         text-align: center;
+        padding: 0px !important;
+        margin: 0 !important;
     }
 
     .figure1 {
@@ -259,7 +280,7 @@ font-size: 100px;
     }
 
     .figure2 {
-        width: auto !important;
+        width: 380px !important;
     }
 
     .second-sec-col {
@@ -292,7 +313,7 @@ font-size: 100px;
     }
 
     .colum1 {
-        padding: 26px 0px !important;
+        padding: 0px 0px !important;
     }
 
     h2 {
@@ -303,20 +324,21 @@ font-size: 100px;
         text-align: center;
     }
 
-    p {
+    .bannerpara {
         text-align: center;
         padding: 0px 0px !important;
         margin: 0px !important;
-        font-size: 11px !important;
+        font-size: 10px !important;
         line-height: 18px !important;
     }
 
     .banner-btn {
         text-align: center;
+        padding: 0px !important;
     }
 
     .bannerSpan {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .btn-1 {
