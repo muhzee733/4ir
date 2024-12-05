@@ -1,7 +1,8 @@
 import Layout from "@/components/layout";
 import "./aivoiceCalling.css";
 import Para from "@/components/Typography/Para";
-import H1 from "@/components/Typography/H1";
+import H6 from "@/components/Typography/H6";
+import { LuArrowRight } from "react-icons/lu";
 
 export default function AiVoiceCalling() {
   return (
@@ -18,9 +19,12 @@ export default function AiVoiceCalling() {
                   <Para title="Tired of Chasing Leads?" />
                 </div>
                 <div className="banner-second-heading text-center">
-                  <h1>
+                  <h1 className="pb-4">
                     Let <span>AI Handle</span> The Heavy Lifting
                   </h1>
+             <p className="mb-4">Effortlessly supercharge manual lead generation and <br/> calling processes with our <span className="text-white fw-bold">AI-powered solution.</span></p>
+             <H6 title='24/7 Availability . Easy-Integration . No complex Software' className="text-white fs-4 mb-4" />
+             <button className="btn-2 ">Book a Demo <LuArrowRight size={22} /></button>
                 </div>
               </div>
             </div>
