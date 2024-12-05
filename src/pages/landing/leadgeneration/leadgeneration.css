@@ -68,69 +68,7 @@
 .sec-three-wrapper {
     min-height: 100vh;
 }
-@media  screen and (max-width: 1440px) {
-    .container {
-        padding: 0 calc(50vw - 466px);
-      }
-    .second-sec-heading h4{
-font-size: 1.3rem !important;
-line-height: 35px;
-    }
-    .second-sec-box p{
-       font-size: 1rem  !important;
-       line-height: 20px !important;
-    }
-    .second-sec-des h6{
-font-size: 22px !important;
-    }
-    .second-sec-des button{
-font-size: 22px !important;
-padding: 10px 23px !important;
-    }
-}
-@media screen and (max-width: 1024px) {
-    .container {
-        padding: 0 calc(50vw - 400px);
-    }
-    .second-sec-box-content{
-        min-height: 19vh !important;
-    }
-}
-@media screen and (max-width: 768px) {
-    .second-sec-col{
-        padding: 0px 20px !important;
-    }
-    .second-sec-box p {
-        font-size: 1.2rem !important;
-        line-height: 20px !important;
-    }
-    .second-sec-box-content{
-        min-height: 13vh !important;
-    }
-    .second-sec-des h6{
-        font-size: 18px !important;
-            }
-            .second-sec-des button{
-        font-size: 18px !important;
-        padding: 10px 23px !important;
-            }
-}
-@media screen and (max-width: 576px) {
-    .container {
-        padding: 0 calc(50vw - 186px);
-    }
-    .second-sec-heading h4{
-        font-size: 1.2rem !important;
-        line-height: 27px;
-        padding: 0px 10px ;
-            }
-            .second-sec-content .row {
-              margin-top: 0px !important;
-             }
-            .second-sec-box-content {
-                min-height: 13vh !important;
-            }
-        }
+
 @media screen and (max-width: 1440px) {
     .main-wrapper {
         padding: 0px 100px !important;
@@ -168,9 +106,32 @@ padding: 10px 23px !important;
     .figure2 {
         width: 500px !important;
     }
+
+    .container {
+        padding: 0 calc(50vw - 466px);
+    }
+
+    .second-sec-heading h4 {
+        font-size: 1.3rem !important;
+        line-height: 35px;
+    }
+
+    .second-sec-box p {
+        font-size: 1rem !important;
+        line-height: 20px !important;
+    }
+
+    .second-sec-des h6 {
+        font-size: 22px !important;
+    }
+
+    .second-sec-des button {
+        font-size: 22px !important;
+        padding: 10px 23px !important;
+    }
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .main-wrapper {
         padding: 0px 90px !important;
     }
@@ -210,7 +171,17 @@ padding: 10px 23px !important;
 
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 calc(50vw - 400px);
+    }
+
+    .second-sec-box-content {
+        min-height: 19vh !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
     .main-wrapper {
         padding: 0px 60px !important;
     }
@@ -249,8 +220,7 @@ padding: 10px 23px !important;
     }
 }
 
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .main-wrapper {
         padding: 0px 40px !important;
     }
@@ -299,9 +269,31 @@ padding: 10px 23px !important;
     .figure2 {
         width: auto !important;
     }
+
+    .second-sec-col {
+        padding: 0px 20px !important;
+    }
+
+    .second-sec-box p {
+        font-size: 1.2rem !important;
+        line-height: 20px !important;
+    }
+
+    .second-sec-box-content {
+        min-height: 13vh !important;
+    }
+
+    .second-sec-des h6 {
+        font-size: 18px !important;
+    }
+
+    .second-sec-des button {
+        font-size: 18px !important;
+        padding: 10px 23px !important;
+    }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .main-wrapper {
         padding: 0px 20px !important;
     }
@@ -351,5 +343,23 @@ padding: 10px 23px !important;
 
     .figure2 {
         width: auto !important;
+    }
+
+    .container {
+        padding: 0 calc(50vw - 186px);
+    }
+
+    .second-sec-heading h4 {
+        font-size: 1.2rem !important;
+        line-height: 27px;
+        padding: 0px 10px;
+    }
+
+    .second-sec-content .row {
+        margin-top: 0px !important;
+    }
+
+    .second-sec-box-content {
+        min-height: 13vh !important;
     }
 }

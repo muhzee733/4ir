@@ -48,9 +48,13 @@ const Index = () => {
       <section>
         <div className="main-wrapper text-white">
           <div className="container-fluid">
-            <div className="row mt-5">
+            <div className="row pt-5">
               <div className="col-lg-6 col-md-12">
-                <img src="/images/4IR-logo-main.png" width="200px" />
+                <div className="figure1">
+                  <figure>
+                    <img src="/images/4IR-logo-main.png" className="bannerImg1" width="200px" />
+                  </figure>
+                </div>
                 <H2
                   title="Supercharge your Sales Teams with "
                   breakpoint={true}
@@ -81,7 +85,7 @@ const Index = () => {
                 <div className="figure2">
                   <figure>
                     <img
-                      className='bannerImg2 figure1img"'
+                      className='bannerImg2'
                       src="/images/man-in-frame.png"
                       alt="lead generation image"
                     />
