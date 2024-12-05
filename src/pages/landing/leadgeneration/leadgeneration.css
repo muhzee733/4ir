@@ -3,11 +3,11 @@
     background-image: url("../../../../public/images/bg-img.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0px 120px;
+    padding: 0px 100px;
 }
 
 .figure1 {
-    width: 350px;
+    width: 330px;
 }
 
 .bannerImg1 {
@@ -30,6 +30,10 @@
     font-size: 24px;
     color: var(--text);
     font-family: var(--font-roboto);
+}
+
+.banner-btn {
+    margin: 0px !important;
 }
 
 .second-sec-wrapper {
@@ -70,6 +74,11 @@
 }
 
 @media screen and (max-width: 1440px) {
+
+    .bannerSpandiv {
+        margin: 0px 0px !important;
+    }
+
     .main-wrapper {
         padding: 0px 100px !important;
     }
@@ -79,7 +88,7 @@
     }
 
     h2 {
-        font-size: 3rem !important;
+        font-size: 46px !important;
         font-weight: 400 !important;
         line-height: 3.1rem !important;
     }
@@ -141,7 +150,7 @@
     }
 
     h2 {
-        font-size: 44px !important;
+        font-size: 36px !important;
         font-weight: 400 !important;
         line-height: 48px !important;
     }
@@ -183,7 +192,7 @@
 
 @media screen and (max-width: 992px) {
     .main-wrapper {
-        padding: 0px 60px !important;
+        padding: 0px 30px !important;
     }
 
     .colum1 {
@@ -230,10 +239,9 @@
     }
 
     h2 {
-        margin-top: 38px !important;
-        font-size: 30px !important;
+        font-size: 38px !important; 
         font-weight: 400 !important;
-        line-height: 38px !important;
+        line-height: 42px !important;
         text-align: center !important;
     }
 
@@ -244,8 +252,13 @@
         text-align: center !important;
     }
 
+    .bannerpara{
+        padding: 5px 0px !important;
+        font-size: 16px !important;
+    }
     .bannerSpan {
-        font-size: 10px;
+        font-size: 12px;
+        padding: 5px 0px !important;
     }
 
     .btn-1 {
@@ -260,6 +273,8 @@
 
     .banner-btn {
         text-align: center;
+        padding: 0px !important;
+        margin: 0 !important;
     }
 
     .figure1 {
@@ -267,7 +282,7 @@
     }
 
     .figure2 {
-        width: auto !important;
+        width: 380px !important;
     }
 
     .second-sec-col {
@@ -299,7 +314,7 @@
     }
 
     .colum1 {
-        padding: 26px 0px !important;
+        padding: 0px 0px !important;
     }
 
     h2 {
@@ -310,20 +325,21 @@
         text-align: center;
     }
 
-    p {
+    .bannerpara {
         text-align: center;
         padding: 0px 0px !important;
         margin: 0px !important;
-        font-size: 11px !important;
+        font-size: 10px !important;
         line-height: 18px !important;
     }
 
     .banner-btn {
         text-align: center;
+        padding: 0px !important;
     }
 
     .bannerSpan {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .btn-1 {

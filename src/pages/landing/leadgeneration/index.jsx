@@ -9,6 +9,8 @@ import { FiCheck } from "react-icons/fi";
 import H1 from "@/components/Typography/H1";
 import H5 from "@/components/Typography/H5";
 import H6 from "@/components/Typography/H6";
+// import api from "../../../../public/video/api.mp4"
+
 const Index = () => {
   const SecondBox = [
     {
@@ -48,8 +50,8 @@ const Index = () => {
       <section>
         <div className="main-wrapper text-white">
           <div className="container-fluid">
-            <div className="row pt-5">
-              <div className="col-lg-6 col-md-12">
+            <div className="row pt-5 row1">
+              <div className="col-lg-6 col-md-6 col-sm-12 colum1">
                 <div className="figure1">
                   <figure>
                     <img src="/images/4IR-logo-main.png" className="bannerImg1" width="200px" />
@@ -75,14 +77,16 @@ const Index = () => {
                     <FiCheck className="primary" /> 24/7 Availability
                   </span>
                 </div>
-                <div className="banner-btn">
-                  <button href="#" className="btn-1 mt-5 fs-2">
+                <div className="banner-btn pt-3">
+                  <button href="#" className="btn-1 fs-2">
                     Book a free Demo
                   </button>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end align-items-center customScreen">
-                <div className="figure2">
+                <div className="figure2 mt-4">
+                  {/* <iframe src={api} width={678} height={500}></iframe> */}
+
                   <figure>
                     <img
                       className='bannerImg2'
@@ -127,7 +131,7 @@ const Index = () => {
       </section>
 
       {/* anila */}
-      <section>
+      {/* <section>
         <div className="sec-three-wrapper">
           <div className="container">
             <div className="sec-three-content align-items-center justify-content-center">
@@ -150,7 +154,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
