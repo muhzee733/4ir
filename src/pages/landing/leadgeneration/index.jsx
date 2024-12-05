@@ -47,11 +47,11 @@ const Index = () => {
       <section>
         <div className="main-wrapper text-white">
           <div className="container-fluid">
-            <div className="row pt-5 row1">
+            <div className="row row1">
               <div className="col-lg-6 col-md-6 col-sm-12 colum1">
                 <div className="figure1">
                   <figure>
-                    <img src="/images/4IR-logo-main.png" className="bannerImg1" width="200px" />
+                    <img src="/images/4IR-logo-main.png" className="bannerImg1" />
                   </figure>
                 </div>
                 <H2
@@ -61,9 +61,9 @@ const Index = () => {
                 />
                 <Para
                   title="Say goodbye to the stress of sales teams and hello to human-like AI that works 24/7."
-                  className="py-4 bannerpara"
+                  className="bannerpara"
                 />
-                <div className="my-3 bannerSpandiv d-flex justify-content-around">
+                <div className="my-4 bannerSpandiv d-flex justify-content-between">
                   <span className="bannerSpan">
                     <FiCheck className="primary" /> No complex Software
                   </span>
