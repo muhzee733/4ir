@@ -9,6 +9,7 @@ import { FiCheck } from "react-icons/fi";
 import H1 from "@/components/Typography/H1";
 import H5 from "@/components/Typography/H5";
 import H6 from "@/components/Typography/H6";
+
 const Index = () => {
   const SecondBox = [
     {
@@ -17,29 +18,26 @@ const Index = () => {
     },
     {
       id: 2,
-      title: ["Overwhelmed by too many leads and", " not enough follow-ups."],
+      title: "Overwhelmed by too many leads and not enough follow-ups.",
     },
     {
       id: 3,
-      title: [
-        "Frustrated with outdated sales processes",
-        " or limited AI tool",
-      ],
+      title: 
+        "Frustrated with outdated sales processes or limited AI tool"
+      
     },
     {
       id: 4,
-      title: ["Trouble delivering personalized experiences", " for prospect."],
+      title: "Trouble delivering personalized experiences for prospect.",
     },
     {
       id: 5,
-      title: [
-        "Difficulty maintaining quality conversations",
-        " across time zones.",
-      ],
+      title: 
+        "Difficulty maintaining quality conversations across time zones."
     },
     {
       id: 6,
-      title: ["Struggling to scale without skyrocketing ", " costs."],
+      title: "Struggling to scale without skyrocketing costs.",
     },
   ];
   return (
@@ -103,21 +101,21 @@ const Index = () => {
         <div className="second-sec-wrapper py-5">
           <div className="container">
             <div className="second-sec-content">
-              <div className="second-sec-heading d-flex justify-content-center">
+              <div className="second-sec-heading d-flex justify-content-center mb-4">
                 <H4
                   title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
                   className="text-white text-capitalize text-center"
                 />
               </div>
-              <div className="row mt-4 d-flex align-items-center justify-content-center  ">
+              <div className="row d-flex align-items-center justify-content-center  ">
                 <SecondSecBox SecondBox={SecondBox} />
               </div>
               <div className="second-sec-des d-flex justify-content-center flex-column  align-items-center">
                 <H6
                   title="Are these common sales challenges holding your business back?"
-                  className="text-white fs-2 mt-4"
+                  className="text-white fs-2 mb-4"
                 />
-                <button className="btn-1 fs-2 mt-4 px-5 ">
+                <button className="btn-1 fs-2  px-5 ">
                   It’s time to make a change
                 </button>
               </div>
@@ -127,7 +125,7 @@ const Index = () => {
       </section>
 
       {/* anila */}
-      <section>
+      {/* <section>
         <div className="sec-three-wrapper">
           <div className="container">
             <div className="sec-three-content align-items-center justify-content-center">
@@ -150,7 +148,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
