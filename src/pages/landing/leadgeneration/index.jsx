@@ -54,11 +54,12 @@ const Index = () => {
                     <img src="/images/4IR-logo-main.png" className="bannerImg1" />
                   </figure>
                 </div>
-                <H2
+                {/* <H1
                   title="Supercharge your Sales Teams with "
                   breakpoint={true}
                   spanTitle="AI-Driven Solutions."
-                />
+
+                /> */}
                 <Para
                   title="Say goodbye to the stress of sales teams and hello to human-like AI that works 24/7."
                   className="bannerpara"
