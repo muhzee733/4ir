@@ -220,10 +220,16 @@
 }
 
 .accordion-button:focus {
-    box-shadow: unset !important;
+    box-shadow: unset !important; /* Remove focus shadow on the button */
 }
 
-.accordion-body h6 {
+/* Use :focus-within to style the parent .accordion-item */
+.accordion-item:focus-within {
+    border: 1px solid var(--primary) !important;
+    border-radius: 10px;
+}
+
+.accordion-body h6{
     font-size: 1.2rem !important;
     line-height: 28px !important;
 }
@@ -231,13 +237,25 @@
 .accordion-button h3 {
     font-size: 1.4rem !important;
 }
-
-.accordion-button:after {
-    background-image: url("../../../../public//images//plus-svgrepo-com.svg") !important;
+.accordion-button:after{
+    background-image: unset !important;
 }
 
 .bookDemo-content {
     margin-left: 15px;
+}
+
+.accordion-item:nth-child(1){
+    background: none !important;
+}
+.accordion-item:nth-child(2){
+    background: none !important;
+}
+.accordion-item:nth-child(3){
+    background: none !important;
+}
+.accordion-item:nth-child(4){
+    background: none !important;
 }
 
 .bookDemo-content h2 {
@@ -249,26 +267,43 @@
     font-size: 23px !important;
     padding-bottom: 20px;
 }
-
-.accordion-button:not(.collapsed):after {
-    background-image: url("../../../../public//images//plus-svgrepo-com.svg") !important;
+.accordion-button:not(.collapsed):after{
+    background-image: none !important;
+}
+.accordion-button > div{
+    width: 100%;
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: unset !important;
+}
+.accordion-item:nth-child(1) > .accordion-header .accordion-button{
+    border-radius: 10px !important;
+}
+.accordion-item:nth-child(2) > .accordion-header .accordion-button{
+    border-radius: 10px !important;
+}
+.accordion-item:nth-child(3) > .accordion-header .accordion-button{
+    border-radius: 10px !important;
+}
+.accordion-item:nth-child(4) > .accordion-header .accordion-button{
+    border-radius: 10px !important;
 }
 
 /* Call To Action  */
-.calltoaction-content {
-    background: radial-gradient(100% 374.46% at 0% 0%, #00BDFF 0%, #0077F5 50%, #8800FF 100%);
-    margin: 50px 0px;
+.calltoaction-content{
+    background: radial-gradient(100% 374.46% at 0% 0%, #00BDFF 0%, #0077F5 50%, #8800FF 100%) ;
+    margin: 170px 0px;
     border-radius: 50px;
 }
-
-.calltoaction-content>p {
-    color: var(--whitecolor) !important;
-    width: 97%;
+.calltoaction-content > p{
+   color: var(--whitecolor) !important;
+   width: 94%;
+   font-size: 1.5rem !important;
 }
-
-.calltoaction-content>h3 {
-    font-size: 4rem !important;
-    font-weight: 600 !important;
+.calltoaction-content > h3{
+font-size: 3.7rem !important;
+font-weight: 600 !important;
+padding-bottom: 20px;
 }
 /* section 6 */
 .section6para1{
@@ -436,14 +471,13 @@
     .calltoaction-content>h3 {
         font-size: calc(4rem - 16px) !important;
         font-weight: 600 !important;
-    }
-
-    .calltoaction-content>p {
-        color: var(--whitecolor) !important;
-        font-size: calc(23px - 3px) !important;
-        width: 100%;
-    }
-
+        padding-bottom: 5px;
+        }
+        .calltoaction-content > p{
+            color: var(--whitecolor) !important;
+            font-size: calc(23px - 3px ) !important;
+            width: 100%;
+         }
     .colum1 {
         padding: 30px 0px !important;
     }
@@ -536,14 +570,13 @@
     .calltoaction-content>h3 {
         font-size: calc(4rem - 26px) !important;
         font-weight: 600 !important;
-    }
-
-    .calltoaction-content>p {
-        color: var(--whitecolor) !important;
-        font-size: calc(23px - 3px) !important;
-        width: 100%;
-    }
-
+        padding-bottom: 5px;
+        }
+        .calltoaction-content > p{
+            color: var(--whitecolor) !important;
+            font-size: calc(23px - 3px ) !important;
+            width: 100%;
+         }
     .second-sec-box-content {
         min-height: 15vh !important;
     }
@@ -672,9 +705,12 @@
         font-size: calc(23px- 6px) !important;
         padding-bottom: 20px;
     }
-
-    .calltoaction-content>h3 {
-        font-size: 39px !important;
+    .calltoaction-content{
+        border-radius: 10px !important;
+        margin: 50px 0px;
+    }
+    .calltoaction-content > h3{
+        font-size: 32px !important;
         font-weight: 600 !important;
     }
 
@@ -842,9 +878,11 @@
     .bookDemo-content {
         padding: 0px 20px;
     }
-
-    .calltoaction-content>h3 {
-        font-size: 34px !important;
+    .calltoaction-wrapper{
+        padding: 0px 20px;
+    }
+    .calltoaction-content > h3{
+        font-size: 29px !important;
         font-weight: 600 !important;
     }
 
