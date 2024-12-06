@@ -14,6 +14,7 @@ import Accordian from "@/components/Accordian/Accordian";
 import Mediallayers from "@/images/mediallayers.png"
 import mediaframe from "@/images/mediaframe.png"
 import cardsStats from "@/images/cardsStats.png"
+import Productstats from "@/images/Productstats.png"
 import H4 from "@/components/Typography/H4";
 import { GiSevenPointedStar } from "react-icons/gi";
 import Image from "next/image";
@@ -372,13 +373,13 @@ const Index = () => {
               <div className="col-lg-7 col-md-12 col-sm-12 text-white  CMargin">
                 <div className="customborder section5-quaters">
                   <span className="section5span1">Sales Overview</span>
-                  <Image src={cardsStats} width={200}/>
+                  <Image src={cardsStats} className="cardsStats "/>
                 </div>
               </div>
               <div className="col-lg-5 col-md-12 col-sm-12 text-white">
                 <div className="customborder section5-quaters">
                   <span className="section5span1"> Product Statistic</span>
-                  {/* <img src={cardsStats}/> */}
+                  <Image src={Productstats} className="Productstats"/>
                 </div>
               </div>
             </div>

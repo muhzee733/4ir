@@ -133,6 +133,14 @@
     top: 0% ;
     left: 45%;
 }
+.cardsStats{
+    width: 100%;
+    height: auto;
+}
+.Productstats{
+    width: 100%;
+    height: auto;
+}
 
 /* Section 5 */
 .section5h1 {
