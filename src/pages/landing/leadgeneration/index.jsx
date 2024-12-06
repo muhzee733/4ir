@@ -15,6 +15,7 @@ import Accordian from "@/components/Accordian/Accordian";
 // import cardsStats from "../../../../public/images/cardsStats.png"
 import H4 from "@/components/Typography/H4";
 import { GiSevenPointedStar } from "react-icons/gi";
+import Calltoaction from "@/components/CalltoAction/Calltoaction";
 
 const Index = () => {
   const SecondBox = [
@@ -412,6 +413,13 @@ const Index = () => {
       </section>
 
       {/* Azaan */}
+      <section className="calltoaction">
+        <div className="calltoaction-wrapper">
+          <div className="container">
+            <Calltoaction />
+          </div>
+        </div>
+      </section>
       <section className="asked-question">
         <div className="asked-question-wrapper">
           <div className="container">
