@@ -1,23 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import H5 from "../Typography/H5";
 import Para from "../Typography/Para";
 import H6 from "../Typography/H6";
 import H3 from "../Typography/H3";
+import { FiPlus } from "react-icons/fi";
+import { TiMinus } from "react-icons/ti";
 const Accordian = ({items, index}) => {
+  const [active, setActive] = useState(items.value)
+console.log(active, "active")
   return (
     <>
         <div class="accordion-item" key={index}>
           <h2 class="accordion-header" id={items.accordianid}>
             <button
-              class="accordion-button text-white"
+              class="accordion-button text-white d-flex justify-content-between align-items-center"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target={items.datatargetid}
               aria-expanded="true"
               aria-controls={items.collapseid}
             >
+              <div className="d-flex justify-content-between align-items-center">
                 <H3 title={items.title} />
-             
+{active ? <FiPlus /> : <TiMinus /> }
+              </div>
             </button>
           </h2>
           <div

@@ -19,6 +19,12 @@ import H4 from "@/components/Typography/H4";
 import { GiSevenPointedStar } from "react-icons/gi";
 import Image from "next/image";
 import Calltoaction from "@/components/CalltoAction/Calltoaction";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 const Index = () => {
   const SecondBox = [
@@ -72,6 +78,7 @@ const Index = () => {
       collapseid: "collapseOne",
       datatargetid: "#collapseOne",
       title: "How will AI Talk Assist benefit my business?",
+      value: true,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -101,6 +108,7 @@ const Index = () => {
       collapseid: "collapseTwo",
       title: "How does it work?",
       datatargetid: "#collapseTwo",
+      value: true,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -130,6 +138,7 @@ const Index = () => {
       collapseid: "collapseThree",
       title: "Is it easy to use?",
       datatargetid: "#collapseThree",
+      value: true,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -159,6 +168,7 @@ const Index = () => {
       collapseid: "collapseFour",
       title: "Is it secure?",
       datatargetid: "#collapseFour",
+      value: false,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -429,6 +439,28 @@ const Index = () => {
       </section>
 
       {/* Azaan */}
+      <section className="testimonial"></section>
+      {/* <Swiper
+         autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+      modules={[Autoplay,Navigation, Pagination]} // Add modules
+      navigation // Enable navigation arrows
+      pagination={{ clickable: true }} // Enable pagination
+      spaceBetween={30} // Space between slides
+      slidesPerView={1} // Number of slides to show
+    >
+      <SwiperSlide>
+        <div >Slide 1</div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>Slide 2</div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div>Slide 3</div>
+      </SwiperSlide>
+    </Swiper> */}
       <section className="calltoaction">
         <div className="calltoaction-wrapper">
           <div className="container">
