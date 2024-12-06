@@ -317,9 +317,8 @@ const Index = () => {
 
             <div className="row text-center">
               <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="section4-img position-relative border">
-                  <Image src={Mediallayers} className="music-layers "/>
-                  <Image src={mediaframe} className="musicicon position-absolute"/>
+                <div className="section4-img text-center">
+                  <Image src={mediaframe} className="musicicon" />
                 </div>
               </div>
             </div>
@@ -371,15 +370,13 @@ const Index = () => {
               </div>
 
               <div className="col-lg-7 col-md-12 col-sm-12 text-white  CMargin">
-                <div className="customborder section5-quaters">
-                  <span className="section5span1">Sales Overview</span>
-                  <Image src={cardsStats} className="cardsStats "/>
+                <div className=" section5-quaters">
+                  <Image src={cardsStats} className="cardsStats " />
                 </div>
               </div>
               <div className="col-lg-5 col-md-12 col-sm-12 text-white">
                 <div className="customborder section5-quaters">
-                  <span className="section5span1"> Product Statistic</span>
-                  <Image src={Productstats} className="Productstats"/>
+                  <Image src={Productstats} className="Productstats" />
                 </div>
               </div>
             </div>
@@ -422,6 +419,31 @@ const Index = () => {
                   <GiSevenPointedStar className="primary me-3" size={23} /><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="section5para2" />
                 </div>
               </div>
+            </div>
+
+            <div className="row text-center section5lastpara">
+              <Para title="By automating these tasks, 4IR AI Voice Calling not only saves you time and money but also improves lead quality and conversion rates. It empowers your team to focus on higher-value activities, such as strategic planning and relationship building." />
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="section6-wrapper">
+          <div className="container">
+            <div className="row text-center">
+              <div className="section6h1">
+                <H1
+                  title="Industries Revolutionized by 4IR AI"
+                  className="section5h1"
+                />
+                <H1
+                  title="Voice Calling"
+                  className="section5h1"
+                />
+              </div>
+              <Para title="4IR AI Voice Calling is a versatile tool that can significantly impact various industries. Here are a few key sectors where this technology can be a game-changer:" className="section6para1"/>
             </div>
 
           </div>

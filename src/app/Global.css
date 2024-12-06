@@ -156,8 +156,12 @@ p {
     }
 
     h5 {
-        font-size: 2.3rem !important;
+        font-size: 2rem !important;
         line-height: 3.4rem !important;
+    }
+    h6{
+        font-size: 1.8rem !important;
+        line-height: 2.4rem !important;
     }
 
     p {
@@ -166,7 +170,7 @@ p {
     }
 
     .btn-1 {
-        font-size: 22px !important;
+        font-size: 18px !important;
         padding: 13px 66px 13px 66px !important;
     }
 }
@@ -200,7 +204,7 @@ p {
     }
 
     .btn-1 {
-        font-size: 18px !important;
+        font-size: 16px !important;
         padding: 13px 66px 13px 66px !important;
 
     }
@@ -284,6 +288,11 @@ p {
     h1 {
         font-size: 24px !important;
         font-weight: 400 !important;
+    }
+
+    h3{
+        font-size: 22px !important;
+        line-height: 1.5rem !important;
     }
 
     h4 {

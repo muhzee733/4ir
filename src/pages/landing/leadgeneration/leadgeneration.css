@@ -99,10 +99,12 @@
     height: 3px;
     background: white;
 }
+
 .section3para {
     font-size: 32px;
     line-height: 30px;
 }
+
 .section3btn {
     margin: 80px 0px;
 }
@@ -117,27 +119,27 @@
 }
 
 .section4-img {
+    background-image: url("../../../../public/images/mediallayers.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 210px;
     margin: 100px 0px;
 }
 
 .section4bottom {
     margin-bottom: 100px;
 }
-.music-layers {
+.musicicon {
+    width: 180px;
+    height: 180px;
+}
+
+.cardsStats {
     width: 100%;
     height: auto;
 }
-.musicicon{
-    max-width: 100px;
-    max-height: 100px;
-    top: 0% ;
-    left: 45%;
-}
-.cardsStats{
-    width: 100%;
-    height: auto;
-}
-.Productstats{
+
+.Productstats {
     width: 100%;
     height: auto;
 }
@@ -167,60 +169,74 @@
 }
 
 .section5-quaters {
-    padding: 30px 20px 30px 20px;
+    margin-top: 10px;
 }
 
 .section5-Customwidth {
     width: 645px;
 }
+
 /* second Last Section */
-.asked-question-wrapper{
+.asked-question-wrapper {
     min-height: 100vh;
     margin: 50px 0px;
 }
-.frequently-question-content h2{
+
+.frequently-question-content h2 {
     font-size: 64px !important;
 }
-.frequently-question-content p{
+
+.frequently-question-content p {
     font-size: 23px !important;
     padding-bottom: 20px;
 }
-.accordion-item{
+
+.accordion-item {
     margin-bottom: 12px;
     border: 0px !important;
 }
+
 .accordion-button {
-    background-color:var(--accordian-color) !important ;
+    background-color: var(--accordian-color) !important;
     color: var(--white);
 }
-.accordion-body{
+
+.accordion-body {
     background-color: var(--accordian-body-color) !important;
     color: var(--white) !important;
 }
-.accordion-body h5{
+
+.accordion-body h5 {
     font-size: 1.2rem !important;
     line-height: 29px !important;
 }
-.accordion-button:not(.collapsed){
+
+.accordion-button:not(.collapsed) {
     color: var(--white);
 }
-.accordion-body ul li{
+
+.accordion-body ul li {
     font-size: 18px;
 }
+
 .accordion-button:focus {
     box-shadow: unset !important;
 }
-.accordion-body h6{
+
+.accordion-body h6 {
     font-size: 1.2rem !important;
     line-height: 28px !important;
 }
-.accordion-button h3{
+
+.accordion-button h3 {
     font-size: 1.4rem !important;
 }
-.accordion-button:after{
+
+.accordion-button:after {
     background-image: url("../../../../public//images//plus-svgrepo-com.svg") !important;
 }
-.bookDemo-content{
+
+.bookDemo-content {
     margin-left: 15px;
 }
 
@@ -233,24 +249,33 @@
     font-size: 23px !important;
     padding-bottom: 20px;
 }
-.accordion-button:not(.collapsed):after{
+
+.accordion-button:not(.collapsed):after {
     background-image: url("../../../../public//images//plus-svgrepo-com.svg") !important;
 }
 
 /* Call To Action  */
-.calltoaction-content{
-    background: radial-gradient(100% 374.46% at 0% 0%, #00BDFF 0%, #0077F5 50%, #8800FF 100%) ;
+.calltoaction-content {
+    background: radial-gradient(100% 374.46% at 0% 0%, #00BDFF 0%, #0077F5 50%, #8800FF 100%);
     margin: 50px 0px;
     border-radius: 50px;
 }
-.calltoaction-content > p{
-   color: var(--whitecolor) !important;
-   width: 97%;
+
+.calltoaction-content>p {
+    color: var(--whitecolor) !important;
+    width: 97%;
 }
-.calltoaction-content > h3{
-font-size: 4rem !important;
-font-weight: 600 !important;
+
+.calltoaction-content>h3 {
+    font-size: 4rem !important;
+    font-weight: 600 !important;
 }
+/* section 6 */
+.section6para1{
+    width: 700px;
+    margin: auto;
+}
+
 /* .sec-three-wrapper {
     min-height: 100vh;
 } */
@@ -271,11 +296,12 @@ font-weight: 600 !important;
 }
 
 @media screen and (max-width: 1399px) {
-    .calltoaction-content > p{
+    .calltoaction-content>p {
         color: var(--whitecolor) !important;
         font-size: calc(23px - 2px) !important;
         width: 97%;
-     }
+    }
+
     .main-wrapper {
         min-height: 100vh;
     }
@@ -314,9 +340,19 @@ font-weight: 600 !important;
     }
 
     .section2heading {
-        padding-top: 0px !important;
+        padding: 130px 50px 50px 50px !important;
     }
 
+    .section2h6 {
+        margin: 40px 0px;
+    }
+
+    .section4-img {
+        background-size: contain !important;
+        height: 145px;
+
+    }
+    
     .section3-wrapper {
         margin-top: 120px;
     }
@@ -327,13 +363,13 @@ font-weight: 600 !important;
     }
 
     .section3h5::before {
-        left: 120px;
-        width: 120px;
+        left: 180px;
+        width: 100px;
     }
 
     .section3h5::after {
-        right: 120px;
-        width: 120px;
+        right: 180px;
+        width: 100px;
     }
 
     .section4h1 {
@@ -364,33 +400,50 @@ font-weight: 600 !important;
     .section5h3 {
         margin-bottom: 30px;
     }
+    .musicicon {
+        width: 140px;
+        height: 140px;
+    }
+    .section5lastpara{
+        margin: 50px 0px ;
+    }
+    /* section6 */
+    .section6h1{
+        margin: 50px 0px ;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-    .frequently-question-content h2{
+    .frequently-question-content h2 {
         font-size: calc(64px - 10px) !important;
         line-height: 55px !important;
     }
-    .frequently-question-content p{
-        font-size: calc( 23px -5px) !important;
+
+    .frequently-question-content p {
+        font-size: calc(23px -5px) !important;
         padding-bottom: 20px;
     }
-    .accordion-button h3{
+
+    .accordion-button h3 {
         font-size: calc(1.4rem - 3px) !important;
     }
-    .bookDemo-content h2{
+
+    .bookDemo-content h2 {
         font-size: calc(64px - 10px) !important;
         padding-bottom: 10px;
     }
-    .calltoaction-content > h3{
+
+    .calltoaction-content>h3 {
         font-size: calc(4rem - 16px) !important;
         font-weight: 600 !important;
-        }
-        .calltoaction-content > p{
-            color: var(--whitecolor) !important;
-            font-size: calc(23px - 3px ) !important;
-            width: 100%;
-         }
+    }
+
+    .calltoaction-content>p {
+        color: var(--whitecolor) !important;
+        font-size: calc(23px - 3px) !important;
+        width: 100%;
+    }
+
     .colum1 {
         padding: 30px 0px !important;
     }
@@ -451,10 +504,6 @@ font-weight: 600 !important;
         font-size: 18px;
     }
 
-    .section5-quaters {
-        padding: 30px 10px 30px 15px;
-    }
-
     .section5-Customwidth {
         width: 470px;
     }
@@ -462,34 +511,46 @@ font-weight: 600 !important;
     .section5-CustomMargin {
         margin-right: 17px;
     }
-
+    .section4-img{
+        height: 140PX;
+        margin: 60px 0px;
+    }
+    .musicicon {
+        width: 110px;
+        height: 110PX;
+    }
 }
 
 @media screen and (max-width: 992px) {
-    .frequently-question-content > h2{
+    .frequently-question-content>h2 {
         font-size: calc(64px - 20px) !important;
         padding-bottom: 20px !important;
         /* line-height: 80px !important; */
     }
-    .frequently-question-content > p{
-        font-size: calc( 23px -10px) !important;
+
+    .frequently-question-content>p {
+        font-size: calc(23px -10px) !important;
         padding-bottom: 35px !important;
     }
-    .calltoaction-content > h3{
+
+    .calltoaction-content>h3 {
         font-size: calc(4rem - 26px) !important;
         font-weight: 600 !important;
-        }
-        .calltoaction-content > p{
-            color: var(--whitecolor) !important;
-            font-size: calc(23px - 3px ) !important;
-            width: 100%;
-         }
+    }
+
+    .calltoaction-content>p {
+        color: var(--whitecolor) !important;
+        font-size: calc(23px - 3px) !important;
+        width: 100%;
+    }
+
     .second-sec-box-content {
         min-height: 15vh !important;
     }
-    .bookDemo-content p{
-       
-     line-height: 30px !important;
+
+    .bookDemo-content p {
+
+        line-height: 30px !important;
     }
 
     .main-wrapper {
@@ -578,7 +639,6 @@ font-weight: 600 !important;
     }
 
     .section5-quaters {
-        padding: 30px 10px 30px 15px;
         margin-top: 10px;
     }
 
@@ -589,33 +649,43 @@ font-weight: 600 !important;
     .section5-CustomMargin {
         margin-right: 0px;
     }
+    .musicicon {
+        width: 90px;
+        height: 90PX;
+    }
 }
 
 @media screen and (max-width: 768px) {
 
-    .frequently-question-content > h2 {
+    .frequently-question-content>h2 {
         font-size: calc(64px - 25px) !important;
         padding-bottom: 20px !important;
     }
-    .bookDemo-content > h2{
+
+    .bookDemo-content>h2 {
         font-size: calc(64px - 25px) !important;
         padding-bottom: 5px;
-        margin: 0px ;
+        margin: 0px;
     }
-    .bookDemo-content > p{
+
+    .bookDemo-content>p {
         font-size: calc(23px- 6px) !important;
         padding-bottom: 20px;
     }
-    .calltoaction-content > h3{
+
+    .calltoaction-content>h3 {
         font-size: 39px !important;
         font-weight: 600 !important;
-        }
-    .calltoaction-content > h5{
+    }
+
+    .calltoaction-content>h5 {
         font-size: 23px !important;
-        }
-    .calltoaction-content > p{
+    }
+
+    .calltoaction-content>p {
         font-size: 18px !important;
-        }
+    }
+
     .colum1 {
         padding-top: 36px !important;
         padding-bottom: 0px !important;
@@ -701,6 +771,15 @@ font-weight: 600 !important;
     .section5h1 {
         font-size: 32px !important;
     }
+    .section4-img{
+        height: 80px !important;
+        margin: 60px 0px;
+    }
+    .musicicon {
+        width: 70px;
+        height: 70PX;
+    }
+
     /*  */
     .section5heading {
         margin-bottom: 10px;
@@ -720,7 +799,6 @@ font-weight: 600 !important;
     }
 
     .section5-quaters {
-        padding: 20px 10px 20px 15px;
         margin-top: 10px;
     }
 
@@ -734,43 +812,52 @@ font-weight: 600 !important;
 }
 
 @media screen and (max-width: 576px) {
-    .frequently-question-content{
+    .frequently-question-content {
         padding: 0px 30px;
     }
-    .frequently-question-content > h2{
+
+    .frequently-question-content>h2 {
         font-size: calc(64px - 30px) !important;
         line-height: 40px !important;
         padding-bottom: 10px !important;
     }
-    .frequently-question-content p{
-        font-size: calc( 23px - 6px) !important;
+
+    .frequently-question-content p {
+        font-size: calc(23px - 6px) !important;
         padding-bottom: 30px;
     }
-    .bookDemo-content > h2{
+
+    .bookDemo-content>h2 {
         font-size: calc(64px - 30px) !important;
         padding-bottom: 0px;
         margin: 0px !important;
     }
-    .bookDemo-content > p{
+
+    .bookDemo-content>p {
         font-size: calc(23px - 5px) !important;
         padding-bottom: 10px;
         line-height: 25px !important;
     }
-    .bookDemo-content{
+
+    .bookDemo-content {
         padding: 0px 20px;
     }
-    .calltoaction-content > h3{
+
+    .calltoaction-content>h3 {
         font-size: 34px !important;
         font-weight: 600 !important;
-        }
-    .calltoaction-content > p{
+    }
+
+    .calltoaction-content>p {
         font-size: 18px !important;
         line-height: 25px !important;
-        }
-    .calltoaction-content > h5{
+    }
+
+    .calltoaction-content>h5 {
         font-size: 22px !important;
         line-height: 25px !important;
-        }
+    }
+
     .colum1 {
         padding: 0px 0px !important;
     }
@@ -829,7 +916,7 @@ font-weight: 600 !important;
     }
 
     .section3-span1 {
-        font-size: 45px;
+        font-size: 35px;
         line-height: 45px;
     }
 
@@ -858,10 +945,12 @@ font-weight: 600 !important;
     .section5h1 {
         font-size: 24px !important;
     }
+
     /*  */
-    .section5-wrapper{
+    .section5-wrapper {
         padding: 0px 20px 0px 20px;
     }
+
     .section5heading {
         margin-bottom: 10px;
     }
@@ -880,7 +969,6 @@ font-weight: 600 !important;
     }
 
     .section5-quaters {
-        padding: 15px 10px 15px 15px;
         margin-top: 8px;
     }
 
@@ -890,5 +978,18 @@ font-weight: 600 !important;
 
     .section5-CustomMargin {
         margin-right: 0px;
+    }
+    .section4-img{
+        height: 60px !important;
+    }
+    .musicicon {
+        width: 60px;
+        height: 60PX;
+    }
+    .section2center{
+        padding: 0px 20px ;
+    }
+    .section5para2{
+        margin-bottom: 5px !important;
     }
 }
