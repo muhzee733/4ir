@@ -63,9 +63,9 @@ h2 {
 
 h3 {
     font-family: var(--font-instrument);
-    line-height: 3.3rem;
+    /* line-height: 3.3rem !important; */
     word-spacing: 3px;
-    font-size: 72px;
+    /* font-size: 72px !important; */
     font-weight: 500;
     color: var(--whitecolor) !important;
 }

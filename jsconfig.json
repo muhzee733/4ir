@@ -3,7 +3,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
-      "@/images/*": ["./public/assets/images/*"],
+      "@/images/*": ["./public/images/*"],
       // "@/svg/*": ["./public/assets/svg/*"],      
     }
   }

@@ -11,10 +11,12 @@ import H6 from "@/components/Typography/H6";
 import Card1 from "@/components/cards/Card1";
 import H2 from "@/components/Typography/H2";
 import Accordian from "@/components/Accordian/Accordian";
-// import Mediallayers from "@/images/mediallayers.png"
-// import cardsStats from "../../../../public/images/cardsStats.png"
+import Mediallayers from "@/images/mediallayers.png"
+import mediaframe from "@/images/mediaframe.png"
+import cardsStats from "@/images/cardsStats.png"
 import H4 from "@/components/Typography/H4";
 import { GiSevenPointedStar } from "react-icons/gi";
+import Image from "next/image";
 
 const Index = () => {
   const SecondBox = [
@@ -311,10 +313,11 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="row">
+            <div className="row text-center">
               <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="section4-img border">
-                  {/* <img src={Mediallayers} /> */}
+                <div className="section4-img position-relative border">
+                  <Image src={Mediallayers} className="music-layers "/>
+                  <Image src={mediaframe} className="musicicon position-absolute"/>
                 </div>
               </div>
             </div>
@@ -356,20 +359,19 @@ const Index = () => {
             <div className="row customborder section5-2ndrow">
 
               <div className="col-lg-12 col-md-12 col-sm-12">
-                <H4 title="1. Lead Capture and CRM Integration" />
-                <div className="d-flex align-items-center">
-                  <GiSevenPointedStar className="primary me-3" size={20}/><Para title="Your sales or marketing team generates leads, which are then added to your CRM system." className="section5para2" />
+                <H3 title="1. Lead Capture and CRM Integration" className="section5h3" />
+                <div className="d-flex ">
+                  <GiSevenPointedStar className="primary me-3" size={20} /><Para title="Your sales or marketing team generates leads, which are then added to your CRM system." className="section5para2" />
                 </div>
-                <div className="d-flex align-items-center">
-                  <GiSevenPointedStar className="primary me-3" size={20}/><Para title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data." className="section5para2" />
+                <div className="d-flex ">
+                  <GiSevenPointedStar className="primary me-3" size={20} /><Para title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data." className="section5para2" />
                 </div>
               </div>
-
 
               <div className="col-lg-7 col-md-12 col-sm-12 text-white  CMargin">
                 <div className="customborder section5-quaters">
                   <span className="section5span1">Sales Overview</span>
-                  {/* <img src={cardsStats}/> */}
+                  <Image src={cardsStats} width={200}/>
                 </div>
               </div>
               <div className="col-lg-5 col-md-12 col-sm-12 text-white">
@@ -380,33 +382,46 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="row border d-flex justify-content-center">
+            <div className="row d-flex justify-content-center">
 
-              <div className="col-lg-6 col-md-6 col-sm-6 customborder section5-2ndrow section5-CustomMargin ">
+              <div className="col-lg-6 col-md-6 col-sm-6 customborder section5-2ndrow section5-CustomMargin section5-Customwidth">
                 <div className="">
-                  <H3 title="2. Automated Outbound Calling" />
-                  <div className="d-flex align-items-center">
-                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="" />
+                  <H3 title="2. Automated Outbound Calling" className="section5h3" />
+                  <div className="d-flex">
+                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="section5para2" />
                   </div>
-                  <div className="d-flex align-items-center">
-                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="" />
+                  <div className="d-flex ">
+                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="section5para2" />
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-6 col-md-6 col-sm-6  customborder section5-2ndrow section5-CustomMargin">
+              <div className="col-lg-6 col-md-6 col-sm-6  customborder section5-2ndrow section5-Customwidth">
                 <div className="">
-                  <H3 title="3. Intelligent Conversations" />
-                  <div className="d-flex align-items-center">
-                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="" />
+                  <H3 title="3. Intelligent Conversations" className="section5h3" />
+                  <div className="d-flex ">
+                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="section5para2" />
                   </div>
-                  <div className="d-flex align-items-center">
-                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="" />
+                  <div className="d-flex ">
+                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="section5para2" />
                   </div>
                 </div>
               </div>
 
             </div>
+
+            <div className="row">
+              <div className="col-lg-12 col-md-12 customborder section5-2ndrow">
+                <H3 title="2. Automated Outbound Calling" className="section5h3" />
+                <div className="d-flex ">
+                  <GiSevenPointedStar className="primary me-3" size={23} /><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="section5para2" />
+                </div>
+                <div className="d-flex ">
+                  <GiSevenPointedStar className="primary me-3" size={23} /><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="section5para2" />
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -432,11 +447,11 @@ const Index = () => {
                   <H2 title="Book a" spanTitle="Demo" breakpoint={true} />
                   <Para title="Ready to see AI Talk Assist in action? Schedule your FREE demo now and discover how it can transform your customer interactions and boost productivity! Pick a time that works best for you below." />
                   <iframe
-               className="calendly-inline-widget"
-               src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
-               style={{minWidth: "100%", height: "500px" }}
-                loading="lazy"
-              ></iframe>
+                    className="calendly-inline-widget"
+                    src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
+                    style={{ minWidth: "100%", height: "500px" }}
+                    loading="lazy"
+                  ></iframe>
                 </div>
               </div>
             </div>
