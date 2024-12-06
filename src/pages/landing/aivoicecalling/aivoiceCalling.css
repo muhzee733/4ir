@@ -1,3 +1,4 @@
+
 .banner-content {
   min-height: 100vh;
   display: flex;
@@ -73,7 +74,97 @@
   font-size: 32px !important;
   margin-bottom: 50px;
 }
+
+/* YOutube Video */
+
+.youtube-video-video {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0px;
+}
+.youtube-video img {
+  border-radius: 12px;
+}
+.youtube-video iframe {
+  border-radius: 12px;
+}
+.leads-upper-content {
+  width: 85%;
+  margin: 0 auto;
+}
+.leads-upper-content .banner-heading-top {
+  margin: 0 auto;
+}
+.leads-upper-content h2 {
+  line-height: 70px !important;
+  padding-top: 30px;
+}
+.leads-lower-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.leads-lower-content .card {
+  background: linear-gradient(
+    178.34deg,
+    rgba(102, 102, 102, 0.16) 1.76%,
+    rgba(0, 0, 0, 0.16) 98.95%
+  );
+  width: 30%;
+  border: 1px solid rgba(40, 40, 40, 1);
+  border-radius: 18px;
+}
+.leads-lower-content h5 {
+  font-size: 26px !important;
+  font-weight: 500;
+  line-height: 43.92px !important;
+  text-align: left;
+}
+.leads-lower-content p {
+  font-size: 20px !important;
+  font-weight: 400;
+  line-height: 28px !important;
+  text-align: left;
+}
+.leads-lower-content img{
+  width: 70%;
+}
+.img-card{
+  text-align: center;
+  display: inline-block;
+  background: rgba(0, 189, 255, 1);
+  border-radius: 50px;
+  padding: 15px 8px;
+  width:25%;
+}
+
+@media screen and (min-width: 1400px) {
+  .banner-content {
+    min-height: 83vh !important;
+  }
+}
 @media screen and (max-width: 1399px) {
+  .banner-second-heading h1 {
+    font-size: calc(96px - 20px) !important;
+    line-height: 80px !important;
+  }
+  .banner-second-heading h6 {
+    font-size: 24px !important;
+  }
+  .banner-second-heading {
+    width: 70%;
+  }
+  .banner-logo img {
+    max-width: calc(100% - 25%);
+  }
+  .banner-logo {
+    margin-top: 40px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .banner-second-heading h1 {
