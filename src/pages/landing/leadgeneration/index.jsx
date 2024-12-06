@@ -45,118 +45,138 @@ const Index = () => {
     {
       id: 1,
       title: "Save Time, Boost Sales by 70%",
-      para: "With our 100% Done-For-You solution, we handle everything from setup to customization, so you can focus on growing your business."
+      para: "With our 100% Done-For-You solution, we handle everything from setup to customization, so you can focus on growing your business.",
     },
     {
       id: 2,
       title: "Always Evolving",
-      para: "Our self-learning AI adapts to new technologies, keeping your business ahead of the curve without the need for constant upgrades"
+      para: "Our self-learning AI adapts to new technologies, keeping your business ahead of the curve without the need for constant upgrades",
     },
     {
       id: 1,
       title: "Secure & Scalable",
-      para: "Bank-level encryption ensures your data stays safe, while our scalable platform grows with your business."
+      para: "Bank-level encryption ensures your data stays safe, while our scalable platform grows with your business.",
     },
-  ]
-  const Accordianapi=[
+  ];
+  const Accordianapi = [
     {
       id: 1,
       accordianid: "headingOne",
-      collapseid:"collapseOne",
+      collapseid: "collapseOne",
       datatargetid: "#collapseOne",
       title: "How will AI Talk Assist benefit my business?",
-          heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-          ulitems:[
-            {
-            liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
-            },
-            {
-            liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
-            },
-            {
-            liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
-            },
-            {
-            liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
-            },
-
-          ],
-          heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
+        {
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+        },
+        {
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+        },
+        {
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+        },
+        {
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+        },
+      ],
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
     },
     {
       id: 2,
       accordianid: "headingTwo",
-      collapseid:"collapseTwo",
+      collapseid: "collapseTwo",
       title: "How does it work?",
       datatargetid: "#collapseTwo",
-      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems:[
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
         {
-        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
         },
         {
-        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
         },
         {
-        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
         },
         {
-        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
         },
-
       ],
-      heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
     },
     {
       id: 3,
       accordianid: "headingThree",
-      collapseid:"collapseThree",
+      collapseid: "collapseThree",
       title: "Is it easy to use?",
       datatargetid: "#collapseThree",
-      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems:[
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
         {
-        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
         },
         {
-        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
         },
         {
-        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
         },
         {
-        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
         },
-
       ],
-      heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
     },
     {
       id: 4,
       accordianid: "headingFour",
-      collapseid:"collapseFour",
+      collapseid: "collapseFour",
       title: "Is it secure?",
       datatargetid: "#collapseFour",
-      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems:[
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
         {
-        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
         },
         {
-        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
         },
         {
-        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
         },
         {
-        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
         },
-
       ],
-      heading2:"By prioritizing security, we ensure the protection of your business and customer data.",
-      show:"show",
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
+      show: "show",
     },
-  ]
+  ];
   return (
     <Layout>
       {/* shahbaz */}
@@ -259,12 +279,13 @@ const Index = () => {
                     className="text-center section3h5"
                   />
                 </div>
-                <Para title="Transform your sales process in just two days—no long wait times, no hassle." className="text-center section3para" />
+                <Para
+                  title="Transform your sales process in just two days—no long wait times, no hassle."
+                  className="text-center section3para"
+                />
 
                 <div className="text-center section3btn">
-                  <button className="btn-1">
-                    Get Started with AI
-                  </button>
+                  <button className="btn-1">Get Started with AI</button>
                 </div>
               </div>
             </div>
@@ -282,10 +303,7 @@ const Index = () => {
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
                 <div className="section4heading text-center">
-                  <H1
-                    title="Give It a Try"
-                    className="section4h1"
-                  />
+                  <H1 title="Give It a Try" className="section4h1" />
                 </div>
               </div>
             </div>
@@ -302,10 +320,25 @@ const Index = () => {
                 <div className="frequently-question-content">
                   <H2 title="Frequently Asked Question" />
                   <Para title="Book a Demo if you have any more questions." />
-               <Accordian Accordianapi={Accordianapi}/>
+                  <div class="accordion" id="accordionExample">
+                    {Accordianapi.map((items, index) => {
+                      return <Accordian items={items} index={index} />;
+                    })}
+                  </div>
                 </div>
               </div>
-              <div className="col-lg-6"></div>
+              <div className="col-lg-6">
+                <div className="bookDemo-content">
+                  <H2 title="Book a" spanTitle="Demo" breakpoint={true} />
+                  <Para title="Ready to see AI Talk Assist in action? Schedule your FREE demo now and discover how it can transform your customer interactions and boost productivity! Pick a time that works best for you below." />
+                  <iframe
+               className="calendly-inline-widget"
+               src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
+               style={{minWidth: "100%", height: "500px" }}
+                loading="lazy"
+              ></iframe>
+                </div>
+              </div>
             </div>
           </div>
         </div>
