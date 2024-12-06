@@ -3,59 +3,52 @@ import H5 from "../Typography/H5";
 import Para from "../Typography/Para";
 import H6 from "../Typography/H6";
 import H3 from "../Typography/H3";
-const Accordian = () => {
+const Accordian = ({Accordianapi}) => {
   return (
     <>
       <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
+        {Accordianapi.map((items)=>{
+          return(
+        <div class="accordion-item" key={items.id}>
+          <h2 class="accordion-header" id={items.accordianid}>
             <button
               class="accordion-button text-white"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
+              data-bs-target={items.datatargetid}
               aria-expanded="true"
-              aria-controls="collapseOne"
+              aria-controls={items.collapseid}
             >
-                <H3 title="How will AI Talk Assist benefit my business?" />
+                <H3 title={items.title} />
              
             </button>
           </h2>
           <div
-            id="collapseOne"
-            class="accordion-collapse collapse show"
-            aria-labelledby="headingOne"
+            id={items.collapseid}
+            class={`accordion-collapse collapse ${items.show} `}
+            aria-labelledby={items.accordianid}
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
               <H5
-                title="We prioritize the security of your data and customer
-                          interactions. Our AI Voice Calling Assistant employs
-                          robust security measures:"
+                title={items.heading}
               />
               <ul style={{ color: "white" }}>
+                {items.ulitems.map((item)=>{
+                  return(
+
                 <li>
-                Data Encryption: Sensitive customer data is
-                              encrypted to prevent unauthorized access.
+              {item.liItems}
                 </li>
-                <li>
-                  Data Encryption: Sensitive customer data is encrypted to
-                  prevent unauthorized access.
-                </li>
-                <li>
-                  Data Encryption: Sensitive customer data is encrypted to
-                  prevent unauthorized access.
-                </li>
-                <li>
-                  Data Encryption: Sensitive customer data is encrypted to
-                  prevent unauthorized access.
-                </li>
+                  )
+                })}
               </ul>
-              <H6 title="By prioritizing security, we ensure the protection of your
-              business and customer data." />
+              <H6 title={items.heading2} />
             </div>
           </div>
-        </div>
+        </div>  
+          )
+        })}
         {/* <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button

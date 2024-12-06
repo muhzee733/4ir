@@ -58,14 +58,105 @@ const Index = () => {
       para: "Bank-level encryption ensures your data stays safe, while our scalable platform grows with your business."
     },
   ]
-  // const Accordian=[
-  //   {
-  //     id: 1,
-  //     accordianid: "headingOne",
+  const Accordianapi=[
+    {
+      id: 1,
+      accordianid: "headingOne",
+      collapseid:"collapseOne",
+      datatargetid: "#collapseOne",
+      title: "How will AI Talk Assist benefit my business?",
+          heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+          ulitems:[
+            {
+            liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+            },
+            {
+            liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+            },
+            {
+            liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+            },
+            {
+            liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+            },
 
+          ],
+          heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+    },
+    {
+      id: 2,
+      accordianid: "headingTwo",
+      collapseid:"collapseTwo",
+      title: "How does it work?",
+      datatargetid: "#collapseTwo",
+      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems:[
+        {
+        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+        },
+        {
+        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+        },
+        {
+        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+        },
+        {
+        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+        },
 
-  //   }
-  // ]
+      ],
+      heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+    },
+    {
+      id: 3,
+      accordianid: "headingThree",
+      collapseid:"collapseThree",
+      title: "Is it easy to use?",
+      datatargetid: "#collapseThree",
+      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems:[
+        {
+        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+        },
+        {
+        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+        },
+        {
+        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+        },
+        {
+        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+        },
+
+      ],
+      heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+    },
+    {
+      id: 4,
+      accordianid: "headingFour",
+      collapseid:"collapseFour",
+      title: "Is it secure?",
+      datatargetid: "#collapseFour",
+      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems:[
+        {
+        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+        },
+        {
+        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+        },
+        {
+        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+        },
+        {
+        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+        },
+
+      ],
+      heading2:"By prioritizing security, we ensure the protection of your business and customer data.",
+      show:"show",
+    },
+  ]
   return (
     <Layout>
       {/* shahbaz */}
@@ -211,7 +302,7 @@ const Index = () => {
                 <div className="frequently-question-content">
                   <H2 title="Frequently Asked Question" />
                   <Para title="Book a Demo if you have any more questions." />
-               <Accordian />
+               <Accordian Accordianapi={Accordianapi}/>
                 </div>
               </div>
               <div className="col-lg-6"></div>
