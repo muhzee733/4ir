@@ -11,7 +11,10 @@ import H6 from "@/components/Typography/H6";
 import Card1 from "@/components/cards/Card1";
 import H2 from "@/components/Typography/H2";
 import Accordian from "@/components/Accordian/Accordian";
-// import api from "../../../../public/video/api.mp4"
+// import Mediallayers from "@/images/mediallayers.png"
+// import cardsStats from "../../../../public/images/cardsStats.png"
+import H4 from "@/components/Typography/H4";
+import { GiSevenPointedStar } from "react-icons/gi";
 
 const Index = () => {
   const SecondBox = [
@@ -58,103 +61,103 @@ const Index = () => {
       para: "Bank-level encryption ensures your data stays safe, while our scalable platform grows with your business."
     },
   ]
-  const Accordianapi=[
+  const Accordianapi = [
     {
       id: 1,
       accordianid: "headingOne",
-      collapseid:"collapseOne",
+      collapseid: "collapseOne",
       datatargetid: "#collapseOne",
       title: "How will AI Talk Assist benefit my business?",
-          heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-          ulitems:[
-            {
-            liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
-            },
-            {
-            liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
-            },
-            {
-            liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
-            },
-            {
-            liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
-            },
+      heading: "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
+        {
+          liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+        },
+        {
+          liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+        },
+        {
+          liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+        },
+        {
+          liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+        },
 
-          ],
-          heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+      ],
+      heading2: "By prioritizing security, we ensure the protection of your business and customer data."
     },
     {
       id: 2,
       accordianid: "headingTwo",
-      collapseid:"collapseTwo",
+      collapseid: "collapseTwo",
       title: "How does it work?",
       datatargetid: "#collapseTwo",
-      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems:[
+      heading: "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
         {
-        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+          liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
         },
         {
-        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+          liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
         },
         {
-        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+          liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
         },
         {
-        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+          liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
         },
 
       ],
-      heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+      heading2: "By prioritizing security, we ensure the protection of your business and customer data."
     },
     {
       id: 3,
       accordianid: "headingThree",
-      collapseid:"collapseThree",
+      collapseid: "collapseThree",
       title: "Is it easy to use?",
       datatargetid: "#collapseThree",
-      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems:[
+      heading: "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
         {
-        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+          liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
         },
         {
-        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+          liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
         },
         {
-        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+          liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
         },
         {
-        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+          liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
         },
 
       ],
-      heading2:"By prioritizing security, we ensure the protection of your business and customer data."
+      heading2: "By prioritizing security, we ensure the protection of your business and customer data."
     },
     {
       id: 4,
       accordianid: "headingFour",
-      collapseid:"collapseFour",
+      collapseid: "collapseFour",
       title: "Is it secure?",
       datatargetid: "#collapseFour",
-      heading:"We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems:[
+      heading: "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
         {
-        liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
+          liItems: "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access."
         },
         {
-        liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
+          liItems: "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure."
         },
         {
-        liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
+          liItems: "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities."
         },
         {
-        liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
+          liItems: "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards."
         },
 
       ],
-      heading2:"By prioritizing security, we ensure the protection of your business and customer data.",
-      show:"show",
+      heading2: "By prioritizing security, we ensure the protection of your business and customer data.",
+      show: "show",
     },
   ]
   return (
@@ -278,7 +281,7 @@ const Index = () => {
 
       <section>
         <div className="section4-wrapper">
-          <div className="container">
+          <div className="container-fluid ">
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12">
                 <div className="section4heading text-center">
@@ -288,6 +291,103 @@ const Index = () => {
                   />
                 </div>
               </div>
+            </div>
+
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12">
+                <div className="section4-img border">
+                  {/* <img src={Mediallayers} /> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="div col-lg-12 text-center">
+                <div className="section4bottom">
+                  <H4 title="The AI landscape is constantly evolving. Outdated" className="section4h4" />
+                  <H4 title="technology can hinder your growth." className="section4h4" />
+
+                </div>
+                <button className="btn-1">Explore AI Talk Assets Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="section5-wrapper">
+          <div className="container">
+
+            <div className="row text-center">
+              <div className="col-lg-12 col-md-12 col-sm-12">
+                <div className="section5heading">
+                  <H1
+                    title="How Does 4IR AI Voice Calling"
+                    className="section5h1"
+                  />
+                  <H1
+                    title="Exactly Work?"
+                    className="section5h1"
+                  />
+                </div>
+                <Para title="Imagine a future where your lead generation process is automated, efficient, and highly effective. 4IR AI Voice Calling makes this a reality. Here's how it works:" className="section5para1" />
+              </div>
+            </div>
+
+            <div className="row customborder section5-2ndrow">
+
+              <div className="col-lg-12 col-md-12 col-sm-12">
+                <H4 title="1. Lead Capture and CRM Integration" />
+                <div className="d-flex align-items-center">
+                  <GiSevenPointedStar className="primary me-3" size={20}/><Para title="Your sales or marketing team generates leads, which are then added to your CRM system." className="section5para2" />
+                </div>
+                <div className="d-flex align-items-center">
+                  <GiSevenPointedStar className="primary me-3" size={20}/><Para title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data." className="section5para2" />
+                </div>
+              </div>
+
+
+              <div className="col-lg-7 col-md-12 col-sm-12 text-white  CMargin">
+                <div className="customborder section5-quaters">
+                  <span className="section5span1">Sales Overview</span>
+                  {/* <img src={cardsStats}/> */}
+                </div>
+              </div>
+              <div className="col-lg-5 col-md-12 col-sm-12 text-white">
+                <div className="customborder section5-quaters">
+                  <span className="section5span1"> Product Statistic</span>
+                  {/* <img src={cardsStats}/> */}
+                </div>
+              </div>
+            </div>
+
+            <div className="row border d-flex justify-content-center">
+
+              <div className="col-lg-6 col-md-6 col-sm-6 customborder section5-2ndrow section5-CustomMargin ">
+                <div className="">
+                  <H3 title="2. Automated Outbound Calling" />
+                  <div className="d-flex align-items-center">
+                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="" />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6 col-md-6 col-sm-6  customborder section5-2ndrow section5-CustomMargin">
+                <div className="">
+                  <H3 title="3. Intelligent Conversations" />
+                  <div className="d-flex align-items-center">
+                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="" />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <GiSevenPointedStar className="primary me-3" size={40}/><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="" />
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -302,7 +402,7 @@ const Index = () => {
                 <div className="frequently-question-content">
                   <H2 title="Frequently Asked Question" />
                   <Para title="Book a Demo if you have any more questions." />
-               <Accordian Accordianapi={Accordianapi}/>
+                  <Accordian Accordianapi={Accordianapi} />
                 </div>
               </div>
               <div className="col-lg-6"></div>

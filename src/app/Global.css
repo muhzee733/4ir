@@ -15,14 +15,15 @@
     --accent: #000000;
     --backgorund: #0A101C;
     --border: #3C3E46;
-    --card-shadowcolor:#00BDFF40;
+    --card-shadowcolor: #00BDFF40;
+    --accordian-color: #12202A;
+    --accordian-body-color: #090E19;
+    --card-background-color: #02060F;
     /* global font  */
     --font-play: "Play", sans-serif;
     --font-roboto: "Roboto", sans-serif;
     --font-instrument: "Instrument ", sans-serif;
-    --accordian-color: #12202A;
---accordian-body-color:#090E19;
-
+    
 }
 
 body {
@@ -109,10 +110,12 @@ p {
     border-radius: 15px;
     background: radial-gradient(50% 136.52% at 50% 50%, #8700FF 0%, #510099 100%);
 }
+
 .btn-1:hover {
     box-shadow: 0px 4px 73.2px 0px #042A94;
 }
-.btn-2{
+
+.btn-2 {
     color: var(--whitecolor);
     background-color: transparent;
     border: 4px solid #00BDFF;
@@ -122,10 +125,11 @@ p {
     border-radius: 50px;
     font-weight: 400 !important;
 }
-.btn-2:hover{
+
+.btn-2:hover {
     background: radial-gradient(79.65% 290.01% at 20.35% 35.82%, #00BDFF 0%, #8800FF 100%);
     transition: all.3s;
-  
+
 }
 
 .customborder {
@@ -144,6 +148,11 @@ p {
     h1 {
         font-size: 46px !important;
         line-height: 55px !important;
+    }
+
+    h4 {
+        font-size: 40px !important;
+        line-height: 3rem !important;
     }
 
     h5 {
@@ -168,6 +177,11 @@ p {
         font-size: 36px !important;
         font-weight: 400 !important;
         line-height: 48px !important;
+    }
+
+    h4 {
+        font-size: 34px !important;
+        line-height: 2.4rem !important;
     }
 
     h5 {
@@ -199,6 +213,11 @@ p {
         line-height: 44px !important;
     }
 
+    h4 {
+        font-size: 28px !important;
+        line-height: 2rem !important;
+    }
+
     h5 {
         font-size: 1.3rem !important;
         line-height: 3.4rem !important;
@@ -226,6 +245,11 @@ p {
     h1 {
         font-size: 38px !important;
         line-height: 42px !important;
+    }
+
+    h4 {
+        font-size: 24px !important;
+        line-height: 1.5rem !important;
     }
 
     h5 {
@@ -261,6 +285,12 @@ p {
         font-size: 24px !important;
         font-weight: 400 !important;
     }
+
+    h4 {
+        font-size: 18px !important;
+        line-height: 1.2rem !important;
+    }
+
 
     h5 {
         font-size: 12px !important;

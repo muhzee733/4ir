@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@/images/*": ["./public/assets/images/*"],
+      // "@/svg/*": ["./public/assets/svg/*"],      
     }
   }
 }

@@ -150,8 +150,39 @@
     color: var(--primary) !important;
     font-size: 98px !important;
 }
+.section4-img{
+    margin: 100px 0px ;
+}
+.section4bottom{
+    margin-bottom: 100px  ;
+}
+/* Section 5 */
+.section5h1{
+    font-weight: 700 !important;
+}
+.section5heading{
+    margin-bottom: 50px;
+}
+.section5para1{
+    font-size: 23px;
+}
+.section5-2ndrow{
+    background-color: var(--card-background-color);
+    padding: 70px 40px 30px 40px;
+}
+.section5span1{
+    font-size: 23px;
+    font-family: var(--font-instrument);
+}
+.section5-quaters{
+    padding: 30px 20px 30px 20px;
+}
+.section5-CustomMargin{
+    width: 650px;
+}
 
 
+/*  */
 .accordion-button:not(.collapsed):after{
     background-image: url("../../../../public//images//plus-svgrepo-com.svg") !important;
 }
@@ -168,6 +199,10 @@
     .section3-wrapper {
         margin-top: 140px;
     }
+    .CMargin{
+        padding-right: 5px;
+    }
+    
 }
 
 @media screen and (max-width: 1399px) {
@@ -229,6 +264,9 @@
         right: 120px;
         width: 120px;
     }
+    .section4h1{
+        font-size: 80px !important;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -272,6 +310,9 @@
     .section3h5::after {
         right: 110px;
         width: 100px;
+    }
+    .section4h1{
+        font-size: 60px !important;
     }
 
 }
@@ -331,6 +372,12 @@
     }
     .section3btn{
         margin: 40px 0px ;
+    }
+    .section4-wrapper{
+        margin: 120px 0px !important;
+    }
+    .section4bottom{
+        margin-bottom: 80px  ;
     }
 }
 
@@ -406,6 +453,12 @@
     }
     .section3btn{
         margin: 20px 0px ;
+    }
+    .section4h1{
+        font-size: 45px !important;
+    }
+    .section4bottom{
+        margin-bottom: 50px  ;
     }
 }
 
@@ -486,5 +539,8 @@
     }
     .section3btn{
         margin: 20px 0px ;
+    }
+    .section4bottom{
+        margin-bottom: 20px  ;
     }
 }
