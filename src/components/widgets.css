@@ -6,7 +6,8 @@
 .SecondSecBoxCol {
     margin-bottom: 20px;
 }
-.card1{
+
+.card1 {
     border: 2px solid var(--border) !important;
     border-radius: 15px;
     width: 421px;
@@ -14,16 +15,55 @@
     margin: 5px 5px;
     box-shadow: 0px 4px 76.7px 0px var(--card-shadowcolor);
 }
+
 .card1:hover {
     border: 2px solid var(--primary) !important;
     transition: color 0.3s ease-in-out;
 }
-.card1:hover .card1h5{
+
+.card1:hover .card1h5 {
     color: var(--primary) !important;
     transition: color 0.3s ease-in-out;
 }
-.card1h5{
+
+.card1h5 {
     margin-bottom: 30px;
+}
+
+.main-body {
+    border: 1px solid var(--primary);
+    border-radius: 15px;
+    margin-top: 80px;
+}
+
+.card-inner-img {
+    width: 30px;
+    height: auto;
+}
+
+.card-img {
+    background: radial-gradient(100.18% 100.18% at -0.44% 0%, #004CAE 0%, #040525 100%);
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    top: -50px;
+}
+
+@media screen and (min-width: 1400px) {
+    .main-body{
+        width: 420px;
+        height: 650px;
+        padding: 80px 0px 80px 20px;
+    }
+    .card-para1{
+        font-size: 25px !important;
+    }
+    .card-para2{
+        font-size: 25px !important;
+    }
+    .card-div{
+        margin: 30px 0px;
+    }
 }
 
 
@@ -32,13 +72,27 @@
         height: 100px;
         /* padding: 0px 48px 0px 18px !important; */
     }
-    .SecondSecBoxPara{
+
+    .SecondSecBoxPara {
         font-size: 22px !important;
     }
-    .card1{
+
+    .card1 {
         width: 360px;
         padding: 50px 25px;
         margin: 5px 5px;
+    }
+    .main-body{
+        height: 490px;
+        padding: 60px 0px 0px 20px;
+    }
+    .card-img {
+        width: 80px;
+        height: 80px;
+        top: -40px;
+    }
+    .card-div{
+        margin: 20px 0px;
     }
 }
 
@@ -47,13 +101,27 @@
         height: 160px;
         padding: 0px 8px 0px 18px !important;
     }
-    .SecondSecBoxPara{
+
+    .SecondSecBoxPara {
         font-size: 22px !important;
     }
-    .card1{
+
+    .card1 {
         width: 300px;
         padding: 50px 25px;
         margin: 5px 5px;
+    }
+    .main-body{
+        height: 470px;
+        padding: 50px 0px 0px 20px;
+    }
+    .card-img {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+    }
+    .card-div{
+        margin: 10px 0px;
     }
 }
 
@@ -62,16 +130,31 @@
         height: 130px;
         padding: 0px 8px 0px 14px !important;
     }
-    .SecondSecBoxPara{
+
+    .SecondSecBoxPara {
         font-size: 20px !important;
-    } 
-    .card1{
+    }
+
+    .card1 {
         width: 220px;
         padding: 30px 25px;
         margin: 5px 5px;
     }
-    .card1h5{
+
+    .card1h5 {
         margin-bottom: 10px;
+    }
+    .main-body{
+        height: 290px;
+        padding: 50px 0px 0px 20px;
+    }
+    .card-img {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+    }
+    .card-div{
+        margin: 10px 0px;
     }
 }
 
@@ -80,29 +163,64 @@
         height: 60px;
         padding: 0px 10px 0px 5px !important;
     }
-    .circle{
+
+    .circle {
         padding-right: 20px;
     }
-    .SecondSecBoxPara{
+
+    .SecondSecBoxPara {
         font-size: 14px !important;
     }
-    .card1{
+
+    .card1 {
         width: 420px;
         padding: 20px 15px;
         margin: 5px 5px;
     }
-    .card1h5{
+
+    .card1h5 {
         margin-bottom: 10px;
+    }
+    .main-body{
+        height: 290px;
+        padding: 40px 0px 0px 20px;
+    }
+    .card-img {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+    }
+    .card-div{
+        margin: 10px 0px;
+    }
+    .card-para1{
+        margin-bottom: 3px !important;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .card1{
+    .card1 {
         width: 320px;
         padding: 20px 15px;
         margin: 5px 5px;
     }
-    .card1h5{
+
+    .card1h5 {
         margin-bottom: 10px;
+    }
+    .main-body{
+        height: 240px;
+        padding: 40px 0px 0px 20px;
+    }
+    .card-img {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+    }
+    .card-div{
+        margin: 10px 0px;
+    }
+    .card-para1{
+        margin:3px 0px !important;
     }
 }

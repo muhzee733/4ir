@@ -15,6 +15,7 @@ import Mediallayers from "@/images/mediallayers.png"
 import mediaframe from "@/images/mediaframe.png"
 import cardsStats from "@/images/cardsStats.png"
 import Productstats from "@/images/Productstats.png"
+import MapSection from "@/images/vectors/MapSection.png"
 import H4 from "@/components/Typography/H4";
 import { GiSevenPointedStar } from "react-icons/gi";
 import Image from "next/image";
@@ -194,6 +195,74 @@ const Index = () => {
       show: "show",
     },
   ];
+
+  const IndustriesApi1 = [
+    {
+      id: 1,
+      heading: "Real Estate",
+      title1: "Automated Property Tours:",
+      itle2: "Lead Qualification and Follow-Up: ",
+      para1: "AI can guide potential buyers through virtual property tours, answering questions and providing detailed information.",
+      para2: "AI can efficiently qualify leads, schedule appointments, and follow up with interested parties.",
+      icon: "/images/vectors/vector1.png",
+      layout: true
+    },
+    {
+      id: 2,
+      heading: "Financial Services",
+      title1: "Customer Support and Inquiries:",
+      title2: "Fraud Detection and Prevention:",
+      para1: "AI can handle a wide range of customer inquiries, from account balances to loan applications.",
+      para2: "AI can analyze voice patterns and detect potential fraudulent activity in real-time.",
+      icon: "/images/vectors/vector2.png",
+      layout: true
+    },
+    {
+      id: 3,
+      heading: "Healthcare",
+      title1: "Patient Appointment Scheduling:",
+      title2: "Telehealth Consultations:",
+      para1: "AI can automate appointment scheduling, reminders, and confirmations.",
+      para2: "AI can facilitate remote consultations, answering patient queries and providing basic medical advice.",
+      icon: "/images/vectors/vector3.png",
+      layout: true
+    },
+
+  ]
+
+  const IndustriesApi2 = [
+    {
+      id: 4,
+      heading: "E-commerce",
+      title1: "Customer Service and Support:",
+      title2: "Sales and Upselling:",
+      para1: "AI-powered chatbots can assist customers with product information, order tracking, and returns.",
+      para2: "AI can proactively reach out to customers, offer personalized recommendations, and upsell products.",
+      icon: "/images/vectors/vector4.png",
+      layout: true
+    },
+    {
+      id: 5,
+      heading: "Education",
+      title1: "Student Support and Advising:",
+      title2: "Online Tutoring:",
+      para1: "AI can provide students with academic advice, answer questions, and offer guidance on course selection.",
+      para2: "AI-powered tutoring systems can offer personalized learning experiences, adapting to each student's needs.",
+      icon: "/images/vectors/vector5.png",
+      layout: true
+    },
+    {
+      id: 6,
+      heading: "Telecommunications",
+      title1: "Customer Onboarding and Support:",
+      title2: "Sales and Upselling:",
+      para1: "AI can guide customers through the onboarding process, troubleshoot issues, and provide technical support.",
+      para2: "AI can identify upselling opportunities and offer tailored packages to customers.",
+      icon: "/images/vectors/vector1.png",
+      layout: true
+    },
+
+  ]
   return (
     <Layout>
       {/* shahbaz */}
@@ -409,10 +478,10 @@ const Index = () => {
                 <div className="">
                   <H3 title="3. Intelligent Conversations" className="section5h3" />
                   <div className="d-flex ">
-                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="section5para2" />
+                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="The AI engages in natural, human-like conversations with leads." className="section5para2" />
                   </div>
                   <div className="d-flex ">
-                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="section5para2" />
+                    <GiSevenPointedStar className="primary me-3" size={40} /><Para title="It can ask relevant questions, provide information, and even qualify leads based on predefined criteria." className="section5para2" />
                   </div>
                 </div>
               </div>
@@ -421,12 +490,12 @@ const Index = () => {
 
             <div className="row">
               <div className="col-lg-12 col-md-12 customborder section5-2ndrow">
-                <H3 title="2. Automated Outbound Calling" className="section5h3" />
+                <H3 title="4. Lead Capture and CRM Integration" className="section5h3" />
                 <div className="d-flex ">
-                  <GiSevenPointedStar className="primary me-3" size={23} /><Para title="The AI-powered system automatically dials leads, saving you time and resources." className="section5para2" />
+                  <GiSevenPointedStar className="primary me-3" size={23} /><Para title="Your sales or marketing team generates leads, which are then added to your CRM system." className="section5para2" />
                 </div>
                 <div className="d-flex ">
-                  <GiSevenPointedStar className="primary me-3" size={23} /><Para title="It can handle a large volume of calls simultaneously, ensuring no lead is missed." className="section5para2" />
+                  <GiSevenPointedStar className="primary me-3" size={23} /><Para title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data." className="section5para2" />
                 </div>
               </div>
             </div>
@@ -453,9 +522,45 @@ const Index = () => {
                   className="section5h1"
                 />
               </div>
-              <Para title="4IR AI Voice Calling is a versatile tool that can significantly impact various industries. Here are a few key sectors where this technology can be a game-changer:" className="section6para1"/>
+              <Para title="4IR AI Voice Calling is a versatile tool that can significantly impact various industries. Here are a few key sectors where this technology can be a game-changer:" className="section6para1" />
             </div>
 
+            <div className="row">
+              <Card1 content={IndustriesApi1} layout={true} />
+            </div>
+
+            <div className="row">
+              <div className="col-lg-12 MapSectiondiv">
+                <figure><Image src={MapSection} alt="Map Section" className="MapSection" /></figure>
+              </div>
+            </div>
+
+            <div className="row">
+              <Card1 content={IndustriesApi2} layout={true} />
+            </div>
+
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="text-white text-center section6lastRow">
+                  By automating routine tasks and improving customer interactions, 4IR AI Voice Calling can help businesses in these industries achieve greater efficiency, productivity, and customer satisfaction.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="section7-wrapper">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 d-flex justify-content-center">
+                <H3 title="Why Choose" className="section7h3"/>
+                <H3 title=" AI Talk Assist?" className="section7h3 customsec7h3" />
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -490,6 +595,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
       <section className="asked-question">
         <div className="asked-question-wrapper">
           <div className="container">
