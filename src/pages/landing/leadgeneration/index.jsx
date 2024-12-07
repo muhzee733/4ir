@@ -21,6 +21,7 @@ import { GiSevenPointedStar } from "react-icons/gi";
 import Image from "next/image";
 import Calltoaction from "@/components/CalltoAction/Calltoaction";
 import Slider from "@/components/Slider";
+import Card3 from "@/components/cards/Card3";
 
 const Index = () => {
   const SecondBox = [
@@ -311,6 +312,38 @@ const Index = () => {
         "4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!",
     },
   ];
+  const WhyChooseAI = [
+    {
+      id: 1,
+      title: "Seamless AI-to-AI Handoffs",
+      description: "Handle more calls efficiently without interruptions.",
+    },
+    {
+      id: 2,
+      title: "Tailored for Your Industry",
+      description: "Leverage pre-trained agents customized to fit your specific business needs.",
+    },
+    {
+      id: 3,
+      title: "Tailored for Your Industry",
+      description: "Get up and running within 48 hours, no long wait times required",
+    },
+    {
+      id: 4,
+      title: "Enterprise-Grade Security",
+      description: "Safeguard sensitive data with top-tier encryption and compliance standards.",
+    },
+    {
+      id: 5,
+      title: "Self-Learning AI",
+      description: "Enjoy smarter, more effective interactions that continually improve over time",
+    },
+    {
+      id: 6,
+      title: "100% Done-For-You Setup",
+      description: "Focus on growing your business while we handle the technical setup for a smooth launch.",
+    },
+  ]
   return (
     <Layout>
       {/* shahbaz */}
@@ -656,13 +689,24 @@ const Index = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12 d-flex justify-content-center">
-                <H3 title="Why Choose" className="section7h3" />
-                <H3
-                  title=" AI Talk Assist?"
-                  className="section7h3 customsec7h3"
-                />
+                <h2 className="section7h2">Why Choose<span className="primary"> AI Talk Assist?</span></h2>
               </div>
-              <div className="col-lg-4 col-md-6 col-sm-12"></div>
+
+              {WhyChooseAI?.map((items, index) => {
+                return (
+                  <>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                      <Card3 items={items} index={index} />
+                    </div>
+                  </>
+                );
+              })}
+
+              <div className="row">
+                <div className="text-center section7-btn">
+                  <button className="btn-1">Get Started with AI</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
