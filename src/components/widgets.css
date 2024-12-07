@@ -64,6 +64,18 @@
     .card-div{
         margin: 30px 0px;
     }
+    .card3{
+        padding: 25px 20px;
+        width: 426px;
+        height: 300px;
+        margin-top: 18px;
+    }
+    .car3-h5{
+        font-size: 32px !important;
+        font-weight: bold !important;
+        line-height: 48px !important;
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -94,6 +106,17 @@
     .card-div{
         margin: 20px 0px;
     }
+    .card3{
+        padding: 25px 20px;
+        height: 300px;
+        margin-top: 18px;
+    }
+    .car3-h5{
+        font-size: 32px !important;
+        font-weight: bold !important;
+        line-height: 48px !important;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -122,6 +145,16 @@
     }
     .card-div{
         margin: 10px 0px;
+    }
+    .card3{
+        padding: 20px 10px;
+        height: 260px;
+        margin-top: 25px;
+    }
+    .car3-h5{
+        font-size: 28px !important;
+        line-height: 44px !important;
+        margin-bottom: 20px;
     }
 }
 
@@ -155,6 +188,15 @@
     }
     .card-div{
         margin: 10px 0px;
+    }
+    .card3{
+        padding: 20px 15px;
+        height: 220px;
+    }
+    .car3-h5{
+        font-size: 26px !important;
+        line-height: 40px !important;
+        margin-bottom: 20px;
     }
 }
 
@@ -195,6 +237,16 @@
     }
     .card-para1{
         margin-bottom: 3px !important;
+    }
+    .card3{
+        padding: 20px 20px;
+        height: 140px;
+        margin-top: 20px;
+    }
+    .car3-h5{
+        font-size: 24px !important;
+        line-height: 40px !important;
+        margin-bottom: 12px;
     }
 }
 
