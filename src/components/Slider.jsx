@@ -7,7 +7,7 @@ const Slider = ({ SliderData }) => {
 
   useEffect(() => {
     if (swiperRef.current) {
-      swiperRef.current.swiper.slideTo(1); // This centers the 2nd slide initially
+      swiperRef.current.swiper.slideTo(1);
     }
   }, []);
 
@@ -17,11 +17,11 @@ const Slider = ({ SliderData }) => {
         ref={swiperRef}
         slidesPerView={3}
         spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         centeredSlides={true}
-        navigation={true}
+        // navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >

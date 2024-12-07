@@ -27,6 +27,7 @@ const YoutubeVideoWithThumbnail = ({ src, thumbnail, width, height }) => {
               width: "100%",
               height: "100%",
               objectFit: "cover",
+              borderRadius: "12px"
             }}
             onClick={handlePlay}
           />
@@ -38,6 +39,8 @@ const YoutubeVideoWithThumbnail = ({ src, thumbnail, width, height }) => {
               width: "100%",
               height: "100%",
               backgroundColor: "rgba(0, 0, 0, 0.5)",
+              borderRadius: "12px",
+              border: "1px solid rgba(0, 189, 255, 1)",
             }}
             onClick={handlePlay}
           ></div>

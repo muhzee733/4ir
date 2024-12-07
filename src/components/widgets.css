@@ -10,8 +10,8 @@
 .card1 {
     border: 2px solid var(--border) !important;
     border-radius: 15px;
-    width: 421px;
-    padding: 70px 35px;
+    width: 33.33%;
+    padding: 60px 30px;
     margin: 5px 5px;
     box-shadow: 0px 4px 76.7px 0px var(--card-shadowcolor);
 }
