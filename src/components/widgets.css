@@ -212,8 +212,11 @@
 
 @media screen and (max-width: 1200px) {
     .SecondSecBox-content {
-        height: 160px;
+        height: 110px;
         padding: 0px 8px 0px 18px !important;
+    }
+    .SecondSecBox-content p{
+      font-size: 18px !important;
     }
 
     .SecondSecBoxPara {
@@ -225,7 +228,9 @@
         padding: 50px 25px;
         margin: 5px 5px;
     }
-
+    .section2{
+        padding: 50px 0px !important;
+    }
     .main-body {
         height: 470px;
         padding: 50px 0px 0px 20px;

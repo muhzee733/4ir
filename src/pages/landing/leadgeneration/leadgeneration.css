@@ -782,16 +782,17 @@
     .section2h6 {
         margin: 50px 0px;
     }
-
+    .section3btn {
+        margin: 50px 0px;
+    }
     .section3-wrapper {
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .section3-span1 {
         font-size: 90px;
         line-height: 90px;
     }
-
     .section3h5::before {
         left: 110px;
         width: 100px;
@@ -800,6 +801,9 @@
     .section3h5::after {
         right: 110px;
         width: 100px;
+    }
+    .section4h4{
+        font-size: 24px !important;
     }
 
     .section4h1 {
@@ -829,9 +833,14 @@
 
     .section4-img {
         height: 140PX;
-        margin: 60px 0px;
+        margin: 40px 0px;
     }
-
+    .section4bottom{
+        margin-bottom: 35px !important;
+    }
+    .section4-wrapper {
+        margin: 100px 0px !important;
+    }
     .musicicon {
         width: 110px;
         height: 110PX;
