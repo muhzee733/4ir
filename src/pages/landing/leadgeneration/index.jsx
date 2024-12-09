@@ -354,7 +354,7 @@ const Index = () => {
   return (
     <Layout>
       {/* shahbaz */}
-      <section>
+      <section> 
         <div className="main-wrapper">
           <div className="container-fluid">
             <div class="main-banner pt-5">
@@ -408,7 +408,7 @@ const Index = () => {
                 <div className="section2heading d-flex justify-content-center">
                   <H5
                     title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
-                    className="text-capitalize text-center"
+                    className="text-capitalize text-center section2h5"
                   />
                 </div>
               </div>
