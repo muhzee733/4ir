@@ -353,469 +353,481 @@ export default function Index() {
   ];
   return (
     <>
-    <Head>
-      <title>4IR - Lead Generation</title>
-    </Head>
-    
-    <Layout>
-      {/* shahbaz */}
-      <section>
-        <div className="main-wrapper d-flex align-items-center">
-          <div className="container">
-            <div class="main-banner d-flex align-item-center justify-content-center">
-              <div className="row">
-                <div className="col-lg-6 col-md-6 col-sm-12 colum1">
-                  <div className="figure">
-                    <SiteLogo />
-                  </div>
-                  <H1
-                    title="Supercharge Your Sales Teams With "
-                    breakpoint={true}
-                    spanTitle="AI-Driven Solutions."
-                  />
-                  <Para
-                    title="Say goodbye to the stress of sales teams and hello to human-like AI that works 24/7."
-                    className="bannerpara"
-                  />
-                  <div className="my-4 bannerSpandiv d-flex justify-content-start gap-5">
-                    <span className="bannerSpan">
-                      <FiCheck className="primary" /> No complex Software
-                    </span>
-                    <span className="bannerSpan">
-                      <FiCheck className="primary" /> Easy-integration
-                    </span>
-                    <span className="bannerSpan">
-                      <FiCheck className="primary" /> 24/7 Availability
-                    </span>
-                  </div>
-                  <div className="banner-btn">
-                    <button href="#" className="btn-1">
-                      Book a free Demo
-                    </button>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end align-items-center customScreen">
-                  <div className="figure2 mt-5">
-                    <YoutubeVideo />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Head>
+        <title>4IR - Lead Generation</title>
+      </Head>
 
-      <section className="section2">
-        <div className="second2-wrapper">
-          <div className="container">
-            <div class="second-session">
-              <div className="row">
-                <div className="section2heading d-flex justify-content-center">
-                  <H5
-                    title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
-                    className="text-capitalize text-center section2h5"
-                  />
-                </div>
-              </div>
-              <div className="row section2center">
-                <SecondSecBox SecondBox={SecondBox} />
-              </div>
-              <div className="section2bottom">
-                <H6
-                  title="Are these common sales challenges holding your business back?"
-                  className="section2h6"
-                />
-                <button className="btn-1 ">It’s Time To Make A Change</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="section3-wrapper">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="section3-span1 text-white text-uppercase text-center">
-                  introducing
-                </div>
-                <div className="section3-span1 primary text-uppercase text-center">
-                  AI Talk Assist
-                </div>
-                <div className="section3-main  text-center d-flex justify-content-center">
-                  <div
-                    className="d-flex justify-content-center align-items-center"
-                    style={{ width: "100%" }}
-                  >
-                    <div className="line"></div>
-                    <H5
-                      title="The Revolutionary Voice AI Platform"
-                      className="text-center section3h5 px-3 mb-0"
+      <Layout>
+        {/* shahbaz */}
+        <section>
+          <div className="main-wrapper d-flex align-items-center">
+            <div className="container">
+              <div class="main-banner d-flex align-item-center justify-content-center">
+                <div className="row">
+                  <div className="col-lg-6 col-md-6 col-sm-12 colum1">
+                    <div className="figure">
+                      <SiteLogo />
+                    </div>
+                    <H1
+                      title="Supercharge Your Sales Teams With "
+                      breakpoint={true}
+                      spanTitle="AI-Driven Solutions."
                     />
-                    <div className="line"></div>
+                    <Para
+                      title="Say goodbye to the stress of sales teams and hello to human-like AI that works 24/7."
+                      className="bannerpara"
+                    />
+                    <div className="my-4 bannerSpandiv d-flex justify-content-start gap-5">
+                      <span className="bannerSpan">
+                        <FiCheck className="primary" /> No complex Software
+                      </span>
+                      <span className="bannerSpan">
+                        <FiCheck className="primary" /> Easy-integration
+                      </span>
+                      <span className="bannerSpan">
+                        <FiCheck className="primary" /> 24/7 Availability
+                      </span>
+                    </div>
+                    <div className="banner-btn">
+                      <button href="#" className="btn-1">
+                        Book a free Demo
+                      </button>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end align-items-center customScreen">
+                    <div className="figure2 mt-5">
+                      <YoutubeVideo />
+                    </div>
                   </div>
                 </div>
-                <Para
-                  title="Transform your sales process in just two days—no long wait times, no hassle."
-                  className="text-center section3para"
-                />
-
-                <div className="text-center section3btn">
-                  <button className="btn-1">Get Started with AI</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="custom-card-section">
-              <div className="flex-card d-flex justify-content-center">
-                <Card1 content={Aicontent} layout={false} />
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section>
-        <div className="section4-wrapper">
-          <div className="container-fluid ">
-            <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="section4heading text-center">
-                  <H1 title="Give It a Try" className="section4h1" />
+        <section className="section2">
+          <div className="second2-wrapper">
+            <div className="container">
+              <div class="second-session">
+                <div className="row">
+                  <div className="section2heading d-flex justify-content-center">
+                    <H5
+                      title="Sales can be tough — especially when you're juggling a mountain of leads, customer expectations, and an ever-changing market. If you're feeling the pressure, you're not alone. Many businesses face challenges that slow down growth and drain resources."
+                      className="text-capitalize text-center section2h5"
+                    />
+                  </div>
+                </div>
+                <div className="row section2center">
+                  <SecondSecBox SecondBox={SecondBox} />
+                </div>
+                <div className="section2bottom">
+                  <H6
+                    title="Are these common sales challenges holding your business back?"
+                    className="section2h6"
+                  />
+                  <button className="btn-1 ">It’s Time To Make A Change</button>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            <div className="row text-center">
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="section4-img text-center">
-                  <Image src={mediaframe} className="musicicon" />
+        <section>
+          <div className="section3-wrapper">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <div className="section3-span1 text-white text-uppercase text-center">
+                    introducing
+                  </div>
+                  <div className="section3-span1 primary text-uppercase text-center">
+                    AI Talk Assist
+                  </div>
+                  <div className="section3-main  text-center d-flex justify-content-center">
+                    <div
+                      className="d-flex justify-content-center align-items-center"
+                      style={{ width: "100%" }}
+                    >
+                      <div className="line"></div>
+                      <H5
+                        title="The Revolutionary Voice AI Platform"
+                        className="text-center section3h5 px-3 mb-0"
+                      />
+                      <div className="line"></div>
+                    </div>
+                  </div>
+                  <Para
+                    title="Transform your sales process in just two days—no long wait times, no hassle."
+                    className="text-center section3para"
+                  />
+
+                  <div className="text-center section3btn">
+                    <button className="btn-1">Get Started with AI</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="custom-card-section">
+                <div className="flex-card d-flex justify-content-center">
+                  <Card1 content={Aicontent} layout={false} />
                 </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            <div className="row">
-              <div className="div col-lg-12 text-center">
-                <div className="section4bottom">
-                  <H4
-                    title="The AI landscape is constantly evolving. Outdated technology can hinder your growth."
-                    className="section4h4"
+        <section>
+          <div className="section4-wrapper">
+            <div className="container-fluid ">
+              <div className="row">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <div className="section4heading text-center">
+                    <H1 title="Give It a Try" className="section4h1" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="row text-center">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <div className="section4-img text-center">
+                    <Image src={mediaframe} className="musicicon" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="div col-lg-12 text-center">
+                  <div className="section4bottom">
+                    <H4
+                      title="The AI landscape is constantly evolving. Outdated technology can hinder your growth."
+                      className="section4h4"
+                    />
+                  </div>
+                  <button className="btn-1">Explore AI Talk Assets Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="section5-wrapper">
+            <div className="container">
+              <div className="row text-center">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <div className="section5heading">
+                    <H1
+                      title="How Does 4IR AI Voice Calling"
+                      className="section5h1"
+                    />
+                    <H1 title="Exactly Work?" className="section5h1" />
+                  </div>
+                  <Para
+                    title="Imagine a future where your lead generation process is automated, efficient, and highly effective. 4IR AI Voice Calling makes this a reality. Here's how it works:"
+                    className="section5para1"
                   />
                 </div>
-                <button className="btn-1">Explore AI Talk Assets Now</button>
+              </div>
+
+              <div class="fourth-section">
+                <div className="row customborder section5-2ndrow">
+                  <div className="col-lg-12 col-md-12 col-sm-12 custom-margin">
+                    <H3
+                      title="1. Lead Capture and CRM Integration"
+                      className="section5h3"
+                    />
+                    <div className="d-flex align-items-center ">
+                      <div>
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
+                      </div>
+                      <Para
+                        title="Your sales or marketing team generates leads, which are then added to your CRM system."
+                        className="section5para2"
+                      />
+                    </div>
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
+                      </div>
+                      <Para
+                        title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
+                        className="section5para2"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="col-lg-7 col-md-12 col-sm-12 text-white  CMargin">
+                    <div className=" section5-quaters">
+                      <Image src={cardsStats} className="cardsStats " />
+                    </div>
+                  </div>
+                  <div className="col-lg-5 col-md-12 col-sm-12 text-white">
+                    <div className="customborder section5-quaters">
+                      <Image src={Productstats} className="Productstats" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fourth-section">
+                <div className="row d-flex justify-content-center">
+                  <div className="col-lg-6 col-md-6 col-sm-6 customborder section5-2ndrow section5-CustomMargin section5-Customwidth">
+                    <div className="">
+                      <H3
+                        title="2. Automated Outbound Calling"
+                        className="section5h3"
+                      />
+                      <div className="d-flex align-items-center ">
+                        <div>
+                          <GiSevenPointedStar
+                            className="primary me-3"
+                            size={23}
+                          />
+                        </div>
+                        <Para
+                          title="The AI-powered system automatically dials leads, saving you time and resources."
+                          className="section5para2"
+                        />
+                      </div>
+                      <div className="d-flex align-items-center ">
+                        <div>
+                          <GiSevenPointedStar
+                            className="primary me-3"
+                            size={23}
+                          />
+                        </div>
+                        <Para
+                          title="It can handle a large volume of calls simultaneously, ensuring no lead is missed."
+                          className="section5para2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-lg-6 col-md-6 col-sm-6  customborder section5-2ndrow section5-Customwidth">
+                    <div className="">
+                      <H3
+                        title="3. Intelligent Conversations"
+                        className="section5h3"
+                      />
+                      <div className="d-flex align-items-center ">
+                        <div>
+                          <GiSevenPointedStar
+                            className="primary me-3"
+                            size={23}
+                          />
+                        </div>
+                        <Para
+                          title="The AI engages in natural, human-like conversations with leads."
+                          className="section5para2"
+                        />
+                      </div>
+                      <div className="d-flex align-items-center  ">
+                        <div>
+                          <GiSevenPointedStar
+                            className="primary me-3"
+                            size={23}
+                          />
+                        </div>
+                        <Para
+                          title="It can ask relevant questions, provide information, and even qualify leads based on predefined criteria."
+                          className="section5para2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fourth-section">
+                <div class="row">
+                  <div className="col-lg-12 col-md-12 customborder section5-2ndrow">
+                    <H3
+                      title="4. Lead Capture and CRM Integration"
+                      className="section5h3"
+                    />
+                    <div className="d-flex align-items-center ">
+                      <div>
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
+                      </div>
+                      <Para
+                        title="Your sales or marketing team generates leads, which are then added to your CRM system."
+                        className="section5para2"
+                      />
+                    </div>
+                    <div className="d-flex align-items-center ">
+                      <div>
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
+                      </div>
+
+                      <Para
+                        title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
+                        className="section5para2"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="fourth-section">
+                <div className="row text-center section5lastpara">
+                  <Para title="By automating these tasks, 4IR AI Voice Calling not only saves you time and money but also improves lead quality and conversion rates. It empowers your team to focus on higher-value activities, such as strategic planning and relationship building." />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section>
-        <div className="section5-wrapper">
-          <div className="container">
-            <div className="row text-center">
-              <div className="col-lg-12 col-md-12 col-sm-12">
-                <div className="section5heading">
+        <section>
+          <div className="section6-wrapper">
+            <div className="container">
+              <div className="row text-center">
+                <div className="section6h1">
                   <H1
-                    title="How Does 4IR AI Voice Calling"
+                    title="Industries Revolutionized by 4IR AI"
                     className="section5h1"
                   />
-                  <H1 title="Exactly Work?" className="section5h1" />
+                  <H1 title="Voice Calling" className="section5h1" />
                 </div>
                 <Para
-                  title="Imagine a future where your lead generation process is automated, efficient, and highly effective. 4IR AI Voice Calling makes this a reality. Here's how it works:"
-                  className="section5para1"
+                  title="4IR AI Voice Calling is a versatile tool that can significantly impact various industries. Here are a few key sectors where this technology can be a game-changer:"
+                  className="section6para1"
                 />
               </div>
-            </div>
-
-            <div class="fourth-section">
-              <div className="row customborder section5-2ndrow">
-                <div className="col-lg-12 col-md-12 col-sm-12">
-                  <H3
-                    title="1. Lead Capture and CRM Integration"
-                    className="section5h3"
-                  />
-                  <div className="d-flex align-items-center ">
-                    <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
-                    </div>
-                    <Para
-                      title="Your sales or marketing team generates leads, which are then added to your CRM system."
-                      className="section5para2"
-                    />
-                  </div>
-                  <div className="d-flex align-items-center">
-                    <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
-                    </div>
-                    <Para
-                      title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
-                      className="section5para2"
-                    />
-                  </div>
-                </div>
-
-                <div className="col-lg-7 col-md-12 col-sm-12 text-white  CMargin">
-                  <div className=" section5-quaters">
-                    <Image src={cardsStats} className="cardsStats " />
-                  </div>
-                </div>
-                <div className="col-lg-5 col-md-12 col-sm-12 text-white">
-                  <div className="customborder section5-quaters">
-                    <Image src={Productstats} className="Productstats" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="fourth-section">
-              <div className="row d-flex justify-content-center">
-                <div className="col-lg-6 col-md-6 col-sm-6 customborder section5-2ndrow section5-CustomMargin section5-Customwidth">
-                  <div className="">
-                    <H3
-                      title="2. Automated Outbound Calling"
-                      className="section5h3"
-                    />
-                    <div className="d-flex align-items-center ">
-                      <div>
-                        <GiSevenPointedStar
-                          className="primary me-3"
-                          size={23}
-                        />
-                      </div>
-                      <Para
-                        title="The AI-powered system automatically dials leads, saving you time and resources."
-                        className="section5para2"
-                      />
-                    </div>
-                    <div className="d-flex align-items-center ">
-                      <div>
-                        <GiSevenPointedStar
-                          className="primary me-3"
-                          size={23}
-                        />
-                      </div>
-                      <Para
-                        title="It can handle a large volume of calls simultaneously, ensuring no lead is missed."
-                        className="section5para2"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 col-md-6 col-sm-6  customborder section5-2ndrow section5-Customwidth">
-                  <div className="">
-                    <H3
-                      title="3. Intelligent Conversations"
-                      className="section5h3"
-                    />
-                    <div className="d-flex align-items-center ">
-                      <div>
-                        <GiSevenPointedStar
-                          className="primary me-3"
-                          size={23}
-                        />
-                      </div>
-                      <Para
-                        title="The AI engages in natural, human-like conversations with leads."
-                        className="section5para2"
-                      />
-                    </div>
-                    <div className="d-flex align-items-center  ">
-                      <div>
-                        <GiSevenPointedStar
-                          className="primary me-3"
-                          size={23}
-                        />
-                      </div>
-                      <Para
-                        title="It can ask relevant questions, provide information, and even qualify leads based on predefined criteria."
-                        className="section5para2"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="fourth-section">
-              <div class="row">
-                <div className="col-lg-12 col-md-12 customborder section5-2ndrow">
-                  <H3
-                    title="4. Lead Capture and CRM Integration"
-                    className="section5h3"
-                  />
-                  <div className="d-flex align-items-center ">
-                    <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
-                    </div>
-                    <Para
-                      title="Your sales or marketing team generates leads, which are then added to your CRM system."
-                      className="section5para2"
-                    />
-                  </div>
-                  <div className="d-flex align-items-center ">
-                    <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
-                    </div>
-
-                    <Para
-                      title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
-                      className="section5para2"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="fourth-section">
-              <div className="row text-center section5lastpara">
-                <Para title="By automating these tasks, 4IR AI Voice Calling not only saves you time and money but also improves lead quality and conversion rates. It empowers your team to focus on higher-value activities, such as strategic planning and relationship building." />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="section6-wrapper">
-          <div className="container">
-            <div className="row text-center">
-              <div className="section6h1">
-                <H1
-                  title="Industries Revolutionized by 4IR AI"
-                  className="section5h1"
-                />
-                <H1 title="Voice Calling" className="section5h1" />
-              </div>
-              <Para
-                title="4IR AI Voice Calling is a versatile tool that can significantly impact various industries. Here are a few key sectors where this technology can be a game-changer:"
-                className="section6para1"
-              />
-            </div>
-
-            <div className="row">
-              <Card1 content={IndustriesApi1} layout={true} />
-            </div>
-
-            <div className="row">
-              <div className="col-lg-12 MapSectiondiv">
-                <figure>
-                  <Image
-                    src={MapSection}
-                    alt="Map Section"
-                    className="MapSection"
-                  />
-                </figure>
-              </div>
-            </div>
-
-            <div className="row">
-              <Card1 content={IndustriesApi2} layout={true} />
-            </div>
-
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="text-white text-center section6lastRow">
-                  By automating routine tasks and improving customer
-                  interactions, 4IR AI Voice Calling can help businesses in
-                  these industries achieve greater efficiency, productivity, and
-                  customer satisfaction.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="section7-wrapper">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12 d-flex justify-content-center">
-                <h2 className="section7h2">
-                  Why Choose<span className="primary"> AI Talk Assist?</span>
-                </h2>
-              </div>
-
-              {WhyChooseAI?.map((items, index) => {
-                return (
-                  <>
-                    <div className="col-lg-4 col-md-6 col-sm-12">
-                      <Card3
-                        items={items}
-                        index={index}
-                        className="customcard"
-                      />
-                    </div>
-                  </>
-                );
-              })}
 
               <div className="row">
-                <div className="text-center section7-btn">
-                  <button className="btn-1">Get Started with AI</button>
+                <Card1 content={IndustriesApi1} layout={true} />
+              </div>
+
+              <div className="row">
+                <div className="col-lg-12 MapSectiondiv">
+                  <figure>
+                    <Image
+                      src={MapSection}
+                      alt="Map Section"
+                      className="MapSection"
+                    />
+                  </figure>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="testimonial">
-        <div className="d-flex align-items-center justify-content-center">
-          <div className="d-flex align-items-center justify-content-center testimonial-heading w-100">
-            <div className="line "></div>
-            <H6 title="Client Reviews" />
-            <div className="line"></div>
-          </div>
-        </div>
+              <div className="row">
+                <Card1 content={IndustriesApi2} layout={true} />
+              </div>
 
-        <H3
-          title="Don’t Just Take Our Word for It"
-          className="section7h3 customsec7h3 text-center"
-        />
-        <Slider SliderData={SliderData} />
-      </section>
-
-      <section className="calltoaction">
-        <div className="calltoaction-wrapper">
-          <div className="container">
-            <Calltoaction />
-          </div>
-        </div>
-      </section>
-
-      <section className="asked-question">
-        <div className="asked-question-wrapper">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="frequently-question-content">
-                  <H2 title="Frequently Asked Question" />
-                  <Para title="Book a Demo if you have any more questions." />
-                  <div class="accordion" id="accordionExample">
-                    {Accordianapi.map((items, index) => {
-                      return <Accordian items={items} index={index} />;
-                    })}
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="text-white text-center section6lastRow">
+                    By automating routine tasks and improving customer
+                    interactions, 4IR AI Voice Calling can help businesses in
+                    these industries achieve greater efficiency, productivity,
+                    and customer satisfaction.
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
-                <div className="bookDemo-content">
-                  <H2 title="Book a" spanTitle="Demo" breakpoint={true} />
-                  <Para title="Ready to see AI Talk Assist in action? Schedule your FREE demo now and discover how it can transform your customer interactions and boost productivity! Pick a time that works best for you below." />
-                  <iframe
-                    className="calendly-inline-widget"
-                    src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
-                    style={{ minWidth: "100%", height: "500px" }}
-                    loading="lazy"
-                  ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="section7-wrapper">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12 d-flex justify-content-center">
+                  <h2 className="section7h2">
+                    Why Choose<span className="primary"> AI Talk Assist?</span>
+                  </h2>
+                </div>
+
+                <div className="d-flex justify-content-center flex-wrap align-items-center gap-3 custom-boxes">
+                  {WhyChooseAI?.map((items, index) => {
+                    return (
+                      <>
+                        <Card3
+                          items={items}
+                          index={index}
+                          className="customcard"
+                        />
+                      </>
+                    );
+                  })}
+                </div>
+
+                <div className="row">
+                  <div className="text-center section7-btn">
+                    <button className="btn-1">Get Started with AI</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </Layout>
+        </section>
+
+        <section className="testimonial">
+          <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center testimonial-heading w-100">
+              <div className="line "></div>
+              <H6 title="Client Reviews" />
+              <div className="line"></div>
+            </div>
+          </div>
+
+          <H3
+            title="Don’t Just Take Our Word for It"
+            className="section7h3 customsec7h3 text-center"
+          />
+          <Slider SliderData={SliderData} />
+        </section>
+
+        <section className="calltoaction">
+          <div className="calltoaction-wrapper">
+            <div className="container">
+              <Calltoaction />
+            </div>
+          </div>
+        </section>
+
+        <section className="asked-question">
+          <div className="asked-question-wrapper">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="frequently-question-content">
+                    <H2 title="Frequently Asked Question" />
+                    <Para title="Book a Demo if you have any more questions." />
+                    <div class="accordion" id="accordionExample">
+                      {Accordianapi.map((items, index) => {
+                        return <Accordian items={items} index={index} />;
+                      })}
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="bookDemo-content">
+                    <H2 title="Book a" spanTitle="Demo" breakpoint={true} />
+                    <Para title="Ready to see AI Talk Assist in action? Schedule your FREE demo now and discover how it can transform your customer interactions and boost productivity! Pick a time that works best for you below." />
+                    <iframe
+                      className="calendly-inline-widget"
+                      src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
+                      style={{ minWidth: "100%", height: "500px" }}
+                      loading="lazy"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </Layout>
     </>
   );
 }

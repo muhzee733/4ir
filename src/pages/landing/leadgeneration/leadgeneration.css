@@ -6,8 +6,7 @@
   background-repeat: no-repeat;
   min-height: 100vh;
 }
-.main-banner{
-    
+.main-banner {
 }
 
 .row1 {
@@ -46,6 +45,9 @@
 
 .circle {
   width: 10%;
+}
+.section7-wrapper h2 {
+  font-weight: 600 !important;
 }
 
 .circle svg {
@@ -98,7 +100,8 @@
 
 .section4h1 {
   color: var(--primary) !important;
-  font-size: 98px !important;
+  font-size: 86px !important;
+  font-weight: 500 !important;
 }
 
 .section4-img {
@@ -140,7 +143,7 @@
 /* Section no 3 */
 .line {
   background-color: var(--whitecolor);
-  width: 10%;
+  width: 4%;
   height: 3px;
 }
 
@@ -322,7 +325,6 @@
 .calltoaction-content > h3 {
   font-size: 3.7rem !important;
   font-weight: 600 !important;
-  padding-bottom: 20px;
 }
 
 .section5lastpara {
@@ -457,12 +459,25 @@
 .testimonial-card img {
   background-color: var(--secondary);
 }
+.card3 {
+  width: 31%;
+  padding: 25px;
+}
+.card3 .card3-body{
+    min-height: 180px;
+}
+.card3 h5{
+    margin-bottom: 16px;
+}
+.custom-boxes{
+    margin-bottom:100px;
+}
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
   }
-  .main-banner{
+  .main-banner {
     margin-bottom: 80px;
   }
 
@@ -579,6 +594,61 @@
     font-size: calc(23px - 2px) !important;
     width: 97%;
   }
+  .frequently-question-content h2 {
+    font-size: 56px !important;
+    line-height: 60px !important;
+}
+  .bookDemo-content p {
+    line-height: 34px !important;
+    font-size: 20px !important;
+}
+.frequently-question-content h2{
+    margin-bottom: 20px;
+}
+.frequently-question-content p{
+    margin-bottom: 30px !important;
+    font-size: 20px !important;
+}
+
+  .calltoaction-content h5{
+    font-size: 34px !important;
+  }
+  .calltoaction-content > h3 {
+    font-size: 54px !important;
+    font-weight: 600 !important;
+}
+  .car3-h5 {
+    font-size: 28px !important;
+    line-height: 37px !important;
+    font-weight: 600;
+  }
+  /* .card3 {
+    min-height: 300px;
+} */
+
+  .section4-wrapper {
+    margin: 100px 0 !important;
+  }
+  .section4h1 {
+    font-size: 70px !important;
+  }
+  .section5para1 {
+    font-size: 22px !important;
+    width: 86%;
+    margin: 0 auto !important;
+  }
+  .custom-margin {
+    margin-bottom: 20px !important;
+  }
+  .section4h4 {
+    width: 70%;
+    margin: auto;
+    font-size: 36px !important;
+    line-height: 46px !important;
+  }
+  .figure img {
+    max-width: 66% !important;
+  }
 
   .section2h5 {
     font-size: 26px !important;
@@ -644,17 +714,12 @@
     right: 180px;
     width: 100px;
   }
-
-  .section4h1 {
-    font-size: 80px !important;
-  }
-
   .section5heading {
     margin-bottom: 50px;
   }
 
   .section5-2ndrow {
-    padding: 70px 30px 30px 30px;
+    padding: 30px !important;
     /* margin-top: 20px; */
   }
 
@@ -685,7 +750,7 @@
 
   /* section6 */
   .section6h1 {
-    margin: 50px 0px;
+    margin: 30px 0px;
   }
 
   .section6para1 {
@@ -712,7 +777,7 @@
     font-size: calc(64px - 10px) !important;
     line-height: 55px !important;
   }
-  .main-banner{
+  .main-banner {
     padding: 0px 30px;
   }
 
@@ -761,7 +826,6 @@
   .bannerSpan {
     font-size: 14px;
   }
-
 
   .section2h6 {
     margin: 50px 0px;
@@ -848,7 +912,6 @@
 }
 
 @media screen and (max-width: 992px) {
-
   .frequently-question-content > h2 {
     font-size: calc(64px - 20px) !important;
     padding-bottom: 20px !important;
@@ -1184,20 +1247,19 @@
 }
 
 @media screen and (max-width: 576px) {
-
-    .main-banner .colum1 .figure{
-        text-align: center;
-    }
-    .main-banner {
-        padding: 40px 30px;
-    }
-    h1 {
-        font-size: 32px !important;
-        line-height: 43px !important;
-    }
-    .section2 {
-        padding: 30px 0 !important;
-    }
+  .main-banner .colum1 .figure {
+    text-align: center;
+  }
+  .main-banner {
+    padding: 40px 30px;
+  }
+  h1 {
+    font-size: 32px !important;
+    line-height: 43px !important;
+  }
+  .section2 {
+    padding: 30px 0 !important;
+  }
 
   .frequently-question-content {
     padding: 0px 30px;
@@ -1267,13 +1329,13 @@
   }
   .bannerSpandiv .bannerSpan {
     font-size: 12px !important;
-}
-.bannerSpan svg{
+  }
+  .bannerSpan svg {
     margin-right: 10px;
-}
-.bannerSpandiv{
+  }
+  .bannerSpandiv {
     gap: 5px !important;
-}
+  }
 
   .bannerSpandiv {
     gap: 0.5rem !important;
