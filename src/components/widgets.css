@@ -249,7 +249,7 @@
 
     .card3 {
         padding: 20px 10px;
-        height: 260px;
+        min-height: 260px;
         margin-top: 25px;
     }
 

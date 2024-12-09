@@ -722,7 +722,7 @@ export default function Index() {
                 return (
                   <>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                      <Card3 items={items} index={index} />
+                      <Card3 items={items} index={index} className="customcard" />
                     </div>
                   </>
                 );
