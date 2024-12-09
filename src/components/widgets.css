@@ -142,6 +142,12 @@
         line-height: 48px !important;
         margin-bottom: 20px;
     }
+    .footer-socials-links {
+        width: 160px;
+    }
+    .footer-copyright{
+        margin-top: 240px !important;
+    }
 }
 
 
@@ -196,6 +202,12 @@
     .footer-h5{
         font-size: 20px !important;
     }
+    .Footer-wrapper {
+        min-height: 85vh;
+    }
+    .footer-copyright{
+        margin-top: 140px !important;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -242,6 +254,12 @@
     }
     .footer-h5{
         font-size: 18px !important;
+    }
+    .Footer-wrapper {
+        min-height: 65vh !important;
+    }
+    .footer-copyright{
+        margin-top: 100px !important;
     }
 }
 
@@ -394,5 +412,8 @@
     }
     .card4-body h6{
         font-size: 1.5rem !important;
+    }
+    .footer-copyright{
+        margin-top: 100px !important;
     }
 }
