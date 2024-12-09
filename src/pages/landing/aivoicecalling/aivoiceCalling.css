@@ -4,9 +4,11 @@
   align-items: center;
   justify-content: center;
 }
+
 .primary {
   color: red;
 }
+
 .banner-logo img {
   width: 250px;
   padding-bottom: 37px;
@@ -45,6 +47,7 @@
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask-composite: exclude;
 }
+
 .banner-second-heading h1 {
   color: white;
   font-weight: 500 !important;
@@ -52,23 +55,29 @@
   font-size: 96px !important;
   margin-bottom: 20px;
 }
+
 .banner-second-heading {
   width: 80%;
 }
+
 .banner-second-heading h1 span {
-  color: transparent; /* Makes the text transparent */
+  color: transparent;
+  /* Makes the text transparent */
   background: linear-gradient(258deg, #8800ff 27.99%, #00bdff 57.37%);
   background-clip: text;
 }
+
 .banner-second-heading p {
   font-size: 19px;
   line-height: 25px;
   margin-bottom: 50px !important;
 }
+
 .banner-second-heading .btn-2 {
   font-size: 24px !important;
   padding: 12px 50px !important;
 }
+
 .banner-second-heading h6 {
   font-size: 32px !important;
   margin-bottom: 50px;
@@ -83,23 +92,29 @@
   justify-content: center;
   margin: 80px 0px;
 }
+
 .youtube-video img {
   border-radius: 12px;
 }
+
 .youtube-video iframe {
   border-radius: 12px;
 }
+
 .leads-upper-content {
   width: 85%;
   margin: 0 auto;
 }
+
 .leads-upper-content .banner-heading-top {
   margin: 0 auto;
 }
+
 .leads-upper-content h2 {
   line-height: 70px;
   padding-top: 30px;
 }
+
 .leads-lower-content {
   width: 100%;
   display: flex;
@@ -108,32 +123,35 @@
   justify-content: center;
   margin-top: 40px;
 }
+
 .leads-lower-content .card {
-  background: linear-gradient(
-    178.34deg,
-    rgba(102, 102, 102, 0.16) 1.76%,
-    rgba(0, 0, 0, 0.16) 98.95%
-  );
+  background: linear-gradient(178.34deg,
+      rgba(102, 102, 102, 0.16) 1.76%,
+      rgba(0, 0, 0, 0.16) 98.95%);
   width: 30%;
   border: 1px solid rgba(40, 40, 40, 1);
   border-radius: 18px;
   transition: 0.3s all ease;
 }
+
 .leads-lower-content h5 {
   font-size: 26px !important;
   font-weight: 500;
   line-height: 34px !important;
   text-align: left;
 }
+
 .leads-lower-content p {
   font-size: 20px !important;
   font-weight: 400;
   line-height: 28px !important;
   text-align: left;
 }
+
 .leads-lower-content img {
   width: 70%;
 }
+
 .img-card {
   text-align: center;
   display: inline-block;
@@ -143,106 +161,189 @@
   width: 25%;
   margin-bottom: 20px;
 }
+
 .leads-lower-content .card-body {
   text-align: left;
 }
+
 .lower-content {
   padding-right: 10%;
 }
+
 .leads-lower-content .card:hover {
   border: 1px solid rgba(0, 189, 255, 1);
   transition: 0.3s all ease-in-out;
 }
+.section3-heading-top{
+  position: relative;
+  background: #6e6e6e26;
+  border-radius: 50px;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 25px;
+  width: 45%;
+  text-align: center;
+}
+.strugling-content{
+  margin-top: 80px;
+}
+.strugling-content h2{
+  margin: 20px 0px;
+  font-size: 50px !important;
+  font-weight: bold !important;
+}
+.strugling-para2{
+  padding: 0px 280px !important;
+  line-height: 30px !important;
+  margin-bottom: 50px  !important;
+}
 
+.strugling-lower-content{
+  margin-top: 80px;
+}
 @media screen and (min-width: 1400px) {
   .banner-content {
     min-height: 83vh !important;
   }
+  
 }
+
 @media screen and (max-width: 1399px) {
   .banner-second-heading h1 {
     font-size: calc(96px - 20px) !important;
     line-height: 80px !important;
   }
+  .banner-heading-top1 .h2 {
+    font-size: 40px !important;
+    line-height: 60px !important;
+  }
   .banner-second-heading h6 {
     font-size: 24px !important;
   }
+
   .banner-second-heading {
     width: 70%;
   }
+
   .banner-logo img {
     max-width: calc(100% - 25%);
   }
+
   .banner-logo {
     margin-top: 40px;
   }
+  .strugling-para2{
+    padding: 0px 200px !important;
+    line-height: 30px !important;
+    margin-bottom: 50px  !important;
+  }
 }
+
 @media screen and (max-width: 1200px) {
   .banner-second-heading h1 {
     font-size: 62px !important;
   }
+
   p {
     font-size: unset !important;
   }
+
   .banner-second-heading h6 {
     font-size: 18px !important;
     margin-bottom: 30px;
   }
+
   .youtube-video-video .youtube-video {
     width: 100% !important;
   }
+
   .leads-wrapper .leads-upper-content .banner-heading-top .h2 {
     font-size: 50px !important;
     line-height: 60px !important;
   }
+
   .leads-lower-content h5 {
     font-size: 20px !important;
     line-height: 26px !important;
   }
+
   .leads-lower-content .card {
     width: 48%;
   }
+  .strugling-content h2{
+    font-size: 40px !important;
+  }
+  .strugling-para2{
+    padding: 0px 180px !important;
+  }
 }
+
 @media screen and (max-width: 992px) {
+  .strugling-content h2{
+    font-size: 30px !important;
+  }
+  .strugling-para2{
+    padding: 0px 60px !important;
+    }
 }
+
 @media screen and (max-width: 767px) {
   .banner-heading-top {
     width: 70% !important;
   }
+
   .banner-logo img {
     max-width: 90% !important;
     padding-bottom: 10px;
   }
+
   .banner-second-heading {
     width: 100% !important;
   }
+
   h2 {
     font-size: 36px !important;
     line-height: 44px !important;
+  }
+
+  .img-card {
+    padding: 15px 8px;
+    width: 35%;
+  }
+  .strugling-content h2{
+    font-size: 25px !important;
+  }
+  .strugling-para2{
+    padding: 0px 0px !important;
+    }
 }
-.img-card {
-  padding: 15px 8px;
-  width: 35%;
-}
-}
+
 @media screen and (max-width: 576px) {
   .banner-logo img {
     max-width: 80% !important;
-}
-.banner-second-heading h1 {
-  font-size: 54px !important;
-  line-height: 60px !important;
-}
-p{
-  line-height: 1.7rem !important;
-}
-.container{
-  padding: 0px 30px !important;
-}
-.banner-second-heading .btn-2 {
-  font-size: 17px !important;
-}
-.leads-lower-content .card {
-  width: 47% !important;
-}
+  }
+
+  .banner-second-heading h1 {
+    font-size: 54px !important;
+    line-height: 60px !important;
+  }
+
+  p {
+    line-height: 1.7rem !important;
+  }
+
+  .container {
+    padding: 0px 30px !important;
+  }
+
+  .banner-second-heading .btn-2 {
+    font-size: 17px !important;
+  }
+
+  .leads-lower-content .card {
+    width: 47% !important;
+  }
+  .strugling-content h2{
+    font-size: 20px !important;
+  }
 }

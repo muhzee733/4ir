@@ -137,6 +137,10 @@ p {
   border: 1px solid var(--border);
   border-radius: 25px;
 }
+.primaryborder {
+  border: 1px solid var(--primary);
+  border-radius: 15px;
+}
 
 @media screen and (min-width: 1400px) {
   h1 {

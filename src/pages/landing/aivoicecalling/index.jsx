@@ -7,6 +7,7 @@ import SiteLogo from "@/components/SiteLogo";
 import YoutubeVideo from "@/components/YoutubeVideo";
 import H2 from "@/components/Typography/H2";
 import Card2 from "@/components/cards/Card2";
+import Card4 from "@/components/cards/Card4";
 
 export default function AiVoiceCalling() {
   const Leads = [
@@ -39,6 +40,28 @@ export default function AiVoiceCalling() {
       img: "/images/icon-1.png",
       title: "Futile Lead Qualification",
       para: "Wasting time on low-quality leads.",
+    },
+  ];
+  const SeamslessApi = [
+    {
+      id: 1,
+      title: "Identify High-Quality Leads",
+      para: "Use advanced AI algorithms to identify and prioritize the most promising leads.",
+    },
+    {
+      id: 2,
+      title: "Automate Outreach",
+      para: "Conduct personalized voice calls and email campaigns at scale.",
+    },
+    {
+      id: 3,
+      title: "Improve Conversion Rates",
+      para: "Enhance lead engagement and drive more conversions.",
+    },
+    {
+      id: 4,
+      title: "Provide Real-Time Insights",
+      para: "Gain valuable insights into lead behavior and campaign performance.",
     },
   ];
   return (
@@ -85,13 +108,14 @@ export default function AiVoiceCalling() {
           </div>
         </div>
       </section>
+
       <section>
         <div class="leads-wrapper">
           <div class="container">
-            <div class="leads-content text-center">
+            <div class="text-center">
               <div className="leads-upper-content">
                 <div className="banner-heading-top">
-                  <Para title="Tired of Chasing Leads?" />
+                  <Para title="Struggling to Convert Leads?" />
                 </div>
                 <H2 title="Are these common sales challenges hindering your growth?" />
               </div>
@@ -107,6 +131,44 @@ export default function AiVoiceCalling() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section>
+        <div className="wrapper-3">
+          <div className="container">
+            <div className="row">
+              <div class="strugling-content text-center">
+                <div className="strugling-upper-content d-flex flex-column align-items-center">
+                  <div className="banner-heading-top">
+                    <div className="strugling-para">
+                      <Para title="4IR: Your AI-Powered Sales Growth Engine" />
+                    </div>
+                  </div>
+                  <H2 title="Seamless Integration, Exceptional Results" className="" />
+                  <Para title="Integrate our AI-powered voice calling and lead generation solution into your existing sales process. Our platform is designed to:" className="strugling-para2" />
+                  <button className="btn-2">
+                    Start a free Trail <LuArrowRight size={22} />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="row strugling-lower-content">
+              {SeamslessApi?.map((items, index) => {
+                return (
+                  <>
+                    <div className="col-lg-6 col-md-6 col-sm-12">
+                      <Card4 items={items} index={index} />
+                    </div>
+                  </>
+                );
+              })}
+            </div>
+
+          </div>
+        </div>
+
+
       </section>
     </Layout>
   );
