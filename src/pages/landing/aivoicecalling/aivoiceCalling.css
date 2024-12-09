@@ -201,9 +201,35 @@
 .strugling-lower-content{
   margin-top: 80px;
 }
+.future-wrapper{
+  margin: 100px 0px;
+}
+.aifuturecard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.aifuturecard .card3{
+margin-top: 0px !important;
+min-height: 30vh;
+border-radius: 10px !important;
+padding: 20px !important; 
+background: #00000021;
+
+}
+.aifuturecard .card3:hover{
+  background: linear-gradient(180.11deg, #1B2C4A 0.09%, #0F64DF 210.44%);
+  transition: all.5s !important;
+
+}
 @media screen and (min-width: 1400px) {
   .banner-content {
     min-height: 83vh !important;
+  }
+  .aifuturecard .card3{
+    min-height: 10vh ;
   }
   
 }
@@ -236,6 +262,10 @@
     padding: 0px 200px !important;
     line-height: 30px !important;
     margin-bottom: 50px  !important;
+  }
+  .aifuturecard .card3{
+    min-height: 12vh !important ;
+    width: 40vw !important ;
   }
 }
 
@@ -276,6 +306,10 @@
   .strugling-para2{
     padding: 0px 180px !important;
   }
+  .aifuturecard .card3{
+    min-height: 10vh !important ;
+    width: 30vw !important ;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -285,6 +319,13 @@
   .strugling-para2{
     padding: 0px 60px !important;
     }
+    .aifuturecard .card3{
+      width: 40vw !important;  
+      }
+    .aifuturecard .card3 h5{
+      font-size: 20px  !important;
+      line-height: 30px !important;
+          }
 }
 
 @media screen and (max-width: 767px) {
@@ -308,13 +349,22 @@
 
   .img-card {
     padding: 15px 8px;
-    width: 35%;
   }
   .strugling-content h2{
     font-size: 25px !important;
   }
   .strugling-para2{
     padding: 0px 0px !important;
+    }
+    .aifuturecard{
+    flex-direction: column;
+    gap: 10px;
+    }
+    .aifuturecard .card3{
+    width: 100% !important;  
+    }
+    .card4-body > h6{
+      font-size: 20px !important
     }
 }
 
@@ -341,7 +391,7 @@
   }
 
   .leads-lower-content .card {
-    width: 47% !important;
+    width: 70% !important;
   }
   .strugling-content h2{
     font-size: 20px !important;

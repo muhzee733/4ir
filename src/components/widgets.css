@@ -73,7 +73,7 @@
     .card3{
         padding: 25px 20px;
         width: 426px;
-        height: 300px;
+        min-height: 300px;
         margin-top: 18px;
     }
     .car3-h5{
@@ -115,7 +115,7 @@
     }
     .card3{
         padding: 25px 20px;
-        height: 300px;
+        min-height: 300px;
         margin-bottom: 18px;
     }
     .car3-h5{
@@ -283,5 +283,8 @@
     }
     .card-para1{
         margin:3px 0px !important;
+    }
+    .card4-body h6{
+        font-size: 1.5rem !important;
     }
 }

@@ -8,6 +8,7 @@ import YoutubeVideo from "@/components/YoutubeVideo";
 import H2 from "@/components/Typography/H2";
 import Card2 from "@/components/cards/Card2";
 import Card4 from "@/components/cards/Card4";
+import Card3 from "@/components/cards/Card3";
 
 export default function AiVoiceCalling() {
   const Leads = [
@@ -64,6 +65,28 @@ export default function AiVoiceCalling() {
       para: "Gain valuable insights into lead behavior and campaign performance.",
     },
   ];
+  const FutureCardapi = [
+    {
+      id: 1,
+      title: "AI-Powered Lead Generation",
+      description: "Identify and qualify high-quality leads."
+    },
+    {
+      id: 2,
+      title: "Intelligent Scripting",
+      description: "Generate dynamic scripts tailored to each lead"
+    },
+    {
+      id: 3,
+      title: "Automated Voice Calling",
+      description: "Conduct personalized voice calls at scale."
+    },
+    {
+      id: 4,
+      title: "Seamless Integration",
+      description: "Easily integrate with your CRM and marketing tools."
+    },
+  ]
   return (
     <Layout>
       <section className="banner">
@@ -169,6 +192,33 @@ export default function AiVoiceCalling() {
         </div>
 
 
+      </section>
+      <section className="future">
+        <div className="future-wrapper">
+          <div className="container">
+            <H2 title="The Future of Sales is AI-Powered" className="text-center" />
+            <Para title="Don't get left behind. Embrace the power of AI to transform your sales process." className="text-center mb-4" />
+            <div className="aifuturecard">
+              {FutureCardapi?.map((items, index) => {
+                return (
+
+                  <Card3 items={items} index={index} />
+                )
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="aiPoweredIndustries">
+        <div className="aiPoweredIndustries-wrapper">
+          <div className="container">
+            <H2 title="Industries That Can Benefit from AI-Powered Lead Generation and Automated Voice Calling" className="text-center" />
+            <Para title="Our AI-powered solution is versatile and can be applied to a wide range of industries. Here are a few examples:" className="text-center" />
+            <div className="aiPoweredIndustries-first-grid">
+              
+            </div>
+          </div>
+        </div>
       </section>
     </Layout>
   );
