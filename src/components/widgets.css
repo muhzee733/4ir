@@ -108,6 +108,9 @@
 }
 
 @media screen and (min-width: 1400px) {
+    .Footer-wrapper {
+        min-height: 80vh;
+    }
     .main-body {
         width: 420px;
         height: 650px;

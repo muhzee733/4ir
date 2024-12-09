@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <section>
-      <div className='Footer-wrapper border text-white'>
+      <div className='Footer-wrapper text-white'>
         <div className="maindiv">
           <div className="container">
             <div className="row footer-1strow">
