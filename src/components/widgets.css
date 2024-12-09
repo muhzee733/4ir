@@ -1,3 +1,54 @@
+/* Footer Css */
+.Footer-wrapper {
+    background-color: #08091A;
+    min-height: 95vh;
+}
+.footer-1strow{
+    margin-bottom: 100px;
+}
+
+.maindiv {
+    padding: 60px 40px 0px 40px;
+}
+.footer-h5{
+    font-weight: bold !important;
+}
+.custom-color{
+    color: var(--primary) !important;
+}
+.footer-socials-links{
+ margin-top: 25px;
+}
+.footer-copyright {
+    border-top: 1px solid var(--border);
+    padding: 0 !important;
+}
+.footer-ul li {
+    margin: 30px 0px;
+}
+
+.input {
+    margin: 15px 0px;
+    padding: 14px 26px;
+    border: 1px solid #0F64DF;
+    border-radius: 15px;
+    background: #0B0B0B;
+    outline: none !important;
+    color: var(--whitecolor);
+}
+.input::placeholder{
+    color: var(--whitecolor);
+    
+}
+.input:focus{
+    background: #0B0B0B;
+    outline: none !important;
+    border: 1px solid var(--primary);
+    color: var(--whitecolor);
+
+}
+
+/*  */
 .SecondSecBox-content {
     height: 200px;
     padding: 0px 20px;
@@ -48,7 +99,8 @@
     border-radius: 20px;
     top: -50px;
 }
-.card4-body{
+
+.card4-body {
     background-color: #00000021;
     height: 170px;
     padding: 30px 20px;
@@ -56,27 +108,32 @@
 }
 
 @media screen and (min-width: 1400px) {
-    .main-body{
+    .main-body {
         width: 420px;
         height: 650px;
         padding: 80px 0px 80px 20px;
     }
-    .card-para1{
+
+    .card-para1 {
         font-size: 25px !important;
     }
-    .card-para2{
+
+    .card-para2 {
         font-size: 25px !important;
     }
-    .card-div{
+
+    .card-div {
         margin: 30px 0px;
     }
-    .card3{
+
+    .card3 {
         padding: 25px 20px;
         width: 426px;
         min-height: 300px;
         margin-top: 18px;
     }
-    .car3-h5{
+
+    .car3-h5 {
         font-size: 32px !important;
         font-weight: bold !important;
         line-height: 48px !important;
@@ -93,7 +150,7 @@
 
     .SecondSecBoxPara {
         font-size: 19px !important;
-        padding-left:10px !important;
+        padding-left: 10px !important;
     }
 
     .card1 {
@@ -101,28 +158,40 @@
         padding: 50px 25px;
         margin: 5px 5px;
     }
-    .main-body{
+
+    .main-body {
         height: 490px;
         padding: 60px 0px 0px 20px;
     }
+
     .card-img {
         width: 80px;
         height: 80px;
         top: -40px;
     }
-    .card-div{
+
+    .card-div {
         margin: 20px 0px;
     }
-    .card3{
+
+    .card3 {
         padding: 25px 20px;
         min-height: 300px;
         margin-bottom: 18px;
     }
-    .car3-h5{
+
+    .car3-h5 {
         font-size: 32px !important;
         font-weight: bold !important;
         line-height: 48px !important;
         margin-bottom: 20px;
+    }
+
+    .footer-socials-links {
+        width: 160px;
+    }
+    .footer-h5{
+        font-size: 20px !important;
     }
 }
 
@@ -141,27 +210,35 @@
         padding: 50px 25px;
         margin: 5px 5px;
     }
-    .main-body{
+
+    .main-body {
         height: 470px;
         padding: 50px 0px 0px 20px;
     }
+
     .card-img {
         width: 70px;
         height: 70px;
         top: -35px;
     }
-    .card-div{
+
+    .card-div {
         margin: 10px 0px;
     }
-    .card3{
+
+    .card3 {
         padding: 20px 10px;
         height: 260px;
         margin-top: 25px;
     }
-    .car3-h5{
+
+    .car3-h5 {
         font-size: 28px !important;
         line-height: 44px !important;
         margin-bottom: 20px;
+    }
+    .footer-h5{
+        font-size: 18px !important;
     }
 }
 
@@ -174,9 +251,11 @@
     .SecondSecBoxPara {
         font-size: 20px !important;
     }
-    .custom-card-section > div{
+
+    .custom-card-section>div {
         flex-direction: column;
     }
+
     .card1 {
         width: 100% !important;
         padding: 30px 25px;
@@ -186,23 +265,28 @@
     .card1h5 {
         margin-bottom: 10px;
     }
-    .main-body{
+
+    .main-body {
         height: 290px;
         padding: 50px 0px 0px 20px;
     }
+
     .card-img {
         width: 70px;
         height: 70px;
         top: -35px;
     }
-    .card-div{
+
+    .card-div {
         margin: 10px 0px;
     }
-    .card3{
+
+    .card3 {
         padding: 20px 15px;
         height: 220px;
     }
-    .car3-h5{
+
+    .car3-h5 {
         font-size: 26px !important;
         line-height: 40px !important;
         margin-bottom: 20px;
@@ -232,30 +316,46 @@
     .card1h5 {
         margin-bottom: 10px;
     }
-    .main-body{
+
+    .main-body {
         height: 290px;
         padding: 40px 0px 0px 20px;
     }
+
     .card-img {
         width: 70px;
         height: 70px;
         top: -35px;
     }
-    .card-div{
+
+    .card-div {
         margin: 10px 0px;
     }
-    .card-para1{
+
+    .card-para1 {
         margin-bottom: 3px !important;
     }
-    .card3{
+
+    .card3 {
         padding: 20px 20px;
         height: fit-content;
         margin-top: 20px;
     }
-    .car3-h5{
+
+    .car3-h5 {
         font-size: 24px !important;
         line-height: 40px !important;
         margin-bottom: 12px;
+    }
+    .maindiv {
+        text-align: center;
+    }
+    .footer-socials-links {
+        width: 100%;
+        justify-content: space-around !important;
+    }
+    .footer-copyright-body{
+        flex-direction: column;
     }
 }
 
@@ -269,20 +369,24 @@
     .card1h5 {
         margin-bottom: 10px;
     }
-    .main-body{
+
+    .main-body {
         height: fit-content;
         padding: 40px 0px 20px 20px;
     }
+
     .card-img {
         width: 70px;
         height: 70px;
         top: -35px;
     }
-    .card-div{
+
+    .card-div {
         margin: 10px 0px;
     }
-    .card-para1{
-        margin:3px 0px !important;
+
+    .card-para1 {
+        margin: 3px 0px !important;
     }
     .card4-body h6{
         font-size: 1.5rem !important;
