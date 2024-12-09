@@ -11,7 +11,6 @@ import H6 from "@/components/Typography/H6";
 import Card1 from "@/components/cards/Card1";
 import H2 from "@/components/Typography/H2";
 import Accordian from "@/components/Accordian/Accordian";
-import Mediallayers from "@/images/mediallayers.png";
 import mediaframe from "@/images/mediaframe.png";
 import cardsStats from "@/images/cardsStats.png";
 import Productstats from "@/images/Frame.png";
@@ -24,6 +23,7 @@ import Slider from "@/components/Slider";
 import Card3 from "@/components/cards/Card3";
 import YoutubeVideo from "@/components/YoutubeVideo";
 import SiteLogo from "@/components/SiteLogo";
+import Head from "next/head";
 
 export default function Index() {
   const SecondBox = [
@@ -352,12 +352,17 @@ export default function Index() {
     },
   ];
   return (
+    <>
+    <Head>
+      <title>4IR - Lead Generation</title>
+    </Head>
+    
     <Layout>
       {/* shahbaz */}
-      <section> 
-        <div className="main-wrapper">
-          <div className="container-fluid">
-            <div class="main-banner pt-5">
+      <section>
+        <div className="main-wrapper d-flex align-items-center">
+          <div className="container">
+            <div class="main-banner d-flex align-item-center justify-content-center">
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12 colum1">
                   <div className="figure">
@@ -439,14 +444,16 @@ export default function Index() {
                   AI Talk Assist
                 </div>
                 <div className="section3-main  text-center d-flex justify-content-center">
-                  <div className="d-flex justify-content-center align-items-center" style={{width: "100%"}}>
-                    
-                  <div className="line"></div>
-                  <H5
-                    title="The Revolutionary Voice AI Platform"
-                    className="text-center section3h5 px-3 mb-0"
-                  />   
-                   <div className="line"></div>
+                  <div
+                    className="d-flex justify-content-center align-items-center"
+                    style={{ width: "100%" }}
+                  >
+                    <div className="line"></div>
+                    <H5
+                      title="The Revolutionary Voice AI Platform"
+                      className="text-center section3h5 px-3 mb-0"
+                    />
+                    <div className="line"></div>
                   </div>
                 </div>
                 <Para
@@ -531,7 +538,7 @@ export default function Index() {
                   />
                   <div className="d-flex align-items-center ">
                     <div>
-                    <GiSevenPointedStar className="primary me-3" size={23}  />
+                      <GiSevenPointedStar className="primary me-3" size={23} />
                     </div>
                     <Para
                       title="Your sales or marketing team generates leads, which are then added to your CRM system."
@@ -540,7 +547,7 @@ export default function Index() {
                   </div>
                   <div className="d-flex align-items-center">
                     <div>
-                    <GiSevenPointedStar className="primary me-3" size={23} />
+                      <GiSevenPointedStar className="primary me-3" size={23} />
                     </div>
                     <Para
                       title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
@@ -571,7 +578,10 @@ export default function Index() {
                     />
                     <div className="d-flex align-items-center ">
                       <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
                       </div>
                       <Para
                         title="The AI-powered system automatically dials leads, saving you time and resources."
@@ -579,8 +589,11 @@ export default function Index() {
                       />
                     </div>
                     <div className="d-flex align-items-center ">
-                    <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      <div>
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
                       </div>
                       <Para
                         title="It can handle a large volume of calls simultaneously, ensuring no lead is missed."
@@ -597,8 +610,11 @@ export default function Index() {
                       className="section5h3"
                     />
                     <div className="d-flex align-items-center ">
-                    <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      <div>
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
                       </div>
                       <Para
                         title="The AI engages in natural, human-like conversations with leads."
@@ -606,8 +622,11 @@ export default function Index() {
                       />
                     </div>
                     <div className="d-flex align-items-center  ">
-                    <div>
-                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      <div>
+                        <GiSevenPointedStar
+                          className="primary me-3"
+                          size={23}
+                        />
                       </div>
                       <Para
                         title="It can ask relevant questions, provide information, and even qualify leads based on predefined criteria."
@@ -626,20 +645,19 @@ export default function Index() {
                     className="section5h3"
                   />
                   <div className="d-flex align-items-center ">
-                  <div>
+                    <div>
                       <GiSevenPointedStar className="primary me-3" size={23} />
-                      </div>
+                    </div>
                     <Para
                       title="Your sales or marketing team generates leads, which are then added to your CRM system."
                       className="section5para2"
                     />
                   </div>
                   <div className="d-flex align-items-center ">
-                  
-                  <div>
+                    <div>
                       <GiSevenPointedStar className="primary me-3" size={23} />
-                      </div>
-                  
+                    </div>
+
                     <Para
                       title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
                       className="section5para2"
@@ -722,7 +740,11 @@ export default function Index() {
                 return (
                   <>
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                      <Card3 items={items} index={index} className="customcard" />
+                      <Card3
+                        items={items}
+                        index={index}
+                        className="customcard"
+                      />
                     </div>
                   </>
                 );
@@ -739,13 +761,13 @@ export default function Index() {
       </section>
 
       <section className="testimonial">
-      <div className="d-flex align-items-center justify-content-center">
-  <div className="d-flex align-items-center justify-content-center testimonial-heading w-100">
-    <div className="line "></div>
-    <H6 title="Client Reviews" />
-    <div className="line"></div>
-  </div>
-</div>
+        <div className="d-flex align-items-center justify-content-center">
+          <div className="d-flex align-items-center justify-content-center testimonial-heading w-100">
+            <div className="line "></div>
+            <H6 title="Client Reviews" />
+            <div className="line"></div>
+          </div>
+        </div>
 
         <H3
           title="Don’t Just Take Our Word for It"
@@ -794,13 +816,6 @@ export default function Index() {
         </div>
       </section>
     </Layout>
+    </>
   );
-};
-
-export function generateMetadata({ params }) {
-  return {
-    title: "Fourth Industrial Revolution",
-    description: "Lead Generation",
-};
 }
-
