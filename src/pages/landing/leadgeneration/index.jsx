@@ -438,7 +438,7 @@ const Index = () => {
                 <div className="section3-span1 primary text-uppercase text-center">
                   AI Talk Assist
                 </div>
-                <div className="section3-main  text-center">
+                <div className="section3-main  text-center d-flex justify-content-center">
                   <div className="d-flex justify-content-center align-items-center" style={{width: "100%"}}>
                     
                   <div className="line"></div>
@@ -740,7 +740,7 @@ const Index = () => {
 
       <section className="testimonial">
       <div className="d-flex align-items-center justify-content-center">
-  <div className="d-flex align-items-center justify-content-center w-100">
+  <div className="d-flex align-items-center justify-content-center testimonial-heading w-100">
     <div className="line "></div>
     <H6 title="Client Reviews" />
     <div className="line"></div>
