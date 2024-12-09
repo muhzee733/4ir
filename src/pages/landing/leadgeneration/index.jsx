@@ -806,7 +806,7 @@ export default function Index() {
                   <iframe
                     className="calendly-inline-widget"
                     src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
-                    style={{ minWidth: "100%", height: "500px" }}
+                    style={{ width: "100%", height: "500px" }}
                     loading="lazy"
                   ></iframe>
                 </div>

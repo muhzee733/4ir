@@ -110,7 +110,7 @@
 
 @media screen and (min-width: 1400px) {
     .Footer-wrapper {
-        min-height: 80vh;
+        min-height: 69vh;
     }
     .main-body {
         width: 420px;
@@ -136,6 +136,12 @@
         min-height: 300px;
         margin-top: 18px;
     }
+    .footer-btn{
+        width: 100% !important;
+    }
+    .footer-1strow p{
+font-size: 23px !important;
+    }
 
     .car3-h5 {
         font-size: 32px !important;
@@ -146,8 +152,8 @@
     .footer-socials-links {
         width: 160px;
     }
-    .footer-copyright{
-        margin-top: 240px !important;
+    .footer-copyright-body div{
+        font-size: 22px !important;
     }
 }
 

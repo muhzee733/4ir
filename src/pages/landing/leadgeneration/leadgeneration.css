@@ -6,9 +6,6 @@
   background-repeat: no-repeat;
   min-height: 100vh;
 }
-.main-banner{
-    
-}
 
 .row1 {
   padding-top: 60px;
@@ -93,7 +90,7 @@
 }
 
 .section4-wrapper {
-  margin: 160px 0px !important;
+  margin: 100px 0px !important;
 }
 
 .section4h1 {
@@ -105,7 +102,6 @@
   background-image: url("../../../../public/images/mediallayers.png");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 210px;
   margin: 100px 0px;
 }
 
@@ -458,20 +454,65 @@
   background-color: var(--secondary);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
   }
   .main-banner{
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
-
+  p {
+    line-height: 36px !important;
+    font-size: 1.6rem !important;
+    font-size: 1.6rem !important;
+}
+.section5h3{
+    font-size: 2rem !important;
+}
   .section5para1 {
-    width: 80%;
+    width: 85%;
     margin: auto !important;
+  }
+  .section5para2{
+    font-size: 20px !important;
+  }
+  .section5lastpara p{
+    font-size: 20px !important;
+    line-height: 30px !important;
   }
   .section2 {
     padding-top: 50px !important;
+  }
+  .section3-main{
+    margin-top: 20px !important;
+  }
+  .section6h1 {
+    margin: 80px 0px 50px 0px !important;
+  }
+  .section2h6 {
+    margin: 90px 0px !important;
+  }
+  .section2h6 {
+    margin: 50px 0px !important;
+}
+.testimonial h6 {
+    font-size: 25px !important;
+}
+.testimonial h3 {
+    font-size: 72px !important;
+}
+.customcard{
+    border-radius: 10px;
+background-color: #0000001F !important;
+}
+.accordion-item h3{
+    font-size: 19px !important;
+    margin: 0px !important;
+}
+.section6para1{
+      padding: 0px 80px !important;
+    font-size: 30px !important;
+    margin-bottom: 30px !important;
   }
   .section4h4 {
     font-size: 40px !important;
@@ -484,17 +525,23 @@
     width: 50% !important;
   }
   .section3-main > div {
-    width: 70% !important;
+    width: 80% !important;
+  }
+  .section5para1{
+    font-size: 20px !important;
+    line-height: 30px !important;
   }
   .fourth-section {
     max-width: 80%;
     margin: auto;
   }
-
+.section5h1{
+    font-size: 56px !important;
+}
   h5 {
     font-size: 1.8rem !important;
     line-height: 2.6rem !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
   }
 
   .custom-card-section {
@@ -510,10 +557,19 @@
     text-align: center;
     margin: 0px 0px 10px 0px;
   }
-
+.card1h5{
+    font-weight: 600 !important;
+}
+.card1 p{
+font-size: 23px !important;
+}
+.section4h1 {
+    font-size: 5rem !important;
+    font-weight: 600 !important
+}
   .btn-1 {
     font-weight: 500;
-    font-size: 17px !important;
+    font-size: 23px !important;
   }
 
   .section2h6 {
