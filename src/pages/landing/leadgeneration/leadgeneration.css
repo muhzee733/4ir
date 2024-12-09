@@ -4,11 +4,14 @@
   background-image: url("../../../../public/images/bg-img.png");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  padding: 0px 150px;
 }
 .main-banner {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
-
 .row1 {
   padding-top: 60px;
 }
@@ -95,7 +98,7 @@
 }
 
 .section4-wrapper {
-  margin: 160px 0px !important;
+  margin: 100px 0px !important;
 }
 
 .section4h1 {
@@ -108,7 +111,6 @@
   background-image: url("../../../../public/images/mediallayers.png");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 210px;
   margin: 100px 0px;
 }
 
@@ -117,7 +119,7 @@
 }
 
 .second-session {
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -181,8 +183,7 @@
 
 /* second Last Section */
 .asked-question-wrapper {
-  min-height: 100vh;
-  margin: 50px 0px;
+  margin: 80px 0px;
 }
 
 .frequently-question-content h2 {
@@ -460,33 +461,79 @@
   background-color: var(--secondary);
 }
 .card3 {
-  width: 31%;
-  padding: 25px;
+    width: 31%;
+    padding: 25px;
+    min-height: 308px;
 }
-.card3 .card3-body{
-    min-height: 180px;
+.card3 .card3-body {
+  min-height: 180px;
 }
-.card3 h5{
-    margin-bottom: 16px;
+.card3 h5 {
+  margin-bottom: 16px;
 }
-.custom-boxes{
-    margin-bottom:100px;
+.custom-boxes {
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
   }
-  .main-banner {
-    margin-bottom: 80px;
+  .main-wrapper {
+    padding: 0 50px;
+}
+  p {
+    line-height: 36px !important;
+    font-size: 1.6rem !important;
+    font-size: 1.6rem !important;
   }
-
+  .section5h3 {
+    font-size: 2rem !important;
+  }
   .section5para1 {
-    width: 80%;
+    width: 85%;
     margin: auto !important;
+  }
+  .section5para2 {
+    font-size: 20px !important;
+  }
+  .section5lastpara p {
+    font-size: 20px !important;
+    line-height: 30px !important;
   }
   .section2 {
     padding-top: 50px !important;
+  }
+  .section3-main {
+    margin-top: 20px !important;
+  }
+  .section6h1 {
+    margin: 80px 0px 50px 0px !important;
+  }
+  .section2h6 {
+    margin: 90px 0px !important;
+  }
+  .section2h6 {
+    margin: 50px 0px !important;
+  }
+  .testimonial h6 {
+    font-size: 25px !important;
+  }
+  .testimonial h3 {
+    font-size: 72px !important;
+  }
+  .customcard {
+    border-radius: 10px;
+    background-color: #0000001f !important;
+  }
+  .accordion-item h3 {
+    font-size: 19px !important;
+    margin: 0px !important;
+  }
+  .section6para1 {
+    padding: 0px 80px !important;
+    font-size: 30px !important;
+    margin-bottom: 30px !important;
   }
   .section4h4 {
     font-size: 40px !important;
@@ -499,21 +546,27 @@
     width: 50% !important;
   }
   .section3-main > div {
-    width: 70% !important;
+    width: 80% !important;
+  }
+  .section5para1 {
+    font-size: 20px !important;
+    line-height: 30px !important;
   }
   .fourth-section {
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
   }
-
+  .section5h1 {
+    font-size: 56px !important;
+  }
   h5 {
     font-size: 1.8rem !important;
     line-height: 2.6rem !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
   }
 
   .custom-card-section {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
   }
 
@@ -525,10 +578,19 @@
     text-align: center;
     margin: 0px 0px 10px 0px;
   }
-
+  .card1h5 {
+    font-weight: 600 !important;
+  }
+  .card1 p {
+    font-size: 23px !important;
+  }
+  .section4h1 {
+    font-size: 5rem !important;
+    font-weight: 600 !important;
+  }
   .btn-1 {
     font-weight: 500;
-    font-size: 17px !important;
+    font-size: 23px !important;
   }
 
   .section2h6 {
@@ -549,10 +611,7 @@
   }
 
   .main-banner {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 94vh;
     width: 100%;
   }
 
@@ -597,26 +656,26 @@
   .frequently-question-content h2 {
     font-size: 56px !important;
     line-height: 60px !important;
-}
+  }
   .bookDemo-content p {
     line-height: 34px !important;
     font-size: 20px !important;
-}
-.frequently-question-content h2{
+  }
+  .frequently-question-content h2 {
     margin-bottom: 20px;
-}
-.frequently-question-content p{
+  }
+  .frequently-question-content p {
     margin-bottom: 30px !important;
     font-size: 20px !important;
-}
+  }
 
-  .calltoaction-content h5{
+  .calltoaction-content h5 {
     font-size: 34px !important;
   }
   .calltoaction-content > h3 {
     font-size: 54px !important;
     font-weight: 600 !important;
-}
+  }
   .car3-h5 {
     font-size: 28px !important;
     line-height: 37px !important;

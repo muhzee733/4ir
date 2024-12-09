@@ -360,9 +360,9 @@ export default function Index() {
       <Layout>
         {/* shahbaz */}
         <section>
-          <div className="main-wrapper d-flex align-items-center">
-            <div className="container">
-              <div class="main-banner d-flex align-item-center justify-content-center">
+          <div className="main-wrapper">
+            <div className="container-fluid">
+              <div class="main-banner">
                 <div className="row">
                   <div className="col-lg-6 col-md-6 col-sm-12 colum1">
                     <div className="figure">
@@ -805,8 +805,8 @@ export default function Index() {
                     <H2 title="Frequently Asked Question" />
                     <Para title="Book a Demo if you have any more questions." />
                     <div class="accordion" id="accordionExample">
-                      {Accordianapi.map((items, index) => {
-                        return <Accordian items={items} index={index} />;
+                      {Accordianapi?.map((items, index) => {
+                        return <Accordian items={items} key={index} />;
                       })}
                     </div>
                   </div>

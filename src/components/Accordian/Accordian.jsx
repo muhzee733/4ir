@@ -5,11 +5,11 @@ import H6 from "../Typography/H6";
 import H3 from "../Typography/H3";
 import { FiPlus } from "react-icons/fi";
 import { TiMinus } from "react-icons/ti";
-const Accordian = ({ items, index }) => {
+const Accordian = ({ items, key }) => {
   const [active, setActive] = useState(items.value);
   return (
     <>
-      <div class="accordion-item" key={index}>
+      <div class="accordion-item" key={key}>
         <h2 class="accordion-header" id={items.accordianid}>
           <button
             class="accordion-button text-white d-flex justify-content-between align-items-center"
@@ -34,10 +34,13 @@ const Accordian = ({ items, index }) => {
           <div class="accordion-body">
             <H5 title={items.heading} />
             <ul style={{ color: "white" }}>
-              {items.ulitems.map((item, key) => {
-                return <li key={key}>{item.liItems}</li>;
-              })}
+              {items.ulitems.map((item, index) => (
+                <li key={`${items.accordianid}-ulitem-${index}`}>
+                  {item.liItems}
+                </li>
+              ))}
             </ul>
+
             <H6 title={items.heading2} />
           </div>
         </div>
