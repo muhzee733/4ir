@@ -14,7 +14,7 @@ import Accordian from "@/components/Accordian/Accordian";
 import Mediallayers from "@/images/mediallayers.png";
 import mediaframe from "@/images/mediaframe.png";
 import cardsStats from "@/images/cardsStats.png";
-import Productstats from "@/images/Productstats.png";
+import Productstats from "@/images/Frame.png";
 import MapSection from "@/images/vectors/MapSection.png";
 import H4 from "@/components/Typography/H4";
 import { GiSevenPointedStar } from "react-icons/gi";
@@ -328,7 +328,7 @@ const Index = () => {
     },
     {
       id: 3,
-      title: "Tailored for Your Industry",
+      title: "Lightning-Fast Deployment",
       description:
         "Get up and running within 48 hours, no long wait times required",
     },
@@ -438,11 +438,16 @@ const Index = () => {
                 <div className="section3-span1 primary text-uppercase text-center">
                   AI Talk Assist
                 </div>
-                <div className="section3-main">
+                <div className="section3-main  text-center">
+                  <div className="d-flex justify-content-center align-items-center" style={{width: "100%"}}>
+                    
+                  <div className="line"></div>
                   <H5
                     title="The Revolutionary Voice AI Platform"
-                    className="text-center section3h5"
-                  />
+                    className="text-center section3h5 px-3 mb-0"
+                  />   
+                   <div className="line"></div>
+                  </div>
                 </div>
                 <Para
                   title="Transform your sales process in just two days—no long wait times, no hassle."
@@ -524,15 +529,19 @@ const Index = () => {
                     title="1. Lead Capture and CRM Integration"
                     className="section5h3"
                   />
-                  <div className="d-flex ">
-                    <GiSevenPointedStar className="primary me-3" size={20} />
+                  <div className="d-flex align-items-center ">
+                    <div>
+                    <GiSevenPointedStar className="primary me-3" size={23}  />
+                    </div>
                     <Para
                       title="Your sales or marketing team generates leads, which are then added to your CRM system."
                       className="section5para2"
                     />
                   </div>
-                  <div className="d-flex ">
-                    <GiSevenPointedStar className="primary me-3" size={20} />
+                  <div className="d-flex align-items-center">
+                    <div>
+                    <GiSevenPointedStar className="primary me-3" size={23} />
+                    </div>
                     <Para
                       title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
                       className="section5para2"
@@ -560,15 +569,19 @@ const Index = () => {
                       title="2. Automated Outbound Calling"
                       className="section5h3"
                     />
-                    <div className="d-flex">
-                      <GiSevenPointedStar className="primary me-3" size={40} />
+                    <div className="d-flex align-items-center ">
+                      <div>
+                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      </div>
                       <Para
                         title="The AI-powered system automatically dials leads, saving you time and resources."
                         className="section5para2"
                       />
                     </div>
-                    <div className="d-flex ">
-                      <GiSevenPointedStar className="primary me-3" size={40} />
+                    <div className="d-flex align-items-center ">
+                    <div>
+                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      </div>
                       <Para
                         title="It can handle a large volume of calls simultaneously, ensuring no lead is missed."
                         className="section5para2"
@@ -583,15 +596,19 @@ const Index = () => {
                       title="3. Intelligent Conversations"
                       className="section5h3"
                     />
-                    <div className="d-flex ">
-                      <GiSevenPointedStar className="primary me-3" size={40} />
+                    <div className="d-flex align-items-center ">
+                    <div>
+                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      </div>
                       <Para
                         title="The AI engages in natural, human-like conversations with leads."
                         className="section5para2"
                       />
                     </div>
-                    <div className="d-flex ">
-                      <GiSevenPointedStar className="primary me-3" size={40} />
+                    <div className="d-flex align-items-center  ">
+                    <div>
+                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      </div>
                       <Para
                         title="It can ask relevant questions, provide information, and even qualify leads based on predefined criteria."
                         className="section5para2"
@@ -608,15 +625,21 @@ const Index = () => {
                     title="4. Lead Capture and CRM Integration"
                     className="section5h3"
                   />
-                  <div className="d-flex ">
-                    <GiSevenPointedStar className="primary me-3" size={23} />
+                  <div className="d-flex align-items-center ">
+                  <div>
+                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      </div>
                     <Para
                       title="Your sales or marketing team generates leads, which are then added to your CRM system."
                       className="section5para2"
                     />
                   </div>
-                  <div className="d-flex ">
-                    <GiSevenPointedStar className="primary me-3" size={23} />
+                  <div className="d-flex align-items-center ">
+                  
+                  <div>
+                      <GiSevenPointedStar className="primary me-3" size={23} />
+                      </div>
+                  
                     <Para
                       title="4IR AI Voice Calling integrates seamlessly with your CRM, providing real-time access to lead data."
                       className="section5para2"
@@ -716,6 +739,14 @@ const Index = () => {
       </section>
 
       <section className="testimonial">
+      <div className="d-flex align-items-center justify-content-center">
+  <div className="d-flex align-items-center justify-content-center w-100">
+    <div className="line "></div>
+    <H6 title="Client Reviews" />
+    <div className="line"></div>
+  </div>
+</div>
+
         <H3
           title="Don’t Just Take Our Word for It"
           className="section7h3 customsec7h3 text-center"

@@ -1,3 +1,4 @@
+@import url('../../../app/Global.css');
 .main-wrapper {
     /* min-height: 100vh; */
     background-image: url("../../../../public/images/bg-img.png");
@@ -68,24 +69,12 @@
     text-align: center !important;
 }
 
-.section3h5::before {
-    content: "";
-    position: absolute;
-    left: -34%;
-    top: 50%;
-    width: 140px;
-    height: 3px;
-    background: white;
+.card3:hover{
+    background-color: var(--primary);
+    transition: all.5s;
 }
-
-.section3h5::after {
-    content: "";
-    position: absolute;
-    right: -34%;
-    top: 50%;
-    width: 140px;
-    height: 3px;
-    background: white;
+.card3:hover .card3-body > p {
+    color: #fff !important; /* Ensure the correct variable is used */
 }
 
 .section3para {
@@ -138,6 +127,12 @@
 .Productstats {
     width: 100%;
     height: auto;
+}
+/* Section no 3 */
+.line{
+    background-color: var(--whitecolor);
+    width: 10%;
+    height: 3px;
 }
 
 /* Section 5 */
@@ -319,6 +314,8 @@
 .section5lastpara {
     margin: 50px 0px;
 }
+/* Section 3 */
+
 
 /* section 6 */
 
@@ -377,9 +374,24 @@
     line-height: 28px !important;
     padding-top: 20px;
 }
+.testimonial > div{
 
+    margin-bottom: 1rem ;
+}
+.testimonial h6{
+    font-size:1rem !important;
+    margin-bottom: 0rem ;
+    padding: 0px 10px;
+}
+.testimonial h3{
+    font-size: 3rem !important;
+    font-weight: 600    !important;
+    padding-bottom: 50px ;
 
-
+}
+.testimonial{
+    margin: 100px 0px ;
+}
  .testimonial-card{
     background: rgba(9, 9, 9, 1);
     border-radius: 9px;
@@ -410,6 +422,9 @@
 }
 .section2heading{
     margin-bottom: 40px;
+}
+.testimonial-card img{
+background-color: var(--secondary);
 }
 
 @media screen and (min-width: 1440px) {
@@ -515,7 +530,15 @@
     .bannerSpandiv {
         margin: 30px 0px !important;
     }
-
+    .bannerSpandiv {
+       gap: 2rem !important;
+    }
+    .section2 {
+       padding: 100px 0px !important;
+    }
+    .figure img {
+        max-width: 70%;
+    }
     .main-wrapper {
         padding: 0px 100px !important;
     }
@@ -533,8 +556,9 @@
     }
 
     .bannerSpan {
-        font-size: 18px;
+        font-size: 16px;
     }
+
 
     .figure1 {
         width: 200px !important;
@@ -554,10 +578,6 @@
         background-size: contain !important;
         height: 145px;
 
-    }
-
-    .section3-wrapper {
-        margin-top: 120px;
     }
 
     .section3-span1 {
@@ -668,7 +688,15 @@
         font-size: calc(23px - 3px) !important;
         width: 100%;
     }
-
+    .main-wrapper {
+        padding: 0px 50px !important;
+    }
+    .figure img {
+        max-width: 60%;
+    }
+    .bannerSpandiv{
+        gap: 2rem  !important;
+    }
     .colum1 {
         padding: 30px 0px !important;
     }
@@ -830,6 +858,9 @@
         font-size: 80px;
         line-height: 80px;
     }
+    .swiper-slide{
+        width: 100% !important;
+    }
 
     .section3h5::before {
         left: 60px;
@@ -932,7 +963,19 @@
         border-radius: 10px !important;
         margin: 50px 0px;
     }
-
+.flex-card{
+    flex-direction: column;
+    align-items: center;
+}
+.section2heading > h5{
+    line-height: 25px !important;
+}
+.swiper-slide {
+    width: 100% !important;
+}
+.bannerSpandiv{
+    justify-content: center !important;
+}
     .calltoaction-content>h3 {
         font-size: 32px !important;
         font-weight: 600 !important;
@@ -1144,7 +1187,6 @@
         text-align: center;
         line-height: 28px !important;
     }
-
     .bannerpara {
         text-align: center;
         padding: 0px 0px !important;
@@ -1157,9 +1199,18 @@
         margin-top: -20px !important;
         padding: 0px !important;
     }
-
+.bannerSpandiv{
+    gap: 0.5rem !important;
+}
     .bannerSpan {
-        font-size: 9px;
+        font-size: 11px;
+    }
+    .custom-card-section p{
+        font-size: 13px !important;
+        line-height: 20px !important;
+    }
+    .figure img{
+        max-width: 45% !important;
     }
 
     .btn-1 {
@@ -1185,10 +1236,12 @@
         margin: 4px 0px;
     }
 
-    .section3-wrapper {
-        margin-top: 30px;
+    .section2{
+        padding: 50px 0px !important;
     }
-
+    .section3-wrapper{
+        margin: 10px 0px !important;
+    }
     .section3-span1 {
         font-size: 35px;
         line-height: 45px;

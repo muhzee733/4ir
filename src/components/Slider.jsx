@@ -30,8 +30,8 @@ const Slider = ({ SliderData }) => {
             <div className="testimonial-card">
               <div className="d-flex align-items-center">
                 <img
-                  src="/images/icon-1.png"
-                  className="bg-white rounded-5 p-1"
+                  src="/images/testimonial.png"
+                  className=" rounded-5 p-1"
                 />
                 <div className="ms-4 testimonial-client">
                   <h5>{item?.clientName}</h5>

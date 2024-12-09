@@ -310,7 +310,7 @@ p {
   }
   h3 {
     font-size: 22px !important;
-    line-height: 1.5rem !important;
+    line-height: normal !important;
   }
 
   h4 {
@@ -329,7 +329,8 @@ p {
   }
 
   p {
-    line-height: 1rem !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
   }
 
   .btn-1 {
