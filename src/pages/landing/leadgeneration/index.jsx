@@ -25,7 +25,7 @@ import Card3 from "@/components/cards/Card3";
 import YoutubeVideo from "@/components/YoutubeVideo";
 import SiteLogo from "@/components/SiteLogo";
 
-const Index = () => {
+export default function Index() {
   const SecondBox = [
     {
       id: 1,
@@ -797,4 +797,10 @@ const Index = () => {
   );
 };
 
-export default Index;
+export function generateMetadata({ params }) {
+  return {
+    title: "Fourth Industrial Revolution",
+    description: "Lead Generation",
+};
+}
+
