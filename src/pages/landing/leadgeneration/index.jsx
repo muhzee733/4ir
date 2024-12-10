@@ -213,7 +213,7 @@ export default function AiVoiceCalling() {
               {FutureCardapi?.map((items, index) => {
                 return (
 
-                  <Card3 items={items} index={index} className="Salesaicards" />
+                  <Card3 items={items} key={index} className="Salesaicards" />
                 )
               })}
             </div>
