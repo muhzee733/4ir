@@ -12,6 +12,8 @@ import Card4 from "@/components/cards/Card4";
 import Card3 from "@/components/cards/Card3";
 import Model from "@/components/Model/Model";
 import Head from "next/head";
+import AiPoweredCard from "../../../components/aiPoweredcard/aiPoweredCard"
+import H3 from "@/components/Typography/H3";
 export default function AiVoiceCalling() {
   const [showModal, setShowModal] = useState(false);
 
@@ -98,6 +100,70 @@ export default function AiVoiceCalling() {
       title: "Seamless Integration",
       description: "Easily integrate with your CRM and marketing tools.", className: "Salesaicards"
     },
+  ]
+  const aiPoweredIndustries = [
+    {
+      id: 1,
+      title: "Real Estate",
+      image: "/images/Real estate.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 2,
+      title: "Automotive",
+      image: "/images/automotive 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 3,
+      title: "Financial Services",
+      image: "/images/financial 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 4,
+      title: "Insurance",
+      image: "/images/insurance 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 5,
+      title: "Healthcare Providers",
+      image: "/images/first-aid-kit 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 6,
+      title: "Pharmaceutical",
+      image: "/images/pharmacy 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+  ];
+  const aiPoweredIndustriescard2 = [
+    {
+      id: 1,
+      title: "Collage and Universities",
+      image: "/images/university 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 2,
+      title: "Online Education Providers",
+      image: "/images/gratitude 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 3,
+      title: "Software Companies",
+      image: "/images/computer-business 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    },
+    {
+      id: 4,
+      title: "Hardware Companies",
+      image: "/images/configuration 1.png",
+      para: "Identify potential car buyers, book test drives, and provide personalized product information."
+    }
   ]
   return (
     <>
@@ -215,10 +281,10 @@ export default function AiVoiceCalling() {
               <H2 title="The Future of Sales is AI-Powered" className="text-center" />
               <Para title="Don't get left behind. Embrace the power of AI to transform your sales process." className="text-center mb-4" />
               <div className="aifuturecard">
-                {FutureCardapi?.map((items,index) => {
+                {FutureCardapi?.map((items, index) => {
                   return (
 
-                    <Card3 items={items} key={index}/>
+                    <Card3 items={items} key={index} />
                   )
                 })}
               </div>
@@ -228,10 +294,28 @@ export default function AiVoiceCalling() {
         <section className="aiPoweredIndustries">
           <div className="aiPoweredIndustries-wrapper">
             <div className="container">
-              <H2 title="Industries That Can Benefit from AI-Powered Lead Generation and Automated Voice Calling" className="text-center" />
-              <Para title="Our AI-powered solution is versatile and can be applied to a wide range of industries. Here are a few examples:" className="text-center" />
-              <div className="aiPoweredIndustries-first-grid">
-
+              <div className="aiPoweredIndustries-content d-flex flex-column justify-content-center align-items-center">
+                <H2 title="Industries That Can Benefit from AI-Powered Lead Generation and Automated Voice Calling" className="text-center" />
+                <Para title="Our AI-powered solution is versatile and can be applied to a wide range of industries. Here are a few examples:" className="text-center" />
+              </div>
+              <div className="aiPoweredIndustries-first-grid d-flex justify-content-center flex-wrap gap-4">
+                {aiPoweredIndustries.map((items, index) => {
+                  return <AiPoweredCard items={items} key={index} />
+                })}
+              </div>
+              <div className="aiPoweredIndustries-second-grid mt-4 d-flex justify-content-center align-item-center flex-wrap gap-4">
+                {aiPoweredIndustriescard2.map((items, index) => {
+                  return <AiPoweredCard items={items} key={index} className="aiPoweredIndustries-card2" />
+                })}
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="testimonial">
+          <div className="testimonial-wrapper">
+            <div className="container">
+              <div className="testimonial-heading">
+                <H2 title="By leveraging AI-powered lead generation and automated voice calling, businesses in these industries can:" className='text-center' />
               </div>
             </div>
           </div>
