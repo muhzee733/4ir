@@ -528,11 +528,10 @@ export default function Index() {
               <div className="row text-center">
                 <div className="col-lg-12 col-md-12 col-sm-12">
                   <div className="section4-img text-center">
-                    <button
-                      style={{ borderRadius: "50%", border: "none" }}
+                    <div
                       onClick={() => {
-                        handlePlayPause(); // First function
-                        toggleAnimation(); // Second function
+                        handlePlayPause(); 
+                        toggleAnimation();
                       }}
                     >
                       {isAnimating ? (
@@ -549,10 +548,11 @@ export default function Index() {
                         </div>
                       </div>
                       ):(
-                     
-                          <FaPlay size={100} color="blue" />
+                     <div className="play-btn">
+                       <FaPlay size={100} color="blue" />
+                     </div>
                       )}
-                    </button>
+                    </div>
 
                   </div>
                 </div>

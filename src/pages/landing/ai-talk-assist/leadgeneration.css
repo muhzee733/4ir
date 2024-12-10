@@ -584,12 +584,32 @@
   border: unset !important;
   border-radius:unset !important;
 }
+.section4-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4-img .play-btn{
+  background-color: white;
+  padding: 50px;
+  border-radius: 50% ;
+  width: fit-content;
+}
+.section4-img .play-btn svg{
+   color: var(--secondary) !important;
+}
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
   }
   .main-wrapper {
     padding: 0 50px;
+}
+.section4-img .play-btn{
+  background-color: white;
+  padding: 50px;
+  border-radius: 50% ;
+  width: fit-content;
 }
   p {
     line-height: 36px !important;
@@ -782,6 +802,12 @@
   }
   .line {
     width: 11%;
+}
+.section4-img .play-btn{
+  padding: 30px 43px;
+}
+.section4-img .play-btn svg{
+    width: 70px;
 }
   .frequently-question-content h2 {
     font-size: 56px !important;
@@ -983,7 +1009,12 @@
     font-size: calc(23px -5px) !important;
     padding-bottom: 20px;
   }
-
+  .section4-img .play-btn{
+    padding: 10px 33px;
+  }
+  .section4-img .play-btn svg{
+      width: 50px;
+  }
   .accordion-button h3 {
     font-size: calc(1.4rem - 3px) !important;
   }
@@ -1153,6 +1184,12 @@
   .wave {
     width: 10px;
   }
+  .section4-img .play-btn{
+    padding: 1px 30px;
+  }
+  .section4-img .play-btn svg{
+      width: 40px;
+  }
   .audio-button {
     width: 110px;
     height: 110px;
@@ -1305,6 +1342,12 @@
   .audio-button {
     width: 100px;
     height: 100px;
+  }
+  .section4-img .play-btn{
+    padding: 0px 30px;
+  }
+  .section4-img .play-btn svg{
+      width: 40px;
   }
   .bookDemo-content > p {
     font-size: calc(23px- 6px) !important;
@@ -1556,6 +1599,12 @@ padding: 0px !important;
     font-size: 16px !important;
     line-height: 25px !important;
   }
+  /* .section4-img .play-btn{
+    padding: -10px 30px !important;
+  }
+  .section4-img .play-btn svg{
+      width: 30px;
+  } */
   .circle svg{
     width: 17px;
   }
