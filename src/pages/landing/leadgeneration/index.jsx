@@ -1,6 +1,7 @@
 import Layout from "@/components/layout";
 import React from "react";
 import "./leadgeneration.css";
+import { useState, useEffect } from "react";
 import SecondSecBox from "@/components/Second-Section Box/Second-sec-box";
 import Para from "@/components/Typography/Para";
 import { FiCheck } from "react-icons/fi";
@@ -24,6 +25,7 @@ import Card3 from "@/components/cards/Card3";
 import YoutubeVideo from "@/components/YoutubeVideo";
 import SiteLogo from "@/components/SiteLogo";
 import Head from "next/head";
+import Model from "@/components/Model/Model";
 
 export default function Index() {
   const SecondBox = [
@@ -78,6 +80,7 @@ export default function Index() {
       datatargetid: "#collapseOne",
       title: "How will AI Talk Assist benefit my business?",
       value: true,
+      show: "show",
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -190,7 +193,7 @@ export default function Index() {
       ],
       heading2:
         "By prioritizing security, we ensure the protection of your business and customer data.",
-      show: "show",
+
     },
   ];
 
@@ -204,7 +207,7 @@ export default function Index() {
         "AI can guide potential buyers through virtual property tours, answering questions and providing detailed information.",
       para2:
         "AI can efficiently qualify leads, schedule appointments, and follow up with interested parties.",
-      icon: "/images/vectors/vector1.png",
+      icon: "/images/vectors/Vector1.png",
       layout: true,
     },
     {
@@ -216,7 +219,7 @@ export default function Index() {
         "AI can handle a wide range of customer inquiries, from account balances to loan applications.",
       para2:
         "AI can analyze voice patterns and detect potential fraudulent activity in real-time.",
-      icon: "/images/vectors/vector2.png",
+      icon: "/images/vectors/Vector2.png",
       layout: true,
     },
     {
@@ -228,7 +231,7 @@ export default function Index() {
         "AI can automate appointment scheduling, reminders, and confirmations.",
       para2:
         "AI can facilitate remote consultations, answering patient queries and providing basic medical advice.",
-      icon: "/images/vectors/vector3.png",
+      icon: "/images/vectors/Vector3.png",
       layout: true,
     },
   ];
@@ -243,7 +246,7 @@ export default function Index() {
         "AI-powered chatbots can assist customers with product information, order tracking, and returns.",
       para2:
         "AI can proactively reach out to customers, offer personalized recommendations, and upsell products.",
-      icon: "/images/vectors/vector4.png",
+      icon: "/images/vectors/Vector4.png",
       layout: true,
     },
     {
@@ -255,7 +258,7 @@ export default function Index() {
         "AI can provide students with academic advice, answer questions, and offer guidance on course selection.",
       para2:
         "AI-powered tutoring systems can offer personalized learning experiences, adapting to each student's needs.",
-      icon: "/images/vectors/vector5.png",
+      icon: "/images/vectors/Vector5.png",
       layout: true,
     },
     {
@@ -267,7 +270,7 @@ export default function Index() {
         "AI can guide customers through the onboarding process, troubleshoot issues, and provide technical support.",
       para2:
         "AI can identify upselling opportunities and offer tailored packages to customers.",
-      icon: "/images/vectors/vector1.png",
+      icon: "/images/vectors/Vector1.png",
       layout: true,
     },
   ];
@@ -351,6 +354,39 @@ export default function Index() {
         "Focus on growing your business while we handle the technical setup for a smooth launch.",
     },
   ];
+  const [audio, setAudio] = useState(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setAudio(new Audio("/images/heather-audio.wav"));
+    }
+  }, []);
+
+  const handlePlayPause = () => {
+    if (!audio) return;
+
+    if (isPlaying) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+    setIsPlaying(!isPlaying);
+  };
+  const [showModal, setShowModal] = useState(false);
+
+  const handleOpenModal = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  const toggleAnimation = () => {
+    setIsAnimating(!isAnimating);
+  };
   return (
     <>
       <Head>
@@ -359,6 +395,7 @@ export default function Index() {
 
       <Layout>
         {/* shahbaz */}
+        {showModal && <Model close={handleCloseModal} />}
         <section>
           <div className="main-wrapper">
             <div className="container-fluid">
@@ -389,7 +426,7 @@ export default function Index() {
                       </span>
                     </div>
                     <div className="banner-btn">
-                      <button href="#" className="btn-1">
+                      <button href="#" className="btn-1" onClick={handleOpenModal}>
                         Book a free Demo
                       </button>
                     </div>
@@ -490,7 +527,26 @@ export default function Index() {
               <div className="row text-center">
                 <div className="col-lg-12 col-md-12 col-sm-12">
                   <div className="section4-img text-center">
-                    <Image src={mediaframe} className="musicicon" />
+                    <button
+                      style={{ borderRadius: "50%", border: "none" }}
+                      onClick={() => {
+                        handlePlayPause(); // First function
+                        toggleAnimation(); // Second function
+                      }}
+                    >
+                      <div
+                        className={`audio-button ${isAnimating ? "animating" : ""}`}
+                      >
+                        <div className="wave-icon">
+                          <div className="wave wave1"></div>
+                          <div className="wave wave2"></div>
+                          <div className="wave wave3"></div>
+                          <div className="wave wave4"></div>
+                          <div className="wave wave5"></div>
+                        </div>
+                      </div>
+                    </button>
+
                   </div>
                 </div>
               </div>

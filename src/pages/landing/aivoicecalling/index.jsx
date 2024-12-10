@@ -1,4 +1,5 @@
 import Layout from "@/components/layout";
+import { useState } from "react";
 import "./aivoiceCalling.css";
 import Para from "@/components/Typography/Para";
 import H6 from "@/components/Typography/H6";
@@ -9,36 +10,47 @@ import H2 from "@/components/Typography/H2";
 import Card2 from "@/components/cards/Card2";
 import Card4 from "@/components/cards/Card4";
 import Card3 from "@/components/cards/Card3";
+import Model from "@/components/Model/Model";
 
 export default function AiVoiceCalling() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleOpenModal = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   const Leads = [
     {
       id: 1,
-      img: "/images/icon-1.png",
+      img: "/images/vectors/icon-1.png",
       title: "Futile Lead Qualification",
       para: "Wasting time on low-quality leads.",
     },
     {
       id: 2,
-      img: "/images/icon-1.png",
+      img: "/images/vectors/icon-2.png",
       title: "Manual Outreach",
       para: "Wasting time on low-quality leads.",
     },
     {
       id: 3,
-      img: "/images/icon-1.png",
+      img: "/images/vectors/icon-3.png",
       title: "Delayed Follow-ups",
       para: "Wasting time on low-quality leads.",
     },
     {
       id: 4,
-      img: "/images/icon-1.png",
+      img: "/images/vectors/icon-4.png",
       title: "Inconsistent Messaging",
       para: "Wasting time on low-quality leads.",
     },
     {
       id: 5,
-      img: "/images/icon-1.png",
+      img: "/images/vectors/icon-5.png",
       title: "Futile Lead Qualification",
       para: "Wasting time on low-quality leads.",
     },
@@ -89,6 +101,7 @@ export default function AiVoiceCalling() {
   ]
   return (
     <Layout>
+
       <section className="banner">
         <div className="banenr-wrapper">
           <div className="container">
@@ -170,19 +183,17 @@ export default function AiVoiceCalling() {
                   <H2 title="Seamless Integration, Exceptional Results" className="" />
                   <Para title="Integrate our AI-powered voice calling and lead generation solution into your existing sales process. Our platform is designed to:" className="strugling-para2" />
                   <button className="btn-2">
-                    Start a free Trail <LuArrowRight size={22} />
+                    Start a free Trail <LuArrowRight size={22} onClick={handleOpenModal}/>
                   </button>
                 </div>
               </div>
             </div>
 
-            <div className="row strugling-lower-content">
+            <div className="strugling-lower-content">
               {SeamslessApi?.map((items, index) => {
                 return (
                   <>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <Card4 items={items} index={index} />
-                    </div>
+                    <Card4 items={items} index={index} />
                   </>
                 );
               })}
@@ -202,7 +213,7 @@ export default function AiVoiceCalling() {
               {FutureCardapi?.map((items, index) => {
                 return (
 
-                  <Card3 items={items} index={index} />
+                  <Card3 items={items} index={index} className="Salesaicards" />
                 )
               })}
             </div>

@@ -105,9 +105,6 @@
 
 .card4-body {
   background-color: #00000021;
-  height: 170px;
-  padding: 30px 20px;
-  margin-top: 30px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -119,7 +116,9 @@
     height: 650px;
     padding: 80px 20px 80px 20px;
   }
-
+  .Salesaicards{
+    width: 400px !important;
+  }
   .card-para1 {
     font-size: 25px !important;
   }
@@ -127,6 +126,9 @@
   .card-para2 {
     font-size: 25px !important;
   }
+  .aifuturecard .Salesaicards {
+    padding: 54px 1px 26px 24px !important;
+}
 
   .card-div {
     margin: 30px 0px;
@@ -140,9 +142,9 @@
   }
 
   .car3-h5 {
-    font-size: 32px !important;
+    font-size: 30px !important;
     font-weight: bold !important;
-    line-height: 48px !important;
+    line-height: 39px !important;
     margin-bottom: 20px;
   }
   .footer-socials-links {
@@ -180,7 +182,9 @@
     height: 80px;
     top: -40px;
   }
-
+  .Salesaicards{
+    width: 400px !important;
+  }
   .card-div {
     margin: 20px 0px;
   }
@@ -282,7 +286,12 @@
     height: 290px;
     padding: 50px 0px 0px 20px;
   }
-
+  .aifuturecard{
+    gap: 20px !important;
+  }
+  .aifuturecard .Salesaicards {
+    padding: 30px 20px 20px 20px  !important;
+}
   .card-img {
     width: 70px;
     height: 70px;
