@@ -215,7 +215,7 @@ export default function AiVoiceCalling() {
               <H2 title="The Future of Sales is AI-Powered" className="text-center" />
               <Para title="Don't get left behind. Embrace the power of AI to transform your sales process." className="text-center mb-4" />
               <div className="aifuturecard">
-                {FutureCardapi?.map((items, index) => {
+                {FutureCardapi?.map((items,index) => {
                   return (
 
                     <Card3 items={items} key={index}/>
