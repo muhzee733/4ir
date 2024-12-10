@@ -211,7 +211,9 @@
   .SecondSecBoxPara {
     font-size: 22px !important;
   }
-
+.customcard{
+    min-height: 31vh !important;
+}
   .card1 {
     width: 300px;
     padding: 50px 25px;
@@ -222,7 +224,7 @@
   }
   .main-body {
     height: 470px;
-    padding: 50px 0px 0px 20px;
+    padding: 50px 20px 0px 20px;
   }
 
   .card-img {

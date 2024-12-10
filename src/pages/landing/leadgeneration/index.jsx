@@ -364,7 +364,7 @@ export default function Index() {
             <div className="container-fluid">
               <div class="main-banner">
                 <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-12 colum1">
+                  <div className="col-lg-6 col-md-12 col-sm-12 colum1">
                     <div className="figure">
                       <SiteLogo />
                     </div>
@@ -394,7 +394,7 @@ export default function Index() {
                       </button>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end align-items-center customScreen">
+                  <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end align-items-center customScreen">
                     <div className="figure2 mt-5">
                       <YoutubeVideo />
                     </div>

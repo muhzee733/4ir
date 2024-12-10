@@ -653,6 +653,9 @@
     font-size: calc(23px - 2px) !important;
     width: 97%;
   }
+  .line {
+    width: 11%;
+}
   .frequently-question-content h2 {
     font-size: 56px !important;
     line-height: 60px !important;
@@ -836,8 +839,11 @@
     font-size: calc(64px - 10px) !important;
     line-height: 55px !important;
   }
+  .main-wrapper {
+    padding: 0 19px !important;
+}
   .main-banner {
-    padding: 0px 30px;
+    padding: 0px 19px !important;
   }
 
   .frequently-question-content p {
@@ -853,9 +859,16 @@
     font-size: calc(64px - 10px) !important;
     padding-bottom: 10px;
   }
+  .section6para1{
+    line-height: 22px !important;
+  }
 
+  .card-h5{
+    font-size: 1.5rem !important;
+  }
   .section2h5 {
     font-size: 23px !important;
+    line-height: 35px !important
   }
 
   .calltoaction-content > h3 {
@@ -887,13 +900,13 @@
   }
 
   .section2h6 {
-    margin: 50px 0px;
+    margin: 30px 0px;
   }
   .section3btn {
     margin: 50px 0px;
   }
   .section3-wrapper {
-    margin-top: 50px;
+    margin-top: 15px;
   }
 
   .section3-span1 {
@@ -909,8 +922,16 @@
     right: 110px;
     width: 100px;
   }
+  .section5lastpara{
+    margin: 30px 0px !important;
+  }
   .section4h4 {
     font-size: 24px !important;
+    line-height:30px !important;
+  }
+  .section3-span1{
+    font-size: 4.7rem !important;
+    line-height: 70px !important;
   }
 
   .section4h1 {
@@ -933,11 +954,24 @@
   .section5-Customwidth {
     width: 470px;
   }
-
+  .main-banner {
+    min-height: 69vh;
+}
   .section5-CustomMargin {
     margin-right: 17px;
   }
-
+  .custom-boxes {
+    margin-bottom: 50px !important;
+  }
+  .testimonial {
+    margin: 50px 0px !important;
+  }
+  .testimonial > div {
+    margin-bottom: 0px !important;
+  }
+  .calltoaction-content {
+    margin: 80px 0px !important;
+  }
   .section4-img {
     height: 140px;
     margin: 40px 0px;
@@ -946,7 +980,10 @@
     margin-bottom: 35px !important;
   }
   .section4-wrapper {
-    margin: 100px 0px !important;
+    margin: 80px 0px !important;
+  }
+  .section7h2 {
+    margin-bottom: 50px !important;
   }
   .musicicon {
     width: 110px;
@@ -954,7 +991,7 @@
   }
 
   .section6h1 {
-    margin: 30px 0px;
+    margin: 10px 0px;
   }
   .customcard {
     min-height: 200px !important;
@@ -1118,7 +1155,6 @@
     font-size: calc(64px - 25px) !important;
     padding-bottom: 20px !important;
   }
-
   .bookDemo-content > h2 {
     font-size: calc(64px - 25px) !important;
     padding-bottom: 5px;
@@ -1132,7 +1168,7 @@
 
   .calltoaction-content {
     border-radius: 10px !important;
-    margin: 50px 0px;
+    margin: 50px 0px !important;
   }
 
   .flex-card {
@@ -1152,18 +1188,64 @@
     gap: 1rem !important;
   }
   .bannerSpandiv .bannerSpan {
-    font-size: 11px !important;
+    font-size: 14px !important;
+  }
+  .figure  {
+   display: flex;
+   justify-content: center;
+  }
+  .figure img{
+    max-width: 25% !important;
   }
 
   .bannerSpandiv {
     justify-content: center !important;
   }
+  .section2h6{
+    font-size: 20px !important;
+  }
 
+.section3-wrapper{
+  margin: 15px 0px !important;
+}
+.section3-span1{
+  font-size: 3.5rem !important;
+  line-height: 50px !important;
+}
+.section3btn .btn-1{
+  font-size: 20px !important;
+}
+.section4-wrapper{
+  margin: 40px 0px !important;
+}
+.section5para1{
+  font-size: 15px !important;
+}
+.section7-wrapper{
+  margin: 30px 0px !important;
+}
+.section7h2{
+  margin-bottom: 20px !important;
+}
+ .custom-boxes .customcard{
+ width: 40% !important;
+ height: 150px !important;
+ }
+ .customcard .card3-body h5{
+ font-size: 20px !important;
+ line-height: 25px !important;
+ }
+ .customcard .card3-body p{
+ font-size: 15px !important;
+ }
   .calltoaction-content > h3 {
     font-size: 32px !important;
     font-weight: 600 !important;
   }
-
+.testimonial h3{
+  font-size: 2.3rem !important;
+padding: 0px !important;
+}
   .calltoaction-content > h5 {
     font-size: 23px !important;
   }
