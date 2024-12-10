@@ -490,7 +490,7 @@ export default function Index() {
               <div className="row text-center">
                 <div className="col-lg-12 col-md-12 col-sm-12">
                   <div className="section4-img text-center">
-                    <Image src={mediaframe} className="musicicon" />
+                    <Image src={mediaframe} className="musicicon" alt="image_1"/>
                   </div>
                 </div>
               </div>
