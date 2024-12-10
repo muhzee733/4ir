@@ -580,7 +580,10 @@
   animation: waveAnimation 0.8s infinite ease-in-out;
   animation-delay: 0.8s;
 }
-
+.section5-quaters{
+  border: unset !important;
+  border-radius:unset !important;
+}
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
@@ -753,6 +756,14 @@
   }
   .footer-1strow{
     margin-bottom: 30px !important;
+  }
+  .section4-img{
+    height: 19vh;
+  }
+  .section4-img button{
+    height: 150px !important;
+    width: 150px !important;
+    text-align: center;
   }
 }
 

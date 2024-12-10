@@ -26,6 +26,7 @@ import YoutubeVideo from "@/components/YoutubeVideo";
 import SiteLogo from "@/components/SiteLogo";
 import Head from "next/head";
 import Model from "@/components/Model/Model";
+import { FaPlay } from "react-icons/fa";
 
 export default function Index() {
   const SecondBox = [
@@ -390,7 +391,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>4IR - Lead Generation</title>
+        <title>4IR - Ai Talk Assist</title>
       </Head>
 
       <Layout>
@@ -534,6 +535,8 @@ export default function Index() {
                         toggleAnimation(); // Second function
                       }}
                     >
+                      {isAnimating ? (
+                      
                       <div
                         className={`audio-button ${isAnimating ? "animating" : ""}`}
                       >
@@ -545,6 +548,10 @@ export default function Index() {
                           <div className="wave wave5"></div>
                         </div>
                       </div>
+                      ):(
+                     
+                          <FaPlay size={100} color="blue" />
+                      )}
                     </button>
 
                   </div>
