@@ -315,7 +315,7 @@ p {
   }
 
   .btn-1 {
-    font-size: 12px !important;
-    padding: 8px 18px;
+    font-size: 13px !important;
+    padding: 8px 18px !important;
   }
 }

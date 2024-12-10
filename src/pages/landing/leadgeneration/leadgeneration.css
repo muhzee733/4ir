@@ -1212,9 +1212,9 @@
   font-size: 3.5rem !important;
   line-height: 50px !important;
 }
-.section3btn .btn-1{
+/* .section3btn .btn-1{
   font-size: 20px !important;
-}
+} */
 .section4-wrapper{
   margin: 40px 0px !important;
 }
@@ -1229,7 +1229,7 @@
 }
  .custom-boxes .customcard{
  width: 40% !important;
- height: 150px !important;
+ min-height: 150px !important;
  }
  .customcard .card3-body h5{
  font-size: 20px !important;
@@ -1392,7 +1392,17 @@ padding: 0px !important;
     text-align: center;
   }
   .main-banner {
-    padding: 40px 30px;
+    padding: 40px 00px !important;
+  }
+   .section2heading {
+   margin-bottom: 10px !important;
+  }
+  .section2heading  h5{
+    font-size: 16px !important;
+    line-height: 25px !important;
+  }
+  .circle svg{
+    width: 17px;
   }
   h1 {
     font-size: 32px !important;
@@ -1405,7 +1415,40 @@ padding: 0px !important;
   .frequently-question-content {
     padding: 0px 30px;
   }
-
+  .section2h6{
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+  }
+.section3-span1{
+  font-size: 45px !important;
+}
+.section3-main{
+  margin: 10px 0px !important;
+}
+.section3para{
+  font-size: 0.90rem !important;
+}
+  .section4h4 {
+    font-size: 20px !important;
+    margin: unset !important;
+    text-align: center;
+    width: 100%;
+  }
+  .section5h1{
+    line-height: 20px !important;
+  }
+  .section5para1{
+    width: 100%;
+  }
+  .section4-img{
+    margin: 35px 0px !important;
+  }
+  .main-body{
+    margin-top: 40px !important;
+  }
+  .MapSectiondiv {
+    margin-top: 50px;
+}
   .frequently-question-content > h2 {
     font-size: calc(64px - 30px) !important;
     line-height: 40px !important;
@@ -1493,11 +1536,6 @@ padding: 0px !important;
 
   .figure img {
     max-width: 45% !important;
-  }
-
-  .btn-1 {
-    font-size: 16px !important;
-    padding: 10px 26px !important;
   }
 
   .figure1 {
@@ -1612,7 +1650,69 @@ padding: 0px !important;
   }
 
   .section7-wrapper {
-    margin-top: 90px !important;
+    margin-top: 30px !important;
     padding: 0px 20px;
+  }
+  .custom-boxes .customcard {
+    width: 70% !important;
+    height:200px  !important;
+  }
+  .section7h2{
+    font-size: 27px !important;
+  }
+  .custom-boxes {
+    margin-bottom: 30px !important;
+  }
+  .testimonial{
+    margin: 0px !important;
+  }
+  .testimonial h6{
+    font-size: 15px !important;
+  }
+  .calltoaction-content {
+    margin: 0px !important;
+  }
+  .calltoaction-content  h3{
+    font-size: 1.8rem !important;
+  }
+  .calltoaction-content  h5{
+    font-size: 1rem !important;
+  }
+  .calltoaction-content  p{
+    font-size: 0.85rem !important;
+  }
+  .asked-question-wrapper{
+    margin:40px 0px !important;
+  }
+  .frequently-question-content p{
+margin: 0px !important;
+padding: 10px 0px !important;
+  }
+  .frequently-question-content h2{
+margin: 0px !important;
+padding: 0px 0px !important;
+  }
+  .accordion-item h3{
+    font-size: 1rem !important;
+    margin: 0px !important;
+    line-height: 23px !important;
+  }
+  .accordion-body h5{
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .accordion-body ul li{
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .accordion-body h6{
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .bookDemo-content p{
+    font-size: 1rem !important;
+  }
+  .footer-copyright-body div{
+    margin-bottom: 5px !important;
   }
 }
