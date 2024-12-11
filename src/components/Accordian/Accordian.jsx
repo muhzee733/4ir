@@ -44,15 +44,10 @@ const Accordian = ({ items, content }) => {
         </h2>
         <div
           id={items.collapseid}
-<<<<<<< HEAD
           className={`accordion-collapse collapse ${
             activeIndex === items.id ? "show" : ""
     
           }`}
-=======
-          className={`accordion-collapse collapse ${activeIndex === items.id ? "show" : ""
-            }`}
->>>>>>> 76ef2dd4710561b9789c65dfb05563d1fc56cdb1
           aria-labelledby={items.accordianid}
           data-bs-parent="#accordionExample"
         >

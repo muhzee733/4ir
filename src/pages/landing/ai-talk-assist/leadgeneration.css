@@ -457,7 +457,6 @@
 .accordion-item:first-child {
   background: none !important;
 }
-<<<<<<< HEAD
 .swiper-pagination-bullet{
   background-color: white !important;
 }
@@ -473,9 +472,6 @@
   font-size: 23px !important;
   padding-bottom: 20px;
 }
-=======
-
->>>>>>> 76ef2dd4710561b9789c65dfb05563d1fc56cdb1
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
@@ -1628,13 +1624,9 @@
   .circle svg {
     width: 17px;
   }
-<<<<<<< HEAD
   .swiper-wrapper{
     padding-bottom: 80px !important;
   }
-=======
-
->>>>>>> 76ef2dd4710561b9789c65dfb05563d1fc56cdb1
   h1 {
     font-size: 32px !important;
     line-height: 43px !important;
@@ -1656,7 +1648,6 @@
     font-size: 14px !important;
     margin-bottom: 10px !important;
   }
-<<<<<<< HEAD
 .section3-span1{
   font-size: 30px !important;
   line-height: 40px !important;
@@ -1674,22 +1665,6 @@
 .bookDemo-content h2{
   font-size: 20px !important;
 }
-=======
-
-  .section3-span1 {
-    font-size: 30px !important;
-    line-height: 40px !important;
-  }
-
-  .section3-main {
-    margin: 10px 0px !important;
-  }
-
-  .section3para {
-    font-size: 0.90rem !important;
-  }
-
->>>>>>> 76ef2dd4710561b9789c65dfb05563d1fc56cdb1
   .section4h4 {
     font-size: 20px !important;
     margin: unset !important;
@@ -2011,15 +1986,13 @@
   .section2bottom button {
     margin-top: 20px !important;
   }
-<<<<<<< HEAD
   .MapSectiondiv img{
     max-width: 100% !important;
   }
   .card3 {
     max-width: 48% !important;
     min-height: 0px !important; 
-=======
-
+  }
   .card3 {
     width: 47.3% !important;
     min-height: 200px !important;
@@ -2028,6 +2001,5 @@
   .card3 h5 {
     font-size: 16px !important;
     line-height: 28px !important;
->>>>>>> 76ef2dd4710561b9789c65dfb05563d1fc56cdb1
   }
 }
