@@ -489,7 +489,7 @@
 
 @media screen and (max-width: 768px) {
   .SecondSecBox-content {
-    height: 60px;
+    height: 75px;
     padding: 0px 10px 0px 5px !important;
   }
 
@@ -544,6 +544,13 @@
   }
   .footer-copyright-body {
     flex-direction: column;
+  }
+  .SecondSecBoxCol {
+    margin-bottom: 20px;
+    width: 50% !important;
+  }
+  .SecondSecBox-content p{
+    font-size: 14px !important;
   }
 }
 
@@ -603,4 +610,7 @@
     justify-content: center !important;
     gap: 20px !important;
    }
+   .SecondSecBoxCol {
+    width: 100% !important;
+  }
 }

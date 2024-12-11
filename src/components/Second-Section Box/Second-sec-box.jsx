@@ -9,7 +9,7 @@ const SecondSecBox = ({ SecondBox, className }) => {
       {SecondBox?.map((items) => {
         return (
           <div
-            className={`col-lg-6 col-md-12 col-sm-12 SecondSecBoxCol`}
+            className={`col-lg-6 col-md-12 col-sm-6 SecondSecBoxCol`}
             key={items.id}
           >
             <div className="SecondSecBox customborder">
