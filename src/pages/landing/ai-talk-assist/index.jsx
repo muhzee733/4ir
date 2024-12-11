@@ -434,7 +434,7 @@ export default function Index() {
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end align-items-center customScreen">
                     <div className="figure2 mt-5">
-                      <YoutubeVideo />
+                      <YoutubeVideo  src={"https://www.youtube.com/embed/tgbNymZ7vqY"}   />
                     </div>
                   </div>
                 </div>
@@ -463,7 +463,7 @@ export default function Index() {
                     title="Are these common sales challenges holding your business back?"
                     className="section2h6"
                   />
-                  <button className="btn-1">It’s Time To Make A Change</button>
+                  <button className="btn-1"  onClick={handleOpenModal}>It’s Time To Make A Change</button>
                 </div>
               </div>
             </div>
@@ -500,7 +500,7 @@ export default function Index() {
                   />
 
                   <div className="text-center section3btn">
-                    <button className="btn-1">Get Started with AI</button>
+                    <button className="btn-1"  onClick={handleOpenModal}>Get Started with AI</button>
                   </div>
                 </div>
               </div>
@@ -566,7 +566,7 @@ export default function Index() {
                       className="section4h4"
                     />
                   </div>
-                  <button className="btn-1">Explore AI Talk Assets Now</button>
+                  <button className="btn-1"  onClick={handleOpenModal}>Explore AI Talk Assets Now</button>
                 </div>
               </div>
             </div>
@@ -827,7 +827,7 @@ export default function Index() {
 
                 <div className="row">
                   <div className="text-center section7-btn">
-                    <button className="btn-1">Get Started with AI</button>
+                    <button className="btn-1"  onClick={handleOpenModal}>Get Started with AI</button>
                   </div>
                 </div>
               </div>

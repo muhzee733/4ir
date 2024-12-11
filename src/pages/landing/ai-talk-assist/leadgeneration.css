@@ -432,6 +432,21 @@
 .accordion-item:first-child {
   background: none !important;
 }
+.swiper-pagination-bullet{
+  background-color: white !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: var(--primary) !important;
+}
+.bookDemo-content h2 {
+  font-size: 64px !important;
+  padding-bottom: 10px;
+}
+
+.bookDemo-content p {
+  font-size: 23px !important;
+  padding-bottom: 20px;
+}
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
@@ -589,7 +604,15 @@
   .CMargin {
     padding-right: 5px;
   }
-
+.swiper-wrapper{
+  padding-bottom: 100px;
+}
+.swiper-pagination-bullet{
+  background-color: white !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: var(--primary) !important;
+}
   .section6lastRow {
     margin-top: 30px;
     padding: 40px 80px;
@@ -597,7 +620,7 @@
   }
 
   .section7-wrapper {
-    margin-top: 190px;
+    margin-top: 120px;
   }
 
   .section7h2 {
@@ -606,7 +629,7 @@
   }
 
   .section7-btn {
-    margin-top: 100px;
+    margin-top: 10px;
   }
   .footer-1strow{
     margin-bottom: 30px !important;
@@ -811,7 +834,9 @@
     padding: 40px 80px;
     font-size: 22px;
   }
-
+  .swiper-wrapper{
+    padding-bottom: 140px !important;
+  }
   .section7-wrapper {
     margin-top: 190px !important;
   }
@@ -1001,6 +1026,9 @@
   .section7-wrapper {
     margin-top: 90px !important;
   }
+  .swiper-wrapper{
+    padding-bottom: 70px  !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -1146,7 +1174,9 @@
   .section6para1 {
     padding: 0px 90px;
   }
-
+  .swiper-wrapper{
+    padding-bottom: 70px !important ;
+  }
   .section6lastRow {
     margin-top: 30px;
     padding: 30px 28px !important;
@@ -1199,6 +1229,9 @@
   .section2heading > h5 {
     line-height: 25px !important;
     font-size: 18px !important;
+  }
+  .card3{
+    min-height: 240px !important  ;
   }
 
   /* .swiper-slide {
@@ -1403,9 +1436,14 @@ padding: 0px !important;
     padding: 20px 20px !important;
     font-size: 14px;
   }
-
+  .MapSectiondiv img{
+    max-width: 80% !important;
+  }
   .section7h2 {
     margin-bottom: 30px;
+  }
+  .swiper-wrapper{
+    padding-bottom: 80px !important;
   }
 }
 
@@ -1442,12 +1480,19 @@ padding: 0px !important;
   .circle svg{
     width: 17px;
   }
+  .swiper-wrapper{
+    padding-bottom: 80px !important;
+  }
   h1 {
     font-size: 32px !important;
     line-height: 43px !important;
   }
   .section2 {
     padding: 30px 0 !important;
+  }
+  .bookDemo-content p {
+    font-size: 15px !important;
+    padding-bottom: 20px;
   }
 
   .frequently-question-content {
@@ -1466,6 +1511,13 @@ padding: 0px !important;
 }
 .section3para{
   font-size: 0.90rem !important;
+}
+.swiper-slide-active {
+  width: 250px !important;
+  /* width: unset !important; */
+}
+.bookDemo-content h2{
+  font-size: 20px !important;
 }
   .section4h4 {
     font-size: 20px !important;
@@ -1759,8 +1811,11 @@ padding: 0px 0px !important;
   .section2bottom button {
     margin-top: 20px !important;
   }
+  .MapSectiondiv img{
+    max-width: 100% !important;
+  }
   .card3 {
-    width: 100% !important;
+    max-width: 48% !important;
     min-height: 0px !important; 
   }
 }
