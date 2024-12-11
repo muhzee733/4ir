@@ -242,6 +242,7 @@ export default function AiVoiceCalling() {
         <title>4IR - Lead Generation</title>
       </Head>
       <Layout>
+        {showModal && <Model close={handleCloseModal} />}
         <section className="banner">
           <div className="banenr-wrapper">
             <div className="container">
@@ -258,8 +259,7 @@ export default function AiVoiceCalling() {
                       Let <span>AI Handle</span> The Heavy Lifting
                     </h1>
                     <p>
-                      Effortlessly supercharge manual lead generation and <br />{" "}
-                      calling processes with our{" "}
+                      Effortlessly supercharge manual lead generation and calling processes with our{" "}
                       <span className="text-white fw-bold">
                         AI-powered solution.
                       </span>
@@ -268,7 +268,7 @@ export default function AiVoiceCalling() {
                       title="24/7 Availability . Easy-Integration . No complex Software"
                       className="text-white fs-4"
                     />
-                    <button className="btn-2 ">
+                    <button className="btn-2 " onClick={handleOpenModal}>
                       Book a Demo <LuArrowRight size={22} />
                     </button>
                   </div>
@@ -328,9 +328,9 @@ export default function AiVoiceCalling() {
                       title="Integrate our AI-powered voice calling and lead generation solution into your existing sales process. Our platform is designed to:"
                       className="strugling-para2"
                     />
-                    <button className="btn-2">
+                    <button className="btn-2" onClick={handleOpenModal}>
                       Start a free Trail{" "}
-                      <LuArrowRight size={22} onClick={handleOpenModal} />
+                      <LuArrowRight size={22} />
                     </button>
                   </div>
                 </div>
@@ -676,7 +676,7 @@ export default function AiVoiceCalling() {
               <div className="question-heaing text-center">
                 <H2 title="Frequently Asked Questions" />
                 <p>Contact us via Support if you have any more questions.</p>
-                <button className="btn-2">Book a Consultation</button>
+                <button className="btn-2" onClick={handleOpenModal}>Book a Consultation</button>
               </div>
               <div className="">
                 {Accordianapi?.map((items, index) => {
@@ -693,10 +693,80 @@ export default function AiVoiceCalling() {
             <div className="container">
               <div className="row Client-mainbox">
                 <div className="col-lg-6 col-md-12 col-sm-12">
-                  <div className="">
-                    <div className="client-heading">
+                  <div className="client-height1">
+                    <div className="client-heading ">
                       <h5>Our Client Reviews</h5>
                       <p>Hear Directly from Our Satisfied Clients!</p>
+                    </div>
+                  </div>
+                  <div className="client-height2">
+                    <div className="clientbox">
+                      <div className="d-flex justify-content-between pics-div">
+                        <div className="d-flex justify-content-between clientcontent1">
+                          <figure>
+                            <Image src={clientRreview} alt="" />
+                          </figure>
+                          <p>KaiB -</p>
+                          <p> 22 Jul</p>
+                        </div>
+                        <div className="stars d-flex">
+                          <figure>
+                            <Image src={Star} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star2} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star2} alt="" />
+                          </figure>
+                        </div>
+                      </div>
+                      <div>
+                        <Para
+                          title="4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest"
+                          className="clent-para1"
+                        />
+                      </div>
+                    </div>
+                    <div className="clientbox ">
+                      <div className="d-flex justify-content-between pics-div">
+                        <div className="d-flex justify-content-between clientcontent1">
+                          <figure>
+                            <Image src={clientRreview} alt="" />
+                          </figure>
+                          <p>KaiB -</p>
+                          <p> 22 Jul</p>
+                        </div>
+                        <div className="stars d-flex">
+                          <figure>
+                            <Image src={Star} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star2} alt="" />
+                          </figure>
+                          <figure>
+                            <Image src={Star2} alt="" />
+                          </figure>
+                        </div>
+                      </div>
+                      <div>
+                        <Para
+                          title="4IR has completely transformed the way we approach our business operations. "
+                          className="clent-para1"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -736,7 +806,7 @@ export default function AiVoiceCalling() {
                     </div>
                   </div>
 
-                  <div className="clientbox client-custombox  mt-4">
+                  <div className="clientbox client-custombox  ">
                     <div className="d-flex justify-content-between pics-div">
                       <div className="d-flex justify-content-between clientcontent1">
                         <figure>

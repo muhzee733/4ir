@@ -21,7 +21,7 @@
   z-index: 1;
   overflow: hidden;
   margin-bottom: 25px;
-  width: 35%;
+  width: 40%;
   text-align: center;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .banner-second-heading p {
-  font-size: 19px;
+  font-size: 22px !important;
   line-height: 25px;
   margin-bottom: 50px !important;
 }
@@ -332,6 +332,19 @@
   box-sizing: border-box;
   transition: opacity 0.3s ease;
 }
+.modal-dialog {
+  width: 80vw;
+}
+
+.modal-content {
+  min-height: 89vh;
+  background-color: #1e293e !important;
+  box-shadow: 15px 17px 37px -4px lightgray !important;
+}
+
+.model-header {
+  background-color: red !important;
+}
 
 .aiPoweredIndustries-card:hover .card-details {
   opacity: 1;
@@ -483,35 +496,42 @@
 }
 
 /* Time Line styling  */
-.timeline-content{
+.timeline-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px ;
+  gap: 100px;
   min-width: 90%;
 }
-.timeline-left{
- align-items: flex-start;
- max-width: 50%;
-}
-.timeline-right{
+
+.timeline-left {
+  align-items: flex-start;
   max-width: 50%;
 }
+
+.timeline-right {
+  max-width: 50%;
+}
+
 .number {
   position: relative;
-  display: flex; /* Ensures centering */
+  display: flex;
+  /* Ensures centering */
   justify-content: center;
   align-items: center;
-  width: 60px; /* Set equal width and height for a perfect circle */
+  width: 60px;
+  /* Set equal width and height for a perfect circle */
   height: 52px;
-  border-radius: 50%; /* Makes it fully rounded */
+  border-radius: 50%;
+  /* Makes it fully rounded */
   background-image: linear-gradient(355.66deg, #9A0FDF -22.64%, #0F64DF 96.47%);
-  color: white; /* Text color */
+  color: white;
+  /* Text color */
 }
 
 .number span {
   position: absolute;
-  background: var(--accordian-body-color); 
+  background: var(--accordian-body-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -521,22 +541,27 @@
   font-size: 20px;
   font-weight: 600;
 }
+
 .number3 {
   position: relative;
-  display: flex; /* Ensures centering */
+  display: flex;
+  /* Ensures centering */
   justify-content: center;
   align-items: center;
-  width: 56px; /* Set equal width and height for a perfect circle */
+  width: 56px;
+  /* Set equal width and height for a perfect circle */
   height: 50px;
-  border-radius: 50%; /* Makes it fully rounded */
+  border-radius: 50%;
+  /* Makes it fully rounded */
   background-image: linear-gradient(355.66deg, #9A0FDF -22.64%, #0F64DF 96.47%);
-  color: white; /* Text color */
+  color: white;
+  /* Text color */
 }
 
 .number3 span {
   position: absolute;
-  background: var(--accordian-body-color); 
-width: 44px;
+  background: var(--accordian-body-color);
+  width: 44px;
   height: 44px;
   border-radius: 50%;
   display: flex;
@@ -545,35 +570,40 @@ width: 44px;
   font-size: 20px;
   font-weight: 600;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   color: white;
 }
+
 .nav-link.active::before {
   background-color: #007bff;
 }
-.nav-link{
- background: #00000021;
- border: 2px solid var(--border);
- border-radius: 10px ;
-  padding: 15px 20px ;
-  font-size: 27px ;
+
+.nav-link {
+  background: #00000021;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 27px;
   color: white;
   font-weight: 600;
   position: relative;
 }
+
 .nav-link::before {
   content: '';
   position: absolute;
-  left: -40px; 
-  top: 50%; 
+  left: -40px;
+  top: 50%;
   transform: translateY(-50%);
   width: 18px;
   height: 18px;
-  background-color:rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 1);
   border: 2px solid rgba(38, 38, 38, 1);
   border-radius: 50%;
   z-index: 2;
 }
+
 .nav-link:not(:last-child)::after {
   content: '';
   position: absolute;
@@ -581,27 +611,35 @@ width: 44px;
   top: calc(50% + 14px);
   bottom: -50%;
   width: 2px;
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(52, 55, 59, 0.61),
-    rgba(52, 55, 59, 0.61) 4px,
-    transparent 4px,
-    transparent 8px
-  );
-  
+  background: repeating-linear-gradient(to bottom,
+      rgba(52, 55, 59, 0.61),
+      rgba(52, 55, 59, 0.61) 4px,
+      transparent 4px,
+      transparent 8px);
+
   z-index: 1;
 }
-.nav-link.active{
+
+.nav-link.active {
   background: linear-gradient(92.14deg, #00BDFF -16.62%, #8800FF 98.02%);
-color: black;
+  color: black;
 }
-.timeline-right-content p{
-font-size: 17px !important;
-line-height: 20px !important;
+.client-height1{
+  padding: 0px !important;
+  margin: 0 !important;
+  height: 20%;
+}
+.client-height2{
+  height: 80% !important;
+}
+.timeline-right-content p {
+  font-size: 17px !important;
+  line-height: 20px !important;
 }
 
 .tab-pane .timeline-right-content:nth-of-type(3) .number {
-  width: 80px !important; /* Adjust the width for the third number */
+  width: 80px !important;
+  /* Adjust the width for the third number */
 }
 
 .swiper-wrapper {
@@ -614,6 +652,7 @@ line-height: 20px !important;
 
 .clientbox {
   background-color: #12243D;
+  margin-top: 20px;
   padding: 20px;
   border-radius: 15px;
 }
@@ -626,7 +665,8 @@ line-height: 20px !important;
 .client-heading p {
   font-size: 24px !important;
 }
-.timeline{
+
+.timeline {
   padding: 100px 0px;
 }
 
@@ -670,14 +710,20 @@ line-height: 20px !important;
   .leads-upper-content {
     width: 70%;
   }
+
   .tab-pane .timeline-right-content:nth-of-type(1) .number {
-    width: 50px !important; /* Adjust the width for the third number */
+    width: 50px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(2) .number {
-    width: 50px !important; /* Adjust the width for the third number */
+    width: 50px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(3) .number {
-    width: 60px !important; /* Adjust the width for the third number */
+    width: 60px !important;
+    /* Adjust the width for the third number */
   }
 
   .leadSidebar {
@@ -707,12 +753,14 @@ line-height: 20px !important;
     font-size: calc(96px - 20px) !important;
     line-height: 80px !important;
   }
-  .timeline-content{
+
+  .timeline-content {
     gap: 40px !important;
   }
-  .timeline-right-content p{
-font-size: 20px !important;
-line-height: 30px !important;
+
+  .timeline-right-content p {
+    font-size: 20px !important;
+    line-height: 30px !important;
   }
 
   .leadSidebar {
@@ -727,6 +775,9 @@ line-height: 30px !important;
     font-size: 40px !important;
     line-height: 60px !important;
   }
+  .timeline {
+    padding: 40px 0px;
+  }
 
   .banner-second-heading h6 {
     font-size: 24px !important;
@@ -736,13 +787,20 @@ line-height: 30px !important;
     padding: 14px 8px;
     width: 22%;
   }
+
   .tab-pane .timeline-right-content:nth-of-type(1) .number {
-    width: 70px !important; /* Adjust the width for the third number */
-  }  .tab-pane .timeline-right-content:nth-of-type(2) .number {
-    width: 75px !important; /* Adjust the width for the third number */
+    width: 70px !important;
+    /* Adjust the width for the third number */
   }
+
+  .tab-pane .timeline-right-content:nth-of-type(2) .number {
+    width: 75px !important;
+    /* Adjust the width for the third number */
+  }
+
   .tab-pane .timeline-right-content:nth-of-type(3) .number {
-    width: 85px !important; /* Adjust the width for the third number */
+    width: 85px !important;
+    /* Adjust the width for the third number */
   }
 
   .banner-second-heading {
@@ -813,6 +871,11 @@ line-height: 30px !important;
   .pics-div {
     padding-bottom: 16px;
   }
+  .banner-second-heading p {
+    margin: 0 auto !important;
+    font-size: 22px !important;
+    width: 75% !important;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -832,22 +895,31 @@ line-height: 30px !important;
   .strugling-lower-content .card4-body {
     width: 48% !important;
   }
-  .timeline-content{
-    gap: 50px ;
+
+  .timeline-content {
+    gap: 50px;
   }
+
   .tab-pane .timeline-right-content:nth-of-type(1) .number {
-    width: 70px !important; /* Adjust the width for the third number */
+    width: 70px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(2) .number {
-    width: 75px !important; /* Adjust the width for the third number */
+    width: 75px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(3) .number {
-    width: 84px !important; /* Adjust the width for the third number */
+    width: 84px !important;
+    /* Adjust the width for the third number */
   }
-.nav-link{
-  padding: 10px  !important;
-  font-size: 23px;
-}
+
+  .nav-link {
+    padding: 10px !important;
+    font-size: 23px;
+  }
+
   .card3-body h5 {
     font-size: 25px !important;
     line-height: 30px !important;
@@ -914,7 +986,9 @@ line-height: 30px !important;
   .leadSidebar .swiper-slide-active .testimonial-card {
     padding: 40px 40px 40px 20px;
   }
-
+  .future-wrapper {
+    margin: 50px 0px !important;
+  }
   .leadSidebar .swiper-slide-active {
     height: unset;
     width: 313px !important;
@@ -981,46 +1055,62 @@ line-height: 30px !important;
     font-size: 20px !important;
     line-height: 30px !important;
   }
-  .timeline-content{
-    gap: 30px ;
+
+  .timeline-content {
+    gap: 30px;
   }
-.nav-link{
-  /* padding: 10px  !important; */
-  font-size: 18px;
-}
-.tab-pane .timeline-right-content:nth-of-type(1) .number {
-  width: 85px !important; /* Adjust the width for the third number */
-}
-.tab-pane .timeline-right-content:nth-of-type(1) .number span {
- font-size: 16px !important;
-}
-.tab-pane .timeline-right-content:nth-of-type(2) .number {
-  width: 85px !important; /* Adjust the width for the third number */
-}
-.tab-pane .timeline-right-content:nth-of-type(2) .number span {
-  font-size: 16px !important;
- }
-.tab-pane .timeline-right-content:nth-of-type(3) .number {
-  width: 100px !important; /* Adjust the width for the third number */
-}
-.tab-pane .timeline-right-content:nth-of-type(3) .number span {
-  font-size: 16px !important;
- }
-.timeline-content{
-  gap: 30px  !important;
-}
-.timeline-right-content{
-  margin-bottom: 10px !important;
-}
-.timeline-right-content h6{
-font-size: 20px  !important;
-}
-.timeline-right-content p{
-  font-size: 14px  !important;
+
+  .nav-link {
+    /* padding: 10px  !important; */
+    font-size: 18px;
   }
-.future-wrapper{
-  margin: 50px 0px !important;
-}
+
+  .tab-pane .timeline-right-content:nth-of-type(1) .number {
+    width: 85px !important;
+    /* Adjust the width for the third number */
+  }
+
+  .tab-pane .timeline-right-content:nth-of-type(1) .number span {
+    font-size: 16px !important;
+  }
+
+  .tab-pane .timeline-right-content:nth-of-type(2) .number {
+    width: 85px !important;
+    /* Adjust the width for the third number */
+  }
+
+  .tab-pane .timeline-right-content:nth-of-type(2) .number span {
+    font-size: 16px !important;
+  }
+
+  .tab-pane .timeline-right-content:nth-of-type(3) .number {
+    width: 100px !important;
+    /* Adjust the width for the third number */
+  }
+
+  .tab-pane .timeline-right-content:nth-of-type(3) .number span {
+    font-size: 16px !important;
+  }
+
+  .timeline-content {
+    gap: 30px !important;
+  }
+
+  .timeline-right-content {
+    margin-bottom: 10px !important;
+  }
+
+  .timeline-right-content h6 {
+    font-size: 20px !important;
+  }
+
+  .timeline-right-content p {
+    font-size: 14px !important;
+  }
+
+  .future-wrapper {
+    margin: 50px 0px !important;
+  }
 
   .card4-body p {
     font-size: 17px !important;
@@ -1031,6 +1121,10 @@ font-size: 20px  !important;
     margin-bottom: 20px !important;
     font-size: 2rem !important;
     line-height: 45px !important;
+  }
+  .banner-second-heading p {
+    margin: 0 auto !important;
+    width: 100% !important;
   }
 
   .aiPoweredIndustries-content p {
@@ -1071,7 +1165,8 @@ font-size: 20px  !important;
   .testimonial-heading {
     padding: 20 !important;
   }
-  .aiPoweredIndustries-card{
+
+  .aiPoweredIndustries-card {
     min-width: 300px;
   }
 }
@@ -1100,29 +1195,40 @@ font-size: 20px  !important;
     font-size: 2.1rem !important;
     line-height: 40px !important;
   }
+
   .tab-pane .timeline-right-content:nth-of-type(1) .number {
-    width: 52px !important; /* Adjust the width for the third number */
+    width: 52px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(2) .number {
-    width: 55px !important; /* Adjust the width for the third number */
+    width: 55px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(3) .number {
-    width: 65px !important; /* Adjust the width for the third number */
+    width: 65px !important;
+    /* Adjust the width for the third number */
   }
-  .timeline-right-content h6{
+
+  .timeline-right-content h6 {
     margin: 0px !important;
   }
+
   .aiPoweredIndustries-content p {
     width: 100%;
 
   }
-  .timeline-content{
+
+  .timeline-content {
     flex-direction: column !important;
   }
-  .timeline-left{
+
+  .timeline-left {
     max-width: 100% !important;
   }
-  .timeline-right{
+
+  .timeline-right {
     max-width: 100% !important;
   }
 
@@ -1147,10 +1253,6 @@ font-size: 20px  !important;
     gap: 10px;
   }
 
-  .aifuturecard .card3 {
-    width: 48% !important;
-  }
-
   .card4-body>h6 {
     font-size: 20px !important
   }
@@ -1163,7 +1265,9 @@ font-size: 20px  !important;
   .strugling-lower-content {
     justify-content: center !important;
   }
-
+  .youtube-video-video > * {
+    height: 300px !important ; 
+  }
   .card4-body h6 {
     font-size: 21px !important;
     line-height: 30px !important;
@@ -1192,8 +1296,11 @@ font-size: 20px  !important;
   .testimonial-heading {
     padding: 0 !important;
   }
-  .aiPoweredIndustries-card{
-    min-width: 250px;
+  .aiPoweredIndustries-card2 {
+    min-width: 231px !important;
+  }
+  .aiPoweredIndustries-card {
+    min-width: 231px;
   }
 
   .leadSidebar .testimonial-card h5 {
@@ -1211,7 +1318,8 @@ font-size: 20px  !important;
   .leadSidebar .swiper-slide-active .testimonial-card {
     padding: 30px 40px 30px 15px !important;
   }
-/* 
+
+  /* 
   .swiper-slide {
     width: 160px !important;
   } */
@@ -1237,12 +1345,9 @@ font-size: 20px  !important;
   .banner-logo img {
     max-width: 80% !important;
   }
+
   .timeline-right {
     max-width: 80% !important;
-}
-
-  .aifuturecard .card3 {
-    min-width: 100% !important;
   }
 
   .aifuturecard .card3 h5 {
@@ -1254,12 +1359,22 @@ font-size: 20px  !important;
     font-size: 54px !important;
     line-height: 60px !important;
   }
-.banner-content {
-  margin: 50px 0px ;
-}
-.strugling-content{
-  margin-top: 20px ;
-}
+
+  .banner-content {
+    margin: 50px 0px;
+  }
+
+  .strugling-content {
+    margin-top: 20px;
+  }
+  .aifuturecard .card3 h5 {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .aifuturecard .card3 p {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
   .aiPoweredIndustries-content h2 {
     width: 100%;
     font-size: 19px !important;
@@ -1270,14 +1385,20 @@ font-size: 20px  !important;
   .aiPoweredIndustries-content p {
     margin-bottom: 10px !important;
   }
+
   .tab-pane .timeline-right-content:nth-of-type(1) .number {
-    width: 75px !important; /* Adjust the width for the third number */
+    width: 75px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(2) .number {
-    width: 80px !important; /* Adjust the width for the third number */
+    width: 80px !important;
+    /* Adjust the width for the third number */
   }
+
   .tab-pane .timeline-right-content:nth-of-type(3) .number {
-    width: 93px !important; /* Adjust the width for the third number */
+    width: 93px !important;
+    /* Adjust the width for the third number */
   }
 
   p {
@@ -1292,22 +1413,26 @@ font-size: 20px  !important;
     font-size: 17px !important;
   }
 
-  .aiPoweredIndustries-card h3 { 
-    font-size: 18px !important;
+  .aiPoweredIndustries-card h3 {
+    font-size: 14px !important;
     text-align: center;
   }
+
   .aiPoweredIndustries-card .card-image {
     max-width: 30% !important;
   }
-  .swiper-wrapper{
+
+  .swiper-wrapper {
     justify-content: flex-start !important;
   }
-   .leadSidebar .swiper-slide-active{
-  width: 100% !important;
-  height: 100% !important;
-}
+
+  .leadSidebar .swiper-slide-active {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
   .aiPoweredIndustries-card {
-    min-width: 40% !important;
+    min-width: 33% !important;
 
   }
 
@@ -1326,12 +1451,15 @@ font-size: 20px  !important;
 
   .aiPoweredIndustries-card2 {
     width: 20% !important;
-    min-height: 180px !important;}
-  .aiPoweredIndustries-card2{
+    min-height: 180px !important;
+  }
+
+  .aiPoweredIndustries-card2 {
     width: 15% !important;
   }
-  .aiPoweredIndustries-card2 .card-content h3{
-    font-size: 18px !important;
+
+  .aiPoweredIndustries-card2 .card-content h3 {
+    font-size: 14px !important;
   }
 
   .leads-lower-content .card {
@@ -1341,7 +1469,8 @@ font-size: 20px  !important;
   .strugling-content h2 {
     font-size: 20px !important;
   }
-  .testimonial-wrapper{
+
+  .testimonial-wrapper {
     margin: 50px 0px !important;
   }
 
@@ -1384,14 +1513,23 @@ font-size: 20px  !important;
     width: 500px !important;
     height: auto !important;
   }
-.aiPoweredIndustries-content h2{
-  font-size: 1.5rem !important;
-}
+
+  .aiPoweredIndustries-content h2 {
+    font-size: 1.5rem !important;
+  }
+
   .future-wrapper {
     margin: 0px 0px 50px 0px !important;
   }
-  .timeline{
-    padding: 50px 0px ;
+
+  .timeline {
+    padding: 50px 0px;
   }
 
+  .banner-heading-top{
+    width: 70% !important;
+  }
+  .banner-heading-top p{
+    font-size: 12px !important;
+  }
 }

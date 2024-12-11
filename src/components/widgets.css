@@ -288,7 +288,7 @@
   }
   .main-body {
     width: 420px;
-    height: 650px;
+    height: 580px;
     padding: 80px 20px 80px 20px;
   }
   .Salesaicards{
@@ -328,6 +328,9 @@
   .footer-copyright-body div {
     font-size: 22px !important;
   }
+  .card-h5{
+    font-size: 36px !important;
+  }
 }
 
 @media screen and (max-width: 1399px) {
@@ -348,8 +351,11 @@
   }
 
   .main-body {
-    height: 490px;
+    height: 440px;
     padding: 60px 0px 0px 20px;
+  }
+  .card-h5{
+    font-size: 34px !important;
   }
 
   .card-img {
@@ -402,7 +408,7 @@
     padding: 50px 0px !important;
   }
   .main-body {
-    height: 470px;
+    height: 420px;
     padding: 50px 20px 0px 20px;
   }
 
@@ -432,6 +438,9 @@
   }
   .accordion-button h3 {
     font-size: calc(1.4rem - 3px) !important;
+  }
+  .card-h5{
+    font-size: 28px !important;
   }
 }
 
