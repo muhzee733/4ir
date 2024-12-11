@@ -23,7 +23,7 @@ const Accordian = ({ items, content }) => {
             className="accordion-button text-white d-flex justify-content-between align-items-center"
             type="button"
             onClick={handleClick}
-            aria-expanded={activeIndex === items.id ? "true" : "false"}
+            aria-expanded={activeIndex === items.value ? "true" : "false"}
             aria-controls={items.collapseid}
           >
             <div className="d-flex justify-content-between align-items-center">

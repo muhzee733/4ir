@@ -848,7 +848,9 @@ export default function Index() {
             title="Don’t Just Take Our Word for It"
             className="section7h3 customsec7h3 text-center"
           />
-          <Slider SliderData={SliderData} />
+          <div className="container">
+            <Slider SliderData={SliderData} />
+          </div>
         </section>
 
         <section className="calltoaction">
