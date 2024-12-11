@@ -593,7 +593,7 @@ export default function AiVoiceCalling() {
                           <h6>Enhanced Conversion Rates:</h6>
                           <p>
                             {" "}
-                            By consistently following up with leads, we'll increase the likelihood of conversions.
+                            By consistently following up with leads, well increase the likelihood of conversions.
                           </p>
                         </div>
                       </div>

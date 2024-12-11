@@ -17,6 +17,7 @@ const Slider = ({ SliderData }) => {
       ref={swiperRef}
       slidesPerView={3}
       spaceBetween={40}
+      loop={true}
       pagination={{
         clickable: true,
       }}
@@ -24,22 +25,29 @@ const Slider = ({ SliderData }) => {
       modules={[Pagination, Navigation]}
       className="mySwiper"
       breakpoints={{
-        320: {
+        300: {
           slidesPerView: 1,
           spaceBetween: 20,
+          centeredSlides: false,
         },
-        640: {
+        768: {
           slidesPerView: 1,
           spaceBetween: 10,
+          centeredSlides: false,
         },
-        1024: {
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+          centeredSlides: false,
+        },
+        1200: {
           slidesPerView: 3,
           spaceBetween: 40,
         },
       }}
     >
       {SliderData?.map((item, key) => (
-        <SwiperSlide key={key}>
+        <SwiperSlide key={key} className="custom-slide">
           <div className={`testimonial-card`}>
             <div className="d-flex align-items-center">
               {item.img && (

@@ -58,9 +58,8 @@
 }
 
 .testimonial-card h5 {
-  font-size: 16px !important;
+  font-size: 22px !important;
   font-weight: 500 !important;
-  line-height: 18px !important;
 }
 
 .testimonial-card h6 {
@@ -70,10 +69,10 @@
 }
 
 .testimonial-card p {
-  font-size: 12px !important;
-  font-weight: 400 !important;
-  line-height: 18px !important;
   padding-top: 10px;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 23px !important;
 }
 
 .testimonial-card img {
@@ -92,7 +91,7 @@
 .swiper-slide-active .testimonial-card {
   background-color: rgba(20, 20, 20, 1);
   border-radius: 12.9px !important;
-  padding: 40px;
+  padding: 25px;
 }
 
 .swiper-slide-active .testimonial-card h5 {
@@ -664,9 +663,6 @@
     width: 74%;
     margin: 0 auto;
     padding: 10px !important;
-  }
-  .swiper-slide-active{
-    width: 400px !important;
   }
   .main-body {
     height: fit-content;

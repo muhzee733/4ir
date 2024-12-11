@@ -460,10 +460,20 @@
 .leadSidebar .testimonial-card .testimonial-client {
   margin: 0px !important;
 }
+/* .swiper-slide-prev, .swiper-slide-next {
+  height: 190px;
+} */
+
+.swiper-wrapper{
+  transform: unset !important;
+}
+.custom-slide {
+  width: 28% !important; /* Set slide width to 32% */
+}
 
 .leadSidebar .testimonial-card h5 {
   color: var(--primary) !important;
-  line-height: 20px !important;
+  line-height: 30px !important;
   font-weight: 600 !important;
 }
 
@@ -475,6 +485,9 @@
 
   border: 1px solid var(--border) !important;
   border-radius: 15px !important;
+  /* width: 28% !important; */
+  display: flex;
+  align-items: center;
 }
 
 .leadSidebar .swiper-slide-active .testimonial-card h5 {
@@ -739,8 +752,6 @@
   }
 
   .leadSidebar .swiper-slide-active {
-    height: unset;
-    width: 343px !important;
     border: 1px solid var(--primary);
   }
 
@@ -767,6 +778,8 @@
 
   .swiper-wrapper {
     justify-content: center;
+    width: 94%;
+    margin: 0 auto;
   }
 
   .banner-heading-top1 .h2 {
@@ -970,7 +983,7 @@
   }
 
   .leadSidebar .testimonial-card h5 {
-    line-height: 20px !important;
+    line-height: 28px !important;
   }
 
   .leadSidebar .swiper-slide-active .testimonial-card h5 {
@@ -988,8 +1001,6 @@
     margin: 50px 0px !important;
   }
   .leadSidebar .swiper-slide-active {
-    height: unset;
-    width: 313px !important;
     border: 1px solid var(--primary);
   }
 
@@ -1157,10 +1168,10 @@
     width: 150px !important;
   } */
 
-  .leadSidebar .swiper-slide-active {
+  /* .leadSidebar .swiper-slide-active {
     height: 240px !important;
     width: 280px !important;
-  }
+  } */
 
   .testimonial-heading {
     padding: 20 !important;
@@ -1325,10 +1336,10 @@
     width: 160px !important;
   } */
 
-  .leadSidebar .swiper-slide-active {
+  /* .leadSidebar .swiper-slide-active {
     height: 220px !important;
     width: 280px !important;
-  }
+  } */
 
   .client-heading h5 {
     text-align: center;
@@ -1432,14 +1443,10 @@
     max-width: 30% !important;
   }
 
-  .swiper-wrapper {
-    justify-content: flex-start !important;
-  }
-
-  .leadSidebar .swiper-slide-active {
+  /* .leadSidebar .swiper-slide-active {
     width: 100% !important;
     height: 100% !important;
-  }
+  } */
 
   .aiPoweredIndustries-card {
     min-width: 47% !important;
@@ -1473,9 +1480,6 @@
     font-size: 14px !important;
     line-height: 24px !important;
   }
-.leadSidebar .swiper-wrapper{
-  transform: translate3d(-270px, 0px, 0px) !important;
-}
   .leads-lower-content .card {
     width: 47% !important;
   }
