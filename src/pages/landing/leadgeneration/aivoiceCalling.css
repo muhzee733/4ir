@@ -350,10 +350,12 @@
   font-size: 1.2rem;
   margin: 0;
 }
-.testimonial-wrapper{
+
+.testimonial-wrapper {
   margin: 100px 0px;
 }
-.testimonial-heading{
+
+.testimonial-heading {
   padding: 0px 90px;
 
 }
@@ -363,12 +365,8 @@
 .question-heaing button{
   margin: 40px 0px;
 }
-/* sidebar */
-.leadgensidebar{
-  background-color: var(--backgorund) !important;
-  /* border: 1px solid var(--primary) !important; */
 
-}
+/* sidebar */
 /* .classNamehead:active {
   border-color: var(--primary) !important;
 } */
@@ -390,6 +388,7 @@
   line-height: 28px !important;
   padding-top: 20px;
 }
+
 /*  */
 
 /* .aiPoweredIndustries-card {
@@ -512,13 +511,44 @@ color: var(--primary) !important;
   padding: 30px !important;
 }
 .leadSidebar {
-  width: 83%;
+  width: 73%;
   margin: 0 auto;
 }
-.leadSidebar .swiper-slide-active{
+
+.leadSidebar .testimonial-card .testimonial-client {
+  margin: 0px !important;
+}
+
+.leadSidebar .testimonial-card h5 {
+  color: var(--primary) !important;
+  line-height: 20px !important;
+}
+
+.leadSidebar .testimonial-card {
+  padding: 40px 80px 40px 20px;
+  background-color: var(--background) !important;
+}
+.leadSidebar .swiper-slide{
+  
+  border: 1px solid var(--border) !important;
+  border-radius: 15px !important;
+}
+
+.leadSidebar .swiper-slide-active .testimonial-card h5 {
+  line-height: 30px !important;
+  font-weight: bold !important;
+}
+
+.leadSidebar .swiper-slide-active .testimonial-card {
+  padding: 60px 80px 60px 20px;
+}
+
+.leadSidebar .swiper-slide-active {
+  border-radius: 15px !important;
+  box-shadow: 0px 4px 76.7px 0px #00BDFF40;
   height: unset;
   width: 343px !important;
-  
+  border: 1px solid var(--primary) !important;
 }
 
 @media screen and (min-width: 1400px) {
@@ -539,6 +569,25 @@ color: var(--primary) !important;
     width: 70%;
   }
 
+  .leadSidebar {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .leadSidebar .testimonial-card h5 {
+    line-height: 30px !important;
+  }
+
+  .leadSidebar .swiper-slide-active .testimonial-card h5 {
+    line-height: 40px !important;
+
+  }
+
+  .leadSidebar .swiper-slide-active {
+    height: unset;
+    width: 343px !important;
+    border: 1px solid var(--primary);
+  }
 
 }
 
@@ -663,6 +712,33 @@ color: var(--primary) !important;
     min-height: 10vh !important;
     width: 30vw !important;
   }
+
+  .leadSidebar {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .leadSidebar .testimonial-card h5 {
+    line-height: 20px !important;
+  }
+
+  .leadSidebar .swiper-slide-active .testimonial-card h5 {
+    line-height: 30px !important;
+  }
+
+  .leadSidebar .testimonial-card {
+    padding: 20px 40px 20px 20px;
+  }
+
+  .leadSidebar .swiper-slide-active .testimonial-card {
+    padding: 40px 40px 40px 20px;
+  }
+
+  .leadSidebar .swiper-slide-active {
+    height: unset;
+    width: 313px !important;
+    border: 1px solid var(--primary);
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -703,6 +779,36 @@ color: var(--primary) !important;
   .aiPoweredIndustries-content p {
     width: 100%;
     margin-bottom: 20px !important;
+  }
+
+  .leadSidebar {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .leadSidebar .testimonial-card h5 {
+    line-height: 20px !important;
+  }
+
+  .leadSidebar .swiper-slide-active .testimonial-card h5 {
+    line-height: 30px !important;
+  }
+
+  .leadSidebar .testimonial-card {
+    padding: 20px 40px 20px 20px;
+  }
+
+  .leadSidebar .swiper-slide-active .testimonial-card {
+    padding: 40px 40px 52px 20px;
+  }
+
+  .swiper-slide {
+    width: 190px !important;
+  }
+
+  .leadSidebar .swiper-slide-active {
+    height: 240px !important;
+    width: 280px !important;
   }
 }
 
@@ -784,6 +890,39 @@ color: var(--primary) !important;
   .img-card {
     padding: 14px 8px;
     width: 28% !important;
+  }
+  .leadSidebar {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* .leadSidebar .swiper-wrapper{
+    transform: translate3d(-37px, 0px, 0px);
+    
+  } */
+  
+  .leadSidebar .testimonial-card h5 {
+    line-height: 18px !important;
+  }
+  
+  .leadSidebar .swiper-slide-active .testimonial-card h5 {
+    line-height: 25px !important;
+  }
+  
+  .leadSidebar .testimonial-card {
+    padding: 20px 40px 20px 20px;
+  }
+  
+  .leadSidebar .swiper-slide-active .testimonial-card {
+    padding: 30px 40px 30px 15px !important;
+  }
+  
+  .swiper-slide {
+    width: 160px !important;
+  }
+  
+  .leadSidebar .swiper-slide-active {
+    height: 220px !important;
+    width: 280px !important;
   }
 }
 
