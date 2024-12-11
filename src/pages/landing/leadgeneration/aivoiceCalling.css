@@ -355,11 +355,6 @@
   margin: 100px 0px;
 }
 
-.testimonial-heading {
-  padding: 0px 90px;
-
-}
-
 .question-heaing p {
   padding: 30px 30px;
 }
@@ -469,10 +464,10 @@
 .leadSidebar .testimonial-card h5 {
   color: var(--primary) !important;
   line-height: 20px !important;
+  font-weight: 600 !important;
 }
 
 .leadSidebar .testimonial-card {
-  padding: 40px 80px 40px 20px;
   background-color: var(--background) !important;
 }
 .leadSidebar .swiper-slide{
@@ -492,10 +487,14 @@
 
 .leadSidebar .swiper-slide-active {
   border-radius: 15px !important;
-  box-shadow: 0px 4px 76.7px 0px #00BDFF40;
+  /* box-shadow: 0px 4px 76.7px 0px ; */
+  box-shadow: #00BDFF40 0px 8px 24px;
   height: unset;
   width: 343px !important;
   border: 1px solid var(--primary) !important;
+}
+.swiper-wrapper{
+  padding: 50px 0px;
 }
 
 @media screen and (min-width: 1400px) {
@@ -542,6 +541,15 @@
   .banner-second-heading h1 {
     font-size: calc(96px - 20px) !important;
     line-height: 80px !important;
+  }
+  .swiper-slide-prev, .swiper-slide-next{
+    width: 24% !important;
+  }
+  .leadSidebar{
+    width: 100% !important;
+  }
+  .swiper-wrapper{
+    justify-content: center;
   }
 
   .banner-heading-top1 .h2 {
@@ -750,7 +758,7 @@
   }
 
   .swiper-slide {
-    width: 190px !important;
+    width: 150px !important;
   }
 
   .leadSidebar .swiper-slide-active {
