@@ -16,7 +16,7 @@ const Slider = ({ SliderData }) => {
     <Swiper
       ref={swiperRef}
       slidesPerView={3}
-      spaceBetween={30}
+      spaceBetween={18}
       pagination={{
         clickable: true,
       }}
