@@ -80,7 +80,7 @@ export default function Index() {
       collapseid: "collapseOne",
       datatargetid: "#collapseOne",
       title: "How will AI Talk Assist benefit my business?",
-      value: true,
+      value: false,
       show: "show",
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
@@ -171,7 +171,7 @@ export default function Index() {
       collapseid: "collapseFour",
       title: "Is it secure?",
       datatargetid: "#collapseFour",
-      value: false,
+      value: true,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -848,7 +848,9 @@ export default function Index() {
             title="Don’t Just Take Our Word for It"
             className="section7h3 customsec7h3 text-center"
           />
-          <Slider SliderData={SliderData} />
+          <div className="container">
+            <Slider SliderData={SliderData} />
+          </div>
         </section>
 
         <section className="calltoaction">
