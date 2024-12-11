@@ -715,11 +715,6 @@ font-size: 20px !important;
 line-height: 30px !important;
   }
 
-  .swiper-slide-prev,
-  .swiper-slide-next {
-    width: 24% !important;
-  }
-
   .leadSidebar {
     width: 100% !important;
   }
@@ -1064,9 +1059,9 @@ font-size: 20px  !important;
     padding: 40px 40px 52px 20px;
   }
 
-  .swiper-slide {
+  /* .swiper-slide {
     width: 150px !important;
-  }
+  } */
 
   .leadSidebar .swiper-slide-active {
     height: 240px !important;
@@ -1216,10 +1211,10 @@ font-size: 20px  !important;
   .leadSidebar .swiper-slide-active .testimonial-card {
     padding: 30px 40px 30px 15px !important;
   }
-
+/* 
   .swiper-slide {
     width: 160px !important;
-  }
+  } */
 
   .leadSidebar .swiper-slide-active {
     height: 220px !important;
@@ -1259,7 +1254,12 @@ font-size: 20px  !important;
     font-size: 54px !important;
     line-height: 60px !important;
   }
-
+.banner-content {
+  margin: 50px 0px ;
+}
+.strugling-content{
+  margin-top: 20px ;
+}
   .aiPoweredIndustries-content h2 {
     width: 100%;
     font-size: 19px !important;
@@ -1269,6 +1269,15 @@ font-size: 20px  !important;
 
   .aiPoweredIndustries-content p {
     margin-bottom: 10px !important;
+  }
+  .tab-pane .timeline-right-content:nth-of-type(1) .number {
+    width: 75px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(2) .number {
+    width: 80px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(3) .number {
+    width: 93px !important; /* Adjust the width for the third number */
   }
 
   p {
@@ -1286,7 +1295,13 @@ font-size: 20px  !important;
   .aiPoweredIndustries-card .card-image {
     max-width: 34% !important;
   }
-
+  .swiper-wrapper{
+    justify-content: flex-start !important;
+  }
+   .leadSidebar .swiper-slide-active{
+  width: 100% !important;
+  height: 100% !important;
+}
   .aiPoweredIndustries-card {
     min-width: 47% !important;
 
@@ -1305,9 +1320,11 @@ font-size: 20px  !important;
     line-height: 18px !important;
   }
 
-  .aiPoweredIndustries-card2 {
-    width: 100% !important;
-    min-height: 180px !important;
+  .aiPoweredIndustries-card2{
+    width: 15% !important;
+  }
+  .aiPoweredIndustries-card2 .card-content h3{
+    font-size: 18px !important;
   }
 
   .leads-lower-content .card {
@@ -1316,6 +1333,9 @@ font-size: 20px  !important;
 
   .strugling-content h2 {
     font-size: 20px !important;
+  }
+  .testimonial-wrapper{
+    margin: 50px 0px !important;
   }
 
   .img-card {
@@ -1354,11 +1374,17 @@ font-size: 20px  !important;
   }
 
   .strugling-lower-content .card4-body {
-    width: auto !important;
+    width: 500px !important;
     height: auto !important;
   }
-
+.aiPoweredIndustries-content h2{
+  font-size: 1.5rem !important;
+}
   .future-wrapper {
-    margin: 50px 0px !important;
+    margin: 0px 0px 50px 0px !important;
   }
+  .timeline{
+    padding: 50px 0px ;
+  }
+
 }

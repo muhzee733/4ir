@@ -29,8 +29,8 @@ const Slider = ({ SliderData }) => {
           spaceBetween: 20,
         },
         640: {
-          slidesPerView: 3,
-          spaceBetween: 30,
+          slidesPerView: 1,
+          spaceBetween: 10,
         },
         1024: {
           slidesPerView: 3,
