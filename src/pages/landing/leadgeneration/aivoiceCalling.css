@@ -652,6 +652,10 @@ line-height: 20px !important;
 .pics-div {
   padding-bottom: 20px;
 }
+.swiper-slide-prev{
+  width: 250px !important;
+  border-radius: 5px !important;
+}
 
 @media screen and (min-width: 1400px) {
   .banner-content {
