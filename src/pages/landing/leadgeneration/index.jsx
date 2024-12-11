@@ -383,7 +383,7 @@ export default function AiVoiceCalling() {
           <div className="testimonial-wrapper">
             <div className="container">
               <div className="testimonial-heading">
-                <H2 title="By leveraging AI-powered lead generation and automated voice calling, businesses in these industries can:" className='text-center' />
+                <H2 title="By leveraging AI-powered lead generation and automated voice calling, businesses in these industries can:" className='text-center testimonial-h2' />
               </div>
               <div className="leadSidebar">
                 <Slider SliderData={SliderDataLead} />
