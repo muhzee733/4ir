@@ -193,6 +193,7 @@ export default function AiVoiceCalling() {
 
 
       </section>
+
       <section className="future">
         <div className="future-wrapper">
           <div className="container">
@@ -209,13 +210,14 @@ export default function AiVoiceCalling() {
           </div>
         </div>
       </section>
+
       <section className="aiPoweredIndustries">
         <div className="aiPoweredIndustries-wrapper">
           <div className="container">
             <H2 title="Industries That Can Benefit from AI-Powered Lead Generation and Automated Voice Calling" className="text-center" />
             <Para title="Our AI-powered solution is versatile and can be applied to a wide range of industries. Here are a few examples:" className="text-center" />
             <div className="aiPoweredIndustries-first-grid">
-              
+
             </div>
           </div>
         </div>
