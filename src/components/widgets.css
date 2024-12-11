@@ -641,7 +641,7 @@
   }
 
   .circle {
-    padding: 0px !important;
+    padding: 6px !important;
   }
 
   .card1 {
@@ -656,7 +656,18 @@
     font-size: 20px !important;
     margin-bottom: 10px;
   }
-
+  .swiper-slide-active .testimonial-card {
+    padding: 20px !important;
+  }
+  .testimonial h3{
+    font-size: 1.7rem !important;
+    width: 74%;
+    margin: 0 auto;
+    padding: 10px !important;
+  }
+  .swiper-slide-active{
+    width: 400px !important;
+  }
   .main-body {
     height: fit-content;
     padding: 40px 0px 20px 20px;
@@ -696,7 +707,9 @@
     justify-content: center !important;
     gap: 20px !important;
   }
-
+  .main-body h5 {
+    font-size: 1.6rem !important;
+  }
   .SecondSecBoxCol {
     width: 100% !important;
   }

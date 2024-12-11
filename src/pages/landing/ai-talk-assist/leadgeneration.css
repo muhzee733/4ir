@@ -868,7 +868,9 @@
     padding: 30px !important;
     /* margin-top: 20px; */
   }
-
+.section3-main > div{
+  width: 69% !important;
+}
   .section5span1 {
     font-size: 20px;
   }
@@ -1309,7 +1311,9 @@
     padding-bottom: 5px;
     margin: 0px;
   }
-
+  .section3-main > div{
+    width: 100% !important;
+  }
   .wave {
     width: 9px;
   }
@@ -1320,7 +1324,7 @@
   }
 
   .section4-img .play-btn {
-    padding: 0px 30px;
+    padding: 0px 26px;
   }
 
   .section4-img .play-btn svg {
@@ -1621,11 +1625,14 @@
   .section4-img .play-btn svg{
       width: 30px;
   } */
+  .card3 .card3-body {
+    min-height: 144px !important;
+}
   .circle svg {
     width: 17px;
   }
   .swiper-wrapper{
-    padding-bottom: 80px !important;
+    padding-bottom: 20px !important;
   }
   h1 {
     font-size: 32px !important;
@@ -1910,6 +1917,7 @@
 
   .section7h2 {
     font-size: 27px !important;
+    line-height: 35px !important;
   }
 
   .custom-boxes {
@@ -1995,11 +2003,21 @@
   }
   .card3 {
     width: 47.3% !important;
-    min-height: 200px !important;
+    min-height: 170px !important;
+    padding: 15px !important;
   }
-
+  .main-body {
+    height: fit-content !important;
+    padding: 40px 0px 20px 20px !important;
+}
+.section5-2ndrow{
+  padding: 15px !important;
+}
   .card3 h5 {
     font-size: 16px !important;
+    line-height: 20px !important;
+  }
+  .section5h1{
     line-height: 28px !important;
   }
 }
