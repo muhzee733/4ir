@@ -527,7 +527,7 @@ export default function Index() {
 
               <div className="row text-center">
                 <div className="col-lg-12 col-md-12 col-sm-12">
-                  <div className="section4-img text-center">
+                  <div className="section4-img d-flex justify-content-center">
                     <div
                       onClick={() => {
                         handlePlayPause();
@@ -548,8 +548,8 @@ export default function Index() {
                           </div>
                         </div>
                       ) : (
-                        <div className="play-btn">
-                          <FaPlay size={100} color="blue" />
+                        <div className="play-btn d-flex justify-content-center">
+                          <FaPlay size={100} color="blue" className="ms-2" />
                         </div>
                       )}
                     </div>

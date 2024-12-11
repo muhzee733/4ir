@@ -1,7 +1,7 @@
-export default function Model({close}){
-    return(
-        <>
-           <div
+export default function Model({ close }) {
+  return (
+    <>
+      <div
         className="modal"
         style={{ display: "block" }}
         aria-labelledby="demo-modalLabel"
@@ -23,9 +23,9 @@ export default function Model({close}){
             </div>
             <div className="modal-body">
               <iframe
-               className="calendly-inline-widget"
-               src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
-               style={{minWidth: "100%", height: "100%" }}
+                className="calendly-inline-widget"
+                src="https://calendly.com/bkrevoy/60-minute-meeting-for-4ir-consulting?background_color=1a1a1a&text_color=ffffff"
+                style={{ minWidth: "100%", height: "90vh" }}
                 loading="lazy"
               ></iframe>
             </div>
@@ -35,7 +35,7 @@ export default function Model({close}){
           </div>
         </div>
       </div>
-        
-        </>
-    )
+
+    </>
+  )
 }
