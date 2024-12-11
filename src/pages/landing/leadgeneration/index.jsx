@@ -13,7 +13,10 @@ import Card3 from "@/components/cards/Card3";
 import Model from "@/components/Model/Model";
 import Head from "next/head";
 import AiPoweredCard from "../../../components/aiPoweredcard/aiPoweredCard"
-import H3 from "@/components/Typography/H3";
+import Image from "next/image";
+import clientRreview from "@/images/client-review.png"
+import Star from "@/images/Star.png"
+import Star2 from "@/images/Star2.png"
 import Slider from "@/components/Slider";
 import Accordian from "@/components/Accordian/Accordian";
 export default function AiVoiceCalling() {
@@ -529,7 +532,7 @@ export default function AiVoiceCalling() {
           <div className="testimonial-wrapper">
             <div className="container">
               <div className="testimonial-heading">
-                <H2 title="By leveraging AI-powered lead generation and automated voice calling, businesses in these industries can:" className='text-center' />
+                <H2 title="By leveraging AI-powered lead generation and automated voice calling, businesses in these industries can:" className='text-center testimonial-h2' />
               </div>
               <div className="leadSidebar">
                 <Slider SliderData={SliderDataLead} />
@@ -553,6 +556,66 @@ export default function AiVoiceCalling() {
                   return <Accordian items={items} key={index} content={false} />
                 })}
 
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="Client-Wrapper">
+            <div className="container">
+              <div className="row Client-mainbox">
+
+                <div className="col-lg-6 col-md-12 col-sm-12">
+                  <div className="">
+                    <div className="client-heading">
+                      <h5>Our Client Reviews</h5>
+                      <p>Hear Directly from Our Satisfied Clients!</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12 col-sm-12">
+                  <div className="clientbox">
+                    <div className="d-flex justify-content-between pics-div">
+                      <div className="d-flex justify-content-between clientcontent1">
+                        <figure><Image src={clientRreview} alt="" /></figure>
+                        <p>KaiB -</p>
+                        <p> 22 Jul</p>
+                      </div>
+                      <div className="stars d-flex">
+                        <figure><Image src={Star} alt="" /></figure>
+                        <figure><Image src={Star} alt="" /></figure>
+                        <figure><Image src={Star} alt="" /></figure>
+                        <figure><Image src={Star2} alt="" /></figure>
+                        <figure><Image src={Star2} alt="" /></figure>
+                      </div>
+                    </div>
+                    <div >
+                      <Para title="4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!" className="clent-para1"/>
+                    </div>
+                  </div>
+
+                  <div className="clientbox client-custombox  mt-4">
+                    <div className="d-flex justify-content-between pics-div">
+                      <div className="d-flex justify-content-between clientcontent1">
+                        <figure><Image src={clientRreview} alt="" /></figure>
+                        <p>KaiB -</p>
+                        <p> 22 Jul</p>
+                      </div>
+                      <div className="stars d-flex">
+                        <figure><Image src={Star} alt="" /></figure>
+                        <figure><Image src={Star} alt="" /></figure>
+                        <figure><Image src={Star} alt="" /></figure>
+                        <figure><Image src={Star2} alt="" /></figure>
+                        <figure><Image src={Star2} alt="" /></figure>
+                      </div>
+                    </div>
+                    <div >
+                      <Para title="4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!" className="clent-para2"/>
+                    </div>
+
+
+                  </div>
+                </div>
               </div>
             </div>
           </div>

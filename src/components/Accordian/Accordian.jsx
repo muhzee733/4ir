@@ -3,18 +3,14 @@ import H5 from "../Typography/H5";
 import H6 from "../Typography/H6";
 import H3 from "../Typography/H3";
 import { FiPlus } from "react-icons/fi";
-import { TiMinus } from "react-icons/ti"; 
+import { TiMinus } from "react-icons/ti";
 import "../widgets.css";
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
-
 const Accordian = ({ items, content }) => {
-  // Use an object to track the active state of each accordion item
   const [activeIndex, setActiveIndex] = useState(null);
-
-  // Toggle the active state of the clicked accordion item
   const handleClick = () => {
     setActiveIndex(activeIndex === items.id ? null : items.id);
   };
@@ -26,27 +22,31 @@ const Accordian = ({ items, content }) => {
           <button
             className="accordion-button text-white d-flex justify-content-between align-items-center"
             type="button"
-            onClick={handleClick} // Call the handleClick function to toggle state
-            aria-expanded={activeIndex === items.id ? "true" : "false"} // Toggle aria-expanded for accessibility
+            onClick={handleClick}
+            aria-expanded={activeIndex === items.id ? "true" : "false"}
             aria-controls={items.collapseid}
           >
             <div className="d-flex justify-content-between align-items-center">
               <H3 title={items.title} />
               {content ? (
-<>
-{activeIndex === items.id ? <TiMinus /> : <FiPlus />}
-</>
-              ):(
-<div className="arrow">
-  {activeIndex === items.id ? <MdOutlineKeyboardArrowUp className="downarrow" size={25}  /> : <MdOutlineKeyboardArrowDown size={25} />}
-</div>
+                <>{activeIndex === items.id ? <TiMinus /> : <FiPlus />}</>
+              ) : (
+                <div className="arrow">
+                  {activeIndex === items.id ? (
+                    <MdOutlineKeyboardArrowUp className="downarrow" size={25} />
+                  ) : (
+                    <MdOutlineKeyboardArrowDown size={25} />
+                  )}
+                </div>
               )}
             </div>
           </button>
         </h2>
         <div
           id={items.collapseid}
-          className={`accordion-collapse collapse ${activeIndex === items.id ? "show" : ""}`} // Add 'show' class based on active state
+          className={`accordion-collapse collapse ${
+            activeIndex === items.id ? "show" : ""
+          }`}
           aria-labelledby={items.accordianid}
           data-bs-parent="#accordionExample"
         >
@@ -56,9 +56,7 @@ const Accordian = ({ items, content }) => {
               <>
                 <ul style={{ color: "white" }}>
                   {items.ulitems?.map((ulitem, ulIndex) => (
-                    <li key={ulIndex}>
-                      {ulitem.liItems}
-                    </li>
+                    <li key={ulIndex}>{ulitem.liItems}</li>
                   ))}
                 </ul>
 

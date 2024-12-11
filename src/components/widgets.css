@@ -371,7 +371,7 @@
     font-size: 20px !important;
   }
   .Footer-wrapper {
-    min-height: 85vh;
+    min-height: 55vh !important;
   }
   .footer-copyright {
     margin-top: 140px !important;

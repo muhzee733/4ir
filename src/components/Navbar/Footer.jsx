@@ -33,7 +33,6 @@ const Footer = () => {
                   </div>
                 </div>
 
-
               </div>
               <div className="col-lg-4 col-md-6 co-sm-12" style={{textAlign: "center"}}>
                 <h5 className='footer-h5'>Resources</h5>

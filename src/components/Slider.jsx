@@ -16,14 +16,27 @@ const Slider = ({ SliderData }) => {
     <Swiper
       ref={swiperRef}
       slidesPerView={3}
-      spaceBetween={18}
+      spaceBetween={40}
       pagination={{
         clickable: true,
       }}
       centeredSlides={true}
-      // navigation={true}
       modules={[Pagination, Navigation]}
       className="mySwiper"
+      breakpoints={{
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+      }}
     >
       {SliderData?.map((item, key) => (
         <SwiperSlide key={key}>
