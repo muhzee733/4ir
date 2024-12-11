@@ -1,420 +1,428 @@
 /* Footer Css */
 .Footer-wrapper {
-    background-color: #08091A;
-    min-height: 95vh;
+  background-color: #08091a;
+  min-height: 95vh;
 }
-.footer-1strow{
-    margin-bottom: 100px;
+.footer-1strow {
+  margin-bottom: 100px;
 }
 
 .maindiv {
-    padding: 60px 40px 0px 40px;
+  padding: 60px 40px 0px 40px;
 }
-.footer-h5{
-    font-weight: bold !important;
+.footer-h5 {
+  font-weight: bold !important;
 }
-.custom-color{
-    color: var(--primary) !important;
+.custom-color {
+  color: var(--primary) !important;
 }
-.footer-socials-links{
- margin-top: 25px;
+.footer-socials-links {
+  margin-top: 25px;
 }
 .footer-copyright {
-    border-top: 1px solid var(--border);
-    padding: 0 !important;
+  border-top: 1px solid var(--border);
+  padding: 0 !important;
 }
 .footer-ul li {
-    margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 .input {
-    margin: 15px 0px;
-    padding: 14px 26px;
-    border: 1px solid #0F64DF;
-    border-radius: 15px;
-    background: #0B0B0B;
-    outline: none !important;
-    color: var(--whitecolor);
+  margin: 15px 0px;
+  padding: 14px 26px;
+  border: 1px solid #0f64df;
+  border-radius: 15px;
+  background: #0b0b0b;
+  outline: none !important;
+  color: var(--whitecolor);
 }
-.input::placeholder{
-    color: var(--whitecolor);
-    
+.input::placeholder {
+  color: var(--whitecolor);
 }
-.input:focus{
-    background: #0B0B0B;
-    outline: none !important;
-    border: 1px solid var(--primary);
-    color: var(--whitecolor);
-
+.input:focus {
+  background: #0b0b0b;
+  outline: none !important;
+  border: 1px solid var(--primary);
+  color: var(--whitecolor);
 }
 
 /*  */
 .SecondSecBox-content {
-    height: 200px;
-    padding: 0px 20px;
+  height: 200px;
+  padding: 0px 20px;
 }
 
 .SecondSecBoxCol {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .card1 {
-    border: 2px solid var(--border) !important;
-    border-radius: 15px;
-    width: 33.33%;
-    padding: 60px 30px;
-    margin: 5px 5px;
-    box-shadow: 0px 4px 76.7px 0px var(--card-shadowcolor);
+  border: 2px solid var(--border) !important;
+  border-radius: 15px;
+  width: 33.33%;
+  padding: 60px 30px;
+  margin: 5px 5px;
+  box-shadow: 0px 4px 76.7px 0px var(--card-shadowcolor);
 }
 
 .card1:hover {
-    border: 2px solid var(--primary) !important;
-    transition: color 0.3s ease-in-out;
+  border: 2px solid var(--primary) !important;
+  transition: color 0.3s ease-in-out;
 }
 
 .card1:hover .card1h5 {
-    color: var(--primary) !important;
-    transition: color 0.3s ease-in-out;
+  color: var(--primary) !important;
+  transition: color 0.3s ease-in-out;
 }
 
 .card1h5 {
-    margin-bottom: 30px;
-    line-height: 40px !important;
+  margin-bottom: 30px;
+  line-height: 40px !important;
 }
 
 .main-body {
-    border: 1px solid var(--primary);
-    border-radius: 15px;
-    margin-top: 80px;
+  border: 1px solid var(--primary);
+  border-radius: 15px;
+  margin-top: 80px;
 }
 
 .card-inner-img {
-    width: 30px;
-    height: auto;
+  width: 30px;
+  height: auto;
 }
 
 .card-img {
-    background: radial-gradient(100.18% 100.18% at -0.44% 0%, #004CAE 0%, #040525 100%);
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    top: -50px;
+  background: radial-gradient(
+    100.18% 100.18% at -0.44% 0%,
+    #004cae 0%,
+    #040525 100%
+  );
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  top: -50px;
 }
 
 .card4-body {
-    background-color: #00000021;
-    height: 170px;
-    padding: 30px 20px;
-    margin-top: 30px;
+  background-color: #00000021;
 }
 
 @media screen and (min-width: 1400px) {
-    .Footer-wrapper {
-        min-height: 80vh;
-    }
-    .main-body {
-        width: 420px;
-        height: 650px;
-        padding: 80px 0px 80px 20px;
-    }
+  .Footer-wrapper {
+    min-height: 69vh;
+  }
+  .main-body {
+    width: 420px;
+    height: 650px;
+    padding: 80px 20px 80px 20px;
+  }
+  .Salesaicards{
+    width: 400px !important;
+  }
+  .card-para1 {
+    font-size: 25px !important;
+  }
 
-    .card-para1 {
-        font-size: 25px !important;
-    }
-
-    .card-para2 {
-        font-size: 25px !important;
-    }
-
-    .card-div {
-        margin: 30px 0px;
-    }
-
-    .card3 {
-        padding: 25px 20px;
-        width: 426px;
-        min-height: 300px;
-        margin-top: 18px;
-    }
-
-    .car3-h5 {
-        font-size: 32px !important;
-        font-weight: bold !important;
-        line-height: 48px !important;
-        margin-bottom: 20px;
-    }
-    .footer-socials-links {
-        width: 160px;
-    }
-    .footer-copyright{
-        margin-top: 240px !important;
-    }
+  .card-para2 {
+    font-size: 25px !important;
+  }
+  .aifuturecard .Salesaicards {
+    padding: 54px 1px 26px 24px !important;
 }
 
+  .card-div {
+    margin: 30px 0px;
+  }
+
+  .footer-btn {
+    width: 100% !important;
+  }
+  .footer-1strow p {
+    font-size: 23px !important;
+  }
+
+  .car3-h5 {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    line-height: 39px !important;
+    margin-bottom: 20px;
+  }
+  .footer-socials-links {
+    width: 160px;
+  }
+  .footer-copyright-body div {
+    font-size: 22px !important;
+  }
+}
 
 @media screen and (max-width: 1399px) {
-    .SecondSecBox-content {
-        height: 100px;
-        /* padding: 0px 48px 0px 18px !important; */
-    }
+  .SecondSecBox-content {
+    height: 100px;
+    /* padding: 0px 48px 0px 18px !important; */
+  }
 
-    .SecondSecBoxPara {
-        font-size: 19px !important;
-        padding-left: 10px !important;
-    }
+  .SecondSecBoxPara {
+    font-size: 19px !important;
+    padding-left: 10px !important;
+  }
 
-    .card1 {
-        width: 360px;
-        padding: 50px 25px;
-        margin: 5px 5px;
-    }
+  .card1 {
+    width: 360px;
+    padding: 50px 25px;
+    margin: 5px 5px;
+  }
 
-    .main-body {
-        height: 490px;
-        padding: 60px 0px 0px 20px;
-    }
+  .main-body {
+    height: 490px;
+    padding: 60px 0px 0px 20px;
+  }
 
-    .card-img {
-        width: 80px;
-        height: 80px;
-        top: -40px;
-    }
+  .card-img {
+    width: 80px;
+    height: 80px;
+    top: -40px;
+  }
+  .Salesaicards{
+    width: 400px !important;
+  }
+  .card-div {
+    margin: 20px 0px;
+  }
 
-    .card-div {
-        margin: 20px 0px;
-    }
-
-    .card3 {
-        padding: 25px 20px;
-        min-height: 300px;
-        margin-bottom: 18px;
-    }
-
-    .car3-h5 {
-        font-size: 32px !important;
-        font-weight: bold !important;
-        line-height: 48px !important;
-        margin-bottom: 20px;
-    }
-
-    .footer-socials-links {
-        width: 160px;
-    }
-    .footer-h5{
-        font-size: 20px !important;
-    }
-    .Footer-wrapper {
-        min-height: 85vh;
-    }
-    .footer-copyright{
-        margin-top: 140px !important;
-    }
+  .footer-socials-links {
+    width: 160px;
+  }
+  .footer-h5 {
+    font-size: 20px !important;
+  }
+  .Footer-wrapper {
+    min-height: 85vh;
+  }
+  .footer-copyright {
+    margin-top: 140px !important;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-    .SecondSecBox-content {
-        height: 160px;
-        padding: 0px 8px 0px 18px !important;
-    }
+  .SecondSecBox-content {
+    height: 110px;
+    padding: 0px 8px 0px 18px !important;
+  }
+  .SecondSecBox-content p {
+    font-size: 18px !important;
+  }
 
-    .SecondSecBoxPara {
-        font-size: 22px !important;
-    }
+  .SecondSecBoxPara {
+    font-size: 22px !important;
+  }
+.customcard{
+    min-height: 31vh !important;
+}
+  .card1 {
+    width: 300px;
+    padding: 50px 25px;
+    margin: 5px 5px;
+  }
+  .section2 {
+    padding: 50px 0px !important;
+  }
+  .main-body {
+    height: 470px;
+    padding: 50px 20px 0px 20px;
+  }
 
-    .card1 {
-        width: 300px;
-        padding: 50px 25px;
-        margin: 5px 5px;
-    }
+  .card-img {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+  }
 
-    .main-body {
-        height: 470px;
-        padding: 50px 0px 0px 20px;
-    }
+  .card-div {
+    margin: 10px 0px;
+  }
 
-    .card-img {
-        width: 70px;
-        height: 70px;
-        top: -35px;
-    }
-
-    .card-div {
-        margin: 10px 0px;
-    }
-
-    .card3 {
-        padding: 20px 10px;
-        height: 260px;
-        margin-top: 25px;
-    }
-
-    .car3-h5 {
-        font-size: 28px !important;
-        line-height: 44px !important;
-        margin-bottom: 20px;
-    }
-    .footer-h5{
-        font-size: 18px !important;
-    }
-    .Footer-wrapper {
-        min-height: 65vh !important;
-    }
-    .footer-copyright{
-        margin-top: 100px !important;
-    }
+  .car3-h5 {
+    font-size: 28px !important;
+    line-height: 44px !important;
+    margin-bottom: 20px;
+  }
+  .footer-h5 {
+    font-size: 18px !important;
+  }
+  .Footer-wrapper {
+    min-height: 65vh !important;
+  }
+  .footer-copyright {
+    margin-top: 100px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .SecondSecBox-content {
-        height: 130px;
-        padding: 0px 8px 0px 14px !important;
-    }
+  .SecondSecBox-content {
+    height: 130px;
+    padding: 0px 8px 0px 14px !important;
+  }
 
-    .SecondSecBoxPara {
-        font-size: 20px !important;
-    }
+  .SecondSecBoxPara {
+    font-size: 20px !important;
+  }
 
-    .custom-card-section>div {
-        flex-direction: column;
-    }
+  .custom-card-section > div {
+    flex-direction: column;
+  }
 
-    .card1 {
-        width: 100% !important;
-        padding: 30px 25px;
-        margin: 5px 5px;
-    }
+  .card1 {
+    width: 100% !important;
+    padding: 30px 25px;
+    margin: 5px 5px;
+  }
 
-    .card1h5 {
-        margin-bottom: 10px;
-        font-size: 24px !important;
-    }
+  .card1h5 {
+    margin-bottom: 10px;
+    font-size: 24px !important;
+  }
 
-    .main-body {
-        height: 290px;
-        padding: 50px 0px 0px 20px;
-    }
+  .main-body {
+    height: 290px;
+    padding: 50px 0px 0px 20px;
+  }
+  .aifuturecard{
+    gap: 20px !important;
+  }
+  .aifuturecard .Salesaicards {
+    padding: 30px 20px 20px 20px  !important;
+}
+  .card-img {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+  }
 
-    .card-img {
-        width: 70px;
-        height: 70px;
-        top: -35px;
-    }
+  .card-div {
+    margin: 10px 0px;
+  }
 
-    .card-div {
-        margin: 10px 0px;
-    }
-
-    .card3 {
-        padding: 20px 15px;
-        height: 220px;
-    }
-
-    .car3-h5 {
-        font-size: 26px !important;
-        line-height: 40px !important;
-        margin-bottom: 20px;
-    }
+  .car3-h5 {
+    font-size: 26px !important;
+    line-height: 40px !important;
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .SecondSecBox-content {
-        height: 60px;
-        padding: 0px 10px 0px 5px !important;
-    }
+  .SecondSecBox-content {
+    height: 60px;
+    padding: 0px 10px 0px 5px !important;
+  }
 
-    .circle {
-        padding-right: 20px;
-    }
+  .circle {
+    padding-right: 20px;
+  }
 
-    .SecondSecBoxPara {
-        font-size: 14px !important;
-    }
+  .SecondSecBoxPara {
+    font-size: 14px !important;
+  }
 
-    .card1 {
-        width: 420px;
-        padding: 20px 15px;
-        margin: 5px 5px;
-    }
+  .card1 {
+    width: 420px;
+    padding: 20px 15px;
+    margin: 5px 5px;
+  }
 
-    .card1h5 {
-        margin-bottom: 10px;
-    }
+  .card1h5 {
+    margin-bottom: 10px;
+  }
 
-    .main-body {
-        height: 290px;
-        padding: 40px 0px 0px 20px;
-    }
+  .main-body {
+    height: 290px;
+    padding: 40px 0px 0px 20px;
+  }
 
-    .card-img {
-        width: 70px;
-        height: 70px;
-        top: -35px;
-    }
+  .card-img {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+  }
 
-    .card-div {
-        margin: 10px 0px;
-    }
+  .card-div {
+    margin: 10px 0px;
+  }
 
-    .card-para1 {
-        margin-bottom: 3px !important;
-    }
+  .card-para1 {
+    margin-bottom: 3px !important;
+  }
 
-    .card3 {
-        padding: 20px 20px;
-        height: fit-content;
-        margin-top: 20px;
-    }
-
-    .car3-h5 {
-        font-size: 24px !important;
-        line-height: 40px !important;
-        margin-bottom: 12px;
-    }
-    .maindiv {
-        text-align: center;
-    }
-    .footer-socials-links {
-        width: 100%;
-        justify-content: space-around !important;
-    }
-    .footer-copyright-body{
-        flex-direction: column;
-    }
+  .car3-h5 {
+    font-size: 24px !important;
+    line-height: 40px !important;
+    margin-bottom: 12px;
+  }
+  .maindiv {
+    text-align: center;
+  }
+  .footer-socials-links {
+    width: 100%;
+    justify-content: space-around !important;
+  }
+  .footer-copyright-body {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .card1 {
-        width: 320px;
-        padding: 20px 15px;
-        margin: 5px 5px;
-    }
+  .section2 {
+    padding: 10px 0 !important;
+}
+.SecondSecBox-content p {
+  font-size: 14px !important;
+  padding: 0px !important;
+}
+.circle{
+  padding: 0px !important;
+}
+  .card1 {
+    width: 320px;
+    padding: 20px 15px;
+    margin: 5px 5px;
+  }
 
-    .card1h5 {
-        margin-bottom: 10px;
-    }
+  .card1h5 {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+  }
 
-    .main-body {
-        height: fit-content;
-        padding: 40px 0px 20px 20px;
-    }
+  .main-body {
+    height: fit-content;
+    padding: 40px 0px 20px 20px;
+  }
 
-    .card-img {
-        width: 70px;
-        height: 70px;
-        top: -35px;
-    }
+  .card-img {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+  }
 
-    .card-div {
-        margin: 10px 0px;
-    }
+  .card-div {
+    margin: 10px 0px;
+  }
 
-    .card-para1 {
-        margin: 3px 0px !important;
-    }
-    .card4-body h6{
-        font-size: 1.5rem !important;
-    }
-    .footer-copyright{
-        margin-top: 100px !important;
-    }
+  .card-para1 {
+    margin: 3px 0px !important;
+  }
+  .card4-body h6 {
+    font-size: 1.5rem !important;
+  }
+  .footer-1strow {
+    margin-bottom: 10px !important;
+  }
+  .footer-copyright {
+    margin-top: 100px !important;
+  }
+  .footer-copyright{
+    margin-top: 20px !important;
+  }
+   .footer-socials-links {
+    justify-content: center !important;
+    gap: 20px !important;
+   }
 }

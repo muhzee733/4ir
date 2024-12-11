@@ -3,7 +3,10 @@ import SiteLogo from '../SiteLogo'
 import facebook from "@/images/social_logo/facebook.png"
 import linkedin from "@/images/social_logo/linkedin.png"
 import youtube from "@/images/social_logo/youtube.png"
-import Image from 'next/image'
+import Image from 'next/image';
+import { FaLinkedin } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -23,16 +26,16 @@ const Footer = () => {
                     <p>AI Talk Assist is more than just a tool;</p>
                     <p>it’s the future of customer engagement</p>
                     <div className="footer-socials-links d-flex justify-content-between">
-                      <figure><Image src={facebook} /></figure>
-                      <figure><Image src={linkedin} /></figure>
-                      <figure><Image src={youtube} /></figure>
+                      <figure><FaFacebook size={40} color='#316FF6'/></figure>
+                      <figure><FaLinkedin size={40} color='#0077B5'/></figure>
+                      <figure><FaYoutube size={40} color='red'/></figure>
                     </div>
                   </div>
                 </div>
 
 
               </div>
-              <div className="col-lg-4 col-md-6 co-sm-12">
+              <div className="col-lg-4 col-md-6 co-sm-12" style={{textAlign: "center"}}>
                 <h5 className='footer-h5'>Resources</h5>
 
                 <ul className='list-unstyled footer-ul'>
@@ -47,7 +50,7 @@ const Footer = () => {
                 <h5 className='footer-h5'>Subscribe for update</h5>
                 <form action="">
                   <input type="text" className="form-control input" placeholder="Name" />
-                  <input type="number" className="form-control input" placeholder="Mobile Number" />
+                  <input type="number" className="form-control input" placeholder="Phone Number" />
                   <input type="email" className="form-control input" placeholder="Email Address" />
 
                   <button className='btn-1 footer-btn'>Subscribe</button>
