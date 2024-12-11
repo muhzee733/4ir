@@ -84,10 +84,10 @@
   align-items: center;
 }
 
-.swiper-slide-active {
+/* .swiper-slide-active {
   width: 440px !important;
   height: 340px;
-}
+} */
 
 .swiper-slide-active .testimonial-card {
   background-color: rgba(20, 20, 20, 1);
@@ -688,9 +688,14 @@
   }
 
   .card4-body h6 {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
-
+  .strugling-lower-content .card4-body {
+    height: 190px !important;
+}
+.aifuturecard .Salesaicards {
+  width: 41vw !important;
+}
   .footer-1strow {
     margin-bottom: 10px !important;
   }

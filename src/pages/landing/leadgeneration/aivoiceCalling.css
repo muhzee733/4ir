@@ -281,7 +281,7 @@
 
 .aiPoweredIndustries-card2 {
   min-width: 41.4%;
-  min-height: 200px;
+  min-height: 250px;
   border-radius: 8px;
   ;
   background: #00000021 !important;
@@ -482,16 +482,11 @@
   font-weight: bold !important;
 }
 
-.leadSidebar .swiper-slide-active .testimonial-card {
-  padding: 60px 80px 60px 20px;
-}
 
 .leadSidebar .swiper-slide-active {
   border-radius: 15px !important;
   /* box-shadow: 0px 4px 76.7px 0px ; */
   box-shadow: #00BDFF40 0px 8px 24px;
-  height: unset;
-  width: 343px !important;
   border: 1px solid var(--primary) !important;
 }
 
@@ -693,7 +688,6 @@
   padding-bottom: 20px;
 }
 .swiper-slide-prev{
-  width: 250px !important;
   border-radius: 5px !important;
 }
 
@@ -1046,6 +1040,8 @@
     min-height: 300px;
   }
 
+ 
+
   .strugling-para2 {
     padding: 0px 60px !important;
   }
@@ -1190,7 +1186,8 @@
   }
 
   .aiPoweredIndustries-card2 {
-    min-width: 68%;
+    width: 33% !important;
+    text-align: center;
     min-height: 300px;
   }
 
@@ -1445,7 +1442,7 @@
   }
 
   .aiPoweredIndustries-card {
-    min-width: 33% !important;
+    min-width: 47% !important;
 
   }
 
@@ -1468,22 +1465,29 @@
   }
 
   .aiPoweredIndustries-card2 {
+    padding: 10px !important;
     width: 15% !important;
   }
 
   .aiPoweredIndustries-card2 .card-content h3 {
     font-size: 14px !important;
+    line-height: 24px !important;
   }
-
+.leadSidebar .swiper-wrapper{
+  transform: translate3d(-270px, 0px, 0px) !important;
+}
   .leads-lower-content .card {
     width: 47% !important;
   }
   .leads-lower-content .card{
     padding: 0px !important;
   }
-
+  .strugling-lower-content {
+    margin-top: 47px;
+}
   .strugling-content h2 {
-    font-size: 20px !important;
+    font-size: 22px !important;
+        line-height: 28px !important;
   }
 
   .testimonial-wrapper {
@@ -1492,8 +1496,14 @@
 
   .img-card {
     padding: 14px 8px;
-    width: 19% !important;
+    width: 42% !important;
   }
+  .leads-lower-content h5{
+    font-size: 16px !important;
+  }
+  .leads-lower-content p {
+    font-size: 13px !important;
+    }
 
   .youtube-video-video {
     margin: 10px 0px !important;
@@ -1525,14 +1535,12 @@
     margin-top: 10px !important;
   }
 
-  .strugling-lower-content .card4-body {
-    width: 500px !important;
-    height: auto !important;
-  }
-
   .aiPoweredIndustries-content h2 {
     font-size: 1.5rem !important;
   }
+  .aifuturecard .Salesaicards {
+    padding: 40px 15px 27px 20px !important;
+}
 
   .future-wrapper {
     margin: 0px 0px 50px 0px !important;
