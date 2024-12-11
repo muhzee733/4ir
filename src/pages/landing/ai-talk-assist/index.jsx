@@ -232,7 +232,7 @@ export default function Index() {
         "AI can automate appointment scheduling, reminders, and confirmations.",
       para2:
         "AI can facilitate remote consultations, answering patient queries and providing basic medical advice.",
-      icon: "/images/vectors/Vector3.png",
+      icon: "/images/vectors/vector3.png",
       layout: true,
     },
   ];
