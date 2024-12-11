@@ -429,6 +429,9 @@
 .section4-img .play-btn svg{
    color: var(--secondary) !important;
 }
+.accordion-item:first-child {
+  background: none !important;
+}
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
@@ -648,8 +651,8 @@
     line-height: 34px !important;
     font-size: 20px !important;
   }
-  .frequently-question-content h2 {
-    margin-bottom: 20px;
+  .frequently-question-content h3 {
+    margin: 0px;
   }
   .frequently-question-content p {
     margin-bottom: 30px !important;

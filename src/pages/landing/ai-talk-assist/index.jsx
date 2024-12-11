@@ -869,7 +869,7 @@ export default function Index() {
                     <Para title="Book a Demo if you have any more questions." />
                     <div class="accordion" id="accordionExample">
                       {Accordianapi?.map((items, index) => {
-                        return <Accordian items={items} key={index} />;
+                        return <Accordian items={items} key={index} content={true} />;
                       })}
                     </div>
                   </div>

@@ -190,123 +190,40 @@ export default function AiVoiceCalling() {
       accordianid: "headingOne",
       collapseid: "collapseOne",
       datatargetid: "#collapseOne",
-      title: "How will AI Talk Assist benefit my business?",
-      value: true,
+      title: "How does your AI-powered solution integrate with my existing sales process?",
+      value: false,
       show: "show",
       heading:
-        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems: [
-        {
-          liItems:
-            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
-        },
-        {
-          liItems:
-            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
-        },
-        {
-          liItems:
-            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
-        },
-        {
-          liItems:
-            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
-        },
-      ],
-      heading2:
-        "By prioritizing security, we ensure the protection of your business and customer data.",
+        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
     },
     {
       id: 2,
       accordianid: "headingTwo",
       collapseid: "collapseTwo",
-      title: "How does it work?",
+      title: "Can I customize the AI-generated scripts and voice messages?",
       datatargetid: "#collapseTwo",
       value: true,
       heading:
-        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems: [
-        {
-          liItems:
-            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
-        },
-        {
-          liItems:
-            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
-        },
-        {
-          liItems:
-            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
-        },
-        {
-          liItems:
-            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
-        },
-      ],
-      heading2:
-        "By prioritizing security, we ensure the protection of your business and customer data.",
+        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
     },
     {
       id: 3,
       accordianid: "headingThree",
       collapseid: "collapseThree",
-      title: "Is it easy to use?",
+      title: "How secure is my data?",
       datatargetid: "#collapseThree",
       value: true,
       heading:
-        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems: [
-        {
-          liItems:
-            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
-        },
-        {
-          liItems:
-            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
-        },
-        {
-          liItems:
-            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
-        },
-        {
-          liItems:
-            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
-        },
-      ],
-      heading2:
-        "By prioritizing security, we ensure the protection of your business and customer data.",
-    },
+        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",    },
     {
       id: 4,
       accordianid: "headingFour",
       collapseid: "collapseFour",
-      title: "Is it secure?",
+      title: "What kind of training data is required to get started?",
       datatargetid: "#collapseFour",
-      value: false,
+      value: true,
       heading:
-        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-      ulitems: [
-        {
-          liItems:
-            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
-        },
-        {
-          liItems:
-            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
-        },
-        {
-          liItems:
-            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
-        },
-        {
-          liItems:
-            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
-        },
-      ],
-      heading2:
-        "By prioritizing security, we ensure the protection of your business and customer data.",
-
-    },
+      "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",   },
   ];
   return (
     <>
@@ -481,11 +398,8 @@ export default function AiVoiceCalling() {
                 </button>
               </div>
               <div className="">
-                  {/* {AccordianLeadapi?.map((items, index) => {
-                    return <Accordian items={items} key={index} />
-                  })} */}
                   {Accordianapi?.map((items, index) => {
-                    return <Accordian items={items} key={index} />
+                    return <Accordian items={items} key={index} content={false} />
                   })}
 
                 </div>
