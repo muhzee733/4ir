@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
-import "./widgets.css"
+import "./widgets.css";
 
-const Slider = ({ SliderData, className }) => {
+const Slider = ({ SliderData }) => {
   const swiperRef = useRef(null);
 
   useEffect(() => {
@@ -13,44 +13,41 @@ const Slider = ({ SliderData, className }) => {
   }, []);
 
   return (
-    <div className="container">
-      <Swiper
-        ref={swiperRef}
-        slidesPerView={3}
-        spaceBetween={30}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        centeredSlides={true}
-        // navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-      >
-        {SliderData?.map((item, index) => (
-          <div className="">
-          <SwiperSlide key={index} >
-            <div className={`testimonial-card ${className}`}>
-              <div className="d-flex align-items-center">
-                {
-                  item.img ? <img
-                    src="/images/testimonial.png"
-                    className=" rounded-5 p-1"
-                  /> : null
-                }
-                <div className="ms-4 testimonial-client">
-                  <h5>{item?.clientName}</h5>
-                  <h6>{item?.country}</h6>
-                </div>
-              </div>
-              <div className="text-white">
-                <p>{item?.testimonial}</p>
+    <Swiper
+      ref={swiperRef}
+      slidesPerView={3}
+      spaceBetween={30}
+      pagination={{
+        clickable: true,
+      }}
+      centeredSlides={true}
+      // navigation={true}
+      modules={[Pagination, Navigation]}
+      className="mySwiper"
+    >
+      {SliderData?.map((item, key) => (
+        <SwiperSlide key={key}>
+          <div className={`testimonial-card`}>
+            <div className="d-flex align-items-center">
+              {item.img && (
+                <img
+                  src="/images/testimonial.png"
+                  className="rounded-5 p-1"
+                  alt="Client"
+                />
+              )}
+              <div className="ms-4 testimonial-client">
+                <h5>{item?.clientName}</h5>
+                <h6>{item?.country}</h6>
               </div>
             </div>
-          </SwiperSlide>
+            <div className="text-white">
+              <p>{item?.testimonial}</p>
+            </div>
           </div>
-        ))}
-      </Swiper>
-    </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 };
 

@@ -456,6 +456,16 @@
   margin: 0;
 } */
 
+.leadSidebar {
+  width: 83%;
+  margin: 0 auto;
+}
+.leadSidebar .swiper-slide-active{
+  height: unset;
+  width: 343px !important;
+  
+}
+
 @media screen and (min-width: 1400px) {
   .banner-content {
     min-height: 100vh !important;

@@ -184,52 +184,6 @@ export default function AiVoiceCalling() {
       testimonial: "Prioritize leads based on their potential value."
     },
   ]
-  // const AccordianLeadapi = [
-  //   {
-  //     id: 1,
-  //     accordianid: "headingOne",
-  //     collapseid: "collapseOne",
-  //     datatargetid: "#collapseOne",
-  //     title: "How will AI Talk Assist benefit my business?",
-  //     value: true,
-  //     show: "show",
-  //     heading:
-  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-
-  //   },
-  //   {
-  //     id: 2,
-  //     accordianid: "headingTwo",
-  //     collapseid: "collapseTwo",
-  //     title: "How does it work?",
-  //     datatargetid: "#collapseTwo",
-  //     value: true,
-  //     heading:
-  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-
-  //   },
-  //   {
-  //     id: 3,
-  //     accordianid: "headingThree",
-  //     collapseid: "collapseThree",
-  //     title: "Is it easy to use?",
-  //     datatargetid: "#collapseThree",
-  //     value: true,
-  //     heading:
-  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-
-  //   },
-  //   {
-  //     id: 4,
-  //     accordianid: "headingFour",
-  //     collapseid: "collapseFour",
-  //     title: "Is it secure?",
-  //     datatargetid: "#collapseFour",
-  //     value: false,
-  //     heading:
-  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
-  //   },
-  // ]
   const Accordianapi = [
     {
       id: 1,
@@ -509,8 +463,8 @@ export default function AiVoiceCalling() {
               <div className="testimonial-heading">
                 <H2 title="By leveraging AI-powered lead generation and automated voice calling, businesses in these industries can:" className='text-center' />
               </div>
-              <div className="leadSidebar border ">
-                <Slider SliderData={SliderDataLead} className="leadgensidebar customborder" />
+              <div className="leadSidebar">
+                <Slider SliderData={SliderDataLead} />
               </div>
             </div>
           </div>
