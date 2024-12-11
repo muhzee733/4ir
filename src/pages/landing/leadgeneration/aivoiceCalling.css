@@ -358,10 +358,10 @@
 
 }
 .question-heaing p{
-  padding: 30px 30px;
+  padding: 15px 30px;
 }
 .question-heaing button{
-  margin: 20px 0px;
+  margin: 40px 0px;
 }
 /* sidebar */
 .leadgensidebar{
@@ -455,7 +455,62 @@
   font-size: 1.2rem;
   margin: 0;
 } */
+.accordion-item .arrow:focus-within {
+  background-color: var(--primary) !important; /* Ensures focus within changes background */
+}
+ .arrow {
+  border: 1px solid #fff;
+  padding: 4px 8px;
+  min-height: 20px !important;
+  background-color: var(--backgorund) !important;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+ }
+ .accordion-item:nth-child(1) {
+  background: none !important;
+  border: 2px solid var(--border) !important  ;
+  border-radius: 10px ;
+}
 
+.accordion-item:nth-child(2) {
+  background: none !important;
+}
+
+.accordion-item:nth-child(3) {
+  background: none !important;
+}
+
+.accordion-item:nth-child(4) {
+  background: none !important;
+}
+.accordion-item:focus-within h3 {
+color: var(--primary) !important;
+}
+.accordion-item:nth-child(1) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+  padding: 15px !important;
+}
+
+.accordion-item:nth-child(2) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+  padding: 15px !important;
+}
+
+.accordion-item:nth-child(3) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+  padding: 15px !important;
+}
+.accordion-item:nth-child(4) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+  padding: 15px !important;
+}
+.accordion-button h3{
+  margin: 0px !important;
+}
+.accordion-body h5{
+  padding: 30px !important;
+}
 .leadSidebar {
   width: 83%;
   margin: 0 auto;
@@ -483,6 +538,7 @@
   .leads-upper-content {
     width: 70%;
   }
+
 
 }
 

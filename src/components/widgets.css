@@ -205,10 +205,12 @@
 
 .accordion-item:nth-child(1) > .accordion-header .accordion-button {
   border-radius: 10px !important;
+
 }
 
 .accordion-item:nth-child(2) > .accordion-header .accordion-button {
   border-radius: 10px !important;
+
 }
 
 .accordion-item:nth-child(3) > .accordion-header .accordion-button {
@@ -217,6 +219,7 @@
 .accordion-item:nth-child(4) > .accordion-header .accordion-button {
   border-radius: 10px !important;
 }
+
 
 /*  */
 .SecondSecBox-content {
