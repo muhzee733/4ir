@@ -463,7 +463,7 @@ export default function Index() {
                     title="Are these common sales challenges holding your business back?"
                     className="section2h6"
                   />
-                  <button className="btn-1 ">It’s Time To Make A Change</button>
+                  <button className="btn-1">It’s Time To Make A Change</button>
                 </div>
               </div>
             </div>
@@ -530,27 +530,27 @@ export default function Index() {
                   <div className="section4-img text-center">
                     <div
                       onClick={() => {
-                        handlePlayPause(); 
+                        handlePlayPause();
                         toggleAnimation();
                       }}
                     >
                       {isAnimating ? (
-                      
-                      <div
-                        className={`audio-button ${isAnimating ? "animating" : ""}`}
-                      >
-                        <div className="wave-icon">
-                          <div className="wave wave1"></div>
-                          <div className="wave wave2"></div>
-                          <div className="wave wave3"></div>
-                          <div className="wave wave4"></div>
-                          <div className="wave wave5"></div>
+
+                        <div
+                          className={`audio-button ${isAnimating ? "animating" : ""}`}
+                        >
+                          <div className="wave-icon">
+                            <div className="wave wave1"></div>
+                            <div className="wave wave2"></div>
+                            <div className="wave wave3"></div>
+                            <div className="wave wave4"></div>
+                            <div className="wave wave5"></div>
+                          </div>
                         </div>
-                      </div>
-                      ):(
-                     <div className="play-btn">
-                       <FaPlay size={100} color="blue" />
-                     </div>
+                      ) : (
+                        <div className="play-btn">
+                          <FaPlay size={100} color="blue" />
+                        </div>
                       )}
                     </div>
 
