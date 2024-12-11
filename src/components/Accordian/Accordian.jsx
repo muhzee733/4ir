@@ -4,7 +4,8 @@ import Para from "../Typography/Para";
 import H6 from "../Typography/H6";
 import H3 from "../Typography/H3";
 import { FiPlus } from "react-icons/fi";
-import { TiMinus } from "react-icons/ti";
+import { TiMinus } from "react-icons/ti"; 
+import "../widgets.css"
 const Accordian = ({ items, key }) => {
   const [active, setActive] = useState(items.value);
   return (

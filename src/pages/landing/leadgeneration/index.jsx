@@ -14,6 +14,8 @@ import Model from "@/components/Model/Model";
 import Head from "next/head";
 import AiPoweredCard from "../../../components/aiPoweredcard/aiPoweredCard"
 import H3 from "@/components/Typography/H3";
+import Slider from "@/components/Slider";
+import Accordian from "@/components/Accordian/Accordian";
 export default function AiVoiceCalling() {
   const [showModal, setShowModal] = useState(false);
 
@@ -165,6 +167,193 @@ export default function AiVoiceCalling() {
       para: "Identify potential car buyers, book test drives, and provide personalized product information."
     }
   ]
+  const SliderDataLead = [
+    {
+      id: 1,
+      clientName: "Improve lead qualification:",
+      testimonial: "Prioritize leads based on their potential value."
+    },
+    {
+      id: 2,
+      clientName: "Optimize marketing efforts:",
+      testimonial: "Measure the effectiveness of marketing campaigns and adjust strategies accordingly."
+    },
+    {
+      id: 3,
+      clientName: "Improve lead qualification:",
+      testimonial: "Prioritize leads based on their potential value."
+    },
+  ]
+  // const AccordianLeadapi = [
+  //   {
+  //     id: 1,
+  //     accordianid: "headingOne",
+  //     collapseid: "collapseOne",
+  //     datatargetid: "#collapseOne",
+  //     title: "How will AI Talk Assist benefit my business?",
+  //     value: true,
+  //     show: "show",
+  //     heading:
+  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+
+  //   },
+  //   {
+  //     id: 2,
+  //     accordianid: "headingTwo",
+  //     collapseid: "collapseTwo",
+  //     title: "How does it work?",
+  //     datatargetid: "#collapseTwo",
+  //     value: true,
+  //     heading:
+  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+
+  //   },
+  //   {
+  //     id: 3,
+  //     accordianid: "headingThree",
+  //     collapseid: "collapseThree",
+  //     title: "Is it easy to use?",
+  //     datatargetid: "#collapseThree",
+  //     value: true,
+  //     heading:
+  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+
+  //   },
+  //   {
+  //     id: 4,
+  //     accordianid: "headingFour",
+  //     collapseid: "collapseFour",
+  //     title: "Is it secure?",
+  //     datatargetid: "#collapseFour",
+  //     value: false,
+  //     heading:
+  //       "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+  //   },
+  // ]
+  const Accordianapi = [
+    {
+      id: 1,
+      accordianid: "headingOne",
+      collapseid: "collapseOne",
+      datatargetid: "#collapseOne",
+      title: "How will AI Talk Assist benefit my business?",
+      value: true,
+      show: "show",
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
+        {
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+        },
+        {
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+        },
+        {
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+        },
+        {
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+        },
+      ],
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
+    },
+    {
+      id: 2,
+      accordianid: "headingTwo",
+      collapseid: "collapseTwo",
+      title: "How does it work?",
+      datatargetid: "#collapseTwo",
+      value: true,
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
+        {
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+        },
+        {
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+        },
+        {
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+        },
+        {
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+        },
+      ],
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
+    },
+    {
+      id: 3,
+      accordianid: "headingThree",
+      collapseid: "collapseThree",
+      title: "Is it easy to use?",
+      datatargetid: "#collapseThree",
+      value: true,
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
+        {
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+        },
+        {
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+        },
+        {
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+        },
+        {
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+        },
+      ],
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
+    },
+    {
+      id: 4,
+      accordianid: "headingFour",
+      collapseid: "collapseFour",
+      title: "Is it secure?",
+      datatargetid: "#collapseFour",
+      value: false,
+      heading:
+        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+      ulitems: [
+        {
+          liItems:
+            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+        },
+        {
+          liItems:
+            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+        },
+        {
+          liItems:
+            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+        },
+        {
+          liItems:
+            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+        },
+      ],
+      heading2:
+        "By prioritizing security, we ensure the protection of your business and customer data.",
+
+    },
+  ];
   return (
     <>
 
@@ -275,6 +464,7 @@ export default function AiVoiceCalling() {
 
 
         </section>
+
         <section className="future">
           <div className="future-wrapper">
             <div className="container">
@@ -291,6 +481,7 @@ export default function AiVoiceCalling() {
             </div>
           </div>
         </section>
+
         <section className="aiPoweredIndustries">
           <div className="aiPoweredIndustries-wrapper">
             <div className="container">
@@ -311,12 +502,39 @@ export default function AiVoiceCalling() {
             </div>
           </div>
         </section>
+
         <section className="testimonial">
           <div className="testimonial-wrapper">
             <div className="container">
               <div className="testimonial-heading">
                 <H2 title="By leveraging AI-powered lead generation and automated voice calling, businesses in these industries can:" className='text-center' />
               </div>
+              <div className="leadSidebar border ">
+                <Slider SliderData={SliderDataLead} className="leadgensidebar customborder" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="question-wrapper">
+            <div className="container">
+              <div className="question-heaing text-center">
+                <H2 title="Frequently Asked Questions" />
+                <p>Contact us via Support if you have any more questions.</p>
+                <button className="btn-2">
+                  Book a Consultation
+                </button>
+              </div>
+              <div className="">
+                  {/* {AccordianLeadapi?.map((items, index) => {
+                    return <Accordian items={items} key={index} />
+                  })} */}
+                  {Accordianapi?.map((items, index) => {
+                    return <Accordian items={items} key={index} />
+                  })}
+
+                </div>
             </div>
           </div>
         </section>

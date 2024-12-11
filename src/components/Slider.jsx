@@ -1,8 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
+import "./widgets.css"
 
-const Slider = ({ SliderData }) => {
+const Slider = ({ SliderData, className }) => {
   const swiperRef = useRef(null);
 
   useEffect(() => {
@@ -26,13 +27,16 @@ const Slider = ({ SliderData }) => {
         className="mySwiper"
       >
         {SliderData?.map((item, index) => (
-          <SwiperSlide key={index}>
-            <div className="testimonial-card">
+          <div className="">
+          <SwiperSlide key={index} >
+            <div className={`testimonial-card ${className}`}>
               <div className="d-flex align-items-center">
-                <img
-                  src="/images/testimonial.png"
-                  className=" rounded-5 p-1"
-                />
+                {
+                  item.img ? <img
+                    src="/images/testimonial.png"
+                    className=" rounded-5 p-1"
+                  /> : null
+                }
                 <div className="ms-4 testimonial-client">
                   <h5>{item?.clientName}</h5>
                   <h6>{item?.country}</h6>
@@ -43,6 +47,7 @@ const Slider = ({ SliderData }) => {
               </div>
             </div>
           </SwiperSlide>
+          </div>
         ))}
       </Swiper>
     </div>

@@ -161,12 +161,14 @@
   width: 25%;
   margin-bottom: 20px;
 }
-.strugling-lower-content .card4-body{
+
+.strugling-lower-content .card4-body {
   width: 49%;
   padding: 30px 20px;
   min-height: 180px;
 }
-.strugling-lower-content{
+
+.strugling-lower-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -188,7 +190,8 @@
   border: 1px solid rgba(0, 189, 255, 1);
   transition: 0.3s all ease-in-out;
 }
-.section3-heading-top{
+
+.section3-heading-top {
   position: relative;
   background: #6e6e6e26;
   border-radius: 50px;
@@ -198,83 +201,98 @@
   width: 45%;
   text-align: center;
 }
-.strugling-content{
+
+.strugling-content {
   margin-top: 80px;
 }
-.strugling-content h2{
+
+.strugling-content h2 {
   margin: 20px 0px;
   font-size: 50px !important;
   font-weight: bold !important;
 }
-.strugling-para2{
+
+.strugling-para2 {
   padding: 0px 280px !important;
   line-height: 30px !important;
-  margin-bottom: 50px  !important;
+  margin-bottom: 50px !important;
 }
 
-.strugling-lower-content{
+.strugling-lower-content {
   margin-top: 80px;
 }
-.future-wrapper{
+
+.future-wrapper {
   margin: 100px 0px;
 }
-.aifuturecard{
+
+.aifuturecard {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
 }
-.aifuturecard .card3{
-margin-top: 0px !important;
-min-height: 30vh;
-border-radius: 10px !important;
-padding: 20px !important; 
-background: #00000021;
+
+.aifuturecard .card3 {
+  margin-top: 0px !important;
+  min-height: 30vh;
+  border-radius: 10px !important;
+  padding: 20px !important;
+  background: #00000021;
 
 }
-.aifuturecard .card3:hover{
+
+.aifuturecard .card3:hover {
   background: linear-gradient(180.11deg, #1B2C4A 0.09%, #0F64DF 210.44%);
   transition: all.5s !important;
 
 }
-.Salesaicards{
-width: 300px !important;
+
+.Salesaicards {
+  width: 300px !important;
 }
-.aiPoweredIndustries-content h2{
+
+.aiPoweredIndustries-content h2 {
   width: 70%;
-line-height: 65px !important;
-margin-bottom: 30px;
+  line-height: 65px !important;
+  margin-bottom: 30px;
 }
-.aiPoweredIndustries-content p{
+
+.aiPoweredIndustries-content p {
   width: 50%;
-line-height: 30px !important;
-margin-bottom: 50px !important;
+  line-height: 30px !important;
+  margin-bottom: 50px !important;
 }
+
 .aiPoweredIndustries-card {
   min-width: 350px;
   min-height: 250px;
-  border-radius: 8px;;
+  border-radius: 8px;
+  ;
   background: #00000021 !important;
-border: 2px solid #222222;
+  border: 2px solid #222222;
   overflow: hidden;
   position: relative;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.aiPoweredIndustries-card2{
+
+.aiPoweredIndustries-card2 {
   min-width: 41.4%;
   min-height: 200px;
-  border-radius: 8px;;
+  border-radius: 8px;
+  ;
   background: #00000021 !important;
-border: 2px solid #222222;
+  border: 2px solid #222222;
   overflow: hidden;
   position: relative;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .aiPoweredIndustries-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
@@ -291,8 +309,8 @@ border: 2px solid #222222;
 }
 
 .card-image {
-   object-fit: cover;
-   margin-bottom: 20px;
+  object-fit: cover;
+  margin-bottom: 20px;
   transition: opacity 0.3s ease;
 }
 
@@ -332,6 +350,47 @@ border: 2px solid #222222;
   font-size: 1.2rem;
   margin: 0;
 }
+.testimonial-wrapper{
+  margin: 100px 0px;
+}
+.testimonial-heading{
+  padding: 0px 90px;
+
+}
+.question-heaing p{
+  padding: 30px 30px;
+}
+.question-heaing button{
+  margin: 20px 0px;
+}
+/* sidebar */
+.leadgensidebar{
+  background-color: var(--backgorund) !important;
+  /* border: 1px solid var(--primary) !important; */
+
+}
+/* .classNamehead:active {
+  border-color: var(--primary) !important;
+} */
+/* .swiper-slide-active .leadgensidebar h5 {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+}
+
+.swiper-slide-active .testimonial-card h6 {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+} */
+
+.classNamehead:active .leadgensidebar p {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 28px !important;
+  padding-top: 20px;
+}
+/*  */
 
 /* .aiPoweredIndustries-card {
   width: 300px;
@@ -401,17 +460,20 @@ border: 2px solid #222222;
   .banner-content {
     min-height: 100vh !important;
   }
-  .aifuturecard .card3{
-    min-height: 10vh ;
+
+  .aifuturecard .card3 {
+    min-height: 10vh;
   }
+
   .img-card {
     padding: 15px 8px !important;
-    width: 19% !important; 
-}
-.leads-upper-content{
-  width: 70%;
-}
-  
+    width: 19% !important;
+  }
+
+  .leads-upper-content {
+    width: 70%;
+  }
+
 }
 
 @media screen and (max-width: 1399px) {
@@ -419,17 +481,21 @@ border: 2px solid #222222;
     font-size: calc(96px - 20px) !important;
     line-height: 80px !important;
   }
+
   .banner-heading-top1 .h2 {
     font-size: 40px !important;
     line-height: 60px !important;
   }
+
   .banner-second-heading h6 {
     font-size: 24px !important;
   }
+
   .img-card {
     padding: 14px 8px;
     width: 22%;
-}
+  }
+
   .banner-second-heading {
     width: 70%;
   }
@@ -437,26 +503,31 @@ border: 2px solid #222222;
   .banner-logo img {
     max-width: calc(100% - 25%);
   }
+
   .aiPoweredIndustries-card2 {
     min-width: 48%;
   }
-  .aiPoweredIndustries-content h2{
+
+  .aiPoweredIndustries-content h2 {
     font-size: 3.2rem !important;
   }
 
   .banner-logo {
     margin-top: 40px;
   }
-  .strugling-para2{
+
+  .strugling-para2 {
     padding: 0px 200px !important;
     line-height: 30px !important;
-    margin-bottom: 50px  !important;
+    margin-bottom: 50px !important;
   }
-  .aifuturecard .Salesaicards{
-    min-height: 12vh !important ;
-    width: 29vw !important ;
+
+  .aifuturecard .Salesaicards {
+    min-height: 12vh !important;
+    width: 29vw !important;
   }
-  .card3-body h5{
+
+  .card3-body h5 {
     font-size: 29px !important;
     line-height: 35px !important;
     font-weight: 600 !important;
@@ -476,18 +547,22 @@ border: 2px solid #222222;
     font-size: 18px !important;
     margin-bottom: 30px;
   }
+
   .strugling-lower-content .card4-body {
     width: 48% !important;
   }
-  .card3-body h5{
+
+  .card3-body h5 {
     font-size: 25px !important;
     line-height: 30px !important;
     font-weight: 600 !important;
   }
-  .aiPoweredIndustries-content h2{
+
+  .aiPoweredIndustries-content h2 {
     font-size: 2.8rem !important;
     line-height: 50px !important;
   }
+
   .youtube-video-video .youtube-video {
     width: 100% !important;
   }
@@ -501,56 +576,68 @@ border: 2px solid #222222;
     font-size: 20px !important;
     line-height: 26px !important;
   }
+
   .aiPoweredIndustries-card2 {
     min-width: 38%;
   }
+
   .leads-lower-content .card {
     width: 48%;
   }
-  .strugling-content h2{
+
+  .strugling-content h2 {
     font-size: 40px !important;
   }
-  .strugling-para2{
+
+  .strugling-para2 {
     padding: 0px 180px !important;
   }
-  .aifuturecard .card3{
-    min-height: 10vh !important ;
-    width: 30vw !important ;
+
+  .aifuturecard .card3 {
+    min-height: 10vh !important;
+    width: 30vw !important;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .strugling-content h2{
+  .strugling-content h2 {
     font-size: 30px !important;
   }
+
   .aiPoweredIndustries-card2 {
     min-width: 50%;
     min-height: 300px;
   }
-  .strugling-para2{
+
+  .strugling-para2 {
     padding: 0px 60px !important;
-    }
-    .aifuturecard .Salesaicards{
-      width: 31vw !important;  
-      padding: 0px 0px 0px 0px !important;
-      }
-    .aifuturecard .card3 h5{
-      font-size: 20px  !important;
-      line-height: 30px !important;
-          }
-          .card4-body p{
-font-size: 17px !important;
-          }
-          .aiPoweredIndustries-content h2{
-           width: 100%;
-           margin-bottom: 20px !important;
-            font-size: 2rem !important;
-            line-height: 45px !important;
-          }
-          .aiPoweredIndustries-content p{
-           width: 100%;
-           margin-bottom: 20px !important;
-          }
+  }
+
+  .aifuturecard .Salesaicards {
+    width: 31vw !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+
+  .aifuturecard .card3 h5 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+
+  .card4-body p {
+    font-size: 17px !important;
+  }
+
+  .aiPoweredIndustries-content h2 {
+    width: 100%;
+    margin-bottom: 20px !important;
+    font-size: 2rem !important;
+    line-height: 45px !important;
+  }
+
+  .aiPoweredIndustries-content p {
+    width: 100%;
+    margin-bottom: 20px !important;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -566,19 +653,23 @@ font-size: 17px !important;
   .banner-second-heading {
     width: 100% !important;
   }
+
   .aiPoweredIndustries-card2 {
     min-width: 68%;
     min-height: 300px;
   }
-  .aiPoweredIndustries-content h2{
+
+  .aiPoweredIndustries-content h2 {
     width: 100%;
     font-size: 2.1rem !important;
     line-height: 40px !important;
   }
-  .aiPoweredIndustries-content p{
+
+  .aiPoweredIndustries-content p {
     width: 100%;
 
   }
+
   h2 {
     font-size: 36px !important;
     line-height: 44px !important;
@@ -587,37 +678,46 @@ font-size: 17px !important;
   .img-card {
     padding: 15px 8px;
   }
-  .strugling-content h2{
+
+  .strugling-content h2 {
     font-size: 25px !important;
   }
-  .strugling-para2{
+
+  .strugling-para2 {
     padding: 0px 0px !important;
-    }
-    .aifuturecard{
+  }
+
+  .aifuturecard {
     flex-direction: column;
     gap: 10px;
-    }
-    .aifuturecard .card3{
-    width: 100% !important;  
-    }
-    .card4-body > h6{
-      font-size: 20px !important
-    }
-    .strugling-lower-content .card4-body {
-      width: 47% !important;
-      height: 200px !important;
-    }
-   .card4-body h6 {
-      font-size: 21px !important;
-      line-height: 30px !important;
-    }
-   .card4-body p {
-      font-size: 14px !important;
-      line-height: 25px !important;
-    }
-    .img-card {
-      padding: 14px 8px;
-      width: 28% !important;
+  }
+
+  .aifuturecard .card3 {
+    width: 100% !important;
+  }
+
+  .card4-body>h6 {
+    font-size: 20px !important
+  }
+
+  .strugling-lower-content .card4-body {
+    width: 47% !important;
+    height: 200px !important;
+  }
+
+  .card4-body h6 {
+    font-size: 21px !important;
+    line-height: 30px !important;
+  }
+
+  .card4-body p {
+    font-size: 14px !important;
+    line-height: 25px !important;
+  }
+
+  .img-card {
+    padding: 14px 8px;
+    width: 28% !important;
   }
 }
 
@@ -630,15 +730,18 @@ font-size: 17px !important;
     font-size: 54px !important;
     line-height: 60px !important;
   }
-  .aiPoweredIndustries-content h2{
+
+  .aiPoweredIndustries-content h2 {
     width: 100%;
     font-size: 2.1rem !important;
     line-height: 40px !important;
     margin-bottom: 10px !important;
   }
-  .aiPoweredIndustries-content p{
-margin-bottom: 10px !important;
+
+  .aiPoweredIndustries-content p {
+    margin-bottom: 10px !important;
   }
+
   p {
     line-height: 1.7rem !important;
   }
@@ -650,10 +753,12 @@ margin-bottom: 10px !important;
   .banner-second-heading .btn-2 {
     font-size: 17px !important;
   }
-  .aiPoweredIndustries-card{
+
+  .aiPoweredIndustries-card {
     min-width: 310px !important;
 
   }
+
   .aiPoweredIndustries-card2 {
     min-width: 310px !important;
     min-height: 300px;
@@ -662,36 +767,43 @@ margin-bottom: 10px !important;
   .leads-lower-content .card {
     width: 70% !important;
   }
-  .strugling-content h2{
+
+  .strugling-content h2 {
     font-size: 20px !important;
   }
+
   .img-card {
     padding: 14px 8px;
     width: 19% !important;
-}
-.youtube-video-video{
-  margin: 10px 0px  !important;
-}
-.banner-content{
-  min-height: 70vh !important;
-}
-.banner-logo {
-  margin: 0px !important;
-}
-.banner-second-heading  p{
-  margin-bottom: 30px !important;
-}
-.leads-wrapper{
-  margin: 45px 0px !important;
-}
-.leads-upper-content h2{
-  padding: 20px 0px  !important;
-  font-size: 1.7rem !important;
-  line-height: 35px !important;
-}
-.leads-lower-content{
-  margin-top: 10px !important;
-}
-}
+  }
 
+  .youtube-video-video {
+    margin: 10px 0px !important;
+  }
 
+  .banner-content {
+    min-height: 70vh !important;
+  }
+
+  .banner-logo {
+    margin: 0px !important;
+  }
+
+  .banner-second-heading p {
+    margin-bottom: 30px !important;
+  }
+
+  .leads-wrapper {
+    margin: 45px 0px !important;
+  }
+
+  .leads-upper-content h2 {
+    padding: 20px 0px !important;
+    font-size: 1.7rem !important;
+    line-height: 35px !important;
+  }
+
+  .leads-lower-content {
+    margin-top: 10px !important;
+  }
+}

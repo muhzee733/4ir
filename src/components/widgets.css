@@ -46,6 +46,178 @@
   color: var(--whitecolor);
 }
 
+/* swipper css */
+.testimonial-card {
+  background: rgba(9, 9, 9, 1);
+  border-radius: 9px;
+  padding: 28px;
+}
+
+.testimonial-card h5 {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+}
+
+.testimonial-card h6 {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 14px !important;
+}
+
+.testimonial-card p {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+  padding-top: 10px;
+}
+.testimonial-card img {
+  background-color: var(--secondary);
+}
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide-active {
+  width: 440px !important;
+  height: 340px;
+}
+
+.swiper-slide-active .testimonial-card {
+  background-color: rgba(20, 20, 20, 1);
+  border-radius: 12.9px !important;
+  padding: 40px;
+}
+.swiper-slide-active .testimonial-card h5 {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+}
+
+.swiper-slide-active .testimonial-card h6 {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+}
+
+.swiper-slide-active .testimonial-card p {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  line-height: 28px !important;
+  padding-top: 20px;
+}
+
+/* accordian css */
+
+.accordion-item {
+  margin-bottom: 12px;
+  border: 0px !important;
+}
+
+.accordion-button {
+  background-color: var(--accordian-color) !important;
+  color: var(--white);
+}
+
+.accordion-body {
+  background-color: var(--accordian-body-color) !important;
+  color: var(--white) !important;
+}
+
+.accordion-body h5 {
+  font-size: 1.2rem !important;
+  line-height: 29px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--white);
+}
+
+.accordion-body ul li {
+  font-size: 18px;
+}
+
+.accordion-button:focus {
+  box-shadow: unset !important;
+  /* Remove focus shadow on the button */
+}
+
+/* Use :focus-within to style the parent .accordion-item */
+.accordion-item:focus-within {
+  border: 1px solid var(--primary) !important;
+  border-radius: 10px;
+}
+
+.accordion-body h6 {
+  font-size: 1.2rem !important;
+  line-height: 28px !important;
+}
+
+.accordion-button h3 {
+  font-size: 1.4rem !important;
+}
+
+.accordion-button:after {
+  background-image: unset !important;
+}
+
+.bookDemo-content {
+  margin-left: 15px;
+}
+
+.accordion-item:nth-child(1) {
+  background: none !important;
+}
+
+.accordion-item:nth-child(2) {
+  background: none !important;
+}
+
+.accordion-item:nth-child(3) {
+  background: none !important;
+}
+
+.accordion-item:nth-child(4) {
+  background: none !important;
+}
+
+.bookDemo-content h2 {
+  font-size: 64px !important;
+  padding-bottom: 10px;
+}
+
+.bookDemo-content p {
+  font-size: 23px !important;
+  padding-bottom: 20px;
+}
+
+.accordion-button:not(.collapsed):after {
+  background-image: none !important;
+}
+
+.accordion-button > div {
+  width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: unset !important;
+}
+
+.accordion-item:nth-child(1) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+}
+
+.accordion-item:nth-child(2) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+}
+
+.accordion-item:nth-child(3) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+}
+.accordion-item:nth-child(4) > .accordion-header .accordion-button {
+  border-radius: 10px !important;
+}
+
 /*  */
 .SecondSecBox-content {
   height: 200px;
@@ -254,6 +426,9 @@
   }
   .footer-copyright {
     margin-top: 100px !important;
+  }
+  .accordion-button h3 {
+    font-size: calc(1.4rem - 3px) !important;
   }
 }
 

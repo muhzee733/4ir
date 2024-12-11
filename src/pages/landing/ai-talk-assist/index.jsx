@@ -281,7 +281,7 @@ export default function Index() {
       id: 1,
       clientName: "Sarah Afzal",
       country: "USA",
-      img: "",
+      img: "/images/testimonial.png",
       testimonial:
         "4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!",
     },
@@ -289,7 +289,7 @@ export default function Index() {
       id: 2,
       clientName: "Sarah Afzal",
       country: "USA",
-      img: "",
+      img: "/images/testimonial.png",
       testimonial:
         "4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!",
     },
@@ -297,7 +297,7 @@ export default function Index() {
       id: 3,
       clientName: "Sarah Afzal",
       country: "USA",
-      img: "",
+      img: "/images/testimonial.png",
       testimonial:
         "4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!",
     },
@@ -305,7 +305,7 @@ export default function Index() {
       id: 4,
       clientName: "Sarah Afzal",
       country: "USA",
-      img: "",
+      img: "/images/testimonial.png",
       testimonial:
         "4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!",
     },
@@ -313,7 +313,7 @@ export default function Index() {
       id: 5,
       clientName: "Sarah Afzal",
       country: "USA",
-      img: "",
+      img: "/images/testimonial.png",
       testimonial:
         "4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!",
     },
