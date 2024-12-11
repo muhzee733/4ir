@@ -989,12 +989,11 @@
   }
 
   .aifuturecard {
-    flex-direction: column;
     gap: 10px;
   }
 
   .aifuturecard .card3 {
-    width: 100% !important;
+    width: 48% !important;
   }
 
   .card4-body>h6 {
@@ -1070,6 +1069,13 @@
   .banner-logo img {
     max-width: 80% !important;
   }
+  .aifuturecard .card3 {
+    width: 47% !important;
+}
+.aifuturecard .card3 h5 {
+  font-size: 18px !important;
+  line-height: 24px !important;
+}
 
   .banner-second-heading h1 {
     font-size: 54px !important;
@@ -1078,8 +1084,8 @@
 
   .aiPoweredIndustries-content h2 {
     width: 100%;
-    font-size: 2.1rem !important;
-    line-height: 40px !important;
+    font-size: 26px !important;
+    line-height: 36px !important;
     margin-bottom: 10px !important;
   }
 
@@ -1098,15 +1104,25 @@
   .banner-second-heading .btn-2 {
     font-size: 17px !important;
   }
-
-  .aiPoweredIndustries-card {
-    min-width: 310px !important;
-
+  .aiPoweredIndustries-card .card-image{
+    max-width: 34% !important;
   }
 
+  .aiPoweredIndustries-card {
+    min-width: 47% !important;
+
+  }
+  .aiPoweredIndustries-card {
+    min-height: 180px;
+}
+.card-details p{
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
   .aiPoweredIndustries-card2 {
-    min-width: 310px !important;
-    min-height: 300px;
+    min-width: 47% !important;
+    min-height: 180px !important;
   }
 
   .leads-lower-content .card {
