@@ -25,7 +25,7 @@ const Slider = ({ SliderData }) => {
       className="mySwiper"
       breakpoints={{
         320: {
-          slidesPerView: 3,
+          slidesPerView: 1,
           spaceBetween: 20,
         },
         640: {
