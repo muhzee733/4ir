@@ -340,6 +340,155 @@ export default function AiVoiceCalling() {
 
 
         </section>
+        <section className="timeline">
+          <div className="timeline-wrapper">
+            <div class="container">
+              <div className="timeline-heading">
+                <H2 title="How it Works?" className="text-center" />
+              </div>
+              <div className="timeline-content mt-5 ">
+                <div class="timeline-left">
+                  <div class="nav flex-column gap-3 nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link position-relative active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                      Onboarding
+                    </button>
+                    <button class="nav-link position-relative" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                      Marketing Management
+                    </button>
+                    <button class="nav-link position-relative" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                      Lead Generation & Management
+                    </button>
+                    <button class="nav-link position-relative" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                      AI-Powered Lead Follow-up
+                    </button>
+                  </div>
+                </div>
+                <div class="timeline-right">
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <div className="d-flex gap-3 timeline-right-content mb-3">
+                      <div className="number text-white position-relative">
+                          <span className="position-absolute">1</span>
+                        </div>
+                        <div>
+                          <h6>Initial Consultation: </h6>
+                          <p>We'll schedule a call to understand your business goals and specific needs.</p>
+                        </div>
+                      </div>
+                      <div className="d-flex gap-3 timeline-right-content mb-3">
+                      <div className="number text-white position-relative">
+                          <span className="position-absolute">2</span>
+                        </div>
+                        <div>
+                          <h6>Platform Setup: </h6>
+                          <p>  We'll set up your account on our platform, ensuring it's tailored to your business.</p>
+                        </div>
+                      </div>
+                        <div className="d-flex timeline-right-content gap-3 mb-3">
+                        <div className="number text-white position-relative">
+                          <span className="position-absolute">3</span>
+                        </div>
+                        <div>
+                          <h6>Data Integration: </h6>
+                          <p> We'll integrate your existing customer data (if applicable) to provide a seamless experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div className="d-flex gap-3 timeline-right-content mb-3">
+                    <div className="number text-white position-relative">
+                          <span className="position-absolute">1</span>
+                        </div>
+                        <div>
+                          <h6>Initial Consultation: </h6>
+                          <p>We'll schedule a call to understand your business goals and specific needs.</p>
+                        </div>
+                      </div>
+                      <div className="d-flex gap-3 timeline-right-content mb-3">
+                      <div className="number text-white position-relative">
+                          <span className="position-absolute">2</span>
+                        </div>
+                        <div>
+                          <h6>Platform Setup: </h6>
+                          <p>  We'll set up your account on our platform, ensuring it's tailored to your business.</p>
+                        </div>
+                      </div>
+                        <div className="d-flex timeline-right-content gap-3 mb-3">
+                        <div className="number text-white position-relative">
+                          <span className="position-absolute">3</span>
+                        </div>
+                        <div>
+                          <h6>Data Integration: </h6>
+                          <p> We'll integrate your existing customer data (if applicable) to provide a seamless experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div className="d-flex gap-3 timeline-right-content mb-3">
+                    <div className="number text-white position-relative">
+                          <span className="position-absolute">1</span>
+                        </div>
+                        <div>
+                          <h6>Initial Consultation: </h6>
+                          <p>We'll schedule a call to understand your business goals and specific needs.</p>
+                        </div>
+                      </div>
+                      <div className="d-flex gap-3 timeline-right-content mb-3">
+                      <div className="number text-white position-relative">
+                          <span className="position-absolute">2</span>
+                        </div>
+                        <div>
+                          <h6>Platform Setup: </h6>
+                          <p>  We'll set up your account on our platform, ensuring it's tailored to your business.</p>
+                        </div>
+                      </div>
+                        <div className="d-flex timeline-right-content gap-3 mb-3">
+                        <div className="number text-white position-relative">
+                          <span className="position-absolute">3</span>
+                        </div>
+                        <div>
+                          <h6>Data Integration: </h6>
+                          <p> We'll integrate your existing customer data (if applicable) to provide a seamless experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div className="d-flex gap-3 timeline-right-content mb-3">
+                        <div className="number text-white position-relative">
+                          <span className="position-absolute">1</span>
+                        </div>
+                        <div>
+                          <h6>Initial Consultation: </h6>
+                          <p>We'll schedule a call to understand your business goals and specific needs.</p>
+                        </div>
+                      </div>
+                      <div className="d-flex gap-3 timeline-right-content mb-3">
+                      <div className="number text-white position-relative">
+                          <span className="position-absolute">2</span>
+                        </div>
+                        <div>
+                          <h6>Platform Setup: </h6>
+                          <p>  We'll set up your account on our platform, ensuring it's tailored to your business.</p>
+                        </div>
+                      </div>
+                        <div className="d-flex timeline-right-content gap-3 mb-3">
+                        <div className="number text-white position-relative">
+                          <span className="position-absolute">3</span>
+                        </div>
+                        <div>
+                          <h6>Data Integration: </h6>
+                          <p> We'll integrate your existing customer data (if applicable) to provide a seamless experience.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
 
         <section className="future">
           <div className="future-wrapper">
