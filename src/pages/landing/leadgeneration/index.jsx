@@ -470,10 +470,9 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">1</span>
                         </div>
                         <div>
-                          <h6>Initial Consultation: </h6>
+                          <h6>Strategic Planning: </h6>
                           <p>
-                            Well schedule a call to understand your business
-                            goals and specific needs.
+                            Our marketing experts will develop a customized marketing strategy aligned with your business objectives.
                           </p>
                         </div>
                       </div>
@@ -482,11 +481,10 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">2</span>
                         </div>
                         <div>
-                          <h6>Platform Setup: </h6>
+                          <h6>Campaign Execution: </h6>
                           <p>
                             {" "}
-                            Well set up your account on our platform, ensuring
-                            its tailored to your business.
+                            We'll implement a range of marketing tactics, including.
                           </p>
                         </div>
                       </div>
@@ -495,11 +493,10 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">3</span>
                         </div>
                         <div>
-                          <h6>Data Integration: </h6>
+                          <h6>Performance Tracking: </h6>
                           <p>
                             {" "}
-                            Well integrate your existing customer data (if
-                            applicable) to provide a seamless experience.
+                            We'll monitor key metrics to measure the effectiveness of our marketing efforts and make data-driven adjustments.
                           </p>
                         </div>
                       </div>
@@ -515,10 +512,9 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">1</span>
                         </div>
                         <div>
-                          <h6>Initial Consultation: </h6>
+                          <h6>Lead Capture:</h6>
                           <p>
-                            Well schedule a call to understand your business
-                            goals and specific needs.
+                            Our marketing campaigns will generate high-quality leads that are captured and stored in Go HighLevel.
                           </p>
                         </div>
                       </div>
@@ -527,11 +523,11 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">2</span>
                         </div>
                         <div>
-                          <h6>Platform Setup: </h6>
+                          <h6>Lead Qualification:
+                          </h6>
                           <p>
                             {" "}
-                            Well set up your account on our platform, ensuring
-                            its tailored to your business.
+                            We'll qualify leads based on specific criteria to prioritize follow-up efforts.
                           </p>
                         </div>
                       </div>
@@ -540,11 +536,10 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">3</span>
                         </div>
                         <div>
-                          <h6>Data Integration: </h6>
+                          <h6>Lead Nurturing:</h6>
                           <p>
                             {" "}
-                            Well integrate your existing customer data (if
-                            applicable) to provide a seamless experience.
+                            We'll implement a lead nurturing strategy to keep leads engaged and move them through the sales funnel.
                           </p>
                         </div>
                       </div>
@@ -560,10 +555,9 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">1</span>
                         </div>
                         <div>
-                          <h6>Initial Consultation: </h6>
+                          <h6>Automated Follow-up:  </h6>
                           <p>
-                            Well schedule a call to understand your business
-                            goals and specific needs.
+                            Our AI-powered voice calling system will automatically follow up with leads, saving you time and resources.
                           </p>
                         </div>
                       </div>
@@ -572,11 +566,10 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">2</span>
                         </div>
                         <div>
-                          <h6>Platform Setup: </h6>
+                          <h6>Personalized Messages:</h6>
                           <p>
                             {" "}
-                            Well set up your account on our platform, ensuring
-                            its tailored to your business.
+                            The AI will deliver personalized messages based on lead information and previous interactions.
                           </p>
                         </div>
                       </div>
@@ -585,11 +578,22 @@ export default function AiVoiceCalling() {
                           <span className="position-absolute">3</span>
                         </div>
                         <div>
-                          <h6>Data Integration: </h6>
+                          <h6>Efficient Lead Qualification: </h6>
                           <p>
                             {" "}
-                            Well integrate your existing customer data (if
-                            applicable) to provide a seamless experience.
+                            The AI will quickly identify qualified leads and prioritize them for further follow-up.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="d-flex timeline-right-content gap-3 mb-3">
+                        <div className="number text-white position-relative">
+                          <span className="position-absolute">4</span>
+                        </div>
+                        <div>
+                          <h6>Enhanced Conversion Rates:</h6>
+                          <p>
+                            {" "}
+                            By consistently following up with leads, we'll increase the likelihood of conversions.
                           </p>
                         </div>
                       </div>
@@ -806,7 +810,7 @@ export default function AiVoiceCalling() {
                     </div>
                   </div>
 
-                  <div className="clientbox client-custombox  ">
+                  <div className="clientbox client-custombox ">
                     <div className="d-flex justify-content-between pics-div">
                       <div className="d-flex justify-content-between clientcontent1">
                         <figure>
