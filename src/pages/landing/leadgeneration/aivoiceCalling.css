@@ -548,6 +548,9 @@ width: 44px;
 .nav-link:hover{
   color: white;
 }
+.nav-link.active::before {
+  background-color: #007bff;
+}
 .nav-link{
  background: #00000021;
  border: 2px solid var(--border);
@@ -556,6 +559,37 @@ width: 44px;
   font-size: 27px ;
   color: white;
   font-weight: 600;
+  position: relative;
+}
+.nav-link::before {
+  content: '';
+  position: absolute;
+  left: -40px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  background-color:rgba(0, 0, 0, 1);
+  border: 2px solid rgba(38, 38, 38, 1);
+  border-radius: 50%;
+  z-index: 2;
+}
+.nav-link:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: calc(50% + 14px);
+  bottom: -50%;
+  width: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(52, 55, 59, 0.61),
+    rgba(52, 55, 59, 0.61) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  
+  z-index: 1;
 }
 .nav-link.active{
   background: linear-gradient(92.14deg, #00BDFF -16.62%, #8800FF 98.02%);
@@ -569,13 +603,7 @@ line-height: 20px !important;
 .tab-pane .timeline-right-content:nth-of-type(3) .number {
   width: 80px !important; /* Adjust the width for the third number */
 }
-.nav-link::before{
-content: "";
-width: 20px;
-height: 20px;
-/* position: absolute; */
-background-color: #00BDFF;
-}
+
 .swiper-wrapper {
   padding: 50px 0px;
 }
@@ -597,6 +625,9 @@ background-color: #00BDFF;
 
 .client-heading p {
   font-size: 24px !important;
+}
+.timeline{
+  padding: 100px 0px;
 }
 
 .clientcontent1 {
@@ -1091,7 +1122,7 @@ font-size: 20px  !important;
 
   }
   .timeline-content{
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
   }
   .timeline-left{
     max-width: 100% !important;
@@ -1211,6 +1242,9 @@ font-size: 20px  !important;
   .banner-logo img {
     max-width: 80% !important;
   }
+  .timeline-right {
+    max-width: 80% !important;
+}
 
   .aifuturecard .card3 {
     min-width: 100% !important;
