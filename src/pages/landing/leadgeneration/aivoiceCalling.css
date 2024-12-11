@@ -551,6 +551,101 @@ color: var(--primary) !important;
   border: 1px solid var(--primary) !important;
 }
 
+/* Time Line styling  */
+.timeline-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px ;
+  min-width: 90%;
+}
+.timeline-left{
+ align-items: flex-start;
+ max-width: 50%;
+}
+.timeline-right{
+  max-width: 50%;
+}
+.number {
+  position: relative;
+  display: flex; /* Ensures centering */
+  justify-content: center;
+  align-items: center;
+  width: 60px; /* Set equal width and height for a perfect circle */
+  height: 52px;
+  border-radius: 50%; /* Makes it fully rounded */
+  background-image: linear-gradient(355.66deg, #9A0FDF -22.64%, #0F64DF 96.47%);
+  color: white; /* Text color */
+}
+
+.number span {
+  position: absolute;
+  background: var(--accordian-body-color); 
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.number3 {
+  position: relative;
+  display: flex; /* Ensures centering */
+  justify-content: center;
+  align-items: center;
+  width: 56px; /* Set equal width and height for a perfect circle */
+  height: 50px;
+  border-radius: 50%; /* Makes it fully rounded */
+  background-image: linear-gradient(355.66deg, #9A0FDF -22.64%, #0F64DF 96.47%);
+  color: white; /* Text color */
+}
+
+.number3 span {
+  position: absolute;
+  background: var(--accordian-body-color); 
+width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-link:hover{
+  color: white;
+}
+.nav-link{
+ background: #00000021;
+ border: 2px solid var(--border);
+ border-radius: 10px ;
+  padding: 15px 20px ;
+  font-size: 27px ;
+  color: white;
+  font-weight: 600;
+}
+.nav-link.active{
+  background: linear-gradient(92.14deg, #00BDFF -16.62%, #8800FF 98.02%);
+color: black;
+}
+.timeline-right-content p{
+font-size: 17px !important;
+line-height: 20px !important;
+}
+
+.tab-pane .timeline-right-content:nth-of-type(3) .number {
+  width: 80px !important; /* Adjust the width for the third number */
+}
+.nav-link::before{
+content: "";
+width: 20px;
+height: 20px;
+/* position: absolute; */
+background-color: #00BDFF;
+}
+
 @media screen and (min-width: 1400px) {
   .banner-content {
     min-height: 100vh !important;
@@ -567,6 +662,15 @@ color: var(--primary) !important;
 
   .leads-upper-content {
     width: 70%;
+  }
+  .tab-pane .timeline-right-content:nth-of-type(1) .number {
+    width: 50px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(2) .number {
+    width: 50px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(3) .number {
+    width: 60px !important; /* Adjust the width for the third number */
   }
 
   .leadSidebar {
@@ -596,7 +700,13 @@ color: var(--primary) !important;
     font-size: calc(96px - 20px) !important;
     line-height: 80px !important;
   }
-
+  .timeline-content{
+    gap: 40px !important;
+  }
+  .timeline-right-content p{
+font-size: 20px !important;
+line-height: 30px !important;
+  }
   .banner-heading-top1 .h2 {
     font-size: 40px !important;
     line-height: 60px !important;
@@ -609,6 +719,14 @@ color: var(--primary) !important;
   .img-card {
     padding: 14px 8px;
     width: 22%;
+  }
+  .tab-pane .timeline-right-content:nth-of-type(1) .number {
+    width: 70px !important; /* Adjust the width for the third number */
+  }  .tab-pane .timeline-right-content:nth-of-type(2) .number {
+    width: 75px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(3) .number {
+    width: 85px !important; /* Adjust the width for the third number */
   }
 
   .banner-second-heading {
@@ -666,7 +784,22 @@ color: var(--primary) !important;
   .strugling-lower-content .card4-body {
     width: 48% !important;
   }
-
+  .timeline-content{
+    gap: 50px ;
+  }
+  .tab-pane .timeline-right-content:nth-of-type(1) .number {
+    width: 70px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(2) .number {
+    width: 75px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(3) .number {
+    width: 84px !important; /* Adjust the width for the third number */
+  }
+.nav-link{
+  padding: 10px  !important;
+  font-size: 23px;
+}
   .card3-body h5 {
     font-size: 25px !important;
     line-height: 30px !important;
@@ -764,6 +897,46 @@ color: var(--primary) !important;
     font-size: 20px !important;
     line-height: 30px !important;
   }
+  .timeline-content{
+    gap: 30px ;
+  }
+.nav-link{
+  /* padding: 10px  !important; */
+  font-size: 18px;
+}
+.tab-pane .timeline-right-content:nth-of-type(1) .number {
+  width: 85px !important; /* Adjust the width for the third number */
+}
+.tab-pane .timeline-right-content:nth-of-type(1) .number span {
+ font-size: 16px !important;
+}
+.tab-pane .timeline-right-content:nth-of-type(2) .number {
+  width: 85px !important; /* Adjust the width for the third number */
+}
+.tab-pane .timeline-right-content:nth-of-type(2) .number span {
+  font-size: 16px !important;
+ }
+.tab-pane .timeline-right-content:nth-of-type(3) .number {
+  width: 100px !important; /* Adjust the width for the third number */
+}
+.tab-pane .timeline-right-content:nth-of-type(3) .number span {
+  font-size: 16px !important;
+ }
+.timeline-content{
+  gap: 30px  !important;
+}
+.timeline-right-content{
+  margin-bottom: 10px !important;
+}
+.timeline-right-content h6{
+font-size: 20px  !important;
+}
+.timeline-right-content p{
+  font-size: 14px  !important;
+  }
+.future-wrapper{
+  margin: 50px 0px !important;
+}
 
   .card4-body p {
     font-size: 17px !important;
@@ -836,10 +1009,30 @@ color: var(--primary) !important;
     font-size: 2.1rem !important;
     line-height: 40px !important;
   }
-
+  .tab-pane .timeline-right-content:nth-of-type(1) .number {
+    width: 52px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(2) .number {
+    width: 55px !important; /* Adjust the width for the third number */
+  }
+  .tab-pane .timeline-right-content:nth-of-type(3) .number {
+    width: 65px !important; /* Adjust the width for the third number */
+  }
+  .timeline-right-content h6{
+    margin: 0px !important;
+  }
   .aiPoweredIndustries-content p {
     width: 100%;
 
+  }
+  .timeline-content{
+    flex-direction: column-reverse !important;
+  }
+  .timeline-left{
+    max-width: 100% !important;
+  }
+  .timeline-right{
+    max-width: 100% !important;
   }
 
   h2 {
