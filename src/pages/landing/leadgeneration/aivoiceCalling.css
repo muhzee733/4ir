@@ -1283,12 +1283,16 @@ font-size: 20px  !important;
     font-size: 17px !important;
   }
 
+  .aiPoweredIndustries-card h3 { 
+    font-size: 18px !important;
+    text-align: center;
+  }
   .aiPoweredIndustries-card .card-image {
-    max-width: 34% !important;
+    max-width: 30% !important;
   }
 
   .aiPoweredIndustries-card {
-    min-width: 47% !important;
+    min-width: 40% !important;
 
   }
 
@@ -1306,7 +1310,7 @@ font-size: 20px  !important;
   }
 
   .aiPoweredIndustries-card2 {
-    width: 100% !important;
+    width: 20% !important;
     min-height: 180px !important;
   }
 
