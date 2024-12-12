@@ -246,38 +246,38 @@ export default function AiVoiceCalling() {
         {showModal && <Model close={handleCloseModal} />}
         <section className="banner">
           <div className="banenr-wrapper">
-              
+            <div class="lines">
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+            </div>
+
             <div className="container">
               <div className="banner-content">
-              <div class="lines">
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                </div>
                 <div className="banner-logo d-flex flex-column align-items-center">
                   <figure className="text-center">
                     <SiteLogo width="100px" height="auto" />
