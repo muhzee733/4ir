@@ -625,12 +625,12 @@ export default function Index() {
 
                   <div className="col-lg-7 col-md-12 col-sm-12 text-white  CMargin">
                     <div className=" section5-quaters">
-                      <Image src={cardsStats} className="cardsStats " />
+                      <Image src={cardsStats} className="cardsStats " alt="image"/>
                     </div>
                   </div>
                   <div className="col-lg-5 col-md-12 col-sm-12 text-white">
                     <div className="customborder section5-quaters">
-                      <Image src={Productstats} className="Productstats" />
+                      <Image src={Productstats} className="Productstats" alt="image"/>
                     </div>
                   </div>
                 </div>
