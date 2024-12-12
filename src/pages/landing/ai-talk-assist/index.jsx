@@ -386,8 +386,10 @@ export default function Index() {
   };
   return (
     <>
+
+    {/* testing */}
       <Head>
-        <title>4IR - Ai Talk Assist</title>
+        <title>4IR - AI Talk Assist</title>
       </Head>
 
       <Layout>
@@ -458,7 +460,7 @@ export default function Index() {
                     title="Are these common sales challenges holding your business back?"
                     className="section2h6"
                   />
-                  <button className="btn-1" onClick={handleOpenModal}>It’s Time To Make A Change</button>
+                  <button className="btn-1" onClick={handleOpenModal}>Its Time To Make A Change</button>
                 </div>
               </div>
             </div>

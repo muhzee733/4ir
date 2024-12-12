@@ -201,7 +201,7 @@ export default function AiVoiceCalling() {
       datatargetid: "#collapseOne",
       title:
         "How does your AI-powered solution integrate with my existing sales process?",
-      value: false,
+      value: true,
       show: "show",
       heading:
         "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
@@ -212,7 +212,7 @@ export default function AiVoiceCalling() {
       collapseid: "collapseTwo",
       title: "Can I customize the AI-generated scripts and voice messages?",
       datatargetid: "#collapseTwo",
-      value: true,
+      value: false,
       heading:
         "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
     },
@@ -222,7 +222,7 @@ export default function AiVoiceCalling() {
       collapseid: "collapseThree",
       title: "How secure is my data?",
       datatargetid: "#collapseThree",
-      value: true,
+      value: false,
       heading:
         "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
     },
@@ -232,7 +232,7 @@ export default function AiVoiceCalling() {
       collapseid: "collapseFour",
       title: "What kind of training data is required to get started?",
       datatargetid: "#collapseFour",
-      value: true,
+      value: false,
       heading:
         "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
     },
@@ -514,8 +514,7 @@ export default function AiVoiceCalling() {
                         <div>
                           <h6>Campaign Execution: </h6>
                           <p>
-                            {" "}
-                            We'll implement a range of marketing tactics, including.
+                            Well implement a range of marketing tactics, including.
                           </p>
                         </div>
                       </div>
@@ -526,8 +525,7 @@ export default function AiVoiceCalling() {
                         <div>
                           <h6>Performance Tracking: </h6>
                           <p>
-                            {" "}
-                            We'll monitor key metrics to measure the effectiveness of our marketing efforts and make data-driven adjustments.
+                            Well monitor key metrics to measure the effectiveness of our marketing efforts and make data-driven adjustments.
                           </p>
                         </div>
                       </div>
@@ -557,8 +555,7 @@ export default function AiVoiceCalling() {
                           <h6>Lead Qualification:
                           </h6>
                           <p>
-                            {" "}
-                            We'll qualify leads based on specific criteria to prioritize follow-up efforts.
+                            Well qualify leads based on specific criteria to prioritize follow-up efforts.
                           </p>
                         </div>
                       </div>
@@ -569,8 +566,7 @@ export default function AiVoiceCalling() {
                         <div>
                           <h6>Lead Nurturing:</h6>
                           <p>
-                            {" "}
-                            We'll implement a lead nurturing strategy to keep leads engaged and move them through the sales funnel.
+                            Well implement a lead nurturing strategy to keep leads engaged and move them through the sales funnel.
                           </p>
                         </div>
                       </div>
@@ -599,7 +595,7 @@ export default function AiVoiceCalling() {
                         <div>
                           <h6>Personalized Messages:</h6>
                           <p>
-                            {" "}
+
                             The AI will deliver personalized messages based on lead information and previous interactions.
                           </p>
                         </div>
@@ -611,7 +607,6 @@ export default function AiVoiceCalling() {
                         <div>
                           <h6>Efficient Lead Qualification: </h6>
                           <p>
-                            {" "}
                             The AI will quickly identify qualified leads and prioritize them for further follow-up.
                           </p>
                         </div>
@@ -623,7 +618,6 @@ export default function AiVoiceCalling() {
                         <div>
                           <h6>Enhanced Conversion Rates:</h6>
                           <p>
-                            {" "}
                             By consistently following up with leads, well increase the likelihood of conversions.
                           </p>
                         </div>

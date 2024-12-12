@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,7 +8,6 @@ import 'swiper/css/pagination';
 import './slider.css';
 
 import { Pagination } from 'swiper/modules';
-
 
 const Slider2 = () => {
     const SliderDataLead = [
@@ -30,7 +29,7 @@ const Slider2 = () => {
         },
     ];
     return (
-        <div >
+        <div>
             <Swiper
                 slidesPerView={"auto"}
                 centeredSlides={true}
@@ -41,19 +40,17 @@ const Slider2 = () => {
                 modules={[Pagination]}
                 className="mySwiper"
             >
-
                 {SliderDataLead.map((item) => (
-                    <SwiperSlide>
-                        <div className='slider2-main-body' key={item.id}>
+                    <SwiperSlide key={item.id}> {/* Place key here */}
+                        <div className='slider2-main-body'>
                             <h5>{item.clientName}</h5>
                             <p>{item.testimonial}</p>
                         </div>
                     </SwiperSlide>
                 ))}
-
             </Swiper>
         </div>
-    )
-}
+    );
+};
 
-export default Slider2
+export default Slider2;
