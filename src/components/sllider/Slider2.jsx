@@ -32,9 +32,9 @@ const Slider2 = () => {
     return (
         <div >
             <Swiper
-                slidesPerView={3}
+                slidesPerView={"auto"}
                 centeredSlides={true}
-                spaceBetween={30}
+                spaceBetween={20}
                 pagination={{
                     clickable: true,
                 }}
