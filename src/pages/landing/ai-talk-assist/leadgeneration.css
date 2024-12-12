@@ -302,6 +302,16 @@
 z-index: 999;
 border: none;
 }
+.chatbot-model{
+  position: absolute;
+  left: 40%;
+  top: 30px;
+  background-color: var(--card-background-color);
+  min-width: 300px;
+  text-align: center;
+  height: 200px;
+  z-index: 9999;
+}
 .card3 {
   width: 31%;
   padding: 25px;
@@ -484,6 +494,13 @@ border: none;
 .customScreen iframe{
   min-height: 100vh !important;
 }
+
+
+.banenr-wrapper{
+  position: relative !important;
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;

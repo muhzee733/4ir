@@ -376,14 +376,20 @@ export default function Index() {
     setIsPlaying(!isPlaying);
   };
   const [showModal, setShowModal] = useState(false);
-
+const [model, setModel]= useState(false)
   const handleOpenModal = () => {
     setShowModal(true);
   };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
+  const chatBotModelOpen = () => {
+    setModel(true);
   };
+
+  const chatBotModelClose = () => {
+    setModel(false);
+  };
+  const handleCloseModal=()=>{
+    setShowModal(false)
+  }
   const [isAnimating, setIsAnimating] = useState(false);
 
   const toggleAnimation = () => {
@@ -397,50 +403,14 @@ export default function Index() {
 
       <Layout>
         {/* shahbaz */}
-      <button onClick={handleOpenModal} className="chat-bot bottom-0"><img  /></button>
-        {showModal && (
-        <div
-          className="modal fade show" // Add 'show' to make the modal visible
-          style={{ display: 'block' }} // Inline style to force modal to show
-          id="exampleModal"
-          tabIndex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog" role="document">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button
-                  type="button"
-                  className="close"
-                  onClick={toggleModal} // Close modal on click
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div className="modal-body">
-                {/* Modal content goes here */}
-                Your modal content here.
-              </div>
-              <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  onClick={toggleModal} // Close the modal
-                >
-                  Close
-                </button>
-                <button type="button" className="btn btn-primary">
-                  Save changes
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      
+        <button type="button" className="btn bottom-0 chat-bot" onClick={chatBotModelOpen}><img src="/images/vectors/chat-bot.png" /></button>
+{model && <div className="chatbot-model text-white">
+  <input type="text" placeholder="Name" />
+  <input type="email" placeholder="Email" />
+  <textarea   rows="5"  placeholder="Message" />
+  <button onClick={chatBotModelClose}>Cancel</button>
+</div>}
         {showModal && <Model close={handleCloseModal} />}
         <section>
           <div className="main-wrapper">
