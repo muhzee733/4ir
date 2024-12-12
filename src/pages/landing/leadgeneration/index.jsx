@@ -703,7 +703,7 @@ export default function AiVoiceCalling() {
         <section>
           <div className="question-wrapper">
             <div className="container">
-              <div className="question-heaing text-center">
+              <div className="question-heaing text-center mt-5">
                 <H2 title="Frequently Asked Questions" />
                 <p>Contact us via Support if you have any more questions.</p>
                 <button className="btn-2" onClick={handleOpenModal}>Book a Consultation</button>

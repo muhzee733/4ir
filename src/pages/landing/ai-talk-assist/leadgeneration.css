@@ -96,6 +96,7 @@
 
 .figure2 {
   width: 90%;
+  height: 372px;
 }
 
 .bannerImg2 {
@@ -1711,6 +1712,9 @@ border: none;
   .swiper-wrapper{
     padding-bottom: 80px !important;
   }
+  .figure2 {
+    height: 376px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1764,6 +1768,9 @@ border: none;
 }
 .customScreen iframe{
   min-height: 50vh !important;
+}
+.figure2 {
+  height: 241px;
 }
   .circle svg {
     width: 17px;
