@@ -240,7 +240,7 @@ export default function AiVoiceCalling() {
   return (
     <>
       <Head>
-        <title>4IR - Lead Generation</title>
+        <title> Revolutionize Your Sales with AI-Powered Lead Generation & Voice Calling | 4IR</title>
       </Head>
       <Layout>
         {showModal && <Model close={handleCloseModal} />}

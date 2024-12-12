@@ -42,9 +42,9 @@ const Slider2 = () => {
                 className="mySwiper"
             >
 
-                {SliderDataLead.map((item) => (
-                    <SwiperSlide>
-                        <div className='slider2-main-body' key={item.id}>
+                {SliderDataLead?.map((item, index) => (
+                    <SwiperSlide key={index}>
+                        <div className='slider2-main-body'>
                             <h5>{item.clientName}</h5>
                             <p>{item.testimonial}</p>
                         </div>
