@@ -27,6 +27,7 @@ import SiteLogo from "@/components/SiteLogo";
 import Head from "next/head";
 import Model from "@/components/Model/Model";
 import { FaPlay } from "react-icons/fa";
+import { FaHeadphonesAlt } from "react-icons/fa";
 
 export default function Index() {
   const SecondBox = [
@@ -396,6 +397,50 @@ export default function Index() {
 
       <Layout>
         {/* shahbaz */}
+      <button onClick={handleOpenModal} className="chat-bot bottom-0"><img  /></button>
+        {showModal && (
+        <div
+          className="modal fade show" // Add 'show' to make the modal visible
+          style={{ display: 'block' }} // Inline style to force modal to show
+          id="exampleModal"
+          tabIndex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog" role="document">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button
+                  type="button"
+                  className="close"
+                  onClick={toggleModal} // Close modal on click
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div className="modal-body">
+                {/* Modal content goes here */}
+                Your modal content here.
+              </div>
+              <div className="modal-footer">
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={toggleModal} // Close the modal
+                >
+                  Close
+                </button>
+                <button type="button" className="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
         {showModal && <Model close={handleCloseModal} />}
         <section>
           <div className="main-wrapper">

@@ -7,7 +7,8 @@ import "swiper/css/pagination";
 
 export default function MyApp({ Component, pageProps }) {
   useEffect(()=>{
-    require('bootstrap/js/index.esm')
+    require('bootstrap/js/index.esm');
+    require('bootstrap/dist/js/bootstrap.bundle')
   },[])
   return (
     <>

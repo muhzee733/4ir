@@ -149,7 +149,7 @@
 /* Section no 3 */
 .line {
   background-color: var(--whitecolor);
-  width: 4%;
+  width: 10%;
   height: 3px;
 }
 
@@ -292,11 +292,20 @@
   margin-bottom: 40px;
 }
 
-
+.chat-bot{
+  position: fixed;
+  /* left: 0; */
+  right: 20px ;
+  padding: 15px ;
+  border-radius: 50%;
+  background: radial-gradient(65.69% 65.69% at 30.29% 24.45%, #00F2FF 0%, #006DE8 45.51%, #8800FF 89.59%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+z-index: 999;
+border: none;
+}
 .card3 {
   width: 31%;
   padding: 25px;
-  min-height: 308px;
+  min-height: 270px;
 }
 
 .card3 .card3-body {
@@ -473,7 +482,7 @@
   padding-bottom: 20px;
 }
 .customScreen iframe{
-  min-height: 42vh !important;
+  min-height: 100vh !important;
 }
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
@@ -693,7 +702,7 @@
   }
 
   .section4-img {
-    height: 19vh;
+    height: 55vh;
   }
 
   .section4-img button {
@@ -709,7 +718,9 @@
     font-size: calc(23px - 2px) !important;
     width: 97%;
   }
-
+.main-wrapper {
+  padding: 0px 70px !important;
+}
   .wave {
     width: 13px;
   }
@@ -730,7 +741,20 @@
   .section4-img .play-btn svg {
     width: 70px;
   }
-
+.section3h5 {
+  font-size: 25px !important;
+}
+.card3 {
+  width: 31%;
+  padding: 25px;
+  min-height: 200px;
+}
+.testimonial-heading {
+  width: 50% !important;
+}
+.custom-boxes{
+  margin-bottom: 50px !important;
+}
   .frequently-question-content h2 {
     font-size: 56px !important;
     line-height: 60px !important;
@@ -872,7 +896,7 @@
     /* margin-top: 20px; */
   }
 .section3-main > div{
-  width: 69% !important;
+  width: 100% !important;
 }
   .section5span1 {
     font-size: 20px;

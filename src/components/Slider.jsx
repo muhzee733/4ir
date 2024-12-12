@@ -6,11 +6,11 @@ import "./widgets.css";
 const Slider = ({ SliderData }) => {
   const swiperRef = useRef(null);
 
-  useEffect(() => {
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slideTo(1);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (swiperRef.current) {
+  //     swiperRef.current.swiper.slideTo(1);
+  //   }
+  // }, []);
 
   return (
     <Swiper
