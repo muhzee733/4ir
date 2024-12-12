@@ -1,21 +1,12 @@
 import React from 'react'
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import {  Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
-// import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-// import "swiper/css"
-// import "swiper/css/effect-coverflow"
-// import "swiper/css/pagination"
-// import "swiper/css/navigation"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 import './slider.css';
 
-// import required modules
 import { Pagination } from 'swiper/modules';
 
 
@@ -39,9 +30,9 @@ const Slider2 = () => {
         },
     ];
     return (
-        <div className='container'>
+        <div >
             <Swiper
-                slidesPerView={'auto'}
+                slidesPerView={3}
                 centeredSlides={true}
                 spaceBetween={30}
                 pagination={{
@@ -53,7 +44,7 @@ const Slider2 = () => {
 
                 {SliderDataLead.map((item) => (
                     <SwiperSlide>
-                        <div className='slider-main-body' key={item.id}>
+                        <div className='slider2-main-body' key={item.id}>
                             <h5>{item.clientName}</h5>
                             <p>{item.testimonial}</p>
                         </div>

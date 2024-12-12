@@ -20,12 +20,12 @@
     border: 1px solid var(--primary) !important;
 }
 
-.slider-main-body h5 {
+.slider2-main-body h5 {
     font-size: 32px !important;
     color: var(--primary) !important;
 }
 
-.slider-main-body p {
+.slider2-main-body p {
     /* font-size: 32px !important; */
     line-height: 24px !important;
 }
@@ -35,7 +35,7 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .slider-main-body h5 {
         font-size: 27px !important;
         line-height: 32px !important;
@@ -114,4 +114,4 @@
     .swiper-slide-active p{
         line-height: 32px !important;
     }
-    }
+    } */
