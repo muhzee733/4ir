@@ -19,6 +19,7 @@ import Star from "@/images/Star.png";
 import Star2 from "@/images/Star2.png";
 import Slider from "@/components/Slider";
 import Accordian from "@/components/Accordian/Accordian";
+import Slider2 from "@/components/sllider/Slider2";
 export default function AiVoiceCalling() {
   const [showModal, setShowModal] = useState(false);
 
@@ -668,7 +669,8 @@ export default function AiVoiceCalling() {
                 />
               </div>
               <div className="leadSidebar">
-                <Slider SliderData={SliderDataLead} />
+                {/* <Slider SliderData={SliderDataLead} /> */}
+                <Slider2 />
               </div>
             </div>
           </div>
