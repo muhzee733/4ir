@@ -387,7 +387,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>4IR - Ai Talk Assist</title>
+        <title>4IR - AI Talk Assist</title>
       </Head>
 
       <Layout>
