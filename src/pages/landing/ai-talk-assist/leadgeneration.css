@@ -261,6 +261,10 @@
   font-size: 23px !important;
   padding-bottom: 20px;
 }
+#dqrjcj9e5fho1734006055636 iframe {
+  bottom: -10px !important;
+}
+
 
 /* Call To Action  */
 .calltoaction-content {
@@ -268,7 +272,6 @@
       #00bdff 0%,
       #0077f5 50%,
       #8800ff 100%);
-  margin: 170px 0px;
   border-radius: 50px;
 }
 
@@ -779,6 +782,9 @@ border: none;
     height: 150px !important;
     width: 150px !important;
     text-align: center;
+  }
+  .youtube-videos{
+    height: 560px !important
   }
 }
 

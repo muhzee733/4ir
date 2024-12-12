@@ -1622,6 +1622,10 @@
     font-size: 14px !important;
     text-align: center;
   }
+  .client-heading h5 {
+    font-size: 31px !important;
+    line-height: 43px !important;
+}
 
   .aiPoweredIndustries-card .card-image {
     max-width: 30% !important;
@@ -1633,8 +1637,11 @@
   } */
 
   .aiPoweredIndustries-card {
-    min-width: 47% !important;
+    min-width: 100% !important;
 
+  }
+  .client-height2{
+    margin-top: 50px !important;
   }
 
   .aiPoweredIndustries-card {
@@ -1665,7 +1672,7 @@
     line-height: 24px !important;
   }
   .leads-lower-content .card {
-    width: 47% !important;
+    width: 45% !important;
   }
   .leads-lower-content .card{
     padding: 0px !important;
@@ -1674,9 +1681,21 @@
     margin-top: 47px;
 }
   .strugling-content h2 {
-    font-size: 22px !important;
-        line-height: 28px !important;
+    font-size: 27px !important;
+        line-height: 36px !important;
   }
+  .strugling-lower-content .card4-body {
+    width: 93% !important;
+}
+.aifuturecard .Salesaicards {
+  width: 38vw !important;
+}
+.strugling-lower-content {
+  width: 100% !important;
+}
+.youtube-video-video > * {
+  width: 98% !important;
+}
 
   .testimonial-wrapper {
     margin: 50px 0px !important;
@@ -1684,13 +1703,15 @@
 
   .img-card {
     padding: 14px 8px;
-    width: 42% !important;
+    width: 50% !important;
   }
   .leads-lower-content h5{
-    font-size: 16px !important;
+    font-size: 17px !important;
+    line-height: 24px !important;
   }
   .leads-lower-content p {
     font-size: 13px !important;
+        line-height: 18px !important;
     }
 
   .youtube-video-video {
@@ -1739,7 +1760,7 @@
   }
 
   .banner-heading-top{
-    width: 70% !important;
+    width: 90% !important;
   }
   .banner-heading-top p{
     font-size: 12px !important;
