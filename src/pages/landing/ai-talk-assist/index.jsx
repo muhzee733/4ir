@@ -361,7 +361,6 @@ export default function Index() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [chatBot, seChatBot] = useState(false)
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -379,20 +378,12 @@ export default function Index() {
     }
     setIsPlaying(!isPlaying);
   };
-
   const handleOpenModal = () => {
     setShowModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
   };
   const toggleAnimation = () => {
     setIsAnimating(!isAnimating);
   };
-  const handleOpenModalChat = () => {
-    seChatBot(!chatBot);
-  }
   return (
     <>
       <Head>

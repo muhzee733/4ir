@@ -365,6 +365,16 @@
 z-index: 999;
 border: none;
 }
+.chatbot-model{
+  position: absolute;
+  left: 40%;
+  top: 30px;
+  background-color: var(--card-background-color);
+  min-width: 300px;
+  text-align: center;
+  height: 200px;
+  z-index: 9999;
+}
 .card3 {
   width: 31%;
   padding: 25px;
