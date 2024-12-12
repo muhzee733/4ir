@@ -178,7 +178,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 100px 0px;
+  margin: -70px 0px;
 }
 
 .section2 {
@@ -557,6 +557,10 @@ border: none;
   font-size: 23px !important;
   padding-bottom: 20px;
 }
+.customScreen .figure2{
+  border: 2px solid var(--primary);
+  border-radius: 10px ;
+}
 @media screen and (min-width: 1400px) {
   .SecondSecBox-content {
     height: 130px !important;
@@ -603,6 +607,9 @@ border: none;
 
   .section3-main {
     margin-top: 20px !important;
+  }
+  .section4-img {
+    margin: -20px 0px !important;
   }
 
   .section6h1 {
@@ -813,7 +820,9 @@ border: none;
   .section4-img .play-btn {
     padding: 30px 43px;
   }
-
+  .section4-img {
+    margin: 100px 0px !important;
+  }
   .section4-img .play-btn svg {
     width: 70px;
   }
@@ -1047,7 +1056,9 @@ border: none;
     width: 130px;
     height: 130px;
   }
-
+  .section4-img {
+    margin: 50px 0px !important;
+  }
   .frequently-question-content p {
     font-size: calc(23px -5px) !important;
     padding-bottom: 20px;
@@ -1379,7 +1390,14 @@ border: none;
     width: 90px;
     height: 90px;
   }
-
+.modal-content{
+  height: 20vh !important;
+  overflow: hidden;
+}
+.modal-body {
+  min-height: 20vh !important;
+  overflow: hidden;
+}
   .section2h5 {
     font-size: 20px !important;
   }
@@ -1725,7 +1743,16 @@ border: none;
     font-size: 16px !important;
     line-height: 25px !important;
   }
+  .modal-content{
+    height: 20vh !important;
+    overflow: hidden;
+    left: 10%;
+  }
+  .section4-img .play-btn svg{
+    width: 30px;
+    padding: 0px 10px !important;
 
+  }
   /* .section4-img .play-btn{
     padding: -10px 30px !important;
   }
@@ -1876,13 +1903,15 @@ border: none;
   }
 
   .bannerSpandiv .bannerSpan {
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
 
   .bannerSpan svg {
     margin-right: 10px;
   }
-
+      .section3h5{
+        font-size: 0.8rem !important;
+      }
   .bannerSpandiv {
     gap: 5px !important;
   }
@@ -1912,9 +1941,6 @@ border: none;
     justify-content: center !important;
   }
 
-  .figure2 {
-    width: auto !important;
-  }
 
   .section2h6 {
     margin: 4px 0px;
@@ -1928,12 +1954,13 @@ border: none;
     /* margin: 10px 0px !important; */
     padding: 0px 20px !important;
   }
-
   .section3-span1 {
     font-size: 35px;
     line-height: 45px;
   }
-
+.youtube-videos{
+  height: 236px !important;
+}
   .section3-main {
     margin: 20px 0px 20px 0px;
   }

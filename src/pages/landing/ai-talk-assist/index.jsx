@@ -379,7 +379,7 @@ export default function Index() {
     setIsPlaying(!isPlaying);
   };
   const handleOpenModal = () => {
-    setShowModal(true);
+    setShowModal(!showModal);
   };
   const toggleAnimation = () => {
     setIsAnimating(!isAnimating);
@@ -393,6 +393,7 @@ export default function Index() {
       </Head>
 
       <Layout>
+           {showModal && <Model close={handleOpenModal} />}
       <TawkToIntegration />
         <section>
           <div className="main-wrapper">
@@ -431,7 +432,7 @@ export default function Index() {
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end align-items-center customScreen">
                     <div className="figure2 mt-5">
-                      <YoutubeVideo src={"https://www.youtube.com/embed/tgbNymZ7vqY"} width="100%" height="375px"/>
+                      <YoutubeVideo src={"https://www.youtube.com/embed/tgbNymZ7vqY"} width="100%" height="100%"/>
                     </div>
                   </div>
                 </div>
