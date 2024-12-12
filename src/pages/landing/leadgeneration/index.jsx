@@ -19,6 +19,7 @@ import Star from "@/images/Star.png";
 import Star2 from "@/images/Star2.png";
 import Slider from "@/components/Slider";
 import Accordian from "@/components/Accordian/Accordian";
+import Slider2 from "@/components/sllider/Slider2";
 export default function AiVoiceCalling() {
   const [showModal, setShowModal] = useState(false);
 
@@ -245,38 +246,38 @@ export default function AiVoiceCalling() {
         {showModal && <Model close={handleCloseModal} />}
         <section className="banner">
           <div className="banenr-wrapper">
-              
+            <div class="lines">
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+              <div class="line-container">
+                <div class="animated-line"></div>
+              </div>
+            </div>
+
             <div className="container">
               <div className="banner-content">
-              <div class="lines">
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                  <div class="line-container">
-                    <div class="animated-line"></div>
-                  </div>
-                </div>
                 <div className="banner-logo d-flex flex-column align-items-center">
                   <figure className="text-center">
                     <SiteLogo width="100px" height="auto" />
@@ -698,7 +699,8 @@ export default function AiVoiceCalling() {
                 />
               </div>
               <div className="leadSidebar">
-                <Slider SliderData={SliderDataLead} />
+                {/* <Slider SliderData={SliderDataLead} /> */}
+                <Slider2 />
               </div>
             </div>
           </div>
