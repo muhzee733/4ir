@@ -1,5 +1,68 @@
 @import url("../../../app/Global.css");
 
+/* Chat bot */
+
+.chat-bot-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-bot-modal {
+  position: fixed;
+  bottom: 10%;
+  right: 20px;
+  width: 300px;
+  max-height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 999;
+  animation: slideUp 0.3s ease-in-out;
+}
+
+.chat-bot-header {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.chat-bot-content {
+  padding: 20px;
+  font-size: 14px;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Close */
+
+
+
 .main-wrapper {
   background-image: url("../../../../public/images/bg-img.png");
   background-size: cover;
@@ -149,7 +212,7 @@
 /* Section no 3 */
 .line {
   background-color: var(--whitecolor);
-  width: 4%;
+  width: 10%;
   height: 3px;
 }
 
@@ -292,11 +355,30 @@
   margin-bottom: 40px;
 }
 
-
+.chat-bot{
+  position: fixed;
+  /* left: 0; */
+  right: 20px ;
+  padding: 15px ;
+  border-radius: 50%;
+  background: radial-gradient(65.69% 65.69% at 30.29% 24.45%, #00F2FF 0%, #006DE8 45.51%, #8800FF 89.59%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+z-index: 999;
+border: none;
+}
+.chatbot-model{
+  position: absolute;
+  left: 40%;
+  top: 30px;
+  background-color: var(--card-background-color);
+  min-width: 300px;
+  text-align: center;
+  height: 200px;
+  z-index: 9999;
+}
 .card3 {
   width: 31%;
   padding: 25px;
-  min-height: 308px;
+  min-height: 270px;
 }
 
 .card3 .card3-body {
@@ -690,7 +772,7 @@
   }
 
   .section4-img {
-    height: 19vh;
+    height: 55vh;
   }
 
   .section4-img button {
@@ -706,7 +788,9 @@
     font-size: calc(23px - 2px) !important;
     width: 97%;
   }
-
+.main-wrapper {
+  padding: 0px 70px !important;
+}
   .wave {
     width: 13px;
   }
@@ -727,7 +811,20 @@
   .section4-img .play-btn svg {
     width: 70px;
   }
-
+.section3h5 {
+  font-size: 25px !important;
+}
+.card3 {
+  width: 31%;
+  padding: 25px;
+  min-height: 200px;
+}
+.testimonial-heading {
+  width: 50% !important;
+}
+.custom-boxes{
+  margin-bottom: 50px !important;
+}
   .frequently-question-content h2 {
     font-size: 56px !important;
     line-height: 60px !important;
@@ -868,7 +965,9 @@
     padding: 30px !important;
     /* margin-top: 20px; */
   }
-
+.section3-main > div{
+  width: 100% !important;
+}
   .section5span1 {
     font-size: 20px;
   }
@@ -1193,7 +1292,9 @@
   .banner-btn {
     margin-top: 40px !important;
   }
-
+  .customScreen iframe{
+    min-height: 70vh !important;
+  }
   .section2h6 {
     margin: 30px 0px;
   }
@@ -1309,7 +1410,9 @@
     padding-bottom: 5px;
     margin: 0px;
   }
-
+  .section3-main > div{
+    width: 100% !important;
+  }
   .wave {
     width: 9px;
   }
@@ -1320,7 +1423,7 @@
   }
 
   .section4-img .play-btn {
-    padding: 0px 30px;
+    padding: 0px 26px;
   }
 
   .section4-img .play-btn svg {
@@ -1341,7 +1444,9 @@
     flex-direction: column;
     align-items: center;
   }
-
+  .customScreen iframe{
+    min-height: 70vh !important;
+  }
   .section2heading>h5 {
     line-height: 25px !important;
     font-size: 18px !important;
@@ -1621,11 +1726,17 @@
   .section4-img .play-btn svg{
       width: 30px;
   } */
+  .card3 .card3-body {
+    min-height: 144px !important;
+}
+.customScreen iframe{
+  min-height: 50vh !important;
+}
   .circle svg {
     width: 17px;
   }
   .swiper-wrapper{
-    padding-bottom: 80px !important;
+    padding-bottom: 20px !important;
   }
   h1 {
     font-size: 32px !important;
@@ -1910,6 +2021,7 @@
 
   .section7h2 {
     font-size: 27px !important;
+    line-height: 35px !important;
   }
 
   .custom-boxes {
@@ -1995,11 +2107,21 @@
   }
   .card3 {
     width: 47.3% !important;
-    min-height: 200px !important;
+    min-height: 170px !important;
+    padding: 15px !important;
   }
-
+  .main-body {
+    height: fit-content !important;
+    padding: 40px 0px 20px 20px !important;
+}
+.section5-2ndrow{
+  padding: 15px !important;
+}
   .card3 h5 {
     font-size: 16px !important;
+    line-height: 20px !important;
+  }
+  .section5h1{
     line-height: 28px !important;
   }
 }

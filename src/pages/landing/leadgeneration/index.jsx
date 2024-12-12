@@ -246,8 +246,38 @@ export default function AiVoiceCalling() {
         {showModal && <Model close={handleCloseModal} />}
         <section className="banner">
           <div className="banenr-wrapper">
+              
             <div className="container">
               <div className="banner-content">
+              <div class="lines">
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                  <div class="line-container">
+                    <div class="animated-line"></div>
+                  </div>
+                </div>
                 <div className="banner-logo d-flex flex-column align-items-center">
                   <figure className="text-center">
                     <SiteLogo width="100px" height="auto" />
@@ -594,7 +624,7 @@ export default function AiVoiceCalling() {
                           <h6>Enhanced Conversion Rates:</h6>
                           <p>
                             {" "}
-                            By consistently following up with leads, we'll increase the likelihood of conversions.
+                            By consistently following up with leads, well increase the likelihood of conversions.
                           </p>
                         </div>
                       </div>

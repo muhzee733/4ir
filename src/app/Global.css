@@ -26,6 +26,7 @@
 
 body {
   background-color: var(--backgorund) !important;
+  position: relative;
 }
 
 a {

@@ -27,6 +27,8 @@ import SiteLogo from "@/components/SiteLogo";
 import Head from "next/head";
 import Model from "@/components/Model/Model";
 import { FaPlay } from "react-icons/fa";
+import { FaHeadphonesAlt } from "react-icons/fa";
+import TawkToIntegration from '@/components/TawkToIntegration';
 
 export default function Index() {
   const SecondBox = [
@@ -80,7 +82,7 @@ export default function Index() {
       collapseid: "collapseOne",
       datatargetid: "#collapseOne",
       title: "How will AI Talk Assist benefit my business?",
-      value: false,
+      value: true,
       show: "show",
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
@@ -111,7 +113,7 @@ export default function Index() {
       collapseid: "collapseTwo",
       title: "How does it work?",
       datatargetid: "#collapseTwo",
-      value: true,
+      value: false,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -141,7 +143,7 @@ export default function Index() {
       collapseid: "collapseThree",
       title: "Is it easy to use?",
       datatargetid: "#collapseThree",
-      value: true,
+      value: false,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -171,7 +173,7 @@ export default function Index() {
       collapseid: "collapseFour",
       title: "Is it secure?",
       datatargetid: "#collapseFour",
-      value: true,
+      value: false,
       heading:
         "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
       ulitems: [
@@ -357,6 +359,8 @@ export default function Index() {
   ];
   const [audio, setAudio] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -374,17 +378,9 @@ export default function Index() {
     }
     setIsPlaying(!isPlaying);
   };
-  const [showModal, setShowModal] = useState(false);
-
   const handleOpenModal = () => {
     setShowModal(true);
   };
-
-  const handleCloseModal = () => {
-    setShowModal(false);
-  };
-  const [isAnimating, setIsAnimating] = useState(false);
-
   const toggleAnimation = () => {
     setIsAnimating(!isAnimating);
   };
@@ -395,8 +391,7 @@ export default function Index() {
       </Head>
 
       <Layout>
-        {/* shahbaz */}
-        {showModal && <Model close={handleCloseModal} />}
+      <TawkToIntegration />
         <section>
           <div className="main-wrapper">
             <div className="container-fluid">
@@ -434,7 +429,7 @@ export default function Index() {
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end align-items-center customScreen">
                     <div className="figure2 mt-5">
-                      <YoutubeVideo  src={"https://www.youtube.com/embed/tgbNymZ7vqY"}   />
+                      <YoutubeVideo src={"https://www.youtube.com/embed/tgbNymZ7vqY"} width="100%" height="375px"/>
                     </div>
                   </div>
                 </div>
@@ -463,7 +458,7 @@ export default function Index() {
                     title="Are these common sales challenges holding your business back?"
                     className="section2h6"
                   />
-                  <button className="btn-1"  onClick={handleOpenModal}>It’s Time To Make A Change</button>
+                  <button className="btn-1" onClick={handleOpenModal}>It’s Time To Make A Change</button>
                 </div>
               </div>
             </div>
@@ -500,7 +495,7 @@ export default function Index() {
                   />
 
                   <div className="text-center section3btn">
-                    <button className="btn-1"  onClick={handleOpenModal}>Get Started with AI</button>
+                    <button className="btn-1" onClick={handleOpenModal}>Get Started with AI</button>
                   </div>
                 </div>
               </div>
@@ -566,7 +561,7 @@ export default function Index() {
                       className="section4h4"
                     />
                   </div>
-                  <button className="btn-1"  onClick={handleOpenModal}>Explore AI Talk Assets Now</button>
+                  <button className="btn-1" onClick={handleOpenModal}>Explore AI Talk Assets Now</button>
                 </div>
               </div>
             </div>
@@ -756,10 +751,9 @@ export default function Index() {
               <div className="row text-center">
                 <div className="section6h1">
                   <H1
-                    title="Industries Revolutionized by 4IR AI"
+                    title="Industries Revolutionized by 4IR AI Voice Calling"
                     className="section5h1"
                   />
-                  <H1 title="Voice Calling" className="section5h1" />
                 </div>
                 <Para
                   title="4IR AI Voice Calling is a versatile tool that can significantly impact various industries. Here are a few key sectors where this technology can be a game-changer:"
@@ -827,7 +821,7 @@ export default function Index() {
 
                 <div className="row">
                   <div className="text-center section7-btn">
-                    <button className="btn-1"  onClick={handleOpenModal}>Get Started with AI</button>
+                    <button className="btn-1" onClick={handleOpenModal}>Get Started with AI</button>
                   </div>
                 </div>
               </div>
