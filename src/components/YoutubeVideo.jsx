@@ -1,50 +1,43 @@
 import React, { useState } from "react";
 
-const YoutubeVideoWithThumbnail = ({ src, thumbnail, width, height }) => {
+const YoutubeVideoWithThumbnail = ({ src, width , height }) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handlePlay = () => {
-    setIsPlaying(true);
+    setIsPlaying(true); // Show the iframe and hide the thumbnail immediately
   };
 
   return (
     <div
-      className="youtube-video"
+      className="youtube-videos"
       style={{
         position: "relative",
-        width: width || "100%",
-        height: height || "auto",
-        cursor: "pointer",
+        width,
+        height,
+        borderRadius: "12px",
+        overflow: "hidden", // Ensure child elements stay within bounds
       }}
     >
-      {!isPlaying && (
-        <>
-          {/* Thumbnail */}
-          <img
-            src='/images/man-in-frame.png'
-            alt="YouTube Video Thumbnail"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              borderRadius: "12px"
-            }}
-            onClick={handlePlay}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "100%",
-              backgroundColor: "rgba(0, 0, 0, 0.5)",
-              borderRadius: "12px",
-              border: "1px solid rgba(0, 189, 255, 1)",
-            }}
-            onClick={handlePlay}
-          ></div>
-          {/* Play Button */}
+      {/* Thumbnail */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundImage: `url('/images/man-in-frame.png')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          borderRadius: "12px",
+          cursor: "pointer",
+          opacity: isPlaying ? 0 : 1,
+          transition: "opacity 0.5s ease-in-out", // Smooth fade-out
+          zIndex: isPlaying ? 0 : 2, // Hide below the iframe when playing
+        }}
+        onClick={handlePlay}
+      >
+        {!isPlaying && (
           <div
             className="play-button"
             style={{
@@ -59,8 +52,8 @@ const YoutubeVideoWithThumbnail = ({ src, thumbnail, width, height }) => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              zIndex: 3, // Ensure the play button stays on top
             }}
-            onClick={handlePlay}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -72,8 +65,10 @@ const YoutubeVideoWithThumbnail = ({ src, thumbnail, width, height }) => {
               <path d="M8 5v14l11-7z" />
             </svg>
           </div>
-        </>
-      )}
+        )}
+      </div>
+
+      {/* Video */}
       {isPlaying && (
         <iframe
           src={src}
@@ -83,6 +78,10 @@ const YoutubeVideoWithThumbnail = ({ src, thumbnail, width, height }) => {
           allow="autoplay; encrypted-media"
           allowFullScreen
           title="YouTube Video"
+          style={{
+            zIndex: 1,
+            position: "relative",
+          }}
         ></iframe>
       )}
     </div>

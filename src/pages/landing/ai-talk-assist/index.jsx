@@ -28,6 +28,7 @@ import Head from "next/head";
 import Model from "@/components/Model/Model";
 import { FaPlay } from "react-icons/fa";
 import { FaHeadphonesAlt } from "react-icons/fa";
+import TawkToIntegration from '@/components/TawkToIntegration';
 
 export default function Index() {
   const SecondBox = [
@@ -358,6 +359,9 @@ export default function Index() {
   ];
   const [audio, setAudio] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [chatBot, seChatBot] = useState(false)
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -375,7 +379,6 @@ export default function Index() {
     }
     setIsPlaying(!isPlaying);
   };
-  const [showModal, setShowModal] = useState(false);
 
   const handleOpenModal = () => {
     setShowModal(true);
@@ -384,11 +387,12 @@ export default function Index() {
   const handleCloseModal = () => {
     setShowModal(false);
   };
-  const [isAnimating, setIsAnimating] = useState(false);
-
   const toggleAnimation = () => {
     setIsAnimating(!isAnimating);
   };
+  const handleOpenModalChat = () => {
+    seChatBot(!chatBot);
+  }
   return (
     <>
       <Head>
@@ -396,52 +400,7 @@ export default function Index() {
       </Head>
 
       <Layout>
-        {/* shahbaz */}
-      <button onClick={handleOpenModal} className="chat-bot bottom-0"><img  /></button>
-        {showModal && (
-        <div
-          className="modal fade show" // Add 'show' to make the modal visible
-          style={{ display: 'block' }} // Inline style to force modal to show
-          id="exampleModal"
-          tabIndex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog" role="document">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button
-                  type="button"
-                  className="close"
-                  onClick={toggleModal} // Close modal on click
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div className="modal-body">
-                {/* Modal content goes here */}
-                Your modal content here.
-              </div>
-              <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-secondary"
-                  onClick={toggleModal} // Close the modal
-                >
-                  Close
-                </button>
-                <button type="button" className="btn btn-primary">
-                  Save changes
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-        {showModal && <Model close={handleCloseModal} />}
+      <TawkToIntegration />
         <section>
           <div className="main-wrapper">
             <div className="container-fluid">
@@ -479,7 +438,7 @@ export default function Index() {
                   </div>
                   <div className="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end align-items-center customScreen">
                     <div className="figure2 mt-5">
-                      <YoutubeVideo src={"https://www.youtube.com/embed/tgbNymZ7vqY"} />
+                      <YoutubeVideo src={"https://www.youtube.com/embed/tgbNymZ7vqY"} width="100%" height="375px"/>
                     </div>
                   </div>
                 </div>
