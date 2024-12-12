@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,7 +8,6 @@ import 'swiper/css/pagination';
 import './slider.css';
 
 import { Pagination } from 'swiper/modules';
-
 
 const Slider2 = () => {
     const SliderDataLead = [
@@ -30,11 +29,11 @@ const Slider2 = () => {
         },
     ];
     return (
-        <div >
+        <div>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={"auto"}
                 centeredSlides={true}
-                spaceBetween={30}
+                spaceBetween={20}
                 pagination={{
                     clickable: true,
                 }}
@@ -50,10 +49,9 @@ const Slider2 = () => {
                         </div>
                     </SwiperSlide>
                 ))}
-
             </Swiper>
         </div>
-    )
-}
+    );
+};
 
-export default Slider2
+export default Slider2;

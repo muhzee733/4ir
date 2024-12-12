@@ -290,9 +290,9 @@ export default function AiVoiceCalling() {
                       Let <span>AI Handle</span> The Heavy Lifting
                     </h1>
                     <p>
-                      Effortlessly supercharge manual lead generation and calling processes with our{" "}
+                      Say goodbye to time-comsuming munual process Ai Talk Assist takes care of Lead Generation and follow-up, so you can focus on{" "}
                       <span className="text-white fw-bold">
-                        AI-powered solution.
+                        Closing deals
                       </span>
                     </p>
                     <H6
@@ -324,7 +324,7 @@ export default function AiVoiceCalling() {
                   <div className="banner-heading-top">
                     <Para title="Struggling to Convert Leads?" />
                   </div>
-                  <H2 title="Are these common sales challenges hindering your growth?" />
+                  <H2 title="Are these common sales challenges Holding back your growth?" />
                 </div>
                 <div className="leads-lower-content">
                   {Leads?.map((items, index) => {
@@ -659,7 +659,7 @@ export default function AiVoiceCalling() {
                   className="text-center"
                 />
                 <Para
-                  title="Our AI-powered solution is versatile and can be applied to a wide range of industries. Here are a few examples:"
+                  title="Our AI-powered solution is versatile and can be applied to a wide range of industries."
                   className="text-center"
                 />
               </div>
