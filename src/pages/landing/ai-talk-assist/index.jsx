@@ -386,8 +386,10 @@ export default function Index() {
   };
   return (
     <>
+
+    {/* testing */}
       <Head>
-        <title>4IR - Ai Talk Assist</title>
+        <title>4IR - AI Talk Assist</title>
       </Head>
 
       <Layout>
