@@ -792,7 +792,7 @@ border: none;
     text-align: center;
   }
   .youtube-videos{
-    height: auto !important
+    height: 100% !important
   }
 }
 
