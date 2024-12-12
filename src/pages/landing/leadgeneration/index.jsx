@@ -683,7 +683,7 @@ export default function AiVoiceCalling() {
           </div>
         </section>
 
-        <section className="testimonial">
+        {/* <section className="testimonial">
           <div className="testimonial-wrapper">
             <div className="container">
               <div className="testimonial-heading">
@@ -693,12 +693,12 @@ export default function AiVoiceCalling() {
                 />
               </div>
               <div className="leadSidebar">
-                {/* <Slider SliderData={SliderDataLead} /> */}
+                <Slider SliderData={SliderDataLead} />
                 <Slider2 />
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section>
           <div className="question-wrapper">
