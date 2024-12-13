@@ -205,24 +205,24 @@ export default function AiVoiceCalling() {
       show: "show",
       heading:
         "Our solution can be seamlessly integrated with your CRM and marketing automation tools. You can use it to:",
-        ulitems: [
-          {
-            liItems:
-              "Import and export leads",
-          },
-          {
-            liItems:
-              "Sync call logs and lead statuses",
-          },
-          {
-            liItems:
-              "Trigger automated follow-ups",
-          },
-          {
-            liItems:
-              "Generate custom reports",
-          },
-        ],
+      ulitems: [
+        {
+          liItems:
+            "Import and export leads",
+        },
+        {
+          liItems:
+            "Sync call logs and lead statuses",
+        },
+        {
+          liItems:
+            "Trigger automated follow-ups",
+        },
+        {
+          liItems:
+            "Generate custom reports",
+        },
+      ],
     },
     {
       id: 2,
@@ -397,7 +397,7 @@ export default function AiVoiceCalling() {
             </div>
           </div>
         </section>
-        
+
         <section className="timeline">
           <div className="timeline-wrapper">
             <div class="container">
@@ -482,32 +482,32 @@ export default function AiVoiceCalling() {
                           </p>
                         </div>
                       </div>
-                        <div className="d-flex gap-3 timeline-right-content mb-3">
-                          <div className="number text-white">
-                            <span className="number-span d-flex justify-content-center align-items-center">2</span>
-                          </div>
-                          <div className="timeline-body">
-                            <h6>Platform Setup: </h6>
-                            <p>
-                              {" "}
-                              Well set up your account on our platform, ensuring
-                              its tailored to your business.
-                            </p>
-                          </div>
+                      <div className="d-flex gap-3 timeline-right-content mb-3">
+                        <div className="number text-white">
+                          <span className="number-span d-flex justify-content-center align-items-center">2</span>
                         </div>
-                        <div className="d-flex timeline-right-content gap-3 mb-3">
-                          <div className="number text-white position-relative">
-                            <span className="number-span d-flex justify-content-center align-items-center">3</span>
-                          </div>
-                          <div className="timeline-body">
-                            <h6>Data Integration: </h6>
-                            <p>
-                              {" "}
-                              Well integrate your existing customer data (if
-                              applicable) to provide a seamless experience.
-                            </p>
-                          </div>
+                        <div className="timeline-body">
+                          <h6>Platform Setup: </h6>
+                          <p>
+                            {" "}
+                            Well set up your account on our platform, ensuring
+                            its tailored to your business.
+                          </p>
                         </div>
+                      </div>
+                      <div className="d-flex timeline-right-content gap-3 mb-3">
+                        <div className="number text-white position-relative">
+                          <span className="number-span d-flex justify-content-center align-items-center">3</span>
+                        </div>
+                        <div className="timeline-body">
+                          <h6>Data Integration: </h6>
+                          <p>
+                            {" "}
+                            Well integrate your existing customer data (if
+                            applicable) to provide a seamless experience.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                     <div
                       class="tab-pane fade"
@@ -535,6 +535,18 @@ export default function AiVoiceCalling() {
                           <p>
                             Well implement a range of marketing tactics, including.
                           </p>
+                          <ul className="text-white">
+                            <p>
+                              <li> <span className="fw-bold">Social Media Marketing : </span>
+                                Creating engaging content and running targeted ads on platforms like Facebook, Instagram, and LinkedIn.
+                              </li>
+                            </p>
+                            <p>
+                              <li><span className="fw-bold">Pay-Per-Click (PPC) : </span>
+                                Advertising: Running targeted ads on Google and other search engines.
+                              </li>
+                            </p>
+                          </ul>
                         </div>
                       </div>
                       <div className="d-flex timeline-right-content gap-3 mb-3">

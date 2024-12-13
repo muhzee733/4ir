@@ -35,7 +35,7 @@ const Slider2 = () => {
                 pagination={{
                     clickable: true,
                 }}
-                // loop={true}
+                loop={true}
                 initialSlide={Math.floor(SliderDataLead.length / 2)}
                 modules={[Pagination]}
                 className="mySwiper"
