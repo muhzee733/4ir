@@ -693,7 +693,6 @@ export default function AiVoiceCalling() {
                 />
               </div>
               <div className="leadSidebar">
-                {/* <Slider SliderData={SliderDataLead} /> */}
                 <Slider2 />
               </div>
             </div>
