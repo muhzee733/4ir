@@ -252,7 +252,7 @@ export default function AiVoiceCalling() {
       datatargetid: "#collapseFour",
       value: false,
       heading:
-        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets",
+        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
     },
   ];
   return (

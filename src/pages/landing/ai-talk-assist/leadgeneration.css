@@ -602,6 +602,10 @@ border: none;
     line-height: 30px !important;
   }
 
+  .MapSectiondiv {
+    margin: 100px 0px 70px 0px !important;
+  }
+  
   .section2 {
     padding-top: 50px !important;
   }

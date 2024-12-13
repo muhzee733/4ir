@@ -279,7 +279,7 @@
 
 @media screen and (min-width: 1400px) {
   .Footer-wrapper {
-    min-height: 69vh;
+    min-height: 50vh;
   }
 
   .main-body {

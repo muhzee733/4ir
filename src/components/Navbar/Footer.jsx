@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="row footer-copyright ">
               <div className="col-lg-12 d-flex justify-content-between pt-4 footer-copyright-body">
                 <div className="mb-3">
-                  4IR @ 2024 All the Copyright Reserved.
+                  4IR &copy; 2024 All the Copyright Reserved.
                 </div>
                 <div className="">
                   Privacy Policy | Terms & Conditions
