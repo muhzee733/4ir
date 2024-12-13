@@ -232,7 +232,7 @@ export default function AiVoiceCalling() {
       datatargetid: "#collapseTwo",
       value: false,
       heading:
-        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
+        "Yes, you can customize the scripts and voice messages to match your brand voice and messaging. You can also set specific guidelines for the AI to follow.",
     },
     {
       id: 3,
@@ -242,7 +242,7 @@ export default function AiVoiceCalling() {
       datatargetid: "#collapseThree",
       value: false,
       heading:
-        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
+        "We prioritize data security and privacy. Our platform is built on robust security measures to protect your sensitive information.",
     },
     {
       id: 4,
@@ -252,7 +252,7 @@ export default function AiVoiceCalling() {
       datatargetid: "#collapseFour",
       value: false,
       heading:
-        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
+        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets",
     },
   ];
   return (
