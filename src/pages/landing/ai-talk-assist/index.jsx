@@ -85,93 +85,104 @@ export default function Index() {
       value: true,
       show: "show",
       heading:
-        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+        "Our AI Voice Calling Assistant offers a multitude of benefits to businesses of all sizes:",
       ulitems: [
         {
           liItems:
-            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+            "Enhanced Efficiency: Automate routine tasks, such as lead generation, customer follow-ups, and appointment scheduling, freeing up your team to focus on strategic initiatives.",
         },
         {
           liItems:
-            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+            "Increased Productivity: Handle a higher volume of calls simultaneously, maximizing your team's efficiency.",
         },
         {
           liItems:
-            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+            "Improved Customer Experience: Deliver consistent, personalized interactions, leading to higher customer satisfaction and loyalty.",
         },
         {
           liItems:
-            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+            "Cost Reduction: Lower operational costs by reducing the need for human agents and minimizing human error.",
+        },
+        {
+          liItems:
+            "Data-Driven Insights: Gain valuable insights into customer behavior and preferences, enabling data-driven decision-making.",
+        },
+        {
+          liItems:
+            "Scalability: Easily scale your operations to meet fluctuating demand without additional staffing.",
         },
       ],
-      heading2:
-        "By prioritizing security, we ensure the protection of your business and customer data.",
+      // heading2:
+      //   "By prioritizing security, we ensure the protection of your business and customer data.",
     },
     {
       id: 2,
       accordianid: "headingTwo",
       collapseid: "collapseTwo",
-      title: "How does it work?",
+      title: "How Does Our AI Voice Calling Assistant Work?",
       datatargetid: "#collapseTwo",
       value: false,
       heading:
-        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+        "Our AI Voice Calling Assistant leverages advanced AI and NLP technologies to simulate human-like conversations. Here's a simplified breakdown:",
       ulitems: [
         {
           liItems:
-            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+            "Text-to-Speech Conversion: The AI converts written scripts into natural-sounding speech.",
         },
         {
           liItems:
-            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+            "Speech Recognition: The system accurately recognizes and interprets spoken language, understanding intent and context.",
         },
         {
           liItems:
-            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+            "Natural Language Processing: The AI analyzes the conversation, identifies keywords, and generates appropriate responses.",
         },
         {
           liItems:
-            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+            "Real-time Response: The system processes information and responds in real-time, maintaining a fluid conversation.",
         },
       ],
-      heading2:
-        "By prioritizing security, we ensure the protection of your business and customer data.",
+      // heading2: "By prioritizing security, we ensure the protection of your business and customer data.",
     },
     {
       id: 3,
       accordianid: "headingThree",
       collapseid: "collapseThree",
-      title: "Is it easy to use?",
+      title: " Is Our AI Voice Calling Assistant Easy to Use?",
       datatargetid: "#collapseThree",
       value: false,
       heading:
-        "We prioritize the security of your data and customer interactions. Our AI Voice Calling Assistant employs robust security measures:",
+        "Yes, our AI Voice Calling Assistant is designed to be user-friendly and easy to implement:",
       ulitems: [
         {
           liItems:
-            "Data Encryption: Sensitive customer data is encrypted to prevent unauthorized access.",
+            "Intuitive Interface: Our user-friendly interface allows you to easily train and manage your AI agents.",
         },
         {
           liItems:
-            "Secure Cloud Infrastructure: Our platform is hosted on highly secure cloud infrastructure.",
+            "Pre-built Templates: Utilize our pre-built templates to quickly create and deploy effective call scripts.",
         },
         {
           liItems:
-            "Regular Security Audits: We conduct regular security audits to identify and address potential vulnerabilities.",
+            "Customizable AI Agents: Tailor your AI agents to match your brand voice and messaging.",
         },
         {
           liItems:
-            "Compliance with Regulations: We adhere to industry-specific regulations and data privacy standards.",
+            "Real-time Monitoring: Track AI performance and identify areas for improvement.",
+        },
+        {
+          liItems:
+            "Expert Support: Our dedicated support team is available to assist you with any questions or issues.",
         },
       ],
-      heading2:
-        "By prioritizing security, we ensure the protection of your business and customer data.",
+      // heading2:
+      //   "By prioritizing security, we ensure the protection of your business and customer data.",
     },
     {
       id: 4,
       accordianid: "headingFour",
       collapseid: "collapseFour",
-      title: "Is it secure?",
+      title: " How Secure is Our AI Voice Calling Assistant?",
       datatargetid: "#collapseFour",
       value: false,
       heading:

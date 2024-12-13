@@ -204,7 +204,25 @@ export default function AiVoiceCalling() {
       value: true,
       show: "show",
       heading:
-        "Our AI models can be trained on a variety of data sources, including your existing sales data, industry-specific data, and public datasets.",
+        "Our solution can be seamlessly integrated with your CRM and marketing automation tools. You can use it to:",
+        ulitems: [
+          {
+            liItems:
+              "Import and export leads",
+          },
+          {
+            liItems:
+              "Sync call logs and lead statuses",
+          },
+          {
+            liItems:
+              "Trigger automated follow-ups",
+          },
+          {
+            liItems:
+              "Generate custom reports",
+          },
+        ],
     },
     {
       id: 2,
@@ -379,6 +397,7 @@ export default function AiVoiceCalling() {
             </div>
           </div>
         </section>
+        
         <section className="timeline">
           <div className="timeline-wrapper">
             <div class="container">
@@ -710,7 +729,7 @@ export default function AiVoiceCalling() {
               <div className="">
                 {Accordianapi?.map((items, index) => {
                   return (
-                    <Accordian items={items} key={index} content={false} />
+                    <Accordian items={items} key={index} content={true} />
                   );
                 })}
               </div>
@@ -770,7 +789,7 @@ export default function AiVoiceCalling() {
                           <figure>
                             <Image src={clientRreview} alt="" />
                           </figure>
-                          <p>KaiB -</p>
+                          <p>Toby -</p>
                           <p> 22 Jul</p>
                         </div>
                         <div className="stars d-flex">
@@ -793,7 +812,7 @@ export default function AiVoiceCalling() {
                       </div>
                       <div>
                         <Para
-                          title="4IR has completely transformed the way we approach our business operations. "
+                          title="Best of the best that about sums up my experience."
                           className="clent-para1"
                         />
                       </div>
@@ -830,7 +849,7 @@ export default function AiVoiceCalling() {
                     </div>
                     <div>
                       <Para
-                        title="4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!"
+                        title="While many people are intimidated by AI, Barry has a way of making it practical and approachable. He's taen the mystery -- and the fear--out of it, showing us how AI can be a powerful tool in our arsenal. Thanks to Barry, we now see AI as a game-changer that frees up our time so we can focus on what truly matters--our clients."
                         className="clent-para1"
                       />
                     </div>
@@ -842,7 +861,7 @@ export default function AiVoiceCalling() {
                         <figure>
                           <Image src={clientRreview} alt="" />
                         </figure>
-                        <p>KaiB -</p>
+                        <p>Carol -</p>
                         <p> 22 Jul</p>
                       </div>
                       <div className="stars d-flex">
@@ -865,7 +884,7 @@ export default function AiVoiceCalling() {
                     </div>
                     <div>
                       <Para
-                        title="4IR has completely transformed the way we approach our business operations. The platform's self-learning capabilities ensure we’re always using the latest AI advancements without needing constant updates. It’s a true game-changer for our long-term growth and success!"
+                        title="There commitment to helping clients incorporate AI and stay updated with the latest technologies is evident. Working with them has been both fun and rewarding, saving me ... "
                         className="clent-para2"
                       />
                     </div>

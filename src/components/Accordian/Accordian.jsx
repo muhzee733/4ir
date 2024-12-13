@@ -50,9 +50,8 @@ const Accordian = ({ items, content, key }) => {
       </h2>
       <div
         id={items.collapseid}
-        className={`accordion-collapse collapse ${
-          activeIndex === items.id ? "show" : ""
-        }`}
+        className={`accordion-collapse collapse ${activeIndex === items.id ? "show" : ""
+          }`}
         aria-labelledby={items.accordianid}
         data-bs-parent="#accordionExample"
       >
@@ -60,7 +59,7 @@ const Accordian = ({ items, content, key }) => {
           <H5 title={items.heading} />
           {content && (
             <>
-              <ul style={{ color: "white" }}>
+              <ul style={{ color: "white" }} className="ms-2">
                 {items.ulitems?.map((ulitem, ulIndex) => (
                   <li key={`${items.accordianid}-ulitem-${ulIndex}`}>
                     {ulitem.liItems}
