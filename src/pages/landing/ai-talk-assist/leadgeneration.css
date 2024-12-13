@@ -1811,7 +1811,6 @@ border: none;
 }
 .swiper-slide-active {
   width: 100% !important;
-  /* width: unset !important; */
 }
 .bookDemo-content h2{
   font-size: 20px !important;
