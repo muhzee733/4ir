@@ -398,83 +398,37 @@ export default function AiVoiceCalling() {
           </div>
         </section>
 
-        <section className="timeline">
-          <div className="timeline-wrapper">
-            <div class="container">
-              <div className="timeline-heading">
-                <H2 title="How it Works?" className="text-center" />
-              </div>
-              <div className="timeline-content mt-5 ">
-                <div class="timeline-left">
-                  <div
-                    class="nav flex-column gap-3 nav-pills"
-                    id="v-pills-tab"
-                    role="tablist"
-                    aria-orientation="vertical"
-                  >
-                    <button
-                      class="nav-link  active"
-                      id="v-pills-home-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#v-pills-home"
-                      type="button"
-                      role="tab"
-                      aria-controls="v-pills-home"
-                      aria-selected="true"
-                    >
+        <section classname="timeline">
+          <div classname="timeline-wrapper">
+            <div className="container">
+              <div classname="timeline-heading">
+                <h2 title="How it Works?" classname="text-center">
+                </h2></div>
+              <div classname="timeline-content mt-5 ">
+                <div className="timeline-left">
+                  <div className="nav flex-column gap-3 nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button className="nav-link  active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
                       Onboarding
                     </button>
-                    <button
-                      class="nav-link position-relative"
-                      id="v-pills-profile-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#v-pills-profile"
-                      type="button"
-                      role="tab"
-                      aria-controls="v-pills-profile"
-                      aria-selected="false"
-                    >
+                    <button className="nav-link position-relative" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                       Marketing Management
                     </button>
-                    <button
-                      class="nav-link position-relative"
-                      id="v-pills-messages-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#v-pills-messages"
-                      type="button"
-                      role="tab"
-                      aria-controls="v-pills-messages"
-                      aria-selected="false"
-                    >
-                      Lead Generation & Management
+                    <button className="nav-link position-relative" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                      Lead Generation &amp; Management
                     </button>
-                    <button
-                      class="nav-link position-relative"
-                      id="v-pills-settings-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#v-pills-settings"
-                      type="button"
-                      role="tab"
-                      aria-controls="v-pills-settings"
-                      aria-selected="false"
-                    >
+                    <button className="nav-link position-relative" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
                       AI-Powered Lead Follow-up
                     </button>
                   </div>
                 </div>
-                <div class="timeline-right">
-                  <div class="tab-content" id="v-pills-tabContent">
-                    <div
-                      class="tab-pane fade show active"
-                      id="v-pills-home"
-                      role="tabpanel"
-                      aria-labelledby="v-pills-home-tab"
-                    >
-                      <div className="d-flex  timeline-right-content my-3">
-                        <div className="number text-white me-3">
-                          <span className="number-span d-flex justify-content-center align-items-center">1</span>
+                <div classname="timeline-right">
+                  <div classname="tab-content" id="v-pills-tabContent">
+                    <div classname="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <div classname="d-flex  timeline-right-content my-3">
+                        <div classname="number text-white me-3">
+                          <span classname="number-span d-flex justify-content-center align-items-center">1</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Initial Consultation: </h6>
                           <p>
                             Well schedule a call to understand your business
@@ -482,78 +436,73 @@ export default function AiVoiceCalling() {
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex gap-3 timeline-right-content mb-3">
-                        <div className="number text-white">
-                          <span className="number-span d-flex justify-content-center align-items-center">2</span>
+                      <div classname="d-flex gap-3 timeline-right-content mb-3">
+                        <div classname="number text-white">
+                          <span classname="number-span d-flex justify-content-center align-items-center">2</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Platform Setup: </h6>
                           <p>
-                            {" "}
+                            {'{'}" "{'}'}
                             Well set up your account on our platform, ensuring
                             its tailored to your business.
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex timeline-right-content gap-3 mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">3</span>
+                      <div classname="d-flex timeline-right-content gap-3 mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">3</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Data Integration: </h6>
                           <p>
-                            {" "}
+                            {'{'}" "{'}'}
                             Well integrate your existing customer data (if
                             applicable) to provide a seamless experience.
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="tab-pane fade"
-                      id="v-pills-profile"
-                      role="tabpanel"
-                      aria-labelledby="v-pills-profile-tab"
-                    >
-                      <div className="d-flex gap-3 timeline-right-content my-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">1</span>
+                    <div classname="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <div classname="d-flex gap-3 timeline-right-content my-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">1</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Strategic Planning: </h6>
                           <p>
                             Our marketing experts will develop a customized marketing strategy aligned with your business objectives.
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex gap-3 timeline-right-content mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">2</span>
+                      <div classname="d-flex gap-3 timeline-right-content mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">2</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Campaign Execution: </h6>
                           <p>
                             Well implement a range of marketing tactics, including.
                           </p>
-                          <ul className="text-white">
+                          <ul classname="text-white">
                             <p>
-                              <li> <span className="fw-bold">Social Media Marketing : </span>
-                                Creating engaging content and running targeted ads on platforms like Facebook, Instagram, and LinkedIn.
-                              </li>
-                            </p>
+                            </p><li> <span classname="fw-bold">Social Media Marketing : </span>
+                              Creating engaging content and running targeted ads on platforms like Facebook, Instagram, and LinkedIn.
+                            </li>
+                            <p />
                             <p>
-                              <li><span className="fw-bold">Pay-Per-Click (PPC) : </span>
-                                Advertising: Running targeted ads on Google and other search engines.
-                              </li>
-                            </p>
+                            </p><li><span classname="fw-bold">Pay-Per-Click (PPC) : </span>
+                              Advertising: Running targeted ads on Google and other search engines.
+                            </li>
+                            <p />
                           </ul>
                         </div>
                       </div>
-                      <div className="d-flex timeline-right-content gap-3 mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">3</span>
+                      <div classname="d-flex timeline-right-content gap-3 mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">3</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Performance Tracking: </h6>
                           <p>
                             Well monitor key metrics to measure the effectiveness of our marketing efforts and make data-driven adjustments.
@@ -561,28 +510,23 @@ export default function AiVoiceCalling() {
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="tab-pane fade"
-                      id="v-pills-messages"
-                      role="tabpanel"
-                      aria-labelledby="v-pills-messages-tab"
-                    >
-                      <div className="d-flex gap-3 timeline-right-content  my-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">1</span>
+                    <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                      <div classname="d-flex gap-3 timeline-right-content  my-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">1</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Lead Capture:</h6>
                           <p>
                             Our marketing campaigns will generate high-quality leads that are captured and stored in Go HighLevel.
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex gap-3 timeline-right-content mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">2</span>
+                      <div classname="d-flex gap-3 timeline-right-content mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">2</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Lead Qualification:
                           </h6>
                           <p>
@@ -590,11 +534,11 @@ export default function AiVoiceCalling() {
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex timeline-right-content gap-3 mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">3</span>
+                      <div classname="d-flex timeline-right-content gap-3 mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">3</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Lead Nurturing:</h6>
                           <p>
                             Well implement a lead nurturing strategy to keep leads engaged and move them through the sales funnel.
@@ -602,51 +546,45 @@ export default function AiVoiceCalling() {
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="tab-pane fade"
-                      id="v-pills-settings"
-                      role="tabpanel"
-                      aria-labelledby="v-pills-settings-tab"
-                    >
-                      <div className="d-flex gap-3 timeline-right-content my-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">1</span>
+                    <div className="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                      <div classname="d-flex gap-3 timeline-right-content my-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">1</span>
                         </div>
-                        <div className="timeline-body">
-                          <h6>Automated Follow-up:  </h6>
+                        <div classname="timeline-body">
+                          <h6>Automated Follow-up:</h6>
                           <p>
                             Our AI-powered voice calling system will automatically follow up with leads, saving you time and resources.
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex gap-3 timeline-right-content mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">2</span>
+                      <div classname="d-flex gap-3 timeline-right-content mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">2</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Personalized Messages:</h6>
                           <p>
-
                             The AI will deliver personalized messages based on lead information and previous interactions.
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex timeline-right-content gap-3 mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">3</span>
+                      <div classname="d-flex timeline-right-content gap-3 mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">3</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Efficient Lead Qualification: </h6>
                           <p>
                             The AI will quickly identify qualified leads and prioritize them for further follow-up.
                           </p>
                         </div>
                       </div>
-                      <div className="d-flex timeline-right-content gap-3 mb-3">
-                        <div className="number text-white position-relative">
-                          <span className="number-span d-flex justify-content-center align-items-center">4</span>
+                      <div classname="d-flex timeline-right-content gap-3 mb-3">
+                        <div classname="number text-white position-relative">
+                          <span classname="number-span d-flex justify-content-center align-items-center">4</span>
                         </div>
-                        <div className="timeline-body">
+                        <div classname="timeline-body">
                           <h6>Enhanced Conversion Rates:</h6>
                           <p>
                             By consistently following up with leads, well increase the likelihood of conversions.
@@ -660,6 +598,7 @@ export default function AiVoiceCalling() {
             </div>
           </div>
         </section>
+
 
         <section className="future">
           <div className="future-wrapper">
