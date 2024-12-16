@@ -17,7 +17,9 @@ import Image from "next/image";
 import clientRreview from "@/images/client-review.png";
 import Star from "@/images/Star.png";
 import Star2 from "@/images/Star2.png";
-import Slider from "@/components/Slider";
+import Toby from "@/images/landing/TobyWoods.png"
+import Jim from "@/images/landing/JimThiel .png"
+import Carol from "@/images/landing/CarolHuston.png"
 import Accordian from "@/components/Accordian/Accordian";
 import Slider2 from "@/components/sllider/Slider2";
 export default function AiVoiceCalling() {
@@ -443,7 +445,6 @@ export default function AiVoiceCalling() {
                         <div classname="timeline-body">
                           <h6>Platform Setup: </h6>
                           <p>
-                            {'{'}" "{'}'}
                             Well set up your account on our platform, ensuring
                             its tailored to your business.
                           </p>
@@ -456,9 +457,8 @@ export default function AiVoiceCalling() {
                         <div classname="timeline-body">
                           <h6>Data Integration: </h6>
                           <p>
-                            {'{'}" "{'}'}
-                            Well integrate your existing customer data (if
-                            applicable) to provide a seamless experience.
+                            Well integrate your existing customer data if
+                            applicable to provide a seamless experience.
                           </p>
                         </div>
                       </div>
@@ -710,21 +710,7 @@ export default function AiVoiceCalling() {
                           <p> 22 Jul</p>
                         </div>
                         <div className="stars d-flex">
-                          <figure>
-                            <Image src={Star} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star2} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star2} alt="" />
-                          </figure>
+                          <p>True Story Realty</p>
                         </div>
                       </div>
                       <div>
@@ -738,27 +724,13 @@ export default function AiVoiceCalling() {
                       <div className="d-flex justify-content-between pics-div">
                         <div className="d-flex justify-content-between clientcontent1">
                           <figure>
-                            <Image src={clientRreview} alt="" />
+                            <Image src={Toby} alt="" width={40} />
                           </figure>
                           <p>Toby -</p>
-                          <p> 22 Jul</p>
+                          <p> 28 Jul</p>
                         </div>
                         <div className="stars d-flex">
-                          <figure>
-                            <Image src={Star} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star2} alt="" />
-                          </figure>
-                          <figure>
-                            <Image src={Star2} alt="" />
-                          </figure>
+                          <p>NorthStar Systems, LLC</p>
                         </div>
                       </div>
                       <div>
@@ -775,27 +747,13 @@ export default function AiVoiceCalling() {
                     <div className="d-flex justify-content-between pics-div">
                       <div className="d-flex justify-content-between clientcontent1">
                         <figure>
-                          <Image src={clientRreview} alt="" />
+                          <Image src={Jim} alt="Jim img" width={40} />
                         </figure>
-                        <p>KaiB -</p>
-                        <p> 22 Jul</p>
+                        <p>Jim -</p>
+                        <p> 12 Aug</p>
                       </div>
                       <div className="stars d-flex">
-                        <figure>
-                          <Image src={Star} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star2} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star2} alt="" />
-                        </figure>
+                        <p>Mortgage Advisor</p>
                       </div>
                     </div>
                     <div>
@@ -810,27 +768,13 @@ export default function AiVoiceCalling() {
                     <div className="d-flex justify-content-between pics-div">
                       <div className="d-flex justify-content-between clientcontent1">
                         <figure>
-                          <Image src={clientRreview} alt="" />
+                          <Image src={Carol} alt="Carol img" width={38} />
                         </figure>
                         <p>Carol -</p>
-                        <p> 22 Jul</p>
+                        <p> 2 Sep</p>
                       </div>
                       <div className="stars d-flex">
-                        <figure>
-                          <Image src={Star} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star2} alt="" />
-                        </figure>
-                        <figure>
-                          <Image src={Star2} alt="" />
-                        </figure>
+                        <p>True Story Realty</p>
                       </div>
                     </div>
                     <div>
